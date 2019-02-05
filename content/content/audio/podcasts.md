@@ -9,7 +9,7 @@ title: Podcasts
 ### History.
 Given audio files hosted in some internet site (like archive.org), creating a podcast feed involved some manual labor (adding posts to a blog etc.. as described in this  guide [SB15](https://docs.google.com/document/d/1XWLwJvtnfJctdNYx3qSDHZyDKLPeQ21o3eHNJfQ7Xj0/edit).). This manual labor can be eliminated using the new open source web tool presented in this page. 
 
-## Format
+## Format, standards
 - Feed format [here](http://www.podcast411.com/howto_1.html).
 
 ### Feed URL limitations
@@ -31,18 +31,18 @@ One of the following options should work:
   - You can then copy and serve the RSS feed output from some other page (eg. pastebin or [rss-feeds github repo](https://github.com/sanskrit-coders/rss-feeds/)).
   - Be wary of directly using the REST API url-s. With the vedavaapi server, besides the frequent breakages, time-outs used to occur.
 
-### Publicity
-- Share your shiny new podcast feed URL to your subscribers, and **publish your feed** to Google Play, ITunes, Stitcher and TuneInRadio. This is a one time step.
-- Finally, let us add your podcast to [this podcast collection](https://docs.google.com/spreadsheets/d/1KMhtMaHCQpucqxH3aVcmYmPvQyV9vmunvckV2ARvD4M/edit#gid=0) if appropriate, by one of these routes:
-  - using this [form](https://docs.google.com/forms/d/e/1FAIpQLSeE231VzUuXbIZhBzcZkQ-oWkIb50cZL786gSKvzMWu8XJoGw/viewform?usp=send_form) 
-  - inserting a comment in that spreadsheet,
-  - or by opening an issue [here](https://github.com/sanskrit-coders/rss-feeds/).
-- Discussion - [podcast-bhaaratii](https://groups.google.com/forum/#!forum/podcast-bhaaratii)
-
-## Other publishing techniques
+## Other feed-generation techniques
 - Publish directly from archive
   - Archive podcasting forum [here](https://archive.org/details/audio_podcast&tab=forum).
 - Items in a "collection under podcasts" (collection creation requires: 50 item minimum)
   - Example: Collection RSS (valid [podcast feed](http://archive.org/services/collection-rss.php?collection=netwaves)).
 - Archive -> wordpress -> feedburner -> play/ itunes etc..
     - SB15 [guide](https://docs.google.com/document/d/1XWLwJvtnfJctdNYx3qSDHZyDKLPeQ21o3eHNJfQ7Xj0/edit).
+
+## Publicity
+- Share your shiny new podcast feed URL to your subscribers, and **publish your feed** to Google Play, ITunes, Stitcher and TuneInRadio. This is a one time step.
+- Finally, let us add your podcast to [this podcast collection](https://docs.google.com/spreadsheets/d/1KMhtMaHCQpucqxH3aVcmYmPvQyV9vmunvckV2ARvD4M/edit#gid=0) if appropriate, by one of these routes:
+  - using this [form](https://docs.google.com/forms/d/e/1FAIpQLSeE231VzUuXbIZhBzcZkQ-oWkIb50cZL786gSKvzMWu8XJoGw/viewform?usp=send_form) 
+  - inserting a comment in that spreadsheet,
+  - or by opening an issue [here](https://github.com/sanskrit-coders/rss-feeds/).
+- Discussion - [podcast-bhaaratii](https://groups.google.com/forum/#!forum/podcast-bhaaratii)
