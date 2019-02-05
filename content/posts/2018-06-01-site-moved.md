@@ -1,6 +1,8 @@
 ---
 title:  "Sanskrit software catalog site moved."
 published: true
+lastmod: 2019-02-05
+date: 2018-06-01
 summary: "Sanskrit software catalog site moved."
 tags: [news]
 ---
@@ -13,7 +15,7 @@ I'd once created <https://sites.google.com/site/sanskritcode/> mainly to catalog
 
 ## Moving to a Jekyll based github-wiki
 
-Now I've moved all the content to <https://sanskrit-coders.github.io/site/>, which uses the Jekyll static site generator and a fork of the [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll) theme. Turning the HTML to markdown required creating [google-sheets-to-markdown](https://vvasuki.github.io/google-sheets-to-markdown/).
+Later, I moved all the content to <https://sanskrit-coders.github.io/site/>, which uses the Jekyll static site generator and a fork of the [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll) theme. Turning the HTML to markdown required creating [google-sheets-to-markdown](https://vvasuki.github.io/google-sheets-to-markdown/).
 
 - **<https://sites.google.com/site/sanskritcode/> will be deleted after a few days.**
 
@@ -22,5 +24,9 @@ Now I've moved all the content to <https://sanskrit-coders.github.io/site/>, whi
 - Whether or not this attracts more contributions (I suspect it won't), atleast the data is freed from Google so that anyone can easily copy and host it.
 - Folks can use Disqus tool at the bottom to comment on the pages as well!
 
-## Comments
+### Comments
 Feel free to use this Jekyll theme/ setup for your own sites!
+
+## Hugo
+Shifted to Hugo - which is many times faster and easier to iterate over offline. 
+A Hugo version of the "sanskrit documentation theme" with many of the features described below is available (and used in this example) - [sanskrit-documentation-theme-hugo](https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo).
