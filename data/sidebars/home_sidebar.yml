@@ -1,0 +1,82 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+title: Parts
+contents:
+  - title: Home
+    url: /
+  - title: Motivation
+    url: /motivation/
+  - title: Blog
+    url: /blog/
+  - title: Content- Publish, Read
+    contents:
+      - title: General info
+        url: /content/misc/
+      - title: Books
+        url: /content/books/
+      - title: Audio
+        url: /content/audio/
+      - title: Translations
+        url: /content/translations/
+      - title: Deep reading
+        url: /content/deep-reading/
+      - title: Fonts
+        url: /content/fonts/
+      - title: Digitization, OCR
+        contents:
+          - title: Intro
+            url: /content/ocr/intro/
+          - title: Procedure
+            url: /content/ocr/ocr-ing/
+          - title: Corrections
+            url: /content/ocr/corrections/
+      - title: Law
+        url: /content/law/
+      - title: Wikis
+        url: /content/wikis/
+      - title: Websites and blogs
+        url: /content/websites/
+      - title: Offline web
+        url: /content/offline-web/
+  - title: Input
+    contents:
+      - title: Intro
+        url: /input/intro/
+      - title: IME/ Typing
+        url: /input/ime/
+      - title: OPTITRANS
+        url: /input/optitrans/
+  - title: Dictionaries
+    contents:
+      - title: Intro
+        url: /dictionaries/intro/
+      - title: Formats
+        url: /dictionaries/formats/
+      - title: Offline
+        url: /dictionaries/offline/
+      - title: Spell check
+        url: /dictionaries/spellcheck/
+      - title: Flashcards
+        url: /dictionaries/flashcards/
+  - title: Grammar
+    contents:
+      - title: Word from root
+        url: /grammar/word-from-root/
+      - title: Parsing
+        url: /grammar/parsing/
+      - title: Sandhi and samAsa
+        url: /grammar/sandhi-samAsa/
+      - title: Miscellaneous
+        url: /grammar/misc/
+  - title: General tips
+    contents:
+      - title: License
+        url: /tips/license/
+      - title: Dev tools
+        url: /tips/dev-tools/
+      - title: Python unicode
+        url: /tips/py-unicode/
+  - title: Astronomy
+    url: /astronomy/
+  - title: Misc tools
+    url: /misc-tools/
