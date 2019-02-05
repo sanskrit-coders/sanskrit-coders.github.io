@@ -23,7 +23,7 @@ Given audio files hosted in some internet site (like archive.org), creating a po
 ### Create a podcast feed
 One of the following options should work:
 - In case of frequently updated feeds
-  - Use the build_feeds.sh pipeline of this repository to automatically and periodically generate rss-feeds. 
+  - Use or replicate the build_feeds.sh pipeline of [rss-feeds github repo](https://github.com/sanskrit-coders/rss-feeds/) to automatically and periodically generate rss-feeds. 
 - In case your feed is rarely or never updated
   - just use a convenient REST API server, by supplying the necessary archive item links in the prescribed format.
     - [takshashila raw](http://54.244.106.57:9090/swagger/index.html)
