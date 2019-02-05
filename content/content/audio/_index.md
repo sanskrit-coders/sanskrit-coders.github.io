@@ -27,23 +27,3 @@ For non-technical audio resources generation projects and listing, see [here](ht
       * [guide](https://help.tunein.com/customer/portal/articles/944520-how-do-i-add-my-station-to-tunein-)
       * Create .mp3, .m3u or .pls format playlists.
       * Set up stream - [SE](https://askubuntu.com/questions/28496/how-do-i-setup-an-icecast-server-for-broadcasting-audio-in-my-network).
-
-## Podcasts
-* Podcast subscription guide [SB16](https://goo.gl/6DJjji).
-
-###  Publishing
-Publish podcast feeds, submit to Itunes, stitcher, Google play podcasts.
-
-* Discussion - [podcast-bhaaratii](https://groups.google.com/forum/#!forum/podcast-bhaaratii)
-* Feed format [here](http://www.podcast411.com/howto_1.html).
-* Publish directly from archive
-    * Archive podcasting forum [here](https://archive.org/details/audio_podcast&tab=forum).
-    * Items in a "collection under podcasts" (collection creation requires: 50 item minimum)
-        * Example: Collection RSS (valid [podcast feed](http://archive.org/services/collection-rss.php?collection=netwaves)).
-    * Files within an item
-        * vedavaapi [podcast API](http://vedavaapi.org:9090/swagger#/podcastsv1/getPodcast) \- announcement [here](https://groups.google.com/d/msg/sanskrit-programmers/IVm4pJfjfzg/66I48446BQAJ). Archive proposal: Want to contribute.
-* Archive -> wordpress -> feedburner -> play/ itunes etc..
-    * SB15 [guide](https://docs.google.com/document/d/1XWLwJvtnfJctdNYx3qSDHZyDKLPeQ21o3eHNJfQ7Xj0/edit).
-* Feed URL limitations
-* ITunes accepts only usual http ports 80 or 443(?)
-* tunein submission form : podcast url box can be too short - if so, use comment box.

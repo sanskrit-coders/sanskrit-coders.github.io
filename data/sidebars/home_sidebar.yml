@@ -15,7 +15,8 @@ contents:
       - title: Books
         url: /content/books/
       - title: Audio
-        url: /content/audio/
+        contents:
+          - url: dir://content/audio/
       - title: Translations
         url: /content/translations/
       - title: Deep reading
