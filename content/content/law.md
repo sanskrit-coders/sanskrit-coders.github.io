@@ -17,7 +17,7 @@ title: Law- copyright etc..
 
 ## India
 - India has had their own copyright law since the 1840s; it is generally similar to whatever the UK act was (they kept it updated), but it was separate. They have been a member of the Berne Convention (again separate from the UK) since 1928.
-- The general rule is that copyright lasts for 60 years.
+- The general rule is that copyright lasts for 60 years.  (max(author's death, publication) + 60 years)
 - In the case of original literary, dramatic, musical and artistic works the 60-year period is counted from the year following the death of the author.
 - In the case of cinematograph films, sound recordings, photographs, posthumous publications, anonymous and pseudonymous publications, works of government and works of international organisations, the 60-year period is counted from the date of publication. \[Handbook [here](http://copyright.gov.in/Documents/handbook.html).\]
 
