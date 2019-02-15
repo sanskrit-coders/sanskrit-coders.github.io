@@ -13,13 +13,13 @@ title: Law- copyright etc..
 
 ### Validity
 - In most countries, copyright expires no later than 70 years after the death of the author (p.m.a.). There may be special terms for recently published old material.
-- Wiki reference [here](https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory#India).
 
 ## India
 - India has had their own copyright law since the 1840s; it is generally similar to whatever the UK act was (they kept it updated), but it was separate. They have been a member of the Berne Convention (again separate from the UK) since 1928.
 - The general rule is that copyright lasts for 60 years.  (max(author's death, publication) + 60 years)
 - In the case of original literary, dramatic, musical and artistic works the 60-year period is counted from the year following the death of the author.
 - In the case of cinematograph films, sound recordings, photographs, posthumous publications, anonymous and pseudonymous publications, works of government and works of international organisations, the 60-year period is counted from the date of publication. \[Handbook [here](http://copyright.gov.in/Documents/handbook.html).\]
+- Wiki reference [here](https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory#India).
 
 ### Pre 1957 works
 "Parliament passed an amendment in 1992 to Section 22 of the Copyright Act 1957, according to which copyright shall subsist in any literary, dramatic, musical or artistic work published within the lifetime of the author until 60 years from...the year in which the author dies. But inadvertently, the amendment has failed to extend copyrights of works published before 1957. Before the Copyright Act, 1957 came into force on January 21, 1958, the copyright of Tagore's works was governed by the earlier Copyright Act, 1914. ... In other words, the term of any copyright under the earlier act shall be as prescribed under the earlier law as if the 1957 act had not come into force. Under Section 3 of the earlier act, the term of the copyright was to be the life of the author and a period of 50 years after his death. ... This would have been the position, even without the provisions of Section 6 of the General Clauses Act, 1897, which says that the repeal of an act shall not affect the previous operation of the enactment so repealed." "There is also the decision of the division bench of the Allahabad high court in Newspapers Ltd vs Ratna Shankar (AIR 1977) which says that all copyrights from the time immediately before the commencement of the act of 1957 shall continue to be governed by the provisions of the earlier Copyright Act, 1914." \[[TI](https://www.telegraphindia.com/1020729/editoria.htm#head4)\]. 
