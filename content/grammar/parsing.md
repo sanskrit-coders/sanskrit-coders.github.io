@@ -5,4 +5,4 @@ title: Parsing and Translation
     
 - Translating Sanskrit into a more familiar language. ([F](http://sanskrit.inria.fr/%7Eanusaaraka/sanskrit/sankshipt_ramayan/)=[H](http://sanskrit.uohyd.ac.in/%7Eanusaaraka/sanskrit/sampark/), [2H](http://sanskrit.uohyd.ac.in/scl/SHMT/shmt.html), [BuSt](https://www.youtube.com/watch?v=_9D4_L9yllk#t=422))
 - kramapATha-generator ([B](http://sanskrit1.ccv.brown.edu/tomcat/sl/Kramapatha)).
-- Help beginning Sanskrit readers by marking up roots and vibhakti-s ([F](http://sanskrit.inria.fr/DICO/reader.en.html)).
+- Help beginning Sanskrit readers by marking up roots and vibhakti-s ([F](http://sanskrit.inria.fr/DICO/reader.en./)).

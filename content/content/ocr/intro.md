@@ -27,5 +27,5 @@ title: Intro
 
 ## How to contribute? [OBSOLETE]
 
-- Can you help us OCR texts? See workflow described here to know [what's involved](ocr-ing.html), and how such volunteering benefits you and others.
-- Can you help us proofread and markup texts? See the workflow described [here](corrections.html) to know what's involved, and how such volunteering benefits you and others.
+- Can you help us OCR texts? See workflow described here to know [what's involved](ocr-ing./), and how such volunteering benefits you and others.
+- Can you help us proofread and markup texts? See the workflow described [here](corrections./) to know what's involved, and how such volunteering benefits you and others.
