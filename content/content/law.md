@@ -50,6 +50,12 @@ Any person who knowingly infringes or abets the infringement of the copyright in
 Collective administration of copyright is a concept where management and protection of copyright in works are undertook by a society of owners of such works. Obviously no owner of copyright in any work can keep track of all the uses others make of his work. When he becomes a member of a national copyright society, that society, because of its organisational facilities and strength, is able to keep a better vigil over the uses made of that work throughout the country and collect due royalties from the users of those works. Because of the country’s membership in international conventions, the copyright societies are able to have reciprocal agreements with similar societies in other countries for collecting royalties for the uses of Indian works in those countries. From this it can automatically be inferred that it will be in the interests of copyright owners to join a collective administration organisation to ensure better protection to the copyright in their works and for reaping optimum economic benefits from their creations. Users of different types of works also find it easy to obtain licences for legal exploitation of the works in question, though the collective administrative society.
 \[Handbook [here](http://copyright.gov.in/Documents/handbook.html).\]
 
+#### Copyright board
+Can grant compulsory licenses.
+
+- grant compulsory licences to publish or republish works (in certain circumstances);
+- grant compulsory licence to produce and publish a translation of a literary or dramatic work in any language after a period of seven years from the first publication of the work;
+- fix rates of royalties in respect of sound recordings under the cover-version provision
 
 ### Pre 1957 works
 "Parliament passed an amendment in 1992 to Section 22 of the Copyright Act 1957, according to which copyright shall subsist in any literary, dramatic, musical or artistic work published within the lifetime of the author until 60 years from...the year in which the author dies. But inadvertently, the amendment has failed to extend copyrights of works published before 1957. Before the Copyright Act, 1957 came into force on January 21, 1958, the copyright of Tagore's works was governed by the earlier Copyright Act, 1914. ... In other words, the term of any copyright under the earlier act shall be as prescribed under the earlier law as if the 1957 act had not come into force. Under Section 3 of the earlier act, the term of the copyright was to be the life of the author and a period of 50 years after his death. ... This would have been the position, even without the provisions of Section 6 of the General Clauses Act, 1897, which says that the repeal of an act shall not affect the previous operation of the enactment so repealed." "There is also the decision of the division bench of the Allahabad high court in Newspapers Ltd vs Ratna Shankar (AIR 1977) which says that all copyrights from the time immediately before the commencement of the act of 1957 shall continue to be governed by the provisions of the earlier Copyright Act, 1914." \[[TI](https://www.telegraphindia.com/1020729/editoria.htm#head4)\]. 
@@ -58,6 +64,7 @@ Collective administration of copyright is a concept where management and protect
 
 ### Exemptions
 Some of the exemptions are the uses of the work according to \[Handbook [here](http://copyright.gov.in/Documents/handbook.html).\]
+
 - for the purpose of research or private study,
 - for criticism or review,
 - for reporting current events,
