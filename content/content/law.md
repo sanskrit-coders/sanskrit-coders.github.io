@@ -32,6 +32,8 @@ In the case of a literary work (except computer programme), copyright means the 
 
 All the rights of the original work apply to a translation also. A person cannot translate a work enjoying copyright without the permission of the copyright owner.
 
+These rights are mitigated by "compulsary licenses".
+
 ### Acquisition
 Copyright comes into existence as soon as a work is created and no formality is required to be completed for acquiring copyright. However, certificate of registration of copyright and the entries made therein serve as prima facie evidence in a court of law with reference to dispute relating to ownership of copyright.
 
