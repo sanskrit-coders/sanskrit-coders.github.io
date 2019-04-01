@@ -1,0 +1,9 @@
+[
+  {
+    "url": "https://github.com/ashtadhyayi/ashtadhyayi.github.io/archive/offline_android.zip",
+    "baseUrlStringsToReplace": [ "/storage/emulated/0/sanskrit/ashtadhyayi", "\\/storage\\/emulated\\/0\\/sanskrit\\/ashtadhyayi" ],
+    "replacemeantBaseUrlSuffix": "ashtadhyayi.github.io/ashtadhyayi/ashtadhyayi-offline_android",
+    "startPage": "ashtadhyayi.github.io/ashtadhyayi/ashtadhyayi-offline_android/index.html",
+    "destinationPathSuffix": "ashtadhyayi.github.io/ashtadhyayi/"
+  }
+]
