@@ -11,7 +11,18 @@ title: Misc tools
 
 ## Verse
 
-- Tools to identify metre([D](http://sanskrit.sai.uni-heidelberg.de/Chanda/HTML/list_all.html), [**S**](http://sanskritmetres.appspot.com/), [IITB](http://www.cfilt.iitb.ac.in/mitweb/)). Code only: ([C](http://sktutils.com/metricAnalyzerAction.do), [C2](http://code.google.com/p/sktutilities/)).
+Web Tools to identify metre
+
+- [**S**](http://sanskritmetres.appspot.com/)
+- [telugu chandas site](http://chandam.apphb.com/?chandam)
+- ([D](http://sanskrit.sai.uni-heidelberg.de/Chanda/HTML/list_all.html)
+- [IITB](http://www.cfilt.iitb.ac.in/mitweb/)). 
+
+Libraries: 
+
+- [python pip chandas package](https://github.com/sanskrit-coders/chandas)
+- ([C](http://sktutils.com/metricAnalyzerAction.do)
+- [C2](http://code.google.com/p/sktutilities/)).
 
 
 
