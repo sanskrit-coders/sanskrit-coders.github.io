@@ -18,6 +18,9 @@ title: +Input
 #### Other lists
 - **[Technical Hindi list](https://sites.google.com/site/technicalhindi/home/converters)**
 
+#### Windows
+- [bhAShA IME with BhashaTrans](https://sites.google.com/site/bhashaime/) by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: [SP19](https://groups.google.com/forum/#!topic/sanskrit-programmers/n5cX1-NJLww). 
+
 #### Web tools
 - [Shreevatsa](http://shreevatsa.appspot.com/sanskrit/transliterate.html)
 - [LearnSanskrit (Arun) Js](http://learnsanskrit.org/tools/sanscript)
@@ -36,7 +39,6 @@ title: +Input
   - Online
       - Unigateway / medha site backend [here](http://sourceforge.net/projects/unigateway/?source=typ_redirect).
   - Linux
-
 
 
 #### Offline friendly Html/ JS tools
