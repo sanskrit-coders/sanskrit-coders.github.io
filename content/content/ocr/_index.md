@@ -1,11 +1,12 @@
 ---
-title: Intro
+title: +OCR
 ---
- ![](http://i.imgur.com/h4K8Jqk.jpg)
+
+{{< figure src="http://i.imgur.com/h4K8Jqk.jpg" title="" class="thumbnail">}}
 
  
 
-[![http://i.imgur.com/o5tIEHg.png](http://i.imgur.com/hIrQSLf.png)](http://i.imgur.com/o5tIEHg.png)
+{{< figure src="http://i.imgur.com/hIrQSLf.png" title="" class="thumbnail">}}
 
   
 

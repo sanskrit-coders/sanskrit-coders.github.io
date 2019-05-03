@@ -1,7 +1,8 @@
 ---
-title: General info
+title: +Content
 ---
-  
+
+## Misc info  
 * Archive uploads API:
   * examples [here](https://github.com/vmbrasseur/IAS3API/blob/master/examples/README.md)
   * Command-line and py interface: [IA](https://github.com/jjjake/internetarchive).

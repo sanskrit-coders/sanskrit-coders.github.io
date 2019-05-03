@@ -10,73 +10,28 @@ contents:
     url: /posts/
   - title: Content- Publish, Read
     contents:
-      - title: General info
-        url: /content/misc/
-      - title: Books
-        url: /content/books/
+      - url: dir://content/
       - title: Audio
         contents:
           - url: dir://content/audio/
-      - title: Translations
-        url: /content/translations/
-      - title: Deep reading
-        url: /content/deep-reading/
       - title: Fonts
-        url: /content/fonts/
+        contents:
+          - url: dir://content/fonts/
       - title: Digitization, OCR
         contents:
-          - title: Intro
-            url: /content/ocr/intro/
-          - title: Procedure
-            url: /content/ocr/ocr-ing/
-          - title: Corrections
-            url: /content/ocr/corrections/
-      - title: Law
-        url: /content/law/
-      - title: Wikis
-        url: /content/wikis/
-      - title: Websites and blogs
-        url: /content/websites/
-      - title: Offline web
-        url: /content/offline-web/
+          - url: dir://content/ocr/
   - title: Input
     contents:
-      - title: Intro
-        url: /input/intro/
-      - title: IME/ Typing
-        url: /input/ime/
-      - title: OPTITRANS
-        url: /input/optitrans/
+      - url: dir://input/
   - title: Dictionaries
     contents:
-      - title: Intro
-        url: /dictionaries/intro/
-      - title: Formats
-        url: /dictionaries/formats/
-      - title: Offline
-        url: /dictionaries/offline/
-      - title: Spell check
-        url: /dictionaries/spellcheck/
-      - title: Flashcards
-        url: /dictionaries/flashcards/
+      - url: dir://dictionaries/
   - title: Grammar
     contents:
-      - title: Word from root
-        url: /grammar/word-from-root/
-      - title: Parsing
-        url: /grammar/parsing/
-      - title: Sandhi and samAsa
-        url: /grammar/sandhi-samAsa/
-      - title: Miscellaneous
-        url: /grammar/misc/
+      - url: dir://grammar/
   - title: General tips
     contents:
-      - title: License
-        url: /tips/license/
-      - title: Dev tools
-        url: /tips/dev-tools/
-      - title: Python unicode
-        url: /tips/py-unicode/
+      - url: dir://tips/
   - title: Astronomy
     url: /astronomy/
   - title: Misc tools
