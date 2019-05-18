@@ -2,6 +2,12 @@
 title: IME/ typing
 ---
 
+## Multi-platform solutions
+- Keyman (from the christian org SIL)
+  - Downloaded site [here](https://keyman.com/).
+  - devanAgarI ITRANS-based vedic keyboard - [KM cloud](https://keyman.com/keyboards/itrans_devanagari_sanskrit_vedic).
+    - web based version [here](https://sanskritdocuments.org/learning_tools/sanskritvedic.html).
+
 ## Linux
 
 ### m17n with ibus.
