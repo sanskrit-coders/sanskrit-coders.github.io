@@ -55,3 +55,7 @@ title: +Input
   - (https://github.com/sanskrit/sanscript.js)
 - PHP
   - (https://github.com/sanskrit/sanscript.php)
+
+## kaTapayAdi decoding
+- indicjs [here](http://indicjs.github.io/katapayadi/), source [here](https://github.com/indicjs/katapayadi).
+- Related thread [here](https://groups.google.com/forum/#!searchin/sanskrit-programmers/katapayadi|sort:date/sanskrit-programmers/N7B_mbhe68M/up8kBxQpAAAJ).
