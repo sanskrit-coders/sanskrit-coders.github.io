@@ -2,9 +2,10 @@
 title: Site transliteration
 ---
 
-It is nice to have a website operator can drop into their website and allow users to choose their preferred script.
+- Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stotrasamhita.net/wiki/Main_Page), ) enable viewing text in script of reader's choice.
 
 ## Packages
+- For generic transliteration packages, see the [input page](../../input/).
 - translipi ([installation instructions](https://github.com/srikanthsubra/translipi), [example](http://stotrasamhita.net/wiki/Aditya_Hrdayam)
 - akSharamukhA demo [here]().
   - You need to add the following within the head section of your website: `<script src="http://www.virtualvinodh.com/aksharamkh/aksharamukha.js"></script>`.

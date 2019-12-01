@@ -11,8 +11,7 @@ title: +Input
 
 
 ## Transliteration
-
-- Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stotrasamhita.net/wiki/Main_Page), ) enable viewing text in script of reader's choice.
+Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stotrasamhita.net/wiki/Main_Page), ) enable viewing text in script of reader's choice. See separate page [here](../content/site_transliteration/).
 
 ### Transliteration tools, encoding converters
 #### Other lists
