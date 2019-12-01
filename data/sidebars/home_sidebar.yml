@@ -22,7 +22,7 @@ contents:
           - url: dir://content/ocr/
       - title: Transliteration
         contents:
-          - url: dir://content/ocr/site_transliteration/
+          - url: dir://content/site_transliteration/
   - title: Input
     contents:
       - url: dir://input/
