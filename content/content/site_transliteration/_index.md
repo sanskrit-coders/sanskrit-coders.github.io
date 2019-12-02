@@ -7,9 +7,7 @@ title: Site transliteration
 ## Packages
 - For generic transliteration packages, see the [input page](../../input/).
 - translipi ([installation instructions](https://github.com/srikanthsubra/translipi), [example](http://stotrasamhita.net/wiki/Aditya_Hrdayam))
-- akSharamukhA: demo [here](aksharamukha_demo/).
-  - You need to add the following within the head section of your website: `<script src="http://www.virtualvinodh.com/aksharamkh/aksharamukha.js"></script>`.
-  - Any block of text that must be converted must be assigned the class aksharamukha-text . The converter will pick up the input script automatically. If you need to specify an input script, add another class like inputscript-Telugu.
+- akSharamukhA: usage instructions [here](http://aksharamukha.appspot.com/plugin), old demo [here](aksharamukha_demo/).
 - sanscript
   - Example page: [(dev)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
   - Usage:
