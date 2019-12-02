@@ -7,7 +7,7 @@ title: Site transliteration
 ## Packages
 - For generic transliteration packages, see the [input page](../../input/).
 - translipi ([installation instructions](https://github.com/srikanthsubra/translipi), [example](http://stotrasamhita.net/wiki/Aditya_Hrdayam))
-- akSharamukhA: usage instructions [here](http://aksharamukha.appspot.com/plugin), old demo [here](aksharamukha_demo/).
+- akSharamukhA: usage instructions [here](http://aksharamukha.appspot.com/plugin), demo [here](http://www.virtualvinodh.com/aksharamkh/demo.html) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-back/plugin)
 - sanscript
   - Example page: [(dev)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
   - Usage:
