@@ -8,7 +8,9 @@ title: Site transliteration
 - For generic transliteration packages, see the [input page](../../input/).
 - translipi ([installation instructions](https://github.com/srikanthsubra/translipi), [example](http://stotrasamhita.net/wiki/Aditya_Hrdayam))
 - akSharamukha: usage instructions [here](http://aksharamukha.appspot.com/plugin), demo [here](http://www.virtualvinodh.com/aksharamkh/demo.html) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-web-plugin)
-- akSharamukha: [Chrome extension](https://chrome.google.com/webstore/detail/aksharamukha-script-conve/nahdihjmpjlifenlocchbokbnpoifpho) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-chrome-extension)
+  - [Chrome extension](https://chrome.google.com/webstore/detail/aksharamukha-script-conve/nahdihjmpjlifenlocchbokbnpoifpho) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-chrome-extension)
+  - [Firefox extension](
+https://addons.mozilla.org/addon/aksharamukha-script-converter/) and [source code???](https://github.com/virtualvinodh/aksharamukha/tree/master/)
 - sanscript
   - Example page: [(dev)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
   - Usage:
