@@ -10,7 +10,7 @@ title: Site transliteration
 - akSharamukha: usage instructions [here](http://aksharamukha.appspot.com/plugin), demo [here](http://www.virtualvinodh.com/aksharamkh/demo.html) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-web-plugin)
   - [Chrome extension](https://chrome.google.com/webstore/detail/aksharamukha-script-conve/nahdihjmpjlifenlocchbokbnpoifpho) and [source code](https://github.com/virtualvinodh/aksharamukha/tree/master/aksharamukha-chrome-extension)
   - [Firefox extension](
-https://addons.mozilla.org/addon/aksharamukha-script-converter/) and [source code???](https://github.com/virtualvinodh/aksharamukha/tree/master/)
+https://addons.mozilla.org/addon/aksharamukha-script-converter/) which uses same source code as the chrome extension.
 - sanscript
   - Example page: [(dev)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
   - Usage:
