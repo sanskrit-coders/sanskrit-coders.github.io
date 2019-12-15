@@ -4,8 +4,12 @@ title = "संस्कृत-साङ्गणकाः Sanskrit Programmers"
 theme = "sanskrit-documentation-theme-hugo"
 publishDir = "build_github"
 disablePathToLower = true
+
 [params]
   githubEditMePathBase = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/"
   contactLink = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new"
   env = "production"
   disqusShortcode = "sanskrit-coders-site"
+
+[markup.goldmark.renderer]
+  unsafe= true
