@@ -15,7 +15,7 @@ Introduction: Stardict dictionaries are versatile and easy to use with a number 
 ### Motivation
 There are so many dictionary apps. What is the advantage of using this system?
 
-- Usually dictionary apps carry one dictionary, perhaps 5 at most. This system brings many more (40+) dictionaries in one single app.
+- Usually dictionary apps carry one dictionary, perhaps 5 at most. This system brings many more (100+) dictionaries in one single app.
 - So, a user can easily see the descriptions of a word in a dozen dictionaries one below the other.
 - Also, both devanAgarI and latin-based scripts are supported for lookups (sometimes even others, like telugu).
 
@@ -28,15 +28,12 @@ There are so many dictionary apps. What is the advantage of using this system?
     - [stardict-kannada project](https://github.com/vvasuki/stardict-kannada) :   \- see these [tars.MD files](https://github.com/indic-dict/stardict-pali/search?utf8=%E2%9C%93&q=filename%3Atars.MD).. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU).
     - [stardict-pali](https://github.com/indic-dict/stardict-pali) project: See dictionary archive links in [tars.MD](https://github.com/indic-dict/stardict-pali/blob/master/en-head/tars/tars.MD). Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus).
     - [stardict-hindi](https://github.com/indic-dict/stardict-hindi).
-    - stardict-telugu. 
-    - stardict-tamil. 
+    - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
     - And others
 
 #### Stardict dictionaries elsewhere:
 - aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
 - sanskrit.infria.fr [here](http://sanskrit.inria.fr/goldendict.html).
-
-    
 
 ### How to install and use dictionaries on your device?
 
@@ -110,18 +107,17 @@ Free alternatives:
 ### Plans
 
 - Make new dictionaries
-    - DSAL कोशाः  
-        
+    - gAndhArI dictionary (" Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.")
+    - DSAL ("We are preparing apps for some of the Hindi and other dictionaries under new grant funding. But the Hindi Shabdasagar is under a license which does not permit production of a mobile version.")
+    - sandic DP [here](https://sourceforge.net/projects/dhatu-patha/files/sources/).
     - Monier williams : sanskrit terms in entries.
     - ChandaH
     - alankArAH
     - हिन्दी-कोशाः
         - wiktionary
     - कन्नड-कोशः
-        - wiktionary
         - kittel
     - पद-साधुता-कोशः from DCS।  
-        
     - Others from IITS Koeln [here](http://www.sanskrit-lexicon.uni-koeln.de/index.html).
         - pALI devanAgarI dictionaries.
     - GOI bhAratavANI [here](http://bharatavani.in/dictionary-surf/?did=2&letter=%E0%A4%85&start=0&language=Hindi).
@@ -139,10 +135,6 @@ Free alternatives:
     - Sanskrit picture dictionary. (Useful in producing illustrated versions of kAvya-s.)
     - Ayurveda
         - e-nighaNTu koshas [here](http://niimh.nic.in/ebooks/e-Nighantu/?mod=read). (copy pasting complete chapters, do minor processing to get prAtipadika-s)
-    - Future
-        - gAndhArI dictionary (" Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.")
-        - DSAL ("We are preparing apps for some of the Hindi and other dictionaries under new grant funding. But the Hindi Shabdasagar is under a license which does not permit production of a mobile version.")
-        - sandic DP [here](https://sourceforge.net/projects/dhatu-patha/files/sources/).
 - Fix defects
     - mAdhavIya-dhAtu-vRtti etc.. \[Details [here](https://groups.google.com/forum/#!topic/samskrita/Lv8pWfV1ZAw)\]
 - Package dictionaries better
