@@ -29,6 +29,7 @@ Definition
 - Special formatting
     - In Babylon source file, newline is <br>
     - `<a href="bword://next">next</a>`
+    - HTML features require some special header. Example: [purANa-encyclopedia](https://raw.githubusercontent.com/indic-dict/stardict-sanskrit-kAvya/master/purANa-encyclopedia/purANa-encyclopedia.babylon).
 
 ## stardict
 - \[Full details [here](https://github.com/indic-dict/stardict-test/blob/master/stardict_format.md)\]:
