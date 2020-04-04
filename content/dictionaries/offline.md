@@ -57,6 +57,7 @@ There are so many dictionary apps. What is the advantage of using this system?
 - Install Java and use [dict-tools](https://github.com/sanskrit-coders/dict-tools) jar:
   - Download [dict-tools.jar](https://github.com/sanskrit-coders/dict-tools/raw/master/bin/artifacts/dict-tools.jar).
   - `java -jar bin/artifacts/dict-tools.jar install --destinationPath=/home/vvasuki/sanskrit-coders/stardict-dicts-installed/ --dictRepoIndexUrl=https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/dictionaryIndices.md`
+- Arch linux : [stardict-indic-update/](https://aur.archlinux.org/packages/stardict-indic-update/).
 - Install python 2.7 and use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater)
 - You could just use the instructions analogous to the ones supplied [here](https://github.com/indic-dict/stardict-sanskrit/blob/master/README.md). 
 
