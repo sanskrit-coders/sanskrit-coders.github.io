@@ -29,7 +29,20 @@ Definition
 - Special formatting
     - In Babylon source file, newline is <br>
     - `<a href="bword://next">next</a>`
-    - HTML features require some special header. Example: [purANa-encyclopedia](https://raw.githubusercontent.com/indic-dict/stardict-sanskrit-kAvya/master/purANa-encyclopedia/purANa-encyclopedia.babylon).
+
+#### With html
+- `<br> <a>, <b>, <i>, <em>, <ul/ol/li/dl/dd/dt> ` 
+- HTML features require some special header. Example: [purANa-encyclopedia](https://raw.githubusercontent.com/indic-dict/stardict-sanskrit-kAvya/master/purANa-encyclopedia/purANa-encyclopedia.babylon).
+```
+blank line
+#stripmethod=keep
+#sametypesequence=h
+#bookname=Pals eng-eng-tamil dictionary
+blank line
+head_word|synonym1|synonym2
+definition in single line.for opticalline break, you can use<br>
+----this thrird lineshould beblank --
+```
 
 ## stardict
 - \[Full details [here](https://github.com/indic-dict/stardict-test/blob/master/stardict_format.md)\]:
