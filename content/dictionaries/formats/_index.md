@@ -31,7 +31,7 @@ Definition
     - `<a href="bword://next">next</a>`
 
 #### With html
-- `<br> <a>, <b>, <i>, <em>, <ul/ol/li/dl/dd/dt> ` 
+- `<br> <a>, <b>, <i>, <em>, <ul/ol/li/dl/dd/dt>  ` 
 - HTML features require some special header. Example: [purANa-encyclopedia](https://raw.githubusercontent.com/indic-dict/stardict-sanskrit-kAvya/master/purANa-encyclopedia/purANa-encyclopedia.babylon).
 ```
 blank line
