@@ -5,6 +5,7 @@ title: Project ideas
 ## Intro
 - People periodically enquire: "Request someone to guide me on: What I have to learn and what I can contribute." 
 - Most such people end up contributing nothing despite getting fair project ideas. But some do!
+- We hope some of those will contribute and share **good open source code** (perfection not required, WIP is fine).
 - This page seeks to address such enquiries more concisely.
 
 ## Contribute to existing open source projects
