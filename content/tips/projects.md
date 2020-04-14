@@ -9,7 +9,7 @@ title: Project ideas
 - This page seeks to address such enquiries more concisely.
 
 ## Contribute to existing open source projects
-First find a project / team which fits you.
+### First find a project / team which fits you.
 
 - Click around this site, find useful tools and ideas. Then find out where the source code is published.
   - Contribute to this site while at it: "Please fix by clicking on the pencil icon and sending a pull request as and when you find errors."
@@ -19,7 +19,7 @@ First find a project / team which fits you.
     - [kmadathil](https://github.com/kmadathil/sanskrit_parser), [shreevatsa](https://github.com/shreevatsa), [vishvas](https://github.com/kmadathil/vvasuki)
 - Look at the project lists below.
 
-Then contribute:
+### Then contribute
 
 - Read some of the source code, contact authors for ideas about how to contribute. Send pull requests, open github issues, sent emails on our mailing list.
 
