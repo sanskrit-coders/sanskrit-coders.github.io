@@ -17,6 +17,7 @@ title: Project ideas
   - An incomplete list, feel free to submit more: 
     - [sanskrit-coders](https://github.com/sanskrit-coders), [sanskrit](https://github.com/sanskrit), [indic-dict](https://github.com/indic-dict), [dhaval](https://github.com/drdhaval2785/), [ashtadhyayi](https://github.com/ashtadhyayi)
     - [kmadathil](https://github.com/kmadathil/sanskrit_parser), [shreevatsa](https://github.com/shreevatsa), [vishvas](https://github.com/kmadathil/vvasuki)
+- Look at [mailing list announcements](https://groups.google.com/forum/#!forum/sanskrit-programmers).
 - Look at the project lists below.
 
 ### Then contribute
