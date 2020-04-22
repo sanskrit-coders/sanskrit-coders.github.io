@@ -56,10 +56,10 @@ tester](http://www.google.com/fonts#ChoosePlace:select/Script:devanagari).
 
 Check udAtta and anudAtta collusions.
 अ॒ग्निमी॑ळे पु॒रोहि॑तं य॒ज्ञस्य॑ दे॒वमृ॒त्विज॑म् । 
-मू॒ मॄ॒ मॢ॒ मॣ॒। ई॑ ऐ॑ ओ॑ औ॑ अं॑ अ॑ः। मि॑ मी॑ मे॑ मै॑ मो॑ मौ॑ मं॑ 
+मू॒ मॄ॒ मॢ॒ मॣ॒। ई॑ ऐ॑ ओ॑ औ॑ अं॑ अः॑। मि॑ मी॑ मे॑ मै॑ मो॑ मौ॑ मं॑ 
 
 Visarga and anusvAra with svara modifiers
-म॑ं म॑ः
+म॑ं मः॑
 ससजुषो रुँः ।
 
 Check anunAsika ँ collision
