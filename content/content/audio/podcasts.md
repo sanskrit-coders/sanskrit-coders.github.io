@@ -36,7 +36,7 @@ One of the following options should work:
   - Archive podcasting forum [here](https://archive.org/details/audio_podcast&tab=forum).
 - Items in a "collection under podcasts" (collection creation requires: 50 item minimum)
   - Example: Collection RSS (valid [podcast feed](http://archive.org/services/collection-rss.php?collection=netwaves)).
-- Archive -> wordpress -> feedburner -> play/ itunes etc..
+- Archive → wordpress → feedburner → play/ itunes etc..
     - SB15 [guide](https://docs.google.com/document/d/1XWLwJvtnfJctdNYx3qSDHZyDKLPeQ21o3eHNJfQ7Xj0/edit).
 
 ## Publicity

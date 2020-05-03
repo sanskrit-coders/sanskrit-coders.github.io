@@ -19,7 +19,7 @@ Make epub book
 - Using Calibre ( on Ubuntu etc..)
     - Create an "empty book".
     - Create a html with contents (Google Play is fussy about tags. Content should be within <p> tag. Use a template.
-    - Add that content html with Add Books-> Add files to selected book records. Create cover using gimp. Edit metadata and save.
+    - Add that content html with Add Books→ Add files to selected book records. Create cover using gimp. Edit metadata and save.
         - Example project [here](https://github.com/sanskrit-coders/book-pub/tree/master/bhartRhari/nItishatakam).
 
 Make Kindle ebook: Techniques  

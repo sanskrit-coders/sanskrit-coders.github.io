@@ -104,16 +104,16 @@ results should be qualitatively correct.)
 
 ## Errors in Google OCR (verse and first paragraph)
 
-- [3] payovāhaṃ -> paryavāhaṃ
-- [2] airavatāviva -> eravatāviva
-- [1] pīḍati -> pīḍeti
-- [2] puraḥsarau -> puraḥsarī
-- [1] viśeṣātta -> viśeṣāttu
-- [2] sevyamāno -> sevyamānau
-- [2] sukhasparśaiḥ -> sukhamparśaḥ
-- [1] vārtair -> vārtār
-- [1] vidyudairava -> vidyuderava
-- [4] tvairāvatāmindra -> vairāvatābhandra
+- [3] payovāhaṃ → paryavāhaṃ
+- [2] airavatāviva → eravatāviva
+- [1] pīḍati → pīḍeti
+- [2] puraḥsarau → puraḥsarī
+- [1] viśeṣātta → viśeṣāttu
+- [2] sevyamāno → sevyamānau
+- [2] sukhasparśaiḥ → sukhamparśaḥ
+- [1] vārtair → vārtār
+- [1] vidyudairava → vidyuderava
+- [4] tvairāvatāmindra → vairāvatābhandra
 - [2] yābhinna → yorbhinna
 - [3] aniṣṭatvādupamādūṣaṇam ? → aniṭatvādupamādṛpaṇaṃ
 - [2] rūḍhau → rūdau
@@ -135,28 +135,28 @@ results should be qualitatively correct.)
 - [2] daṃpatyor → daṃpatyār
 
 General comments on this output:
-- Vowel marks are often ignored ("pIDeti" -> "pIDati", "airAvata" ->
+- Vowel marks are often ignored ("pIDeti" → "pIDati", "airAvata" →
   "erAvata"). Often these mistakes are given very high confidence, so they're
   tough to detect automatically without a dictionary of some kind. For example,
-  "hetoH" -> "hatAH" (from a later paragraph) is particularly bad, as both are
+  "hetoH" → "hatAH" (from a later paragraph) is particularly bad, as both are
   grammatically valid in context.
-- Vowel marks are often mistaken ("sevyamAno" -> "sevyamAnau")
-- m/s confusion ("sukhasparzaiH" -> "sukhamparzaH")
-- p/b confusion ("yeSAM" -> "yapAM")
-- Conjunct "ya" often read as "aya" ("stryai" -> "strayai")
+- Vowel marks are often mistaken ("sevyamAno" → "sevyamAnau")
+- m/s confusion ("sukhasparzaiH" → "sukhamparzaH")
+- p/b confusion ("yeSAM" → "yapAM")
+- Conjunct "ya" often read as "aya" ("stryai" → "strayai")
 - Double "cc" often rendered as "c"
-- Some punctuation issues:         " -> ' '      ॥ -> | |      " -> *     " -> '
+- Some punctuation issues:         " → ' '      ॥ → | |      " → *     " → '
 - Poor line breaking, but this can be worked around when using the lower-level OCR api.
 
 
 ## Errors in SanskritOCR (verse and first paragraph)
 
-- [3] syandana -> ṣkadana
-- [2] bhūd -> bhrṛd
-- [1] puraḥ -> pūraḥ
-- [4] anubhāvaviśeṣāttu -> anudhāvaviśeṣāna
-- [1] sena -> śena
-- [7] sukhasparśaiḥ -> bhuravampaśaiḥ
+- [3] syandana → ṣkadana
+- [2] bhūd → bhrṛd
+- [1] puraḥ → pūraḥ
+- [4] anubhāvaviśeṣāttu → anudhāvaviśeṣāna
+- [1] sena → śena
+- [7] sukhasparśaiḥ → bhuravampaśaiḥ
 - [21] puṣpareṇūtkirairvārtairādhūtavanarājibhiḥ → pūā;pagṛā'itkerervārtairāśrya'vanarājiāi'caḥ
 - [3] vidyudairāvate → vadyadāravate
 - [4] iti → jñāta
