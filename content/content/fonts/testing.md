@@ -37,8 +37,7 @@ Fonts can also be tested on chrome by following a two step process.
 font.
 
 ### Other tools
-- Google [font
-tester](http://www.google.com/fonts#ChoosePlace:select/Script:devanagari).
+- Google [font tester](http://www.google.com/fonts#ChoosePlace:select/Script:devanagari).
 
 
 ## Text to test
