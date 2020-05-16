@@ -1,7 +1,6 @@
 ---
 title: Procedure
 ---
-[OCR](/site/sanskritcode/ocr)‎ \> ‎
 
 ## What's a good OCR?
 
@@ -22,15 +21,18 @@ title: Procedure
     - [X](http://vimeo.com/4714623)
     - [TDIL](http://ocr.tdil-dc.gov.in/)).
     - If you work at some companies (say Google), you may have wonderful infrastructure and a couple of hundred machines to get good OCR's fast. Ask around - your colleagues may have ideas! 
-- Android -
-    - [Textfairy](https://play.google.com/store/apps/details?id=com.renard.ocr&rdid=com.renard.ocr) uses Tesseract, and is open source and free. OCRing sanskrit using hindI pack is unsatisfactory. Sanskrit support is requested \[[github](https://github.com/renard314/textfairy/issues/157)\].
+
+### Android
+- [Textfairy](https://play.google.com/store/apps/details?id=com.renard.ocr&rdid=com.renard.ocr) uses Tesseract, and is open source and free. OCRing sanskrit using hindI pack is unsatisfactory. Sanskrit support is requested \[[github](https://github.com/renard314/textfairy/issues/157)\].
     - Google lens
-- Libraries
-    - **[ocropy](https://github.com/tmbdev/ocropy)**
-    - [doc-curation](https://github.com/sanskrit-coders/doc_curation/) - Can OCR some pdf with google drive. Automatically splits into 25 page bits and ocrs them individually.
-    - [tessIndic](https://code.google.com/archive/p/tesseractindic/)
-    - [tess-parichit](https://code.google.com/archive/p/parichit/downloads)
-    - [tessHindI](https://sourceforge.net/projects/tesseracthindi/)
+
+### Libraries
+- [doc-curation](https://github.com/sanskrit-coders/doc_curation/) - Can OCR some pdf with google drive. Automatically splits into 25 page bits and ocrs them individually. (Quota: Queries per 100 seconds Global : 10000, Per day: 1,000,000,000). See usage example[here](https://github.com/sanskrit-coders/doc_curation/blob/master/curation_projects/pdf_tasks.py), function[here](https://github.com/sanskrit-coders/doc_curation/blob/master/doc_curation/pdf.py#L13).
+- Google Vision script [here](https://github.com/lalitaalaalitah/GoogleVisionOCR_Python) : You may get an offer to avail USD 300 credit for usage. Accept that. It may enable you to OCR without charges for a few thousand images.
+- **[ocropy](https://github.com/tmbdev/ocropy)**
+- [tessIndic](https://code.google.com/archive/p/tesseractindic/)
+- [tess-parichit](https://code.google.com/archive/p/parichit/downloads)
+- [tessHindI](https://sourceforge.net/projects/tesseracthindi/)
 
 -  Comparison
   - [2018 - google ocr vs sanskritocr]({{ site.baseurl }}{% post_url 2018-06-05-ocr-comparison %})
