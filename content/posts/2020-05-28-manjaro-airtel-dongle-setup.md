@@ -1,11 +1,12 @@
 ---
-title: Manjaro: Airtel dongle setup
+title: Manjaro- Airtel dongle setup
 published: true
 date: 2020-05-28
 tags: [news]
 ---
 
 ## Recipe
+- Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible.
 - Start the computer and login.
 - Install `modem-manager-gui`.
 - Insert the data / internet dongle. 
