@@ -11,7 +11,7 @@ tags: [news]
 - Install `modem-manager-gui`.
 - Insert the data / internet dongle. 
     - Wait for it to mount. You may see an autorun prompt - ignore it.
-- Run `sudo bash /run/media/USERNAME/airtel/Linux/install` (Assuming that the dongle is mounted at `/run/media/USERNAME/airtel`).
+- Run `sudo bash /run/media/USERNAME/airtel/Linux/install` (Assuming that the dongle is mounted at `/run/media/USERNAME/airtel`). (Files seen [in this repo](https://github.com/vvasuki/airtel_dongle_setup_files).)
     - You will see erroneous output such as the one "Install script output" appended below. Just keep pressing enter and finish it.
 - Run `modem-manager-gui`. In the GUI, you will see the dongle show up.
     - There, create a new connection if one does not exist already. Make sure that username and password fields are empty (this gets autopopulated to admin repeatedly - no problem), APN: airtelgprs.com , disable all those security protocols (possibly doesn't matter).
