@@ -79,3 +79,10 @@ Example: 
 
 Thread with explanation by shrIvatsa
 [here](https://groups.google.com/d/msg/sanskrit-programmers/PEQBZ4b4OOg/EQeNSKBsWXkJ).
+
+## Configuring clients
+- Ubuntu font preference setting - see [SE](https://askubuntu.com/questions/855739/how-can-i-make-devanagari-fonts-render-properly-in-ubuntu-16-04/855811#855811).
+- Choose to use the font in Chrome:
+  - Go to settings
+  - Search for "font" in settings
+  - get to the "Customize fonts" button
