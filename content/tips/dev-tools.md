@@ -14,7 +14,8 @@ File transfers: Dropbox, GDrive, WeTransfer
 
 Video/ audio conferencing, screen sharing
 
-  - zoom.us - good quality, wide device coverage.
+  - Google meet.
+  - zoom.us - good quality, wide device coverage. But china-based, hence deprecated.
   - whatsapp calls - occasionally bad quality
 
 Project tracking
