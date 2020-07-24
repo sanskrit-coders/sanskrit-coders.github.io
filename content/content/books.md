@@ -7,7 +7,7 @@ title: Books
 
 फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्। 
 
-[{{< figure src="https://i.imgur.com/MHj9suN.png" title="" class="thumbnail">}}
+[{{< figure src="https://i.imgur.com/MHj9suN.png" attributionclass="thumbnail">}}
 
   
  

@@ -5,7 +5,7 @@ title: Corrections
 
 One can use something like Distributed Proofreaders ([http://www.pgdp.net/](http://www.pgdp.net/)) or Wikisource (see screenshots [here](https://plus.google.com/u/0/109000762913288837175/posts/GzzSj3HNAVv)) to proofread the text by seeing the scanned book page beside it.
 
-[{{< figure src="http://i.imgur.com/Y9fqLZ9.png" title="" class="thumbnail">}}
+[{{< figure src="http://i.imgur.com/Y9fqLZ9.png" attributionclass="thumbnail">}}
 
   
 

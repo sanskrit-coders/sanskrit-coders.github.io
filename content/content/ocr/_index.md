@@ -2,11 +2,11 @@
 title: +OCR
 ---
 
-{{< figure src="http://i.imgur.com/h4K8Jqk.jpg" title="" class="thumbnail">}}
+{{< figure src="http://i.imgur.com/h4K8Jqk.jpg" attributionclass="thumbnail">}}
 
  
 
-{{< figure src="http://i.imgur.com/hIrQSLf.png" title="" class="thumbnail">}}
+{{< figure src="http://i.imgur.com/hIrQSLf.png" attributionclass="thumbnail">}}
 
   
 
