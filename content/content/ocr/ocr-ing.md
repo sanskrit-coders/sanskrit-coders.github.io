@@ -23,6 +23,7 @@ title: Procedure
     - If you work at some companies (say Google), you may have wonderful infrastructure and a couple of hundred machines to get good OCR's fast. Ask around - your colleagues may have ideas! 
 
 ### Android
+- [zoho doc scanner](https://www.indiatvnews.com/technology/news-zoho-doc-scanner-launches-text-recognition-in-12-indian-languages-642074)
 - [Textfairy](https://play.google.com/store/apps/details?id=com.renard.ocr&rdid=com.renard.ocr) uses Tesseract, and is open source and free. OCRing sanskrit using hindI pack is unsatisfactory. Sanskrit support is requested \[[github](https://github.com/renard314/textfairy/issues/157)\].
     - Google lens
 
