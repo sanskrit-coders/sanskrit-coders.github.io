@@ -13,10 +13,11 @@ title: Misc tools
 
 Web Tools to identify metre
 
-- [**S**](http://sanskritmetres.appspot.com/)
+- [vchandas](https://vchandas.netlify.app/), [source](https://github.com/vipranarayan14/vchandas).
+- [shreevatsa's webapp](http://sanskritmetres.appspot.com/), [source](https://github.com/shreevatsa/sanskrit/). A python package based on it [here](https://github.com/sanskrit-coders/chandas). 
 - [telugu chandas site](http://chandam.apphb.com/?chandam)
-- ([D](http://sanskrit.sai.uni-heidelberg.de/Chanda/HTML/list_all.html)
-- [IITB](http://www.cfilt.iitb.ac.in/mitweb/)). 
+- (Defunct- [D](http://sanskrit.sai.uni-heidelberg.de/Chanda/HTML/list_all.html))
+- [IITB](http://www.cfilt.iitb.ac.in/mitweb/). 
 
 Libraries: 
 
