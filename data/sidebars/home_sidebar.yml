@@ -35,8 +35,8 @@ contents:
   - title: General tips
     contents:
       - url: dir://tips/
-  - title: Astronomy
-    url: /astronomy/
+  - title: Jyotisha/ Astronomy code
+    url: https://jyotisham.github.io/
   - title: Misc tools
     url: /misc-tools/
   - title: <i class="fas fa-hand-holding-heart"></i>Donate
