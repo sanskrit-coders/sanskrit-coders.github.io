@@ -8,7 +8,7 @@ title: Testing
 ### To test using the harfbuzz rendering engine:
 Instructions [here](https://groups.google.com/d/msg/sanskrit-programmers/PEQBZ4b4OOg/pPlKqPeEI74J).
 
-  -  hb-view /usr/share/fonts/truetype/ttf-devanagari-fonts/sahadeva.ttf
+  - hb-view /usr/share/fonts/truetype/ttf-devanagari-fonts/sahadeva.ttf
     अत्र
 
 ### pango
@@ -17,7 +17,7 @@ Supposedly can render with HarBuzz or Uniscribe or CoreText!
 
 - pango-view --font "Sahadeva 40" -t अत्र
 - pango-view --markup --text '\<span font\_family="FreeSerif"
-lang="sa" fallback="false"\> अत्र\'
+lang="sa" fallback="false"\> अत्र\'
 
 - Markup language
     [here](http://www.pygtk.org/pygtk2reference/pango-markup-language.html).
@@ -32,7 +32,7 @@ Fonts can also be tested on chrome by following a two step process.
   - Go to settings
   - Search for "font" in settings
   - get to the "Customize fonts" button
-  - set all choices to the font you test. Or view a text file in Chrome after setting just the monospace font.
+  - set all choices to the font you test. Or view a text file in Chrome after setting just the monospace font.
 - gmail and its compose window may use some other
 font.
 
