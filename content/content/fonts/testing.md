@@ -8,8 +8,9 @@ title: Testing
 ### To test using the harfbuzz rendering engine:
 Instructions [here](https://groups.google.com/d/msg/sanskrit-programmers/PEQBZ4b4OOg/pPlKqPeEI74J).
 
-  - hb-view /usr/share/fonts/truetype/ttf-devanagari-fonts/sahadeva.ttf
-    अत्र
+```hb-view /usr/share/fonts/truetype/ttf-devanagari-fonts/sahadeva.ttf
+    अत्र (Ctrl-D)
+```
 
 ### pango
 
@@ -66,7 +67,7 @@ Check anunAsika ँ collision
 
 क्त्य क्त्व छ्य ड्य।
 
-ೱ ೲ ᳵ ᳶ
+ೱ ೲ ᳵ ᳶ अन्तᳶपश्यन्
 लीँ
 
 कॆ कॊ कॅ
