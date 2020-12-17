@@ -8,5 +8,5 @@
   * Suresh Purohit
 * [COURSE MANAGEMENT APP](https://github.com/radheesh1/sanskrit-coders.github.io/blob/hugo-source/content/content/teaching_aids/Samskrit%20Bharti%20-%20Courses%20Management%20System%20-%20Vijay%20Zala.pdf)
   * Samskrita Bharati संस्कृतभारती
-  * [Comments]() of author
+  * [Comments](https://github.com/radheesh1/sanskrit-coders.github.io/blob/hugo-source/content/content/teaching_aids/course_management_systems.md) of author
 
