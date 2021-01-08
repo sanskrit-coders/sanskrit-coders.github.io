@@ -2,42 +2,6 @@
 
 title: Parts
 contents:
-  - title: Home
-    url: /
-  - title: Motivation
-    url: /motivation/
-  - title: Blog
-    url: /posts/
-  - title: Content- Publish, Read
-    contents:
-      - url: dir://content/
-      - title: Audio
-        contents:
-          - url: dir://content/audio/
-      - title: Fonts
-        contents:
-          - url: dir://content/fonts/
-      - title: Digitization, OCR
-        contents:
-          - url: dir://content/ocr/
-      - title: Transliteration
-        contents:
-          - url: dir://content/site_transliteration/
-  - title: Input
-    contents:
-      - url: dir://input/
-  - title: Dictionaries
-    contents:
-      - url: dir://dictionaries/
-  - title: Grammar
-    contents:
-      - url: dir://grammar/
-  - title: General tips
-    contents:
-      - url: dir://tips/
-  - title: Jyotisha/ Astronomy code
-    url: https://jyotisham.github.io/
-  - title: Misc tools
-    url: /misc-tools/
+  - url: recdir://
   - title: <i class="fas fa-hand-holding-heart"></i>Donate
     url: https://vvasuki.github.io/interests/dharma-via-vishvas/
