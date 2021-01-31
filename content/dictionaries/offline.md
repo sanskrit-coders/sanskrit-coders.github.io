@@ -90,7 +90,11 @@ Free alternatives:
 - use [0.8 dmg](http://downloads.sourceforge.net/goldendict/goldendict-0.8.0-macosx.dmg).
     - Note from ajita: "The one problem I have with that version is that if I leave it running in the background, and allow the laptop to go to sleep, it crashes. So, I typically exit out of goldendict once I'm done with it."
 - Use the native dictionary app after some conversion (DictUnifier) \[[BVP13](https://groups.google.com/forum/#!searchin/bvparishat/Dictunifier%7Csort:relevance/bvparishat/oAIJWNnosh8/Idx0N9rGQVgJ)\].
-
+- Native osx dictionaries are available at:
+  - [ArShadRShTi site](https://arshadrishti.org/sanskrit-tools/#dictionaries)
+  -  [osx-sanskrit](https://github.com/indic-dict/osx-sanskrit)
+  -  [osx-sanskrit-kAvya](https://github.com/indic-dict/osx-sanskrit-kAvya)
+  -  [osx-sanskrit-vyAkarana](https://github.com/indic-dict/osx-sanskrit-vyAkarana)
 
   
 
