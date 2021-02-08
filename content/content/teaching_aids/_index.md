@@ -1,3 +1,7 @@
++++
+title = "Teaching aids"
+unicode_script = "devanagari"
++++
 
 ## Sanskrit Resources  
 * [SANSKRIT APPS](https://github.com/radheesh1/sanskrit-coders.github.io/blob/hugo-source/content/content/teaching_aids/SanskritApps.pdf)
