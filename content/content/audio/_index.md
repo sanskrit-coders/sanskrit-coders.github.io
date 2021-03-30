@@ -27,3 +27,13 @@ For non-technical audio resources generation projects and listing, see [here](ht
       * [guide](https://help.tunein.com/customer/portal/articles/944520-how-do-i-add-my-station-to-tunein-)
       * Create .mp3, .m3u or .pls format playlists.
       * Set up stream - [SE](https://askubuntu.com/questions/28496/how-do-i-setup-an-icecast-server-for-broadcasting-audio-in-my-network).
+
+## Alignment
+### Avinash's intro
+A proof-of-concept (PoC) of the first sarga of the ramayana audio in a "read-along" mode is here - https://avinashvarna.github.io/rAmAyaNa-paThanam/ If you play the audio at the top of the page, the corresponding word being uttered should be highlighted (with some occasional lag/errors). Scrolling to a different point in the audio should cause the text to also advance to the corresponding section.
+
+Such a website might be useful for those trying to learn how to chant or memorize the shlokas (visual aid in addition to the audio). It would be fairly easy to generate the alignment for different available audio for common texts (gItA, viShNu-sahasra-nAma, etc.).
+
+### Tools
+- aeneas library implements Dynamic Time Warping
+- Example code - https://github.com/avinashvarna/audio_alignment and https://github.com/sanskrit-coders/audio_utils/tree/master/audio_utils/alignment .
