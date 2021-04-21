@@ -31,7 +31,7 @@ Project tracking
 ## 3d printing
 
   - sketchfab guide
-    [here](https://help.sketchfab.com/hc/en-us/articles/202397889-3D-Printing). 
+    [here](https://help.sketchfab.com/hc/en-us/articles/202397889-3D-Printing). 
   - sketchfab - Enabling download
     [here](https://help.sketchfab.com/hc/en-us/articles/201368589-Downloading-Models).
 

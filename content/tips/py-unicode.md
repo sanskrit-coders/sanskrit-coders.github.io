@@ -20,12 +20,12 @@ title: Py Unicode
 ## Use unicode internally
 
 - Always use the "unicode" type internally. So:
-    - As soon as you see some input from the external world, decode it immediately \[e.g. for a file, the stream of bytes it contains may represent a stream of characters in the 'utf-8' encoding, so decode from the file into 'unicode' characters whenever you read from it\], and 
-- To this end, I've taken to putting   
+    - As soon as you see some input from the external world, decode it immediately \[e.g. for a file, the stream of bytes it contains may represent a stream of characters in the 'utf-8' encoding, so decode from the file into 'unicode' characters whenever you read from it\], and 
+- To this end, I've taken to putting   
     "from \_\_future\_\_ import unicode_literals"  
-    at the top of my Python programs, so that whenever I write a line of code like   
+    at the top of my Python programs, so that whenever I write a line of code like   
     s = 'hello world'  
-    it is equivalent to writing   
+    it is equivalent to writing   
     s = u'hello world'  
     That is, so that all literals are interpreted as Unicode by default. This is the default in Python 3.  
     
@@ -37,8 +37,8 @@ title: Py Unicode
 
 ## File input
 
--  csv reading:
-    - use unicodecsv.reader instead of csv. 
+-  csv reading:
+    - use unicodecsv.reader instead of csv. 
     - Confusingly, it looks like unicodecsv.reader expects the file to be opened in the default encoding, not UTF-8.
 
 ## Grapheme cluster handling

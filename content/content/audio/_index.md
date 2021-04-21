@@ -17,13 +17,13 @@ For non-technical audio resources generation projects and listing, see [here](ht
     * Get audio file with appropriate metadata.
     * Convert to flac format. "Confirm your tracks are the correct format, either .flac or .wav at 16, 24 or 32 bitrate, 44.1 kbps."
     * Add cover art. ​"Remember that images must be in png, jpg, and gif format, minimum size 500 x 500, and that all album images must be original content." \[[G16](https://support.google.com/googleplay/artists/answer/1704520?p=album_image_upload_error&rd=1)\]
-    * Price settings - [IMG](http://i.imgur.com/MNDkx5P.png). 
+    * Price settings - [IMG](http://i.imgur.com/MNDkx5P.png). 
     * Upload to Google Play and publish.
     * Detailed editing (change track order etc..) - unpublish, edit, submit.
 
 
 * Create an internet radio station
-  * Tunein.com Internet Radio 
+  * Tunein.com Internet Radio 
       * [guide](https://help.tunein.com/customer/portal/articles/944520-how-do-i-add-my-station-to-tunein-)
       * Create .mp3, .m3u or .pls format playlists.
       * Set up stream - [SE](https://askubuntu.com/questions/28496/how-do-i-setup-an-icecast-server-for-broadcasting-audio-in-my-network).

@@ -44,7 +44,7 @@ Libraries:
 
 ## Public DB + API List
 
-A list of publicly accessible databases [here](https://docs.google.com/spreadsheets/d/1krZemR8Khm0-6kQAtAY8De21VI6ipI-1l7ldNcKWXvA/edit#gid=0) (This can potentially avoid duplication of labor and speed up progress).​   
+A list of publicly accessible databases [here](https://docs.google.com/spreadsheets/d/1krZemR8Khm0-6kQAtAY8De21VI6ipI-1l7ldNcKWXvA/edit#gid=0) (This can potentially avoid duplication of labor and speed up progress).​   
 Please feel free to contribute to this list, or replicate any database you like (more copies there are, the better).
 
 ## REST API tips

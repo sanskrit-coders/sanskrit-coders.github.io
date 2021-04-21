@@ -15,7 +15,7 @@ Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stot
 - [Vindodh's aksharamukha](http://www.virtualvinodh.com/aksaramukha) - [py](https://github.com/virtualvinodh/aksharamukha), [php](https://github.com/nareshv/aksharamukha)
 - [Shreevatsa](http://shreevatsa.appspot.com/sanskrit/transliterate.html)
 - [LearnSanskrit (Arun) Js](http://learnsanskrit.org/tools/sanscript)
-- **[ACzoom](https://www.aczoom.com/itrans/online/) \[flexible table\]**
+- **[ACzoom](https://www.aczoom.com/itrans/online/) \[flexible table\]**
 - [H](http://sanskrit.uohyd.ac.in/scl/transliteration/)
 - [Wikimedia](https://github.com/wikimedia/jquery.ime/)
 - [BU](http://sanskrit1.ccv.brown.edu/tomcat/sl/TranscodeText), [BU](http://sanskrit1.ccv.brown.edu/Sanskrit/SanskritTransliterate/index2.html)
@@ -25,7 +25,7 @@ Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stot
 - [Rd](http://rishida.net/scripts/uniview/)
 - [Rp](http://people.w3.org/rishida/scripts/pickers/devanagari/)
 - [Ar](http://www.sanskrit-sanscrito.com.ar/en/essentials_software/index2_software.shtml)
-- Other tools to convert old custom fonts to unicode (P, [T](http://hindi-store.tipsadda.com/2010/11/all-hindi-font-converters.html)).
+- Other tools to convert old custom fonts to unicode (P, [T](http://hindi-store.tipsadda.com/2010/11/all-hindi-font-converters.html)).
   - Online
       - Unigateway / medha site backend [here](http://sourceforge.net/projects/unigateway/?source=typ_redirect).
   - Linux

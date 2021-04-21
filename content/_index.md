@@ -7,13 +7,13 @@ summary: Welcome page.
 ---
 
 हरिः ॐ! स्वागतम्!
-We are open source Sanskrit programmers. 
+We are open source Sanskrit programmers. 
 
 ## Contact
 
-- Contributors (and users with questions) are welcome to join the [sanskrit-programmers](http://groups.google.com/group/sanskrit-programmers) mailing list.
+- Contributors (and users with questions) are welcome to join the [sanskrit-programmers](http://groups.google.com/group/sanskrit-programmers) mailing list.
 
-- Channels of communication: Telegram [here](https://t.me/joinchat/IJu_TkpbnqFvRdFJ7GZ8bQ). Whatsapp group [here](https://chat.whatsapp.com/Lj9cP57WGBeHO4fOfeokoJ). slack [here](https://join.slack.com/t/samskrita/shared_invite/MjQyMDA5MzcyNDA0LTE1MDU0OTkwMjQtMjljMWE4ZDA3NA). Inactive as of 2018: gitter-chat-room [here](https://gitter.im/sanskritcode/Lobby#).
+- Channels of communication: Telegram [here](https://t.me/joinchat/IJu_TkpbnqFvRdFJ7GZ8bQ). Whatsapp group [here](https://chat.whatsapp.com/Lj9cP57WGBeHO4fOfeokoJ). slack [here](https://join.slack.com/t/samskrita/shared_invite/MjQyMDA5MzcyNDA0LTE1MDU0OTkwMjQtMjljMWE4ZDA3NA). Inactive as of 2018: gitter-chat-room [here](https://gitter.im/sanskritcode/Lobby#).
 
 
 ## Purpose of this site

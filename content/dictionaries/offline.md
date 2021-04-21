@@ -4,8 +4,8 @@ title: Offline dicts
 
 ## Tools elsewhere
 
-- Apps! \[[sp](http://sparshapps.com/), [SJ](https://play.google.com/store/apps/developer?id=Srujan+Jha), [GP](https://play.google.com/store/search?q=sanskrit&c=apps&docType=1&sp=CAFiCgoIc2Fuc2tyaXR6BRgAwAECigECCAE%3D:S:ANO1ljKT9XE), [BV_GOI](http://sanskrit.bharatavani.in/it-tools/)\]
-    - Make them available on phones as convenient apps ([S](http://sparshapps.com/)) and as stardict/ goldendict files ([here](https://sites.google.com/site/sanskritcode/dictionaries), **[A](http://www.aupasana.com/stardict)**, **[H](http://sanskrit.inria.fr/goldendict.html)**).
+- Apps! \[[sp](http://sparshapps.com/), [SJ](https://play.google.com/store/apps/developer?id=Srujan+Jha), [GP](https://play.google.com/store/search?q=sanskrit&c=apps&docType=1&sp=CAFiCgoIc2Fuc2tyaXR6BRgAwAECigECCAE%3D:S:ANO1ljKT9XE), [BV_GOI](http://sanskrit.bharatavani.in/it-tools/)\]
+    - Make them available on phones as convenient apps ([S](http://sparshapps.com/)) and as stardict/ goldendict files ([here](https://sites.google.com/site/sanskritcode/dictionaries), **[A](http://www.aupasana.com/stardict)**, **[H](http://sanskrit.inria.fr/goldendict.html)**).
     - On windows [here](https://sourceforge.net/projects/sandic/files/stats/timeline?dates=2012-03-01+to+2017-04-24).
 
 ## Stardict
@@ -21,19 +21,19 @@ There are so many dictionary apps. What is the advantage of using this system?
 
 ### Dictionaries
 
-- We collect and offer several dictionaries (including those prepared elsewhere). A complete list of dictionary indices [is here](https://github.com/sanskrit-coders/stardict-dictionary-updater/blob/master/dictionaryIndices.md) (and, mirrored with some delay [here](https://github.com/nangia/pydictupdater/blob/master/downloader.py#L7)).
+- We collect and offer several dictionaries (including those prepared elsewhere). A complete list of dictionary indices [is here](https://github.com/sanskrit-coders/stardict-dictionary-updater/blob/master/dictionaryIndices.md) (and, mirrored with some delay [here](https://github.com/nangia/pydictupdater/blob/master/downloader.py#L7)).
 
 - These include:
-    - [stardict-sanskrit project](https://github.com/indic-dict/stardict-sanskrit)  \- see these [tars.MD files](https://github.com/indic-dict/stardict-sanskrit/search?utf8=%E2%9C%93&q=filename%3Atars.MD). 
-    - [stardict-kannada project](https://github.com/vvasuki/stardict-kannada) :   \- see these [tars.MD files](https://github.com/indic-dict/stardict-pali/search?utf8=%E2%9C%93&q=filename%3Atars.MD).. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU).
-    - [stardict-pali](https://github.com/indic-dict/stardict-pali) project: See dictionary archive links in [tars.MD](https://github.com/indic-dict/stardict-pali/blob/master/en-head/tars/tars.MD). Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus).
+    - [stardict-sanskrit project](https://github.com/indic-dict/stardict-sanskrit)  \- see these [tars.MD files](https://github.com/indic-dict/stardict-sanskrit/search?utf8=%E2%9C%93&q=filename%3Atars.MD). 
+    - [stardict-kannada project](https://github.com/vvasuki/stardict-kannada) :   \- see these [tars.MD files](https://github.com/indic-dict/stardict-pali/search?utf8=%E2%9C%93&q=filename%3Atars.MD).. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU).
+    - [stardict-pali](https://github.com/indic-dict/stardict-pali) project: See dictionary archive links in [tars.MD](https://github.com/indic-dict/stardict-pali/blob/master/en-head/tars/tars.MD). Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus).
     - [stardict-hindi](https://github.com/indic-dict/stardict-hindi).
-    - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
+    - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
     - And others
 
 #### Stardict dictionaries elsewhere:
-- aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
-- sanskrit.infria.fr [here](http://sanskrit.inria.fr/goldendict.html).
+- aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
+- sanskrit.infria.fr [here](http://sanskrit.inria.fr/goldendict.html).
 
 ### How to install and use dictionaries on your device?
 
@@ -41,25 +41,25 @@ There are so many dictionary apps. What is the advantage of using this system?
     - install the dictionaries on your device (see recommendations and notes below).
     - install a dictionary app (see recommendations and notes below).
 - Installation of dictionary data is very simple in most cases!
-- Instructions from aupAsana.com [here](http://old.aupasana.com/stardict).
+- Instructions from aupAsana.com [here](http://old.aupasana.com/stardict).
 - Video tutorials: [koshadarshanam series](https://www.youtube.com/watch?v=bkhD--yCrBI&list=PLmozlYyYE-EQJygdRR0vGVdRtSzvrlFXc) by Chandrasekharan Raman of Vyoma pAThashAla
 
 #### Android:
 - Handouts: [2019](https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view).
-- If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [play store](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6) or as an [apk](https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/app/release/app-release.apk)
+- If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [play store](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6) or as an [apk](https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/app/release/app-release.apk)
     - Ratings certificate: [here](https://iarcweb.azurewebsites.net/Dashboard/Certificate/74e40614-671c-421e-9969-1c80da21a267).
-    - Code for this is available for any one to copy and modify [here](https://github.com/indic-dict/stardict-dictionary-updater). (May a 1000 apps bloom!) If you want to contribute new dictionaries to the [stardict-sanskrit project](https://github.com/vvasuki/stardict-sanskrit), that is welcome too.
-- On other Android devices, use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater) .
-- Still having trouble despite the above? Further workaround tips (if they are necessary) for Android are [in this email](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
+    - Code for this is available for any one to copy and modify [here](https://github.com/indic-dict/stardict-dictionary-updater). (May a 1000 apps bloom!) If you want to contribute new dictionaries to the [stardict-sanskrit project](https://github.com/vvasuki/stardict-sanskrit), that is welcome too.
+- On other Android devices, use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater) .
+- Still having trouble despite the above? Further workaround tips (if they are necessary) for Android are [in this email](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
 
 #### Desktop computer options:
-- In windows: [SanskritDictionariesInstaller.jar](https://archive.org/download/SanskritDictionariesInstaller/SanskritDictionariesInstaller.jar)  ([github source](https://github.com/avinashvarna/SanskritDictionariesInstaller))
+- In windows: [SanskritDictionariesInstaller.jar](https://archive.org/download/SanskritDictionariesInstaller/SanskritDictionariesInstaller.jar)  ([github source](https://github.com/avinashvarna/SanskritDictionariesInstaller))
 - Install Java and use [dict-tools](https://github.com/sanskrit-coders/dict-tools) jar:
   - Download [dict-tools.jar](https://github.com/sanskrit-coders/dict-tools/raw/master/bin/artifacts/dict-tools.jar).
   - `java -jar bin/artifacts/dict-tools.jar install --destinationPath=/home/vvasuki/sanskrit-coders/stardict-dicts-installed/ --dictRepoIndexUrl=https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/dictionaryIndices.md`
 - Arch linux : [stardict-indic-update/](https://aur.archlinux.org/packages/stardict-indic-update/).
-- Install python 2.7 and use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater)
-- You could just use the instructions analogous to the ones supplied [here](https://github.com/indic-dict/stardict-sanskrit/blob/master/README.md). 
+- Install python 2.7 and use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater)
+- You could just use the instructions analogous to the ones supplied [here](https://github.com/indic-dict/stardict-sanskrit/blob/master/README.md). 
 
 ### Recommendations for dictionary apps
 #### Android:
@@ -112,7 +112,7 @@ Free alternatives:
 ### Plans
 
 - Make new dictionaries
-    - gAndhArI dictionary (" Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.")
+    - gAndhArI dictionary (" Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.")
     - DSAL ("We are preparing apps for some of the Hindi and other dictionaries under new grant funding. But the Hindi Shabdasagar is under a license which does not permit production of a mobile version.")
     - sandic DP [here](https://sourceforge.net/projects/dhatu-patha/files/sources/).
     - Monier williams : sanskrit terms in entries.
@@ -123,7 +123,7 @@ Free alternatives:
     - कन्नड-कोशः
         - kittel
     - पद-साधुता-कोशः from DCS।  
-    - Others from IITS Koeln [here](http://www.sanskrit-lexicon.uni-koeln.de/index.html).
+    - Others from IITS Koeln [here](http://www.sanskrit-lexicon.uni-koeln.de/index.html).
         - pALI devanAgarI dictionaries.
     - GOI bhAratavANI [here](http://bharatavani.in/dictionary-surf/?did=2&letter=%E0%A4%85&start=0&language=Hindi).
     - संस्कृतम्
@@ -131,7 +131,7 @@ Free alternatives:
             - बहुभाषा-अमरकोशः [अत्र](http://sanskrit.jnu.ac.in/amara/viewdata.jsp?varga=27)।
             - अजितस्य हिन्दी-अमर-कोशः।
         - तिरुपतिस्थ-राष्ट्रियसंस्कृतविद्यापीठस्य प्रकाशनानि [अत्र](http://www.wilbourhall.org/sansknet/)।
-        - ए​वं प्र​त्येकस्याऽपि शब्दस्य व्याकरण-विशेषप्रदर्शकास् स्युः कोशाः। 
+        - ए​वं प्र​त्येकस्याऽपि शब्दस्य व्याकरण-विशेषप्रदर्शकास् स्युः कोशाः। 
             - कश्चित् स्वकोशे "जक्ष्"धातुं पश्यतीति चिन्त्यताम्। यदि तत्क्षणं सः अदादिगणे धातुरयं जक्षाद्यन्तर्गने पाठित इति सूच्यते, शुद्धप्रयोगे तल् लाभाय। अथवा कश्चित् "अन्य"-शब्दपरीक्षको ज्ञाप्यते चेत् "सर्वादिगणे दृश्यते शब्दोऽयम्" इति, पुनस् स एव लाभः।
         - मनीषस्य संस्कृत-कोशाः।
         - संस्कृत-कन्नड-कोशः। (अर्जुनेन चर्च्यते।)

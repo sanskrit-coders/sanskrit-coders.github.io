@@ -22,16 +22,16 @@ Several things are required for digitally encoded script to properly appear on t
 Knowing exactly what is broken will help one report and fix the failure - complaining in the wrong places is too common.
 
 ## Font styles (devanAgarI)
-There is one major dichotomy, alluded to by various names: Bombay/Calcutta, Southern/Northern, Modern/Old. [http://i.imgur.com/O68gV2O.png](https://google.com/url?sa=D&q=http%3A%2F%2Fi.imgur.com%2FO68gV2O.png) illustrates this.
+There is one major dichotomy, alluded to by various names: Bombay/Calcutta, Southern/Northern, Modern/Old. [http://i.imgur.com/O68gV2O.png](https://google.com/url?sa=D&q=http%3A%2F%2Fi.imgur.com%2FO68gV2O.png) illustrates this.
 
 A few other resources here:
   - [Archive
-    collection](https://google.com/url?sa=D&q=https%3A%2F%2Farchive.org%2Fdownload%2FDevanAgarITypographyResources) .
+    collection](https://google.com/url?sa=D&q=https%3A%2F%2Farchive.org%2Fdownload%2FDevanAgarITypographyResources) .
   - Velthius
-    Manual [here](ftp://ftp.tex.ac.uk/tex-archive/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf).
+    Manual [here](ftp://ftp.tex.ac.uk/tex-archive/language/devanagari/velthuis/doc/generic/velthuis/manual.pdf).
   - Resources:
     See messages/ attachments in
-    \[[1](https://groups.google.com/forum/#!topic/sanskrit-programmers/zqzAXZvE92Y), [2](https://groups.google.com/forum/#!topic/sanskrit-programmers/kdUCcoQk3us)\].
+    \[[1](https://groups.google.com/forum/#!topic/sanskrit-programmers/zqzAXZvE92Y), [2](https://groups.google.com/forum/#!topic/sanskrit-programmers/kdUCcoQk3us)\].
 
 
 ### Fonts that close to the new style
@@ -46,14 +46,14 @@ A few other resources here:
   - Sahadeva
     ([http://bombay.indology.info/software/fonts/devanagari/](http://www.google.com/url?q=http%3A%2F%2Fbombay.indology.info%2Fsoftware%2Ffonts%2Fdevanagari%2F&sa=D&sntz=1&usg=AFQjCNEYLX-ZHFJ1xCk1ThF8yic28Djthg))
 
-Other information on Ulrich's site: [here](http://www.sanskritweb.net/itrans/index.html#S99FONTS).
+Other information on Ulrich's site: [here](http://www.sanskritweb.net/itrans/index.html#S99FONTS).
 
 ### Font directories
 
   - Alan Woods'
-    listing [here](http://www.alanwood.net/unicode/fonts-south-asian.html#devanagari).
+    listing [here](http://www.alanwood.net/unicode/fonts-south-asian.html#devanagari).
   - devanAgarI.net
-    listing [here](http://www.devanaagarii.net/fonts/).
+    listing [here](http://www.devanaagarii.net/fonts/).
 
 ## Best practices for webmasters.
 
@@ -65,16 +65,16 @@ Solution:
 
 Use web-fonts (fonts that will be automatically downloaded from the net
 as needed) and css [noto
-guidelines](https://www.google.com/get/noto/help/guidelines/) (note :
+guidelines](https://www.google.com/get/noto/help/guidelines/) (note :
 earlyaccess fonts there don't support vaidika svara-s
     well.)
 
-Example: 
+Example: 
   - [svaras-siddhaanta.html](/fonts/examples/svaras-siddhaanta.html)
   - [svaras-noto.html](/fonts/examples/svaras-noto.html)
   - [1-notosans-devanagari-github.html](/fonts/examples/1-notosans-devanagari-github.html)
   - [2-kannada.html](/fonts/examples/2-kannada.html)
-    (view its source) . 
+    (view its source) . 
   - sanskrit-documents ([pic1](http://i.imgur.com/YiPNBQF.png))
 
 Thread with explanation by shrIvatsa

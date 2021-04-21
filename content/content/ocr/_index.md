@@ -4,7 +4,7 @@ title: +OCR
 
 {{< figure src="http://i.imgur.com/h4K8Jqk.jpg"  class="thumbnail">}}
 
- 
+ 
 
 {{< figure src="http://i.imgur.com/hIrQSLf.png"  class="thumbnail">}}
 
@@ -28,5 +28,5 @@ title: +OCR
 
 ## How to contribute? [OBSOLETE]
 
-- Can you help us OCR texts? See workflow described here to know [what's involved](ocr-ing./), and how such volunteering benefits you and others.
-- Can you help us proofread and markup texts? See the workflow described [here](corrections./) to know what's involved, and how such volunteering benefits you and others.
+- Can you help us OCR texts? See workflow described here to know [what's involved](ocr-ing./), and how such volunteering benefits you and others.
+- Can you help us proofread and markup texts? See the workflow described [here](corrections./) to know what's involved, and how such volunteering benefits you and others.

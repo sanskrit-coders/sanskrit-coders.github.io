@@ -33,7 +33,7 @@ One of the following options should work:
 
 ## Other feed-generation techniques
 - Publish directly from archive
-  - Archive podcasting forum [here](https://archive.org/details/audio_podcast&tab=forum).
+  - Archive podcasting forum [here](https://archive.org/details/audio_podcast&tab=forum).
 - Items in a "collection under podcasts" (collection creation requires: 50 item minimum)
   - Example: Collection RSS (valid [podcast feed](http://archive.org/services/collection-rss.php?collection=netwaves)).
 - Archive → wordpress → feedburner → play/ itunes etc..
@@ -45,4 +45,4 @@ One of the following options should work:
   - using this [form](https://docs.google.com/forms/d/e/1FAIpQLSeE231VzUuXbIZhBzcZkQ-oWkIb50cZL786gSKvzMWu8XJoGw/viewform?usp=send_form) 
   - inserting a comment in that spreadsheet,
   - or by opening an issue [here](https://github.com/sanskrit-coders/rss-feeds/).
-- Discussion - [podcast-bhaaratii](https://groups.google.com/forum/#!forum/podcast-bhaaratii)
+- Discussion - [podcast-bhaaratii](https://groups.google.com/forum/#!forum/podcast-bhaaratii)

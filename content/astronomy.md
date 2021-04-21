@@ -5,7 +5,7 @@ title: Astronomy
 - Stellarium is opensource (launchpad, [github](https://github.com/Stellarium/stellarium)). It comes with a developing "Indian vedic skyculture", and allows translations with voting ([rosetta](https://translations.launchpad.net/stellarium/trunk/+pots/stellarium-skycultures/sa/+translate)).
 
 ## Ephemeris data
-- DExxx ephemerides from [NASA's JPL](http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris)
+- DExxx ephemerides from [NASA's JPL](http://en.wikipedia.org/wiki/Jet_Propulsion_Laboratory_Development_Ephemeris)
 
 ### Swiss ephemeris
 - [Swiss Ephemeris](http://www.astro.com/swisseph/swephinfo_e.htm) is based upon the planetary and lunar ephemeris DE431 developed by NASA's Jet Propulsion Laboratory, compressed.

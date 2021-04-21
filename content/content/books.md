@@ -5,12 +5,12 @@ title: Books
 
 ### Advantages
 
-फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्। 
+फलकादिषु जङ्गमयन्त्रेषु संस्कृतपुस्तकपठनं मे ऽतिरोचते। उदाहरणमत्र वीक्षेथाम्। तेनाधिकसंस्कृतपुस्तकानि तथा प्रकाश्येरन्निति काङ्क्षा मदीया। एवं प्रकाशनं नास्ति कठिनम्। 
 
 [{{< figure src="https://i.imgur.com/MHj9suN.png"  class="thumbnail">}}
 
   
- 
+ 
 
 ### Preparing the files
 
@@ -25,17 +25,17 @@ Make epub book
 Make Kindle ebook: Techniques  
 
 - Create epub book. Convert to mobi.
-- Follow instructions in tutorial [201508](http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/).
+- Follow instructions in tutorial [201508](http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/).
 - Kindle-store-मध्ये भारतीयभाषाणां पुस्तकानि प्रायो नवीनतर-.azw3-format-द्वारा रचितानि विद्यन्ते। .mobi-format-द्वारा रचितानां देवनागरीपुस्तकानामुद्घाटनं पृष्ठपरिवर्तनं च महत्कष्टम्। तस्माद् Windows-मध्ये Calibre-द्वारा [KFX Output plugin](https://plugins.calibre-ebook.com/291290.zip) उपयुज्य .azw3-format-संस्कृतानि पुस्तकानि कुर्यात्। (2018)
 
 ### Kindle book publishing
 
 - Unicode tutorial [201508](http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/).
-- Cover specs: Minimum: 625 pixels on the shortest side and 1000 pixels on the longest side
+- Cover specs: Minimum: 625 pixels on the shortest side and 1000 pixels on the longest side
 - Create a mobi (अथवा प्रशस्ततरम् .azw3) ebook.
 - Publish on  [Kindle Store](https://kdp.amazon.com/)!.
     - हिन्दी-मराठी-ગુજરાતી-தமிழ்-മലയാള-भाषाणां पुस्तकानि प्रकाशयितुं शक्यन्ते Kindle-store-मध्ये। (2018)
-    - Cannot publish books for free (2016).
+    - Cannot publish books for free (2016).
         - Possibly: Remove DRM etc..
 
 ### Google play book publishing
@@ -61,5 +61,5 @@ Make Kindle ebook: Techniques
         - [https://pothi.com/](https://pothi.com/)
 - Comparison
     - Publishing cost double
-        - In 2016: "I paid 38 rupees per copy for Mahaviri Hindi third edition 104 pages 80 gsm metric demy 8vo For 1000+ copies Pothi quotes 82.5 per copy"
-    - With non-self publishing, publishers bear the cost and take the risk and give authors a honorarium or royalty.
+        - In 2016: "I paid 38 rupees per copy for Mahaviri Hindi third edition 104 pages 80 gsm metric demy 8vo For 1000+ copies Pothi quotes 82.5 per copy"
+    - With non-self publishing, publishers bear the cost and take the risk and give authors a honorarium or royalty.

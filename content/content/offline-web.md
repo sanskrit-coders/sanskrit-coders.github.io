@@ -9,7 +9,7 @@ title: Offline websites
 
 ### Intro: Zim
 
-Zim format( [http://www.openzim.org/wiki/Main_Page](http://www.openzim.org/wiki/Main_Page)) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. [kiwix-intro](http://www.kiwix.org/wiki/Special:MyLanguage/Main_Page) .
+Zim format( [http://www.openzim.org/wiki/Main_Page](http://www.openzim.org/wiki/Main_Page)) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. [kiwix-intro](http://www.kiwix.org/wiki/Special:MyLanguage/Main_Page) .
   
 
 ### Uses
@@ -40,7 +40,7 @@ And kiwix has all platform clients. so mobile devices also can access off line c
 
 ## Publishing
 
-- Becoming a publisher on kiwix. [FB](https://www.facebook.com/photo.php?fbid=10153572513822989&set=o.314470148640373&type=3&comment_id=10153577644802989&ref=notif&notif_t=photo_comment), install [links](http://www.kiwix.org/wiki/Software), [their repo](http://download.kiwix.org/zim/).
+- Becoming a publisher on kiwix. [FB](https://www.facebook.com/photo.php?fbid=10153572513822989&set=o.314470148640373&type=3&comment_id=10153577644802989&ref=notif&notif_t=photo_comment), install [links](http://www.kiwix.org/wiki/Software), [their repo](http://download.kiwix.org/zim/).
 
 ###   
 Sites to zim
@@ -67,7 +67,7 @@ _संस्कृतम_
 
 हिंदी  
 
-- 1\. Hindi wikisource : Note: It seems there is no special site, it is merged with english wikisource. So we have to select and mirror, then zim. will be done in near future.
+- 1\. Hindi wikisource : Note: It seems there is no special site, it is merged with english wikisource. So we have to select and mirror, then zim. will be done in near future.
 - 2\. Hindi wikipedia : [http://download.kiwix.org/zim/wikipedia\_hi\_all.zim](http://download.kiwix.org/zim/wikipedia_hi_all.zim)
 - 3\. Hindi wikipedia : [](http://download.kiwix.org/zim/wikipedia_hi_all_nopic.zim)[http://download.kiwix.org/zim/wikipedia\_hi\_all_nopic.zim](http://download.kiwix.org/zim/wikipedia_hi_all_nopic.zim)
 - 4\. Hindi wiktionary : http://download.kiwix.org/zim/wiktionary\_hi\_all.zim
