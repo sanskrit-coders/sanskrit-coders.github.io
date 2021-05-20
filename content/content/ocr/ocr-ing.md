@@ -48,15 +48,26 @@ title: Procedure
         - Get it from index pages ([example](https://sa.wikisource.org/wiki/%E0%A4%AA%E0%A5%81%E0%A4%9F%E0%A4%AE%E0%A5%8D%3A%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%B8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83_-_%E0%A4%A6%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A3%E0%A4%BE%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%A8%E0%A4%BE%E0%A4%A5%E0%A4%83_-_%E0%A5%A7%E0%A5%AF%E0%A5%A7%E0%A5%AF.djvu/31)).
     - konkaNI vishvakosha [index](https://wikisource.org/wiki/Main_Page/Konkani).
     - meghasandesha [here](https://sa.wikisource.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%A3%E0%A4%BF%E0%A4%95%E0%A4%BE:%E0%A4%AE%E0%A5%87%E0%A4%98%E0%A4%B8%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%87%E0%A4%B6%E0%A4%83_-_%E0%A4%A6%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BF%E0%A4%A3%E0%A4%BE%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A4%A8%E0%A4%BE%E0%A4%A5%E0%A4%83_-_%E0%A5%A7%E0%A5%AF%E0%A5%A7%E0%A5%AF.djvu).
-- Other collections:
-    -  [http://ocr.iiit.ac.in/Hindi100.html](http://ocr.iiit.ac.in/Hindi100.html)
-    - shrIdevI [https://github.com/Shreeshrii/imagessan](https://github.com/Shreeshrii/imagessan) and [https://github.com/Shreeshrii/imageshin](https://github.com/Shreeshrii/imageshin).
+
+#### Other collections
+-  [http://ocr.iiit.ac.in/Hindi100.html](http://ocr.iiit.ac.in/Hindi100.html)
+- shrIdevI [https://github.com/Shreeshrii/imagessan](https://github.com/Shreeshrii/imagessan) and [https://github.com/Shreeshrii/imageshin](https://github.com/Shreeshrii/imageshin).
+
+#### Machine-generated data
 - Also, Tesseract-OCR has a program called text2image which takes unicode text and can create images files in different fonts as well as apply some degradation to it so simulate scanned pages. The program doesn't compile/work on windows, but works on Linux.
 - One can even bootstrap using output of other OCR tools.
 - See repositories of relevant indic OCR projects.
 
+### Online
+- [sanskritdictionary](https://ocr.sanskritdictionary.com/#) - Uses drive API for Google. Provides tesseract alternative as well.
+- [akSharamukhA](https://aksharamukha.appspot.com/converter) - Uses tesseract, which runs entirely on browser!
+
+## Post processing
+- Ideally, we would get OCR-s from multiple sources and then [combine them](https://groups.google.com/g/sanskrit-programmers/c/yEjFaIQfGaA/m/E4rx2YmHAAAJ) to reduce errors (yet to try this).
+
 ## Fora
-- [Indic OCR](https://groups.google.com/forum/#!forum/indic-ocr), [parichit](https://groups.google.com/forum/#!forum/parichit-ocr).
+- [Indic OCR](https://groups.google.com/forum/#!forum/indic-ocr)
+- [parichit](https://groups.google.com/forum/#!forum/parichit-ocr).
 
 ## Alternatives to OCR
 
