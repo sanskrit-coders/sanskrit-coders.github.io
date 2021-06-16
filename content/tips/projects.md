@@ -25,5 +25,5 @@ title: Project ideas
 - Read some of the source code, contact authors for ideas about how to contribute. Send pull requests, open github issues, sent emails on our mailing list.
 
 ## Project idea lists
-- [Sanskrit coding works trello board](https://trello.com/b/IRSpxN0b) maintained by [vishvas](https://vvasuki.github.io/) - you may contact him in case you want to add projects or find out more about something listed there.
-- [Sanskrit related publishing goals board](https://trello.com/b/VpnAmaBd) and [dyugangA work group](https://sanskrit.github.io/groups/dyuganga/) maintained by [vishvas](https://vvasuki.github.io/). Some of the dictionary/ text/ audio/ video publication and curation projects there require scripting/ scraping and the like. You may contact him in case you want to add projects or find out more about something listed there. 
+- [Sanskrit coding works trello board](https://trello.com/b/IRSpxN0b) maintained by [vishvas](https://vishvAsa.github.io/) - you may contact him in case you want to add projects or find out more about something listed there.
+- [Sanskrit related publishing goals board](https://trello.com/b/VpnAmaBd) and [dyugangA work group](https://sanskrit.github.io/groups/dyuganga/) maintained by [vishvas](https://vishvAsa.github.io/). Some of the dictionary/ text/ audio/ video publication and curation projects there require scripting/ scraping and the like. You may contact him in case you want to add projects or find out more about something listed there. 

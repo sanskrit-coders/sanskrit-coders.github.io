@@ -15,7 +15,7 @@ I'd once created <https://sites.google.com/site/sanskritcode/> mainly to catalog
 
 ## Moving to a Jekyll based github-wiki
 
-Later, I moved all the content to <https://sanskrit-coders.github.io/site/>, which uses the Jekyll static site generator and a fork of the [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll) theme. Turning the HTML to markdown required creating [google-sheets-to-markdown](https://vvasuki.github.io/google-sheets-to-markdown/).
+Later, I moved all the content to <https://sanskrit-coders.github.io/site/>, which uses the Jekyll static site generator and a fork of the [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll) theme. Turning the HTML to markdown required creating [google-sheets-to-markdown](https://vishvAsa.github.io/google-sheets-to-markdown/).
 
 - **<https://sites.google.com/site/sanskritcode/> will be deleted after a few days.**
 

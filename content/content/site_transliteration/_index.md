@@ -12,9 +12,9 @@ title: Site transliteration
   - [Firefox extension](
 https://addons.mozilla.org/addon/aksharamukha-script-converter/) which uses same source code as the chrome extension.
 - sanscript
-  - Example page: [(dev)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
+  - Example page: [(dev)](https://vishvAsa.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari), [(tam)](https://vishvAsa.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=tamil).
   - Usage:
-    - Include js from the [transliteration.js module](https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo/blob/master/webpack_src/js/transliteration.js) (and needed dependency code in the same folder such as query and utils, indicated with the import statements); then include a dropdown as in the top of [this site](https://vvasuki.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari).
+    - Include js from the [transliteration.js module](https://github.com/sanskrit-coders/sanskrit-documentation-theme-hugo/blob/master/webpack_src/js/transliteration.js) (and needed dependency code in the same folder such as query and utils, indicated with the import statements); then include a dropdown as in the top of [this site](https://vishvAsa.github.io/saMskAra/mantra/misc-devas/paravastu-saama/Aruhan/?&translitration_target=devanagari).
 
 ## Submitting tranliterated pages to search engines
 - See [this thread](https://groups.google.com/forum/#!topic/sanskrit-programmers/bFnS0PsoDa4).
