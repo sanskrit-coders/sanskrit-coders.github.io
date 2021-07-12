@@ -13,6 +13,8 @@ disablePathToLower = true
 [params]
   githubEditMePathBase = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/"
   contactLink = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new"
+  build_img = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml/badge.svg"
+  build_url = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml"
   env = "production"
   disqusShortcode = "sanskrit-coders-site"
 
