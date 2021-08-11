@@ -17,8 +17,7 @@ Instructions [here](https://groups.google.com/d/msg/sanskrit-programmers/PEQBZ4b
 Supposedly can render with HarBuzz or Uniscribe or CoreText!
 
 - pango-view --font "Sahadeva 40" -t अत्र
-- pango-view --markup --text '\<span font\_family="FreeSerif"
-lang="sa" fallback="false"\> अत्र\'
+- `pango-view --markup --text '<span font_family="Noto Sans" lang="sa" fallback="false"> ಲಬ್ಧ್ವಾ </span>'`
 
 - Markup language
     [here](http://www.pygtk.org/pygtk2reference/pango-markup-language.html).
@@ -49,6 +48,7 @@ font.
   - [Rgveda
     scan](https://en.wikipedia.org/wiki/File:Rigveda_MS2097.jpg).
 
+### devanagari
 ```
 कॢप्तिः। ॐ॥ प्रीतिः। लोगों को देखो। हाँ। ಹಿಮಾದ್ರಿಸುತೇ ಪಾಹಿ ಮ್ಮಾಮ್।
 
@@ -76,6 +76,10 @@ Are the sAma svara-s crowded?
 बृ꣣ह꣢꣫न्निदि꣣ध्म ए꣢षां꣣ भू꣡रि꣢ श꣣स्त्रं꣢ पृ꣣थुः꣡ स्वरुः꣢꣯। ये꣢षा꣣मि꣢न्द्रो꣣ यु꣢वा꣣ स꣡खा꣢ ।।2 ।।  
 ```
 
+### kannada
+```
+ಲಬ್ಧ್ವಾ 
+```
 
 ## Report bugs
 
