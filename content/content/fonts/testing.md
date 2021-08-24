@@ -17,7 +17,8 @@ Instructions [here](https://groups.google.com/d/msg/sanskrit-programmers/PEQBZ4b
 Supposedly can render with HarBuzz or Uniscribe or CoreText!
 
 - pango-view --font "Sahadeva 40" -t अत्र
-- `pango-view --markup --text '<span font_family="Noto Sans" lang="sa" fallback="false"> ಲಬ್ಧ್ವಾ </span>'`
+- ` pango-view --markup --text '<span font_family="Noto Sans" lang="sa" fallback="false">र꣣यि꣢र꣣꣬भ्य꣢꣯य꣣द्रा꣡जा꣢नꣳ  
+  ಲಬ್ಧ್ವಾ </span>' `
 
 - Markup language
     [here](http://www.pygtk.org/pygtk2reference/pango-markup-language.html).
@@ -74,6 +75,7 @@ Check anunAsika ँ collision
 
 Are the sAma svara-s crowded?  
 बृ꣣ह꣢꣫न्निदि꣣ध्म ए꣢षां꣣ भू꣡रि꣢ श꣣स्त्रं꣢ पृ꣣थुः꣡ स्वरुः꣢꣯। ये꣢षा꣣मि꣢न्द्रो꣣ यु꣢वा꣣ स꣡खा꣢ ।।2 ।।  
+अ꣡त꣢स्त्वा र꣣यि꣢र꣣꣬भ्य꣢꣯य꣣द्रा꣡जा꣢नꣳ सुक्रतो दि꣣वः꣢। सु꣣पर्णो꣡ अ꣢व्य꣣थी꣡ भ꣢रत् ॥3 ॥  
 ```
 
 ### kannada
