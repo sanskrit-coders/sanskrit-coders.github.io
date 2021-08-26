@@ -60,7 +60,7 @@ Check udAtta and anudAtta collusions.
 मू॒ मॄ॒ मॢ॒ मॣ॒। ई॑ ऐ॑ ओ॑ औ॑ अं॑ अः॑। मि॑ मी॑ मे॑ मै॑ मो॑ मौ॑ मं॑ 
 
 Visarga and anusvAra with svara modifiers
-म॑ं मः॑
+मं॑ मः॑
 ससजुषो रुँः ।
 
 Check anunAsika ँ collision
