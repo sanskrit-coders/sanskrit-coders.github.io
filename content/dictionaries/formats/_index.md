@@ -1,5 +1,5 @@
 ---
-title: +Misc dict formats
+title: +Dict formats
 ---
 ## Misc
 - tsv files.
@@ -40,8 +40,8 @@ blank line
 #bookname=Pals eng-eng-tamil dictionary
 blank line
 head_word|synonym1|synonym2
-definition in single line.for opticalline break, you can use<br>
-----this thrird lineshould beblank --
+definition in single line. for optical line break, you can use <br>
+----this third line should be blank --
 ```
 
 ## stardict
