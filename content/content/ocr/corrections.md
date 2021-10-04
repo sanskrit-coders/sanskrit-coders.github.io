@@ -1,6 +1,18 @@
 ---
 title: Corrections
 ---
+## Why volunteer as a proofreader?
+
+- Your command over the language will dramatically improve.
+- Your knowledge will increase.
+- You will enjoy the process - especially if you are book-lover.
+- You will be generating training data that can help make better sanskrit OCR software!
+- You will be helping many other knowledge-lovers. (see "[why digitize](intro.html)?" section here.)
+
+### Volunteer coordination
+- [sanskrit-ocr](https://groups.google.com/g/sanskrit-ocr)
+- [t.me/sanskrit_ocr](http://t.me/sanskrit_ocr)
+
 ## Distributed proofreading UIs
 
 One can use something like Distributed Proofreaders ([http://www.pgdp.net/](http://www.pgdp.net/)) or Wikisource (see screenshots [here](https://plus.google.com/u/0/109000762913288837175/posts/GzzSj3HNAVv)) to proofread the text by seeing the scanned book page beside it.
@@ -40,14 +52,6 @@ Common steps:
         - वर्गः:आनुक्रमणिका
         - विशेषः:IndexPages 
 - Proofread!
-
-## Why should I volunteer as a proofreader?
-
-- Your command over the language will dramatically improve.
-- Your knowledge will increase.
-- You will enjoy the process - especially if you are book-lover.
-- You will be generating training data that can help make better sanskrit OCR software!
-- You will be helping many other knowledge-lovers. (see "[why digitize](intro.html)?" section here.)
 
 ## Desired corrections, markup, proof-reading
 

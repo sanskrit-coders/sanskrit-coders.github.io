@@ -3,11 +3,27 @@ title: Law- copyright etc..
 ---
 
 ## Intro
+### Copy-Rights
+- A copyright gives the holder of the subject a sole and exclusive right over his work. If the copyright work is protected, no one can replicate, copy, imitate or reproduce the owner’s original work in any other manner.
+
 ### Who holds copyright?
 - "As a general principle, although copyright originally belongs to the author, at the time of publication it is transferred to the publisher, or at least the publisher requests from the author an exclusive license / monopoly on distribution. (I think in the US, copyright always ultimately rests with the author and it's just that the author is constrained by the terms of their agreement with the publisher, but in India I believe copyright is usually transferred to the publisher entirely.)"
 - Status of works of the government. In many (but not all) countries, documents published by the government for official use are in the public domain.
 
+#### Derivatives
+- Copyright emanates from the author, not from scribes.
+- The owner of copyright holds rights to _all_ derived works, including translations and expressions in other media. Simply typing some text in, irrespective of the thought that went into devising the tranliteration, would not qualify as adequate for copyrighting.
+- Once a text passes into public domain, simply expressing it a new medium cannot make it copyrightable, except for new _creative_ work that goes into it: You can copyright a new tune to a song in public domain, but you cannot copyright the songs in an electronic version of `Mother Goose Rhymes', simply because you took the trouble to type them in. [You can copyright the compilation qua compilation, but not the individual songs.]
+
+
+### Publishing rights
+If reproduction is explicitly barred, there will be a note stating something like "All rights reserved". If it is explicitly allowed, there will be some reference to a license like cc-by-nc .
+
+### Registration
+- In India, it is not mandatory to register Copyright as the registration is treated only as a record of the fact. The registration of ownership shall be considered “proof of ownership”. Registration of a copyright can currently take a time of upto 1 to 1 ½ years.
+
 ### Enforcement
+- If the copywrite holder feels his or her rights are violated its he or she who need to take up the issue. Let others not decide what is one rights. Some orgs are founded for something beyond profit and survival for its own sake.
 - "So, whatever the authors' wishes, it is ultimately the publishers' wishes that need to be taken into account. (And it makes sense, as it's the publisher who is primarily making money from selling the book -- the author may often get nothing from each additional copy of the book sold, if they were paid everything in advance, or they may get only a small fraction, as royalties -- and it's the publisher who can have concerns about their revenue stream being disrupted.)"
 - Almost all countries in the world are party to the [Berne Convention for the Protection of Literary and Artistic Works](https://en.wikipedia.org/wiki/Berne_Convention_for_the_Protection_of_Literary_and_Artistic_Works) (see [here](http://www.wipo.int/treaties/en/ip/berne/index.html) for the text). Following this convention, countries enforce copyrights from other countries, according to certain rules.
 
