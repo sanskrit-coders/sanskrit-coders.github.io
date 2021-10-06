@@ -25,6 +25,7 @@ If you cannot type unusual unicode characters, copy them from here and paste.
 - No harm ignoring initial letter capitalization (ie ṣ instead of Ṣ and so on).
 
 ## Formatting
+- General reference: [MD Guide](https://www.markdownguide.org/extended-syntax/#footnotes).
 - _italics_ - `_italics_`. **Bold** - `**Bold**`.
 - Headings -
 ```
@@ -84,7 +85,7 @@ The first view is supported with arguments of some weight by Dr. Farquhar in J. 
 Observe:
 
 - Footnote numbers have been formatted specially - `[^1698]` etc.
-- Footnote definitions can be of two styles. Indenting is important in the second style, which can accommodate multiple paragraphs.
+- Footnote definitions can be of two styles. Indenting is important in the second style, which can accommodate multiple paragraphs. ([MD Guide](https://www.markdownguide.org/extended-syntax/#footnotes).)
 - We _may_ choose to break paragraphs, but not sentences, so as to define footnotes near their place of use.
 
 ### Tables and charts
