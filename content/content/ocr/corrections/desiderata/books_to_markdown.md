@@ -34,6 +34,16 @@ If you cannot type unusual unicode characters, copy them from here and paste.
 conent
 ```
 
+### Lists
+```
+- item 1
+  - item 1.1
+- item 2
+  - item 2.1
+  - item 2.2
+    - item 2.2.1
+```
+
 ### Spacing
 - Paragraphs are separated by empty lines. Please remove empty spaces at the beginning of lines.
 - As far as possible, prefer paragraphs without any line breaks ("Enter" keystrokes). Just use word-wrap in your editor program.
