@@ -1,14 +1,7 @@
 +++
-title = "Desired corrections, markup, proof-reading"
-short_title = "Desired corrections,"
+title = "Dictionary files"
 
 +++
-Desired corrections, markup, proof-reading
-
-
-Some common error patterns can be automatically corrected, as described here: [SP1601](https://groups.google.com/d/msg/sanskrit-programmers/4kYOv3sfgIo/hgp87CaIBQAJ).
-
-## Dictionary type files
 
 - (Optionally, depending on project) Mark new headwords with a string - say "############".
 - Fix egregious errors - especially in the headwords - to facilitate lookup.
