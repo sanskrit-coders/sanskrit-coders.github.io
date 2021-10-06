@@ -99,4 +99,20 @@ Observe:
 
 
 ## Submitting changes
-Please fork the repo, edit your files and send pull requests; a browser suffices - (I can guide on google meet).
+- Please fork the repo, edit your files and send pull requests; a browser suffices - (I can guide on google meet).
+
+### Account setup
+- I must have sent out email invites to join https://trello.com/ocrcorrection . (We use trello for tracking tasks.) Please accept (contact me if you haven't received an invite).
+- Everyone needs to have a github account (We use github for checking and accepting corrections - example here) and join https://github.com/orgs/vishvAsa/teams/ocr-correction/ . Please create a github account and let me know offline so that I can send you an email invite to join https://github.com/orgs/vishvAsa/teams/ocr-correction/ .
+
+### Computer setup
+Besides the above, (unless you are already computer-savvy and have other preferences) please set up your Windows computer (if you use another OS, let me know) in the following way, so that your work can be most enjoyable and seamless.
+
+- [Git for windows](https://gitforwindows.org/)
+- [Atom editor](https://atom.io/)
+- Install Hugo (to verify your work on your computer) 
+  - Option 1
+    - Get a file like hugo_0.xx.x_Windows-64bit.zip from [Hugo releases](https://github.com/gohugoio/hugo/releases)
+    - extract zip file contents to some place like C:\Hugo\bin.
+    - add it to your path - Start button >> System >> Advanced System Settings on the left >> Environment Variables… button on the bottom >> User variables section >> Path >> Double click >> Click the New… button >> Type in the folder where hugo.exe was extracted
+  - Alternatively [see here](https://gohugo.io/getting-started/installing/). 
