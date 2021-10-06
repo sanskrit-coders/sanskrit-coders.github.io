@@ -19,7 +19,7 @@ If you cannot type unusual unicode characters, copy them from here and paste.
 - ISO 
   - ē ō r̥ r̥̄ l̥ l̥̄ ṁ
 - Vedic Svaras
-  - ॒ ॑ 
+  - `  ॒   ॑ `
 
 - No harm using ISO instead of IAST - we can fix it later.
 - No harm ignoring initial letter capitalization (ie ṣ instead of Ṣ and so on).
