@@ -26,7 +26,13 @@ If you cannot type unusual unicode characters, copy them from here and paste.
 
 ## Formatting
 - _italics_ - `_italics_`. **Bold** - `**Bold**`.
-- Headings - `## Top heading`, `## Subheading`, `### Subsubheading` and so on. 
+- Headings -
+```
+## Top heading
+### Subheading
+#### Subsubheading 
+conent
+```
 
 ### Spacing
 - Paragraphs are separated by empty lines. Please remove empty spaces at the beginning of lines.
