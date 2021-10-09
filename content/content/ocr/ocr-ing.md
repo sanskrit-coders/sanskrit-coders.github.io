@@ -37,8 +37,9 @@ title: Procedure
 - [tess-parichit](https://code.google.com/archive/p/parichit/downloads)
 - [tessHindI](https://sourceforge.net/projects/tesseracthindi/)
 
--  Comparison
-  - [2018 - google ocr vs sanskritocr]({{ site.baseurl }}{% post_url 2018-06-05-ocr-comparison %})
+- Comparison
+  - [2018 - google ocr vs sanskritocr](/posts/2018-06-05-ocr-comparison)
+  - In 2021, Google Drive OCR occassionally translated devanAgarI words embedded within english text - [SP thread](https://groups.google.com/g/sanskrit-programmers/c/cbu2_tVYbUU/m/hZxtCkPGAAAJ) .
 - Sanskrit OCR guide [by dhaval here](https://github.com/sanskrit-coders/sanskrit-ocr-r0/issues/8).
 
 ### Training data
@@ -66,28 +67,10 @@ title: Procedure
 - Ideally, we would get OCR-s from multiple sources and then [combine them](https://groups.google.com/g/sanskrit-programmers/c/yEjFaIQfGaA/m/E4rx2YmHAAAJ) to reduce errors (yet to try this).
 
 ## Fora
+- [OCR on request project]() - useful for non-tech people
 - [Indic OCR](https://groups.google.com/forum/#!forum/indic-ocr)
 - [parichit](https://groups.google.com/forum/#!forum/parichit-ocr).
 
 ## Alternatives to OCR
 
 PDF text extraction: see thread [here](https://groups.google.com/d/msg/sanskrit-programmers/UGwL8dcl1g0/-ign5NVeBQAJ).
-
-## OCR on request project 
-### What is the workflow for an OCR volunteer?
-- First off - you should have access to OCR technology, and you should be willing to (learn to) use it.
-- Look for requests on [the issues page](https://github.com/sanskrit-coders/sanskrit-ocr-r0/issues).
-- Assign a request to yourself and work on it.
-- Once you get the OCR-ed text, we need to pass it on to proof-reading and to early users/ readers.
-    - So initially, store the result in a separate folder in github repo such as [sanskrit-ocr-r0](https://github.com/sanskrit-coders/sanskrit-ocr-r0).
-    - Create a README.md file which will track the progress of the project.
-        - Please include terms a person searching on an internet search engine may use.
-            - Transliterate the title into the appropriate scripts.
-            - Use '-' to separate terms in a samAsa. Eg. कुलार्णव-तन्त्रम् kulArNava-tantram
-- Announce the fact that you've OCR-ed the file on samskrita@googlegroups .
-- Mark the issue with the milestone "[ocred](https://github.com/sanskrit-coders/sanskrit-ocr-r0/milestones/ocred)".
-
-### Why be an OCR volunteer?
-
-- You will be helping many other knowledge-lovers. (see "[why digitize](intro.md)?" section here.)
-- You will have the satisfaction of putting your technical skills and time to good use.
