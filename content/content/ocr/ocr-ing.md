@@ -67,7 +67,7 @@ title: Procedure
 - Ideally, we would get OCR-s from multiple sources and then [combine them](https://groups.google.com/g/sanskrit-programmers/c/yEjFaIQfGaA/m/E4rx2YmHAAAJ) to reduce errors (yet to try this).
 
 ## Fora
-- [OCR on request project]() - useful for non-tech people
+- [OCR on request project](https://sanskrit.github.io/groups/dyuganga/projects/text/ocr_on_request) - useful for non-tech people
 - [Indic OCR](https://groups.google.com/forum/#!forum/indic-ocr)
 - [parichit](https://groups.google.com/forum/#!forum/parichit-ocr).
 
