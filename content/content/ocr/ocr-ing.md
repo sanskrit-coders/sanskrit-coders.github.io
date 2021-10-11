@@ -39,7 +39,7 @@ title: Procedure
 
 - Comparison
   - [2018 - google ocr vs sanskritocr](/posts/2018-06-05-ocr-comparison)
-  - In 2021, Google Drive OCR occassionally translated devanAgarI words embedded within english text - [SP thread](https://groups.google.com/g/sanskrit-programmers/c/cbu2_tVYbUU/m/hZxtCkPGAAAJ) .
+  - In 2021, Google Drive OCR occassionally messed up devanAgarI words embedded within english text - [SP thread](https://groups.google.com/g/sanskrit-programmers/c/cbu2_tVYbUU/m/hZxtCkPGAAAJ) - so as to coincidentally appear (based on stroke similarity) to translate (विधि  → fate).
 - Sanskrit OCR guide [by dhaval here](https://github.com/sanskrit-coders/sanskrit-ocr-r0/issues/8).
 
 ### Training data
@@ -74,3 +74,4 @@ title: Procedure
 ## Alternatives to OCR
 
 PDF text extraction: see thread [here](https://groups.google.com/d/msg/sanskrit-programmers/UGwL8dcl1g0/-ign5NVeBQAJ).
+
