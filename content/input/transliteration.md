@@ -9,7 +9,24 @@ Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stot
 - **[Technical Hindi list](https://sites.google.com/site/technicalhindi/home/converters)**
 
 ### Windows
+#### bhAShA-Trans
 - [bhAShA IME with BhashaTrans](https://sites.google.com/site/bhashaime/) by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: [SP19](https://groups.google.com/forum/#!topic/sanskrit-programmers/n5cX1-NJLww). 
+
+Bhashatrans shows only the Systray.menu. You copy the text to be converted to clipboard,, invoke the reqd. conv. through the systray menu. The result will also be on the clipboard.
+
+To convert, run BhashaTrans (may work with wine on Linux). After select-copy of PDF text, invoke the first menu "All Non Unicode -> Unicode". BhashaTrans will take RTF from clipboard, preferably, and try to convert. Wait for the pop-up informing of the fontnames in the RTF and whether they can be handled.
+
+- If the PDF has preserved the original font names, text should be converted properly and will be put up on clipboard which you can copy to Word processor after completion
+- If the PDF has mangled the file names, as in this case, BhashaTrans does not do anything. Manual conversion (Nudi encoding as an example): 
+  - In this case, if there is one main font to be converted, copy text to notepad and copy back to clipboard, so only puretext (no RTF) is available on clipboard. Invoke BhashaTrans-> "Nudi -> Uni Kan". Converted text will be on clipboard. Paste to any editor. All non-Nudi text is converted to junk. You need to clean it up. 
+  - (If you want to preserve non-Nudi text, it can be done with manual labor.)
+
+Batchmode works only in Windows. Select all files in Windows Explorer, press CtrlKey and invoke the systray-menu. Wait for a pop-up and release the ctrl key. BT reads all files selected from the topmost Explorer window and processes them. Solely depends on Explorer UI API.
+
+##### Wine usage
+- Download bhAShAIME and bhAShATrans files.
+- `wine wscript 'BhashaTrans-RunMe.vbs'` starts the bhAShATrans program in the taskbar. Thence, one can transliterate by copying to the clipboard, clicking on the taskbar icon and selecting the appropriate option .
+
 
 ### Web tools
 - [Vindodh's aksharamukha](http://www.virtualvinodh.com/aksaramukha) - [py](https://github.com/virtualvinodh/aksharamukha), [php](https://github.com/nareshv/aksharamukha)
