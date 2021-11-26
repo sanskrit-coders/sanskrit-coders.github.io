@@ -2,9 +2,6 @@
 title: Dev tools
 ---
 
-## Computer setup
-- Vishvas suggests: Some Arch Linux flavor (eg. Manjaro). Then install packages suggested in [dyuganga-aur](https://github.com/sanskrit-coders/dyuganga-aur).
-
 ## Public file distribution
 
 - archive.org
@@ -30,8 +27,8 @@ Project tracking
 
 ## 3d printing
 
-  - sketchfab guide
-    [here](https://help.sketchfab.com/hc/en-us/articles/202397889-3D-Printing). 
-  - sketchfab - Enabling download
-    [here](https://help.sketchfab.com/hc/en-us/articles/201368589-Downloading-Models).
+- sketchfab guide
+  [here](https://help.sketchfab.com/hc/en-us/articles/202397889-3D-Printing). 
+- sketchfab - Enabling download
+  [here](https://help.sketchfab.com/hc/en-us/articles/201368589-Downloading-Models).
 
