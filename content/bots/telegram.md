@@ -2,7 +2,7 @@
 title = "Telegram"
 +++
 
-## Proramming
+## Programming
 - Good libraries are available. Just search online.
 
 ## Quiz bots
@@ -24,3 +24,5 @@ shrI harSh of SB Canada and his son have developed this fascinating quiz bot - [
 विग्रह or /vigraha - पदं (पदानि) विगृह्णातु (सन्धिसमासौ) (Split the sandhi samaasa)
 सूचना or /suggest - अभिप्रायसङ्कलनं करोतु (Collect feedback)
 ```
+## Dict bots
+- @sanskritkoshbot based on http://kosha.sanskrit.today/ .
