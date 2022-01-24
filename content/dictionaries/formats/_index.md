@@ -14,7 +14,7 @@ title: +Dict formats
   ```
 
 ## Babylon
-### babylon source format (gls file)
+### babylon source format (bgl file)
     
 ```
 [blank line]
@@ -33,16 +33,32 @@ Definition
 #### With html
 - `<br> <a>, <b>, <i>, <em>, <ul/ol/li/dl/dd/dt>  ` 
 - HTML features require some special header. Example: [purANa-encyclopedia](https://raw.githubusercontent.com/indic-dict/stardict-sanskrit-kAvya/master/purANa-encyclopedia/purANa-encyclopedia.babylon).
+- Note that the language pair can be specified in the bookname header field : `(ml-ml)`. This is recognized by goldendict.
 ```
 blank line
 #stripmethod=keep
 #sametypesequence=h
-#bookname=Pals eng-eng-tamil dictionary
+#bookname=Pals eng-eng-tamil dictionary (en-ta)
+#author=Jim Breen
+#email=jwb@csse.monash.edu.au
+#website=http://www.csse.monash.edu.au/~jwb/enamdict_doc.html
+#description="...."
+#Any other comment.
 blank line
 head_word|synonym1|synonym2
 definition in single line. for optical line break, you can use <br>
 ----this third line should be blank --
 ```
+
+### gls
+```
+[blank line]
+Term | Alternate1 | Alternate2| ... | AlternateK
+[attributes]
+Definition
+[blank line]
+```
+
 
 ## stardict
 - \[Full details [here](https://github.com/indic-dict/stardict-test/blob/master/stardict_format.md)\]:
