@@ -18,6 +18,14 @@ title: Offline dicts
 - sanskritdictionary.com 
 - spokensanskrit.de - not as reliable and clear.
 
+
+### Libraries
+#### PyCDSL
+python package for programmatic access and management of dictionaries from Cologne Digital Sanskrit Lexicon. In essence, it can download/update the specified dictionaries from CDSL, provide a customizable class to access and parse the entries from the dictionary. It also comes with a REPL, invoked by command cdsl.
+
+- Package: https://pypi.org/project/PyCDSL/
+- Source: https://github.com/hrishikeshrt/PyCDSL
+
 ## Stardict
 
 Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.
