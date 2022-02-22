@@ -24,7 +24,7 @@ There are so many dictionary apps. What is the advantage of using this system?
     - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
     - And others
 
-### Stardict dictionaries elsewhere:
+### Elsewhere:
 - aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
 - sanskrit.infria.fr [here](http://sanskrit.inria.fr/goldendict.html).
 
@@ -37,7 +37,7 @@ There are so many dictionary apps. What is the advantage of using this system?
 - Instructions from aupAsana.com [here](http://old.aupasana.com/stardict).
 - Video tutorials: [koshadarshanam series](https://www.youtube.com/watch?v=bkhD--yCrBI&list=PLmozlYyYE-EQJygdRR0vGVdRtSzvrlFXc) by Chandrasekharan Raman of Vyoma pAThashAla
 
-### Android:
+### Android
 - Handouts: [2019](https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view).
 - If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [play store](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6) or as an [apk](https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/app/release/app-release.apk)
     - Ratings certificate: [here](https://iarcweb.azurewebsites.net/Dashboard/Certificate/74e40614-671c-421e-9969-1c80da21a267).
@@ -45,12 +45,14 @@ There are so many dictionary apps. What is the advantage of using this system?
 - On other Android devices, use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater) .
 - Still having trouble despite the above? Further workaround tips (if they are necessary) for Android are [in this email](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
 
-### Desktop computer options:
-- In windows: [SanskritDictionariesInstaller.jar](https://archive.org/download/SanskritDictionariesInstaller/SanskritDictionariesInstaller.jar)  ([github source](https://github.com/avinashvarna/SanskritDictionariesInstaller))
+### Desktop computer options
+In the order of most updated/ maintained -
+ 
 - Install Java and use [dict-tools](https://github.com/sanskrit-coders/dict-tools) jar:
   - Download [dict-tools.jar](https://github.com/sanskrit-coders/dict-tools/raw/master/bin/artifacts/dict-tools.jar).
   - `java -jar bin/artifacts/dict-tools.jar install --destinationPath=/home/vvasuki/sanskrit-coders/stardict-dicts-installed/ --dictRepoIndexUrl=https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/dictionaryIndices.md`
 - Arch linux : [stardict-indic-update/](https://aur.archlinux.org/packages/stardict-indic-update/).
+- In windows: [SanskritDictionariesInstaller.jar](https://archive.org/download/SanskritDictionariesInstaller/SanskritDictionariesInstaller.jar)  ([github source](https://github.com/avinashvarna/SanskritDictionariesInstaller))
 - Install python 2.7 and use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater)
 - You could just use the instructions analogous to the ones supplied [here](https://github.com/indic-dict/stardict-sanskrit/blob/master/README.md). 
 
