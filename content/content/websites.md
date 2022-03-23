@@ -9,6 +9,9 @@ title: Websites and blogs
     - New style websites can't be added to Google search console.
   
 ## Static site generators
+- Hugo
+  - Much faster than Jekyll
+  - Article [pdf](/content/wsc2022/indic-site-framework.pdf)
 - Jekyll
   - Can be used as a wiki - just look at the source for this site.
   - Also see our <https://sanskrit-coders.github.io/sanskrit-documentation-theme>
