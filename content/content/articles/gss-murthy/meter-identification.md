@@ -4,7 +4,7 @@ title = "Meter-identification"
 
 
 
-**A Computer Program To Identify Sanskrit Metres**
+A Computer Program To Identify Sanskrit Metres
 
 By
 
@@ -42,37 +42,37 @@ The transliteration scheme, as per _devanaagaree_ alphabetical order, as accepte
 
 	           _anunaasika_: ~M
 
-2. Before we describe the methodology of the program, a brief introduction to basics of Sanskrit prosody would be in order: A** _padya_ **(=a stanza) consists of four** _paada_’**s** **(=quarters) each** _paada_ **having a fixed number of** _akshara_’**s** **(=syllable) and/or a fixed number of** _maatraa_’**s** **(=a unit of syllabic duration). A single svara (=vowel) or one or more vyanjana’s (=consonant) followed by a _svara_ constitute an** _akshara_. **A short _svara_ has a  duration of one** _maatraa_, **called** _laghu_ **and a long vowel has a duration of two** _maatraa_’**s**, **called** _guru_. **When a short _svara_ is followed by an** _anusvaara_, **a** _visarga_ **or a** _samyuktaakshara_ **(conjunct consonant), it is treated as a** _guru_ (**two** _maatraa_’**s**).  **
+2. Before we describe the methodology of the program, a brief introduction to basics of Sanskrit prosody would be in order: A _padya_ (=a stanza) consists of four _paada_’s (=quarters) each _paada_ having a fixed number of _akshara_’s (=syllable) and/or a fixed number of _maatraa_’s (=a unit of syllabic duration). A single svara (=vowel) or one or more vyanjana’s (=consonant) followed by a _svara_ constitute an _akshara_. A short _svara_ has a  duration of one _maatraa_, called _laghu_ and a long vowel has a duration of two _maatraa_’s, called _guru_. When a short _svara_ is followed by an _anusvaara_, a _visarga_ or a _samyuktaakshara_ (conjunct consonant), it is treated as a _guru_ (two _maatraa_’s).  
 
-In what is called the** _gana_-**based system, each** _paada_ **of a** _padya_ **is divided into groups of three** _akshara_’**s** **each. An age-old cyclic mnemonic that helps in remembering and characterizing the** _gana_**’s** **is as follows:** **
+In what is called the _gana_-based system, each _paada_ of a _padya_ is divided into groups of three _akshara_’s each. An age-old cyclic mnemonic that helps in remembering and characterizing the _gana_’s is as follows: 
 
 _Ya-maa-taa-raa-ja-bhaa-na-sa _
 
-A sequence of 3 adjacent** _akshara’_**s** **in this mnemonic characterizes a** _gana_ **and the first _akshara** **_of a sequence is the name of that** _gana_.  **For example, the first sequence of 3** _akshara’_**s _ya-maa-taa**, **_whose 3** _akshara’_**s** **are respectively** _laghu, guru, guru_  **specifies that** _ya gana_ **consists of a sequence _laghu, guru, guru**. **_Similarly** _sa gana _ **is specified by** _sa-ya-maa_, **a sequence of** _laghu, laghu _**and_ guru**. **_It may be noted that what characterizes a _vrutta_ is the specific string of _laghu_’s and _guru_’s that forms a _paada_ and the  system of _gana_’s only helps in memorizing the string and composing a verse or identifying the metre of a given verse.
+A sequence of 3 adjacent _akshara’_s in this mnemonic characterizes a _gana_ and the first _akshara _of a sequence is the name of that _gana_.  For example, the first sequence of 3 _akshara’_s _ya-maa-taa, _whose 3 _akshara’_s are respectively _laghu, guru, guru_  specifies that _ya gana_ consists of a sequence _laghu, guru, guru. _Similarly _sa gana _ is specified by _sa-ya-maa_, a sequence of _laghu, laghu _and_ guru. _It may be noted that what characterizes a _vrutta_ is the specific string of _laghu_’s and _guru_’s that forms a _paada_ and the  system of _gana_’s only helps in memorizing the string and composing a verse or identifying the metre of a given verse.
 
-Broadly there are 3 types of metres in classical** **Sanskrit**.**
+Broadly there are 3 types of metres in classical Sanskrit.
 
-i**. **Each** _paada_ **of a** _sloka_ **consists of a specified number of** _maatraa_’s**, with some
+i. Each _paada_ of a _sloka_ consists of a specified number of _maatraa_’s, with some
 
-constraints**.**
+constraints.
 
-ii**. **Each** _paada_ **consists of a specified sequence of** _gana_**s**, **which may be
+ii. Each _paada_ consists of a specified sequence of _gana_s, which may be
 
-** **followed by one or two** _akshara_**s, each being either** _guru_ **or** _laghu_. **The last
+ followed by one or two _akshara_s, each being either _guru_ or _laghu_. The last
 
-_akshara ** **_of a** _paada _ **is generally considered a** _guru_. **Such stanzas are called**  **
+_akshara  _of a _paada _ is generally considered a _guru_. Such stanzas are called  
 
-_vrutta_s** **or** _vrutta- sloka_’**s**.**
+_vrutta_s or _vrutta- sloka_’s.
 
-iii.  Each** _paada _**consists of a specified number of** _akshara_’**s** **with some constraints.
+iii.  Each _paada _consists of a specified number of _akshara_’s with some constraints.
 
 
 
-Among  metres  employed in classical** **Sanskrit** **literature**, _anushtup_ ( **often called** **
+Among  metres  employed in classical Sanskrit literature, _anushtup_ ( often called 
 
-_sloka**) **_appears to be the only one which belongs to the third type.  Whereas**  **
+_sloka) _appears to be the only one which belongs to the third type.  Whereas  
 
-_maatraa**-**_based metres like** _aaryaa_ **and** _vaitaaleeya _ **have only a defined number of** _maatraa_**s** **in a** _paada_ **subject to a few other constraints**, _gana_- **based** _vrutta_**s** **like** _mandaakraantaa, shaarduulavikreedita_ **etc have a defined number of** _akshara_s **and** _maatraa_**s** **in a** _paada_**. For _anushtup** **_category**, **the number of** _akshara_’**s** **in a** _paada_ **is specified as eight, with some constraints on the use of certain** _gana_'**s** **at certain positions of the _paada**.**_
+_maatraa-_based metres like _aaryaa_ and _vaitaaleeya _ have only a defined number of _maatraa_s in a _paada_ subject to a few other constraints, _gana_- based _vrutta_s like _mandaakraantaa, shaarduulavikreedita_ etc have a defined number of _akshara_s and _maatraa_s in a _paada_. For _anushtup _category, the number of _akshara_’s in a _paada_ is specified as eight, with some constraints on the use of certain _gana_'s at certain positions of the _paada._
 
 Two well known works on Sanskrit prosody are  _Chandas-shaastram_ of Pingala and _Vruttaratnaakara_  of Kedaarabhatta. While Pingala adopts the method of _Sutra_’s like Panini for defining the characteristics of a stanza, Kedaarabhatta interestingly uses a _paada_ of a _vrutta_  to define the _vrutta_. This program has adopted the names of _vrutta_s as given by Kedarabhatta.
 
