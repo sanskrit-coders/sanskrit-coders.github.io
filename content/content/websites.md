@@ -5,7 +5,7 @@ title: Websites and blogs
 ## Static site generators
 - Hugo
   - Much faster than Jekyll
-  - Article [pdf](/content/wsc2022/indic-site-framework.pdf)
+  - Article [pdf](/content/intro2022/indic-site-framework.pdf)
 - Jekyll
   - Can be used as a wiki - just look at the source for this site.
   - Also see our <https://sanskrit-coders.github.io/sanskrit-documentation-theme>
