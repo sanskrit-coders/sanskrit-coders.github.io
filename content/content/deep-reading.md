@@ -1,6 +1,11 @@
 ---
 title: Deep reading
 ---
+
+- [Ambuda.org](https://ambuda.org/texts/ramayanam/1.42) . [github](https://github.com/sanskrit/ambuda). [discord](https://discord.com/invite/7rGdTyWY7Z). 
+- Critical edition presentation - [saktumiva](https://saktumiva.org/wiki/dravyasamuddesa/00-edition?upama_ver=fft64qrkvq&upama_script=devanagari)
+
+
 ## Presenting sources with commentaries
 
 - Ideas: [sefaria jewish texts](http://www.sefaria.org/) \[[git](https://github.com/Sefaria/Sefaria-Project)\], [perseus](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0055).  
