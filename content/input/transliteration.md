@@ -9,6 +9,8 @@ Some tools/ websites ([1W](http://sahityam.net/wiki/Main_Page), [2W](http://stot
 - **[Technical Hindi list](https://sites.google.com/site/technicalhindi/home/converters)**
 
 ### Windows
+- [keyswap](https://www.yesvedanta.com/keyswap/)
+
 #### bhAShA-Trans
 - [bhAShA IME with BhashaTrans](https://sites.google.com/site/bhashaime/) by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: [SP19](https://groups.google.com/forum/#!topic/sanskrit-programmers/n5cX1-NJLww). 
 
