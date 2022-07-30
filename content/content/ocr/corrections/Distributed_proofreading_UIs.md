@@ -10,6 +10,12 @@ One can use something like Distributed Proofreaders ([http://www.pgdp.net/](http
 
 [{{< figure src="http://i.imgur.com/Y9fqLZ9.png"  class="thumbnail">}}
 
+## Ambuda
+- [ambuda proofing site](https://ambuda.org/proofing/) तत्र register कृत्वा पाठं शोधयितुं सरलं स्यात्।
+
+
+## vedavApI textract / bhAratIkosha
+- [UI here](https://r1.bharatikosha.org/apps/textract/?kaveri=https%3A%2F%2Fr1.bharatikosha.org%2Fkaveri&_id=5d7df8c16864390012210da5) .
 
 ## Wikisource  
 - [See here](https://en.wikisource.org/wiki/Help:Beginner%27s_guide_to_adding_texts). 
