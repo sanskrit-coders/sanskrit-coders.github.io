@@ -94,3 +94,14 @@ Some of the exemptions are the uses of the work according to \[Handbook [here](h
 - min(95 years from publication, ).
 - "The Uruguay Round Agreements Act or URAA is a US law that restored copyrights in the U.S. on foreign works if those works were still copyrighted in the foreign source country on the URAA date."
     - Works published before 1923 are not affected.
+
+### Infrigement notification
+From Lib Genesis:
+
+>  If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible on this site, you may notify our copyright agent, as set forth in the Digital Millennium Copyright Act of 1998 (DMCA). For your complaint to be valid under the DMCA, you must provide the following information when providing notice of the claimed copyright infringement:
+>
+> * A physical or electronic signature of a person authorized to act on behalf of the copyright owner Identification of the copyrighted work claimed to have been infringed
+> * Identification of the material that is claimed to be infringing or to be the subject of the infringing activity and that is to be removed
+> * Information reasonably sufficient to permit the service provider to contact the complaining party, such as an address, telephone number, and, if available, an electronic mail address
+> * A statement that the complaining party "in good faith believes that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law"
+> * A statement that the "information in the notification is accurate", and "under penalty of perjury, the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed". The above information must be submitted as a written, faxed or emailed notification to the following Designated Agent XYZ
