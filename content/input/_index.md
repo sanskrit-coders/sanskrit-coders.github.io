@@ -6,6 +6,8 @@ title: +Input
 - Other lists are available at \[[N](http://sanskritdocuments.org/processing_tools/), [N2](http://sanskritlinks.blogspot.com/2010_03_01_archive.html), [W](http://hi.wikipedia.org/wiki/Hindi_Computing_Resources_on_the_Internet#Hindi_Text_Analysis.2C_Text_Processing_and_Concordance), W2\].
 
 - Grapheme / character/ syllable counters
+  - [aksharas](https://aksharas.netlify.app/) by prasanna-venkaTesha
+  - [syllabic counter](pandey.pythonanywhere.com/devsyll) by aMshuman pANDEya
   - [unicode counter](https://onlineunicodetools.com/count-unicode-characters)
 
 ## Text autocompletion
