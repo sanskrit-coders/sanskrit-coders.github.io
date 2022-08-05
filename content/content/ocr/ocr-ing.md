@@ -12,15 +12,17 @@ title: Procedure
 ## How to OCR?
 
 ### Software
-- Desktop/ web based,  in roughly decreasing order of popularity
-    - [sanskrit ocr](https://ocr.sanskritdictionary.com/) which uses gdrive api
-    - Gdrive-[SP](https://groups.google.com/forum/#!topic/sanskrit-programmers/5noVN-XpeVY), SanskritOCR: [indisenz](http://www.indsenz.com/int/index.php), [T](https://github.com/tesseract-ocr)ess
-    - ocrlib[A](https://code.google.com/p/ocrlib/)
-    - OH[D1](http://learnsanskrit.org/tools/ocr)
-    - ILT[B](http://www.cedar.buffalo.edu/ilt/tool.html)
-    - [X](http://vimeo.com/4714623)
-    - [TDIL](http://ocr.tdil-dc.gov.in/)).
-    - If you work at some companies (say Google), you may have wonderful infrastructure and a couple of hundred machines to get good OCR's fast. Ask around - your colleagues may have ideas! 
+Desktop/ web based,  in roughly decreasing order of popularity
+
+- [sanskrit ocr](https://ocr.sanskritdictionary.com/) which uses gdrive api
+- Gdrive-[SP](https://groups.google.com/forum/#!topic/sanskrit-programmers/5noVN-XpeVY), SanskritOCR: [indisenz](http://www.indsenz.com/int/index.php), [T](https://github.com/tesseract-ocr)ess
+- ocrlib[A](https://code.google.com/p/ocrlib/)
+- [ambuda](ambuda.org)
+- [Lace](https://github.com/brobertson/Lace2)
+- OH[D1](http://learnsanskrit.org/tools/ocr)
+- ILT[B](http://www.cedar.buffalo.edu/ilt/tool.html)
+- [X](http://vimeo.com/4714623)
+- [TDIL](http://ocr.tdil-dc.gov.in/)).
 
 ### Android
 - [zoho doc scanner](https://www.indiatvnews.com/technology/news-zoho-doc-scanner-launches-text-recognition-in-12-indian-languages-642074)
