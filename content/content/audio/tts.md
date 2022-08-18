@@ -2,10 +2,19 @@
 title = "Text to speech"
 +++
 
-- [Google translate hindi](http://translate.google.com/#hi/en/%E0%A4%A4%E0%A4%A4%E0%A5%8B%20%E0%A4%B0%E0%A4%BE%E0%A4%B5%E0%A4%A3%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%83%20%E0%A4%B8%E0%A5%80%E0%A4%A4%E0%A4%BE%E0%A4%AF%E0%A4%BE%E0%A4%83%20%E0%A4%B6%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%B6%E0%A4%A8%E0%A4%83%20%E0%A5%A4%0A%E0%A4%87%E0%A4%AF%E0%A5%87%E0%A4%B7%20%E0%A4%AA%E0%A4%A6%E0%A4%AE%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%81%E0%A4%82%20%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A4%A3%E0%A4%BE%E0%A4%9A%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A5%87%20%E0%A4%AA%E0%A4%A5%E0%A4%BF%20%E0%A5%A4%E0%A5%A4) (Better to use kannada)
+## General
+- [bhashini.gov.in](https://bhashini.gov.in/en)
 - [dhvani](http://dhvani.sourceforge.net/)
 - [JNU](https://groups.google.com/forum/#!topic/sanskrit-programmers/q88i732oruU)
 - [**ES**](http://sourceforge.net/projects/espeak/?source=typ_redirect)
+
+### bhashini.ai
+- [bhashini.ai](https://tts.bhashini.ai/demo/)
+
+
+### Google TTS API
+- Google TTS API free quota 4M chars / 30 days = ~ 100k/day (202208)
+- [Google translate hindi](http://translate.google.com/#hi/en/) (Better to use kannada)
 
 ## svara-sensitive
 - [suvAk](https://github.com/031323/suvak)
