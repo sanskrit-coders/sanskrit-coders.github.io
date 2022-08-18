@@ -14,7 +14,7 @@ Despite publishing offline through some agency, some authors make it a point to 
 ### Author's negotiation
 - Try to retain the **right to distribute** your work **non-commercially**, and allow derivatives. Don't sign off all rights. 
   - Make an effort to bring up the concern. If it seems that you don't care, they won't care either.
-  - You don't want to affect the publisher's revenue **while simultaneously** taking advantage of his (editing and marketing) efforts. About other modes of distribution -
+  - You don't want to affect the publisher's revenue **while simultaneously** taking advantage of his (paper-)book-specific (editing and marketing) efforts. Argue the below for other modes of distribution -
     - They're often not in the same format as the printed version. Effort that goes into formatting html pages is quite different from that involved in page-editing/ latex work.
     - They usually don't affect revenue (those who read audio books or ebooks don't go for paper books). 
 - If the publisher goes out of business or refuses to reprint when out of copies, will you be legally allowed to publish by some other means?
