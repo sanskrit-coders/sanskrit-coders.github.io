@@ -14,17 +14,19 @@ Despite publishing offline through some agency, some authors make it a point to 
 ### Author's negotiation
 - Try to retain the **right to distribute** your work **non-commercially**, and allow derivatives. Don't sign off all rights. 
   - Make an effort to bring up the concern. If it seems that you don't care, they won't care either.
-  - You don't want to affect the publisher's revenue while taking advantage of his (editing and marketing) efforts. About other modes of distribution -
-    - They're often not in the same format as the printed version. Effort that goes into formatting a html page is quite different from that involved in page-editing.
+  - You don't want to affect the publisher's revenue **while simultaneously** taking advantage of his (editing and marketing) efforts. About other modes of distribution -
+    - They're often not in the same format as the printed version. Effort that goes into formatting html pages is quite different from that involved in page-editing/ latex work.
     - They usually don't affect revenue (those who read audio books or ebooks don't go for paper books). 
-- If the publisher goes out of business or refuses to reprint, will you be legally allowed to publish by some other means?
+- If the publisher goes out of business or refuses to reprint when out of copies, will you be legally allowed to publish by some other means?
 - Royalty.
 
 ## On-demand publishing
+- Books are published and dispatched whenever a buyer places an order. यदा यदा क्रेता पुस्तकप्रेप्साम् प्रकटयति, तदा तदैव पुस्तकं चारु प्रकाश्य प्रेषयन्ति। मूल्यतः कतिचिद् भागं स्वयं रक्षित्वा शिष्टं लेखकाय प्रेषयन्ति।
+
 - Comparison
   - Author would have to prepare the book himself
   - Author will have to self-market.
-  - Publishing cost double
+  - Purchase cost is higher for the buyer (Oft economics of scale don't apply).
     - In 2016: "I paid 38 rupees per copy for Mahaviri Hindi third edition 104 pages 80 gsm metric demy 8vo For 1000+ copies Pothi quotes 82.5 per copy"
 
 - Getting ISBN numbers
