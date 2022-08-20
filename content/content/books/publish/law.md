@@ -34,10 +34,17 @@ If reproduction is explicitly barred, there will be a note stating something lik
 - Wiki reference [here](https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory#India).
 - \[Handbook [here](http://copyright.gov.in/Documents/handbook.html).\]
 
+### Publisher rights reverting to the author
+> only recently our publishers have started getting the rights documented. (I mean getting the actual agreements done). Also, as per the Indian copyright law, minimum term for it is 5 years. IF agreed on paper it can go beyond. Digital rights for ebook and audio book etc are extra. If they have exclusive rights then they should compensate accordingly and mention that in agreement.
+>
+> if it is not otherwise mentioned, publisher's rights expire in 5 years and lapse back to author. That’s what copyright law says when you try to register the copyright for a work on government portal. (Note: it a paid activity which is avoided to save money) instead they go for bond paper related agreement like property! - omshivaprakash
+
+
 ### Rights regarding copyrighted literary work
 \[Handbook [here](http://copyright.gov.in/Documents/handbook.html)\] says:
 
 In the case of a literary work (except computer programme), copyright means the exclusive right
+
 - To reproduce the work
 - To issue copies of the work to the public
 - To perform the work in public
