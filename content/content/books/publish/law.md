@@ -4,7 +4,7 @@ title: Law- copyright etc..
 
 ## Intro
 ### Copy-Rights
-- A copyright gives the holder of the subject a sole and exclusive right over his work. If the copyright work is protected, no one can replicate, copy, imitate or reproduce the owner’s original work in any other manner.
+- A copyright gives the holder a sole and exclusive right over some work. If the copyright work is protected, no one can replicate, copy, imitate or reproduce the owner’s original work in any other manner.
 
 ### Who holds copyright?
 - "As a general principle, although copyright originally belongs to the author, at the time of publication it is transferred to the publisher, or at least the publisher requests from the author an exclusive license / monopoly on distribution. (I think in the US, copyright always ultimately rests with the author and it's just that the author is constrained by the terms of their agreement with the publisher, but in India I believe copyright is usually transferred to the publisher entirely.)"
