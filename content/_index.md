@@ -10,10 +10,14 @@ summary: Welcome page.
 We are open source Sanskrit programmers. 
 
 ## Contact
+Contributors (and users with questions) are welcome to join these Channels of communication: 
 
-- Contributors (and users with questions) are welcome to join the [sanskrit-programmers](http://groups.google.com/group/sanskrit-programmers) mailing list.
+- Mail stream: [sanskrit-programmers](http://groups.google.com/group/sanskrit-programmers)
+- Telegram [here](https://t.me/sanskrit_coders). 
+- Inactive as of 2018: 
+  - gitter-chat-room [here](https://gitter.im/sanskritcode/Lobby#).
+  - slack [here](https://samskrita.slack.com/).
 
-- Channels of communication: Telegram [here](https://t.me/sanskrit_coders). Whatsapp group [here](https://chat.whatsapp.com/Lj9cP57WGBeHO4fOfeokoJ). slack [here](https://join.slack.com/t/samskrita/shared_invite/MjQyMDA5MzcyNDA0LTE1MDU0OTkwMjQtMjljMWE4ZDA3NA). Inactive as of 2018: gitter-chat-room [here](https://gitter.im/sanskritcode/Lobby#).
 
 
 ## Purpose of this site
@@ -21,6 +25,7 @@ We are open source Sanskrit programmers.
 
 ## Related sites.
 
+- Arun's [ambuda.org](https://ambuda.org/) (discord link at bottom).
 - [Technical Hindi](https://sites.google.com/site/technicalhindi/home).
 - [Ajit's software](http://www.aupasana.com/software) and dict files.
 - samskritabharati.in IT projects [page](https://sites.google.com/a/samskritabharati.in/projects/home).
