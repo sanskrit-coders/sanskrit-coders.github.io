@@ -83,6 +83,12 @@ Are the sAma svara-s crowded?
 ಲಬ್ಧ್ವಾ 
 ```
 
+### Accents
+```
+\u0300 - ದೇಶಯೈಃ̀ देश्ये̀
+Independent svaritas देश्यः᳡ ದೇಶ್ಯಃ᳡ देश्यः᳕ ದೇಶ್ಯಃ᳕ 
+```
+
 ## Report bugs
 
 [GNU Freefont](https://savannah.gnu.org/bugs/?group=freefont).
