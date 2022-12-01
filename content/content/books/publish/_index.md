@@ -10,6 +10,7 @@ Despite publishing offline through some agency, some authors make it a point to 
 
 - McComas Taylor's versified translation of the Viṣṇupurāṇa was published open access on the internet under CC-by-NC-ND ([pdf](https://press-files.anu.edu.au/downloads/press/n8264/pdf/book.pdf)), while also being published and sold as a book by ANU press!
 - Famed author NN Taleb made available freely available electronic version of "Statistical Consequences of Fat Tails" at [his website](https://www.fooledbyrandomness.com/), while selling physical copies.
+-  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
 
 ### Author's negotiation
 - Try to retain the **right to distribute** your work **non-commercially**, and allow derivatives. Don't sign off all rights. 
