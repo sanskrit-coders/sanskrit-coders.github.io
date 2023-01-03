@@ -7,7 +7,7 @@ title: +Input
 
 - Grapheme / character/ syllable counters
   - [aksharas](https://aksharas.netlify.app/) by prasanna-venkaTesha
-  - [syllabic counter](pandey.pythonanywhere.com/devsyll) by aMshuman pANDEya
+  - [akShara counter 2](pandey.pythonanywhere.com/devsyll) by aMshuman pANDEya (syllable-शब्दो दुष्प्रयुक्तस् तेनेत्य् अधुनैव दृष्टम्!! syllable शब्देन वस्तुतस् तु स्वराणाम् एव गणना।)
   - [unicode counter](https://onlineunicodetools.com/count-unicode-characters)
 
 ## Text autocompletion
