@@ -32,6 +32,7 @@ title: IME/ typing
 
 - [Bhasha IME](https://sites.google.com/site/bhashaime/)..)
 - See multiplatform options
+- [pramukh IME](https://www.pramukhime.com/)
 - [Ibus](http://en.wikipedia.org/wiki/Intelligent_Input_Bus)
 - [Ggoogle](http://www.google.com/ime/transliteration/), 
 - [MSN](http://specials.msn.co.in/ilit/WebEmbed.aspx?language=Kannada)
@@ -48,3 +49,6 @@ to input Indic script directly without copy-pasting.
 - for IAST: [EasyIAST](https://shreevatsa.wordpress.com/2013/01/22/a-better-keyboard-layout-for-typing-iast-on-mac-os-x-based-on-easyunicode/).
 - [UBC devanagarI](https://ubcsanskrit.ca/keyboards.html)
 
+## Android
+- Google Devanagari handwriting input
+- [pramukh IME](https://www.pramukhime.com/)
