@@ -17,7 +17,7 @@ jobs:
     - name: Update submodules
       run: |
         git pull --recurse-submodules --depth 1
-        git submodule update --recursive --remote
+        git submodule update  --single-branch --recursive --remote
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
