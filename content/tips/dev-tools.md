@@ -32,3 +32,5 @@ Project tracking
 - sketchfab - Enabling download
   [here](https://help.sketchfab.com/hc/en-us/articles/201368589-Downloading-Models).
 
+## Servers
+- Oracle has an extremely generous free tier (https://www.oracle.com/in/cloud/free/#always-free). 
