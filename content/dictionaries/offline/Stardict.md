@@ -39,7 +39,7 @@ There are so many dictionary apps. What is the advantage of using this system?
 
 ### Android
 - Handouts: [2019](https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view).
-- If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [play store](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6) or as an [apk](https://raw.githubusercontent.com/sanskrit-coders/stardict-dictionary-updater/master/app/release/app-release.apk)
+- If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [this apk for direct installation https://rebrand.ly/dict-updater](https://rebrand.ly/dict-updater) or [play store https://bit.ly/SanskritStarDictUpdater](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6).
     - Ratings certificate: [here](https://iarcweb.azurewebsites.net/Dashboard/Certificate/74e40614-671c-421e-9969-1c80da21a267).
     - Code for this is available for any one to copy and modify [here](https://github.com/indic-dict/stardict-dictionary-updater). (May a 1000 apps bloom!) If you want to contribute new dictionaries to the [stardict-sanskrit project](https://github.com/vvasuki/stardict-sanskrit), that is welcome too.
 - On other Android devices, use [https://github.com/nangia/pydictupdater](https://github.com/nangia/pydictupdater) .
