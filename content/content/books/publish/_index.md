@@ -8,7 +8,7 @@ An author may sell (some/ all) publishing rights to a publisher in exchange for 
 ### Distributing for free online
 Despite publishing offline through some agency, some authors make it a point to distrubte their works for free on the internet (as pdfs etc.), some of them under a creative commons license. Examples:
 
-- McComas Taylor's versified translation of the Viṣṇupurāṇa was published open access on the internet under CC-by-NC-ND ([pdf](https://press-files.anu.edu.au/downloads/press/n8264/pdf/book.pdf)), while also being published and sold as a book by ANU press!
+- McComas Taylor's versified translation of the Viṣṇupurāṇa was published open access on the internet under CC-by-NC-ND ([VP site](https://press.anu.edu.au/publications/textbooks/visnu-purana)), while also being published and sold as a book by ANU press!
 - Famed author NN Taleb made available freely available electronic version of "Statistical Consequences of Fat Tails" at [his website](https://www.fooledbyrandomness.com/), while selling physical copies.
 -  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
 
