@@ -16,6 +16,7 @@ Desktop/ web based,  in roughly decreasing order of popularity
 
 - [sanskrit ocr](https://ocr.sanskritdictionary.com/) which uses gdrive api
 - [ambuda](https://ambuda.org/proofing) uses Google Vision API.
+- Adding pdf layer - [OCRmypdf](https://ocrmypdf.readthedocs.io/en/latest/) - using tesseract-data-san.
 - Telegram - [@bruhulbot](https://web.telegram.org/k/#@BruhulBot) - uses drive api?
 - Gdrive-[SP](https://groups.google.com/forum/#!topic/sanskrit-programmers/5noVN-XpeVY), SanskritOCR: [indisenz](http://www.indsenz.com/int/index.php), [Tesseract](https://github.com/tesseract-ocr)
 - ocrlib[A](https://code.google.com/p/ocrlib/)
@@ -30,10 +31,10 @@ Desktop/ web based,  in roughly decreasing order of popularity
 - [Textfairy](https://play.google.com/store/apps/details?id=com.renard.ocr&rdid=com.renard.ocr) uses Tesseract, and is open source and free. OCRing sanskrit using hindI pack is unsatisfactory. Sanskrit support is requested \[[github](https://github.com/renard314/textfairy/issues/157)\].
     - Google lens
 
-#### vflat
+#### vflat 
 - [android](https://play.google.com/store/apps/details?id=com.voyagerx.scanner&hl=en_IN&gl=US), [apple](https://apps.apple.com/in/app/vflat-scan-pdf-scanner/id1540238220)
 - Auto-scan [video](https://www.youtube.com/shorts/JiG41q9R9yk) .
-- From speaking to a leader of kannaDa gaNaka pariShat, I learned about their very satisfactory experience with using vFlat scanner. It seems they've successfully used it  + crowdsourcing to rapidly scan large works despite the limit of 100 pages/ user-day .
+- From speaking to a leader of kannaDa gaNaka pariShat, I learned about their very satisfactory experience with using vFlat scanner. It seems they've successfully used it  + crowdsourcing to rapidly scan large works despite the limit of 100 pages/ user-day (Other limitations imposed - eg. pdf conversion etc..).
 - Supposedly it handles 2-column text well, and exports pdf as well as text well. Besides camera, it seems to import pdf as well.
 - South Korean product handles several indian languages.
 
