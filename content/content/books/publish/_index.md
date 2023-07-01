@@ -13,6 +13,15 @@ Despite publishing offline through some agency, some authors make it a point to 
 -  Haribhaktivilāsa of Sanātana Gosvāmin with translation by Broo, Volume One [v5](https://brill.com/edcollchap-oa/book/9789004537651/BP000006.xml#FNB000635)
 -  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
 
+### Venues
+- indology discussion [2023-June](https://list.indology.info/pipermail/indology/2023-June/057772.html).
+- Good venues
+  - ANU
+  - [HASP](https://hasp.ub.uni-heidelberg.de/?lang=en) - do not charge OA fees
+  - Open access journals list [here](https://foasas.org/#journals)
+- Venues with negative reviews
+  - Routledge
+
 ### Author's negotiation
 - Try to retain the **right to distribute** your work **non-commercially**, and allow derivatives. Don't sign off all rights. 
   - Make an effort to bring up the concern. If it seems that you don't care, they won't care either.
