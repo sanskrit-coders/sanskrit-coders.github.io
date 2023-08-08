@@ -39,7 +39,7 @@ font.
 
 ### Other tools
 - Google [font tester](http://www.google.com/fonts#ChoosePlace:select/Script:devanagari).
-
+- Peter scharf [here]( http://sanskritlibrary.org/accents.html), [email](https://list.indology.info/pipermail/indology/attachments/20230805/cdea9f08/attachment.htm)
 
 ## Text to test
 
