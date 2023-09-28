@@ -16,6 +16,7 @@ Despite publishing offline through some agency, some authors make it a point to 
 ### Venues
 - indology discussion [2023-June](https://list.indology.info/pipermail/indology/2023-June/057772.html).
 - Good venues
+  - Parimal (Kushagra worked well with them. Moderately well known brand in N India. So helps when sending the book to Sahitya Akademi etc.)
   - ANU
   - [HASP](https://hasp.ub.uni-heidelberg.de/?lang=en) - do not charge OA fees
   - Open access journals list [here](https://foasas.org/#journals)
