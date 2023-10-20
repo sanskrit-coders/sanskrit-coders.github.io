@@ -14,14 +14,22 @@ Despite publishing offline through some agency, some authors make it a point to 
 -  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
 
 ### Venues
-- indology discussion [2023-June](https://list.indology.info/pipermail/indology/2023-June/057772.html).
 - Good venues
   - Parimal (Kushagra worked well with them. Moderately well known brand in N India. So helps when sending the book to Sahitya Akademi etc.)
   - ANU
   - [HASP](https://hasp.ub.uni-heidelberg.de/?lang=en) - do not charge OA fees
-  - Open access journals list [here](https://foasas.org/#journals)
+  - FOSAS Open access journals list [here](https://foasas.org/#journals)
+    - Australian National University Press
+    - Hamburg University Press
+    - Heidelberg Asian Studies Publishing – HASP
+    - Heidelberg University Publishing
+    - Open Book Publishers
+    - Ubiquity Press
+    - UCL Press
+    - Unior Press
 - Venues with negative reviews
   - Routledge
+- indology discussion [2023-June](https://list.indology.info/pipermail/indology/2023-June/057772.html).
 
 ### Author's negotiation
 - Try to retain the **right to distribute** your work **non-commercially**, and allow derivatives. Don't sign off all rights. 
