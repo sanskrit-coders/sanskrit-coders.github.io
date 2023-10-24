@@ -7,13 +7,19 @@ title = "PDF text extraction"
 
 > Text Extraction : Foxit Reader (free, Windows/Linux) is by far the best. It somewhat preserves the original layout (font size, indentation, color etc). It also preserves font info. If the PDF uses multiple fonts, this will be imperative to convert the text font-vice(wise). It puts up plain text as well as RTF on the clipboard. 
 > 
-> While extracting Devanagari, other extractors mangle up the sequence of above-base and below-base chars e.g. u-kaara, uu-kaara, e-kaara, ai-kaara, anusvara etc. Foxit mostly works. This should be your first choice. - shrI venkaTesh
+> While extracting Devanagari, other extractors mangle up the sequence of above-base and below-base chars e.g. u-kaara, uu-kaara, e-kaara, ai-kaara, anusvara etc. Foxit mostly works. This should be your first choice. - bhAShAIME venkaTesh
 
 Usage:
 
 - Select all and copy text. The clipboard holds plain text as well RTF. 
 - Pasting to text editor will get you the plain text, to Word processor will get you the RTF text. (Linux version only gives you plain text.)
 - (No option to export or convert to doc or text via menus.)
+
+## xpdf
+
+> Both foxit & Adobe reader did not extract properly, had to use xpdf, sometimes known to mangle blocks of text. proofread reqd.   
+> - bhAShAIME venkaTesh
+
 
 
 ## pdftotext
