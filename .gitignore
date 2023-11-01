@@ -1,3 +1,4 @@
 .wercker
 /resources
 build_github
+build_*
