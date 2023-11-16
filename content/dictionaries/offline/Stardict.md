@@ -16,13 +16,16 @@ There are so many dictionary apps. What is the advantage of using this system?
 
 - We collect and offer several dictionaries (including those prepared elsewhere). A complete list of dictionary indices [is here](https://github.com/indic-dict/stardict-index/blob/master/dictionaryIndices.md) (and, mirrored with some delay [here](https://github.com/indic-dict/dict-curation/dict_curation/stardict/downloader.py)).
 
-- These include:
-    - [stardict-sanskrit project](https://github.com/indic-dict/stardict-sanskrit)  \- see these [tars.MD files](https://github.com/indic-dict/stardict-sanskrit/search?utf8=%E2%9C%93&q=filename%3Atars.MD). 
-    - [stardict-kannada project](https://github.com/vvasuki/stardict-kannada) :   \- see these [tars.MD files](https://github.com/indic-dict/stardict-pali/search?utf8=%E2%9C%93&q=filename%3Atars.MD).. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU).
-    - [stardict-pali](https://github.com/indic-dict/stardict-pali) project: See dictionary archive links in [tars.MD](https://github.com/indic-dict/stardict-pali/blob/master/en-head/tars/tars.MD). Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus).
-    - [stardict-hindi](https://github.com/indic-dict/stardict-hindi).
-    - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
-    - And others
+These include:
+
+- [stardict-sanskrit project](https://github.com/indic-dict/stardict-sanskrit)  
+- [stardict-kannada project](https://github.com/vvasuki/stardict-kannada)  .. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/qrYQWRU4zhU).
+- [stardict-pali](https://github.com/indic-dict/stardict-pali) project. Announcement [here](https://groups.google.com/forum/#!topic/sanskrit-programmers/5XBms03IRus).
+- [stardict-hindi](https://github.com/indic-dict/stardict-hindi).
+- stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
+- And others
+
+A full listing of the curated dicts is available [here](https://github.com/indic-dict/stardict-index/blob/master/dictionaryIndices.md).
 
 ### Elsewhere:
 - aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
@@ -75,8 +78,9 @@ Free alternatives:
     - Poor unicode support, rather clunky as of 2017.  
 
 ### iphone
-2019 handout [here](https://drive.google.com/file/d/1C-5Nxmwtax7xWjFNDK7wbksMH60pg5gc/view) replicating aupasana.com instructions.
-                
+2019 handout [here](https://drive.google.com/file/d/1C-5Nxmwtax7xWjFNDK7wbksMH60pg5gc/view), replicating aupasana.com instructions, explains how the "Dictionary Universal" app should be installed and used. 
+Note that specific dict urls are likely to be outdated. Instead, use tars.md files linked above.
+
 ### Desktop computers: 
 - [Goldendict](http://goldendict.org/download.php).
 - Special handout for windows users: [2019](https://docs.google.com/document/d/1j8HQ9ySOXekgD56yNsfMAjlWv8XOF4_k-gtUhQVtoYA/edit#).
