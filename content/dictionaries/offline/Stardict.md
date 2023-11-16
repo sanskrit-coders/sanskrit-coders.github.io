@@ -25,7 +25,7 @@ These include:
 - stardict-telugu. stardict-tamil.  stardict-bengali.  stardict-assamese.  stardict-marathi. 
 - And others
 
-A full listing of the curated dicts is available [here](https://github.com/indic-dict/stardict-index/blob/master/dictionaryIndices.md).
+A full list of (language/topic-specific) lists of curated dicts is available [here](https://github.com/indic-dict/stardict-index/blob/master/dictionaryIndices.md). Click on the tars.MD link of interest to get relevant dictionary urls.
 
 ### Elsewhere:
 - aupAsana.com collection (with very useful installation / usage tips) : [here](http://www.aupasana.com/stardict). Further tips for Linux and Android [here](https://groups.google.com/d/msg/sanskrit-programmers/6kvUHtJfzQE/WrQLZeS-n_AJ).
