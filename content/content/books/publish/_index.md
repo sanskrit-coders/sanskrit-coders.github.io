@@ -2,6 +2,9 @@
 title = "+Publish"
 +++
 
+## Distributing a separate format online
+One can argue that publication rights/ copyright is for typeset book. Just plain text file/ other format can be considered entirely separate. Observe https://sarit.indology.info by various indolgists.
+
 ## Engaging a publisher
 An author may sell (some/ all) publishing rights to a publisher in exchange for "royalty" (usually small). Certain generous publishers may agree to online publication. 
 
@@ -12,6 +15,10 @@ Despite publishing offline through some agency, some authors make it a point to 
 - Famed author NN Taleb made available freely available electronic version of "Statistical Consequences of Fat Tails" at [his website](https://www.fooledbyrandomness.com/), while selling physical copies.
 -  Haribhaktivilāsa of Sanātana Gosvāmin with translation by Broo, Volume One [v5](https://brill.com/edcollchap-oa/book/9789004537651/BP000006.xml#FNB000635)
 -  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
+- Dominik A. HAAS Gāyatrī -  Mantra and Mother of the Vedas, Verlag der Österreichischen Akademie der Wissenschaften [Open access](https://austriaca.at/?arp=0x003e9b6d)
+
+
+
 
 ### Venues
 - Good venues
