@@ -41,7 +41,7 @@ A full list of (language/topic-specific) lists of curated dicts is available [he
 - Video tutorials: [koshadarshanam series](https://www.youtube.com/watch?v=bkhD--yCrBI&list=PLmozlYyYE-EQJygdRR0vGVdRtSzvrlFXc) by Chandrasekharan Raman of Vyoma pAThashAla
 
 ### Android
-- Handouts: [2019](https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view).
+- Handouts: [202401 color dict](https://docs.google.com/document/d/1YSw5afAo7fjny9FoZC2nOEqQLPg8BpuI3IYPJjUlx3U/edit), [2019](https://drive.google.com/file/d/18H3E7MFiZGVdwvHFyWjJXqlT7eJvk8UW/view).
 - If you have Android 5.0+: easy with Stardict Dictionary Installer app on android; available from [this apk for direct installation https://rebrand.ly/dict-updater](https://rebrand.ly/dict-updater) or [play store https://bit.ly/SanskritStarDictUpdater](https://play.google.com/store/apps/details?id=sanskritcode.sanskritdictionaryupdater) or [amazon store](https://amazon.com/dp/B07HBPZ7P6).
     - Ratings certificate: [here](https://iarcweb.azurewebsites.net/Dashboard/Certificate/74e40614-671c-421e-9969-1c80da21a267).
     - Code for this is available for any one to copy and modify [here](https://github.com/indic-dict/stardict-dictionary-updater). (May a 1000 apps bloom!) If you want to contribute new dictionaries to the [stardict-sanskrit project](https://github.com/vvasuki/stardict-sanskrit), that is welcome too.
