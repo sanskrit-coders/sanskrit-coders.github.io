@@ -16,7 +16,7 @@ Despite publishing offline through some agency, some authors make it a point to 
 -  Haribhaktivilāsa of Sanātana Gosvāmin with translation by Broo, Volume One [v5](https://brill.com/edcollchap-oa/book/9789004537651/BP000006.xml#FNB000635)
 -  A South Indian Digest of Commentaries on the Nyāyasūtra - Gambhīravaṃśaja’s Nyāyasūtravivaraṇa—First Adhyāya by Oliver Philipp Frey,  [Brill Open access](https://brill.com/display/title/62014)
 - Dominik A. HAAS Gāyatrī -  Mantra and Mother of the Vedas, Verlag der Österreichischen Akademie der Wissenschaften [Open access](https://austriaca.at/?arp=0x003e9b6d)
-
+- Cidvilāsastava of the great Śrīvidyācārya, Amṛtānanda (fl. 1325-1375) - translation to-date by Dr. Ben Williams [CC open access](https://tripuratallika.org/cidvilasastava/)
 
 
 
