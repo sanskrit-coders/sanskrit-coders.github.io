@@ -3,34 +3,71 @@ name: Build Hugo site
 on:
   push:
     branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        default: 'warning'
 
 jobs:
   transform:
-    runs-on: ubuntu-latest
-
+    # Workaround for https://github.com/actions/runner-images/issues/6680
+    runs-on: ubuntu-20.04
     steps:
+    - name: Inject slug/short variables
+      uses: rlespinasse/github-slug-action@v4.4.1
     - name: Checkout
+      id: checkout
       uses: actions/checkout@master
       with:
-        submodules: true
+        submodules: false
+        # Setting true above seems to lead to submodule updation problems.
         fetch-depth: 1
     - name: Update submodules
+      id: update_submods
+      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.filter_changed_files.outputs.count != '0'}}
       run: |
-        git pull --recurse-submodules --depth 1
-        git submodule update --recursive --remote
+        set -o xtrace
+        echo "=====${{ steps.changed-files.outputs.all_changed_files}}======"
+        echo "=====${{ steps.changed-files.outputs.all_changed_files}}======"
+        git submodule update  --init --recursive
+        git submodule update --remote --merge --recursive
+    - name: Get changed files
+      id: changed-files
+      if: ${{ github.event_name != 'workflow_dispatch' }}
+      uses: tj-actions/changed-files@v41
+    - id: filter_changed_files
+      if: ${{ steps.changed-files.conclusion == 'success'}}
+      uses: actions/github-script@v6
+      with:
+        script: |
+          var changed_files = '${{steps.changed-files.outputs.all_changed_files}}'.replace(/(?<= |^)content(?= |$)/, "").replace(/(?<= |^)static(?= |$)/, "").trim()
+          console.log(changed_files, changed_files.length)
+          core.setOutput('count', changed_files.length.toString())
+
     - name: Setup Hugo
+      id: setup_hugo
+      if: steps.update_submods.conclusion == 'success'
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: "0.119.0"
+        hugo-version: "0.122.0"
         # extended: true
       # Step 3 - Clean and don't fail
     - name: Clean build_github directory
+      id: clean_build
+      if: steps.setup_hugo.conclusion == 'success'
       run: rm -rf build_github
     - name: Build hugo site pages
+      id: hugo_build
+      if: steps.clean_build.conclusion == 'success'
       run: |
         hugo
     - name: Deploy
+      if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./build_github
+        publish_branch: gh-pages
+        force_orphan: true # git history growth - even on non-src branches - makes cloning slow.
