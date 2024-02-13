@@ -26,7 +26,6 @@ jobs:
         fetch-depth: 1
     - name: Update submodules
       id: update_submods
-      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.filter_changed_files.outputs.count != '0'}}
       run: |
         set -o xtrace
         echo "=====${{ steps.changed-files.outputs.all_changed_files}}======"
@@ -48,7 +47,7 @@ jobs:
 
     - name: Setup Hugo
       id: setup_hugo
-      if: steps.update_submods.conclusion == 'success'
+      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.filter_changed_files.outputs.count != '0'}}
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "0.122.0"
