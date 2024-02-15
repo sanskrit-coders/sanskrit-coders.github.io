@@ -41,7 +41,7 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          var changed_files = '${{steps.changed-files.outputs.all_changed_files}}'.replace(/(?<= |^)content(?= |$)/, "").replace(/(?<= |^)static(?= |$)/, "").trim()
+          var changed_files = '${{steps.changed-files.outputs.all_changed_files}}'.replace(/(?<= |^)content\S*?(?= |$)/, "").replace(/(?<= |^)static\S*?(?= |$)/, "").trim()
           console.log(changed_files, changed_files.length)
           core.setOutput('count', changed_files.length.toString())
 
