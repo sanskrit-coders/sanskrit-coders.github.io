@@ -36,18 +36,13 @@ jobs:
       id: changed-files
       if: ${{ github.event_name != 'workflow_dispatch' }}
       uses: tj-actions/changed-files@v41
-    - id: filter_changed_files
-      if: ${{ steps.changed-files.conclusion == 'success'}}
-      uses: actions/github-script@v6
       with:
-        script: |
-          var changed_files = '${{steps.changed-files.outputs.all_changed_files}}'.replace(/(?<= |^)content\S*?(?= |$)/, "").replace(/(?<= |^)static\S*?(?= |$)/, "").trim()
-          console.log(changed_files, changed_files.length)
-          core.setOutput('count', changed_files.length.toString())
-
+        files_ignore: |
+          static/**
+          content/**
     - name: Setup Hugo
       id: setup_hugo
-      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.filter_changed_files.outputs.count != '0'}}
+      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.changed-files-yaml.outputs.test_any_changed == 'true'}}
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: "0.122.0"
