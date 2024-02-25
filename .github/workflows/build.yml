@@ -28,8 +28,6 @@ jobs:
       id: update_submods
       run: |
         set -o xtrace
-        echo "=====${{ steps.changed-files.outputs.all_changed_files}}======"
-        echo "=====${{ steps.changed-files.outputs.all_changed_files}}======"
         git submodule update  --init --recursive
         git submodule update --remote --merge --recursive
     - name: Get changed files
