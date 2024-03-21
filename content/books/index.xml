@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Books on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/books/</link>
+    <description>Recent content in &#43;Books on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>e-book Prep</title>
+      <link>https://sanskrit-coders.github.io/content/books/e-books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/e-books/</guid>
+      <description>Make epub book&#xA;Using Calibre ( on Ubuntu etc..) Create an &amp;ldquo;empty book&amp;rdquo;. Create a html with contents (Google Play is fussy about tags. Content should be within tag. Use a template. Add that content html with Add Books→ Add files to selected book records. Create cover using gimp. Edit metadata and save. Example project here. Make Kindle ebook: Techniques&#xA;Create epub book. Convert to mobi. Follow instructions in tutorial 201508.</description>
+    </item>
+  </channel>
+</rss>

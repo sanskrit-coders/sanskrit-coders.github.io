@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Content on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/</link>
+    <description>Recent content in &#43;Content on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decoding</title>
+      <link>https://sanskrit-coders.github.io/content/decoding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/decoding/</guid>
+      <description>kaTapayAdi decoding indicjs here, source here. py here. Related thread here. </description>
+    </item>
+    <item>
+      <title>Deep reading</title>
+      <link>https://sanskrit-coders.github.io/content/deep-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/deep-reading/</guid>
+      <description> Ambuda.org . github. discord. Critical edition presentation - saktumiva Presenting sources with commentaries Ideas: sefaria jewish texts [git], perseus. Reader site. Mouse-over triggers dictionary entry balloon. Source code - siongui/pali , siongui/data gItA-supersite, advaita-shAradA, yoga-vaishAradI. </description>
+    </item>
+    <item>
+      <title>Ebooks</title>
+      <link>https://sanskrit-coders.github.io/content/ebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ebooks/</guid>
+      <description>Download books from Google Play Using Adobe Digital Editions + Calibre with DeDRM plugin mac osx guide here. Linux Adobe digital editions on Wine Adobe digital editions 4.5 works for some time but crashes as of 202205. Adobe digital editions 1.7 on Wine fails as of 202205. Adobe digital editions (ADE) key Android location here. Could not figure out location under Wine. </description>
+    </item>
+    <item>
+      <title>Meter</title>
+      <link>https://sanskrit-coders.github.io/content/meter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/meter/</guid>
+      <description>Web Tools to identify metre&#xA;skrutable (code at tylergneill/skrutable ) shreevatsa&amp;rsquo;s webapp, source. A python package based on it here. vchandas, source. telugu chandas site (Defunct- D) IITB. Libraries:&#xA;python pip chandas package (C C2). </description>
+    </item>
+    <item>
+      <title>Offline websites</title>
+      <link>https://sanskrit-coders.github.io/content/offline-web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/offline-web/</guid>
+      <description>Zim Intro: Zim Zim format( http://www.openzim.org/wiki/Main_Page) is very suitable for making many websites and online books available offline. All this is compressed into a single file of html pages. Thus formatting, java scripts, navigation links to next shlokas, sargas, images, searching, everything is preserved. And all platforms have zim client called kiwix. kiwix-intro .&#xA;Uses Note from shrI dAmodara:&#xA;=======&#xA;To make our texts accessible to all present day people, only way is made it avialble in electronic format , which they have access, now a days more than books.</description>
+    </item>
+    <item>
+      <title>Translations</title>
+      <link>https://sanskrit-coders.github.io/content/translations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/translations/</guid>
+      <description>Translation projects Ubuntu/ launchpad projects: ubuntu-l10n-sa team. Facebook in Sanskrit : Go here, vote, contribute (if you are confident about your knowledge of Sanskrit). Wikis: hindI. language status MW. Apps Translation UI-s [V - P,]&#xA;Automated translation tools listed elsewhere on the site.</description>
+    </item>
+    <item>
+      <title>Websites and blogs</title>
+      <link>https://sanskrit-coders.github.io/content/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/websites/</guid>
+      <description>Static site generators Hugo Much faster than Jekyll Article pdf Jekyll Can be used as a wiki - just look at the source for this site. Also see our https://sanskrit-coders.github.io/sanskrit-documentation-theme Site hosting services http://sites.google.com Disadvantages Google holds your data, which is not easily exportable. New style websites can&amp;rsquo;t be added to Google search console. Search engine optimization Google (Includes indexing for custom search) Observe traffic patterns and crawl status at Search console Submitting a sitemap there submits multiple pages at once for indexing.</description>
+    </item>
+    <item>
+      <title>Wikis</title>
+      <link>https://sanskrit-coders.github.io/content/wikis/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/wikis/</guid>
+      <description>wikipedia and co Metawiki stewards Misc requests : Add gadget. Bot requests: metawiki wikidata as a structured db! Properties list here. items with a property : query . subitems : query. Setup Activate useful gadgets in preferences page. sa-wikisource admin election. Export wikisource to epub etc.. Tool. Wikibots sanskritnlpbot approval request [sa-wikisource, then in metawiki, not - w16] Email [SP16] Presenting sources with commentaries Ideas: sefaria jewish texts [git], perseus, gItA-supersite.</description>
+    </item>
+  </channel>
+</rss>

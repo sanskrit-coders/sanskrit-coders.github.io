@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Input on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/input/</link>
+    <description>Recent content in &#43;Input on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/input/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IME/ typing</title>
+      <link>https://sanskrit-coders.github.io/input/ime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/input/ime/</guid>
+      <description>Multi-platform solutions Keyman (from the christian org SIL) Downloaded site here. devanAgarI ITRANS-based vedic keyboard - KM cloud. web based version here. medhA Linux fcitx See multiplatform options m17n with ibus. Necessary packages debian search here. Suggested ubuntu packages: ibus sanskrit iBus-m17n ibus-qt4 m17n-db m17n-contrib ttf-indic-fonts . See our note here. Debugging / update tips Restart ibus: ibus-daemon -Rd MDEBUG_INPUT=1 m17n-edit &amp;ndash;im hi-optitransv2 Configure: m17n-im-config or http://i.imgur.com/vtq0njh.png Optitrans Linux ibus hindi/ sanskrit/ kannada users: For your typing convenience download and use - see optitrans.</description>
+    </item>
+    <item>
+      <title>Transliteration</title>
+      <link>https://sanskrit-coders.github.io/input/transliteration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/input/transliteration/</guid>
+      <description>Some tools/ websites (1W, 2W, ) enable viewing text in script of reader&amp;rsquo;s choice. See separate page here.&#xA;Transliteration tools, encoding converters Other lists Technical Hindi list Windows keyswap bhAShA-Trans bhAShA IME with BhashaTrans by venkaTesh is a very powerful free tool for converting archaic encodings to Unicode. Example: SP19. Bhashatrans shows only the Systray.menu. You copy the text to be converted to clipboard,, invoke the reqd. conv. through the systray menu.</description>
+    </item>
+  </channel>
+</rss>

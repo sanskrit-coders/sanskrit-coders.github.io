@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Dictionaries on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/dictionaries/</link>
+    <description>Recent content in &#43;Dictionaries on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/dictionaries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flashcards</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/flashcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/flashcards/</guid>
+      <description>Flashcards for use with opensource, multi-platform anki software: अत्र च अत्र।&#xA;Import from csv - first field; second field; tags&#xA;Can use &amp;lt;br&amp;gt; for newlines, select appropriate option while importing. Manual.&#xA;Quizlet Sanskrit.&#xA;Flash-cards (Amarakosha, dhAtu-pATha etc..).</description>
+    </item>
+    <item>
+      <title>Spell checking</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/spellcheck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/spellcheck/</guid>
+      <description>in several Indian languages: hunspell here&#xA;hindi-hunspell (includes sanskrit) .&#xA;hindI wiki list here .&#xA;hunspell intro - suares.&#xA;dic file&#xA;format: numwords in first non-comment line, followed by sorted word lines. affix file&#xA;aspell supposedly stopped development in 2011, while hunspell is used in multiple products like chrome and firefox.</description>
+    </item>
+  </channel>
+</rss>

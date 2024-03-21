@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Publish on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/books/publish/</link>
+    <description>Recent content in &#43;Publish on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/books/publish/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ebook</title>
+      <link>https://sanskrit-coders.github.io/content/books/publish/ebook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/publish/ebook/</guid>
+      <description>Kindle book publishing Unicode tutorial 201508. Cover specs: Minimum: 625 pixels on the shortest side and 1000 pixels on the longest side Create a mobi (अथवा प्रशस्ततरम् .azw3) ebook. Publish on Kindle Store!. हिन्दी-मराठी-ગુજરાતી-தமிழ்-മലയാള-भाषाणां पुस्तकानि प्रकाशयितुं शक्यन्ते Kindle-store-मध्ये। (2018) Cannot publish books for free (2016). Possibly: Remove DRM etc.. Google play book publishing Create ePub book: &amp;ldquo;We accept ePub and PDF files (including scans of hard copies) and cover images (JPEG, PDF, PNG, TIFF).</description>
+    </item>
+    <item>
+      <title>Law- copyright etc..</title>
+      <link>https://sanskrit-coders.github.io/content/books/publish/law/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/publish/law/</guid>
+      <description>Intro Copy-Rights A copyright gives the holder a sole and exclusive right over some work. If the copyright work is protected, no one can replicate, copy, imitate or reproduce the owner’s original work in any other manner. Who holds copyright? &amp;ldquo;As a general principle, although copyright originally belongs to the author, at the time of publication it is transferred to the publisher, or at least the publisher requests from the author an exclusive license / monopoly on distribution.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;GSS Murthy on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/</link>
+    <description>Recent content in &#43;GSS Murthy on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/articles/gss-murthy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meter-identification</title>
+      <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/meter-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/gss-murthy/meter-identification/</guid>
+      <description>A Computer Program To Identify Sanskrit Metres&#xA;By&#xA;G S S Murthy&#xA;murthygss@gmail.com&#xA;Synopsis: The methodology of a program in Java which identifies the name of the Metre when a quarter of a Sanskrit stanza is input in Roman script as per a defined transliteration scheme is briefly described after introducing the basic concepts of Sanskrit prosody.&#xA;Key words: computational linguistics, Sanskrit metres, prosody, java, chandas, vrutta&#xA;[Note: All Sanskrit words are in italics.</description>
+    </item>
+    <item>
+      <title>Sandhi program</title>
+      <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/</guid>
+      <description>A JAVA program to implement Sandhi Rules of Sanskrit in Roman Script.&#xA;G.S.S.Murthy*&#xA;Advisor (retd.), Telecom Commission, Govt. of India. Abstract The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing.</description>
+    </item>
+  </channel>
+</rss>

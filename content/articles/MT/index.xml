@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;MT on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/articles/MT/</link>
+    <description>Recent content in &#43;MT on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/articles/MT/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dall-e-prompting</title>
+      <link>https://sanskrit-coders.github.io/content/articles/MT/dall-e-prompting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/MT/dall-e-prompting/</guid>
+      <description>2023 Source: TW&#xA;Multiple people have asked for prompts behind our recent posts. I&amp;rsquo;ll just mention something general in that regard. First, imagine what you want &amp;ndash; that is based on your knowledge of the intended composition. Describe it in words to the engine. The key to note is that this implementation of DALL-E 3 in MS image generator is not like MidJourney. It does not perform mutations on an earlier generated image.</description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>https://sanskrit-coders.github.io/content/articles/MT/diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/MT/diagrams/</guid>
+      <description>Yantra drawing Tool comparison Adobe illustrator, CorelDraw: heavy duty drawing programs can handle text &amp;amp; graphics. (MT) downside, expensive. Also former has learning curve. Inkscape: free vector graphics quite good for maNDala-s. (MT) downside - handling nAgarI fonts. Geogebra: best for geometric figures with complex constructions where even the trigonometry can be involved. Handles nAgarI fonts well. (MT) Downside: not great at exporting vector formats. TikZ for LaTeX: good aesthetics; has internal calculation capacity but if involved I supplement it with calculations done in R.</description>
+    </item>
+  </channel>
+</rss>

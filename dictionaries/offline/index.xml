@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Offline dicts on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/dictionaries/offline/</link>
+    <description>Recent content in &#43;Offline dicts on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/dictionaries/offline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>For Dict makers</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/offline/For_Dict_makers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/offline/For_Dict_makers/</guid>
+      <description>Wiki downloading Catscan here. Plans Make new dictionaries gAndhArI dictionary (&amp;quot; Once it is complete and correct (a goal we hope to achieve in the next few years), we will publish it under a Creative Commons license that will allow redistribution.&amp;quot;) DSAL (&amp;ldquo;We are preparing apps for some of the Hindi and other dictionaries under new grant funding. But the Hindi Shabdasagar is under a license which does not permit production of a mobile version.</description>
+    </item>
+    <item>
+      <title>Idiosyncratic format apps</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/offline/Idiosyncratic_format_apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/offline/Idiosyncratic_format_apps/</guid>
+      <description>Android ashtadhyayi.com app - limited dict choice, but good UI. [sp, SJ, GP, BV_GOI]) windows here. Browsers ashtadhyayi.com - limited dict choice, but good UI. https://www.sanskrit-lexicon.uni-koeln.de/ sanskritdictionary.com spokensanskrit.de - not as reliable and clear. Libraries PyCDSL python package for programmatic access and management of dictionaries from Cologne Digital Sanskrit Lexicon. In essence, it can download/update the specified dictionaries from CDSL, provide a customizable class to access and parse the entries from the dictionary.</description>
+    </item>
+    <item>
+      <title>Stardict</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/offline/Stardict/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/offline/Stardict/</guid>
+      <description>Introduction: Stardict dictionaries are versatile and easy to use with a number of programs on a variety of devices. This project focuses on making available Indian language dictionaries in this format and enabling their easy installation and use.&#xA;Motivation There are so many dictionary apps. What is the advantage of using this system?&#xA;Usually dictionary apps carry one dictionary, perhaps 5 at most. This system brings many more (100+) dictionaries in one single app.</description>
+    </item>
+  </channel>
+</rss>
