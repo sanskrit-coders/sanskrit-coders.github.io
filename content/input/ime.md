@@ -30,7 +30,22 @@ title: IME/ typing
 
 ## Windows
 
-- [Bhasha IME](https://sites.google.com/site/bhashaime/)..)
+- [Bhasha IME](https://sites.google.com/site/bhashaime/)
+
+<details><summary>Installation (द्रष्टुं नोद्यम्)</summary>
+
+- Download the zip file provided at the bottom of the page [Bhasha IME](https://sites.google.com/site/bhashaime/) 
+- Extract that folder/ directory to C:\Program Files\bhashaime
+- Run the file named BhashaIME-RunMe.vbs from the above folder. You will get some green square in the taskbar (the bottom part of the screen, where time, date etc.. are shown). You can click on it, select devanAgarI there. Then type.
+- Also read BhashaIME User Reference 742.pdf (from the same folder) to understand how various letters are typed.
+
+Some helpful images:
+
+{{< figure src="../images/bhAShA_IME_contents.png" title="" class="thumbnail">}}
+</details>
+
+
+
 - See multiplatform options
 - [pramukh IME](https://www.pramukhime.com/)
 - [Ibus](http://en.wikipedia.org/wiki/Intelligent_Input_Bus)
