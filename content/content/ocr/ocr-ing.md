@@ -53,6 +53,13 @@ Desktop/ web based,  in roughly decreasing order of popularity
   - In 2021, Google Drive OCR occassionally messed up devanAgarI words embedded within english text - [SP thread](https://groups.google.com/g/sanskrit-programmers/c/cbu2_tVYbUU/m/hZxtCkPGAAAJ) - so as to coincidentally appear (based on stroke similarity) to translate (विधि  → fate).
 - Sanskrit OCR guide [by dhaval here](https://github.com/sanskrit-coders/sanskrit-ocr-r0/issues/8).
 
+> I am using Microsoft document AI for OCR and i think it is best in class. I have continuosly tried many but its OCR is best better than even google also gives structured output of paragraphs. For hindi it has 99% accuracy, for sanskrit it gets trapped when words get complicated because i think it somewhat uses ML for better prediction in OCR otherwise it is fairly good.
+For fresh account it gives 200$ credit for one month which can ocr around 1.2-1.3 lakh pages. So a bulk data can be done in one go.
+>
+> Claudia doesn't support Hindi, but GPT is quite effective. After performing OCR, GPT could be used to assign a confidence score to each recognized word. For words with low confidence, GPT could suggest the correct word based on the sentence context. Users could then easily replace the incorrect words by clicking a simple tick mark next to the suggested corrections. This also works better in hindi, sanskrit i have doubts.
+> 
+> - BlackNote, 2024
+
 ### Training data
 - wikisource pages
     - Techniques
