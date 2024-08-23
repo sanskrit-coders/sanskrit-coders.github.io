@@ -88,6 +88,7 @@ Note that specific dict urls are likely to be outdated. Instead, use tars.md fil
 
 ### Desktop computers: 
 - [Goldendict](http://goldendict.org/download.php).
+  - Searching with double-click - [YT](https://youtu.be/cb4aTJNE4Ko).
 - Special handout for windows users: [2019](https://docs.google.com/document/d/1j8HQ9ySOXekgD56yNsfMAjlWv8XOF4_k-gtUhQVtoYA/edit#).
 
 #### Mac 
