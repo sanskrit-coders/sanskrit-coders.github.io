@@ -31,6 +31,12 @@ Desktop/ web based,  in roughly decreasing order of popularity
 - [Textfairy](https://play.google.com/store/apps/details?id=com.renard.ocr&rdid=com.renard.ocr) uses Tesseract, and is open source and free. OCRing sanskrit using hindI pack is unsatisfactory. Sanskrit support is requested \[[github](https://github.com/renard314/textfairy/issues/157)\].
     - Google lens
 
+#### Camscanner
+No OCR - just scanning. 
+
+- Auto-scan [video](https://youtube.com/shorts/KFLCF_sU40A) .
+
+
 #### vflat 
 - [android](https://play.google.com/store/apps/details?id=com.voyagerx.scanner&hl=en_IN&gl=US), [apple](https://apps.apple.com/in/app/vflat-scan-pdf-scanner/id1540238220)
 - Auto-scan [video](https://www.youtube.com/shorts/JiG41q9R9yk) .
