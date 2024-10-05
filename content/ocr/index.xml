@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;OCR on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/ocr/</link>
+    <description>Recent content in &#43;OCR on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Procedure</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/ocr-ing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/ocr-ing/</guid>
+      <description>What&amp;rsquo;s a good OCR? A good OCR has high accuracy. It may be better to keep the OCR result as separate pages, and have them associated with the original images. This can help in the following ways: helps proofreading, as described here. it may be helpful to include with each entry a link to the page in the book, so that even if the reader/user suspects OCR errors, they can click on the link and see the original page.</description>
+    </item>
+    <item>
+      <title>Scanning</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/scanning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/scanning/</guid>
+      <description>General phone procedure Use autoscan on a good app check the quality of images, and rescan the misscanned pages transfer the images to desktop, or produce pdf on phone Camscanner No OCR - just scanning.&#xA;Auto-scan video . No support for generating 2 page images from single photo. vflat android, apple Auto-scan video . free app - Scanning and exporting images - no restrictions. pdf making restricted to 10 images. generates 2 page images from single photo well.</description>
+    </item>
+  </channel>
+</rss>

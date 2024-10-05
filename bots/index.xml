@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Bots on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/bots/</link>
+    <description>Recent content in &#43;Bots on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/bots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telegram</title>
+      <link>https://sanskrit-coders.github.io/bots/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/bots/telegram/</guid>
+      <description>Programming Good libraries are available. Just search online. Quiz bots shrI harSh of SB Canada and his son have developed this fascinating quiz bot - GH . (If you are on Samskrita Bharati&amp;rsquo;s telegram channel, or on one of many others, you will have seen the automated quizzes from there.) It gives one a lot of ideas (eg. duolinguo). Please make some and enjoy! Some quiz channels run with this bot:</description>
+    </item>
+    <item>
+      <title>Whatsapp</title>
+      <link>https://sanskrit-coders.github.io/bots/whatsapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/bots/whatsapp/</guid>
+      <description>SAFIC bots We have the BOTS for the Vedas and Upanishads and we are working on including Ramayana, Mahabharata, Devimahatmya, bhagavata Purana and many other texts which will be made available on the sam number.&#xA;Welcome to Gita Bot:&#xA;Replace 1.1 with your choice of Chapter and Verse Number&#xA;For Gita Lines - bg 1.1&#xA;For Gita Dict - bg 1.1 dict&#xA;For Gita Audio - bg 1.1 audio&#xA;Welcome to Rig Veda messaging service: Replace 1.</description>
+    </item>
+  </channel>
+</rss>

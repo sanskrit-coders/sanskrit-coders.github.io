@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Blog on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/posts/</link>
+    <description>Recent content in &#43;Blog on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://sanskrit-coders.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manjaro- Airtel dongle setup</title>
+      <link>https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/</link>
+      <pubDate>Thu, 28 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/posts/2020-05-28-manjaro-airtel-dongle-setup/</guid>
+      <description>Recipe Make sure that the dongle works fine on a Windows computer. Upgrade firmware using the autorun program if possible. Start the computer and login. Install modem-manager-gui. Insert the data / internet dongle. Wait for it to mount. You may see an autorun prompt - ignore it. Run sudo bash /run/media/USERNAME/airtel/Linux/install (Assuming that the dongle is mounted at /run/media/USERNAME/airtel). (Files seen in this repo.) You will see erroneous output such as the one &amp;ldquo;Install script output&amp;rdquo; appended below.</description>
+    </item>
+    <item>
+      <title>SanskritOCR vs. Google OCR</title>
+      <link>https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/</link>
+      <pubDate>Tue, 05 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/</guid>
+      <description>SanskritOCR vs. Google OCR.</description>
+    </item>
+    <item>
+      <title>Sanskrit software catalog site moved.</title>
+      <link>https://sanskrit-coders.github.io/posts/2018-06-01-site-moved/</link>
+      <pubDate>Fri, 01 Jun 2018 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/posts/2018-06-01-site-moved/</guid>
+      <description>Sanskrit software catalog site moved.</description>
+    </item>
+    <item>
+      <title>Mountain view Sanskrit meetup</title>
+      <link>https://sanskrit-coders.github.io/posts/2015-03-22-mountain-view-meetup/</link>
+      <pubDate>Sun, 22 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/posts/2015-03-22-mountain-view-meetup/</guid>
+      <description>Notes from a rare meeting.</description>
+    </item>
+  </channel>
+</rss>

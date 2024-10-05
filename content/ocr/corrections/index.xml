@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Corrections on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/ocr/corrections/</link>
+    <description>Recent content in &#43;Corrections on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/ocr/corrections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Correction software</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/corrections/Correction_software/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/corrections/Correction_software/</guid>
+      <description> Spell checkers OpenOCRCorrect IITB version - more updated Rohit saluja&amp;rsquo;s version OCR tool </description>
+    </item>
+    <item>
+      <title>Distributed proofreading UIs</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/corrections/Distributed_proofreading_UIs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/corrections/Distributed_proofreading_UIs/</guid>
+      <description>Distributed proofreading UIs&#xA;One can use something like Distributed Proofreaders (http://www.pgdp.net/) or Wikisource (see screenshots here) to proofread the text by seeing the scanned book page beside it.&#xA;[ Y9fqLZ9 Ambuda ambuda proofing site तत्र register कृत्वा पाठं शोधयितुं सरलं स्यात्। vedavApI textract / bhAratIkosha UI here . Wikisource See here. Common steps:&#xA;Upload file to archive. Use IA-Upload tool which automatically uploads files to Commons. Create an index page (example).</description>
+    </item>
+    <item>
+      <title>Workflow for proofreading on wikisource</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/corrections/Workflow_for_proofreading_on_wikisource/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/corrections/Workflow_for_proofreading_on_wikisource/</guid>
+      <description>Workflow for proofreading on wikisource&#xA;Pick a text to proofread. Look for issues with the milestone &amp;ldquo;ocred&amp;rdquo;. Index page listings: अनुक्रमणिका search results (Full set!) वर्गः:आनुक्रमणिका विशेषः:IndexPages Proofread! </description>
+    </item>
+  </channel>
+</rss>

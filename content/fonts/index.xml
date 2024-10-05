@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Fonts on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/fonts/</link>
+    <description>Recent content in &#43;Fonts on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/fonts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing</title>
+      <link>https://sanskrit-coders.github.io/content/fonts/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/fonts/testing/</guid>
+      <description>Intro One can only test sequences in font+rendering engine combination. To test using the harfbuzz rendering engine: Instructions here.&#xA;अत्र (Ctrl-D) pango Supposedly can render with HarBuzz or Uniscribe or CoreText!&#xA;pango-view &amp;ndash;font &amp;ldquo;Sahadeva 40&amp;rdquo; -t अत्र&#xA;pango-view --markup --text &#39;&amp;lt;span font_family=&amp;quot;Noto Sans&amp;quot; lang=&amp;quot;sa&amp;quot; fallback=&amp;quot;false&amp;quot;&amp;gt;र꣣यि꣢र꣣꣬भ्य꣢꣯य꣣द्रा꣡जा꣢नꣳ ಲಬ್ಧ್ವಾ &amp;lt;/span&amp;gt;&#39;&#xA;Markup language here.&#xA;Testing on Chrome Fonts can also be tested on chrome by following a two step process.&#xA;Install the font. Choose to use the font in Chrome: Go to settings Search for &amp;ldquo;font&amp;rdquo; in settings get to the &amp;ldquo;Customize fonts&amp;rdquo; button set all choices to the font you test.</description>
+    </item>
+  </channel>
+</rss>

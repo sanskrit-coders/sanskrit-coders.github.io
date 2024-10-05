@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Grammar on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/grammar/</link>
+    <description>Recent content in &#43;Grammar on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/grammar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Misc tools</title>
+      <link>https://sanskrit-coders.github.io/grammar/misc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/grammar/misc/</guid>
+      <description> Tools to help understand grammer sUtras (3V, T, D, A, Ar).&#xA;Also see apps linked under dictionaries.&#xA;General aShTAdhyAyI simulation (aruNa, )&#xA;pratyAhAra-tools [D, V]. Domain specific languages tailored for the saMskR^ita grammar are beginning to be seen (V). </description>
+    </item>
+    <item>
+      <title>Parsing and Translation</title>
+      <link>https://sanskrit-coders.github.io/grammar/parsing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/grammar/parsing/</guid>
+      <description>Mechanically parsing (kmadathil, H) Sanskrit text,&#xA;doing part of speech tagging(D).&#xA;Producing, standardizing Sanskrit corpora (Ms..).&#xA;Some tagged Sanskrit data (UFAL)&#xA;Translating Sanskrit into a more familiar language. (F=H, 2H, BuSt)&#xA;kramapATha-generator (B).&#xA;Help beginning Sanskrit readers by marking up roots and vibhakti-s (F).</description>
+    </item>
+    <item>
+      <title>Sandhi and samAsa</title>
+      <link>https://sanskrit-coders.github.io/grammar/sandhi-samAsa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/grammar/sandhi-samAsa/</guid>
+      <description>Sandhi maker&#xA;H, mirror of defunct TDIL tool. Sometimes erroneous. D F MH Scharf buda-base engine based on ubc-site. sandhi and samAsa analysis&#xA;1H. Sometimes erroneous. 2H papers (O_DE)</description>
+    </item>
+    <item>
+      <title>Word from root</title>
+      <link>https://sanskrit-coders.github.io/grammar/word-from-root/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/grammar/word-from-root/</guid>
+      <description>prAtipadika declension Produce declensions while showing sUtra-s (D).&#xA;Inflected word generation is usually based on the &amp;lsquo;word and paradigm&amp;rsquo; model, close to the work such as ruupa chandrikaa which gives the naamaruupaavalii for &amp;rsquo;typical&amp;rsquo; words ending in different var.nas in different lingas.&#xA;(D, I=H1, H, H2, F, B) Apps (ViPra) Limitation: However, as a generative model the above is not perfect because, not being based firmly on pANini&amp;rsquo;s rules (which separate saMskR^ita from apabhraMShA), they may generate wrong inflections.</description>
+    </item>
+  </channel>
+</rss>

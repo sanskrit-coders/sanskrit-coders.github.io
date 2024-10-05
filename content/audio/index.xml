@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/audio/</link>
+    <description>Recent content in Audio on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcasts</title>
+      <link>https://sanskrit-coders.github.io/content/audio/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/audio/podcasts/</guid>
+      <description>Why podcasting? Listening to stuff is easier. Several people (such as myself) might prefer to listen to audio books and listen to lectures (perhaps during long walks or commutes) rather than read or watch them. There are many popular tools in a variety of platforms to subscribe and listen to podcasts (see subscription guide SB16.). (I use Doggcatcher paid on Android). It turns out to be easier to listen to audio files in this way without the chores such as manual downloads and checking for updates.</description>
+    </item>
+    <item>
+      <title>Text to speech</title>
+      <link>https://sanskrit-coders.github.io/content/audio/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/audio/tts/</guid>
+      <description>General bhashini.gov.in dhvani JNU ES bhashini.ai bhashini.ai Google TTS API Google TTS API free quota 4M chars / 30 days = ~ 100k/day (202208) Google translate hindi (Better to use kannada) svara-sensitive suvAk pink-trombone based svara-sensitive. See also hindii. Python sanskrit_tts, a Google Cloud text to speech wrapper. Android Android app for Samskrita VyavahArasAhasrI uses Hear2Read TTS (https://hear2read.org/solution-android.php) APK and source code for this app is available at - https://github.com/ShivajiDala/SAMVYASA.git .</description>
+    </item>
+  </channel>
+</rss>
