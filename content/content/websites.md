@@ -1,7 +1,11 @@
 ---
 title: Websites and blogs
 ---
-  
+
+## Wordpress
+To create a complete index of all posts like https://manasataramgini.wordpress.com/the-complete-index/, one just creates a new page, add `[archives]` in the content and publishes it.
+
+
 ## Static site generators
 - Hugo
   - Much faster than Jekyll
