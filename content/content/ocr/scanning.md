@@ -9,17 +9,17 @@ title = "Scanning"
 - transfer the images to desktop, or produce pdf on phone 
 
 ## Camscanner
-No OCR - just scanning. 
+No good OCR - just scanning. 
 
 - Auto-scan [video](https://youtube.com/shorts/KFLCF_sU40A) .
-- No support for generating 2 page images from single photo.
+- Support for generating 2 page images from single photo - only in non-automatic mode.
 
 
 ## vflat 
 - [android](https://play.google.com/store/apps/details?id=com.voyagerx.scanner&hl=en_IN&gl=US), [apple](https://apps.apple.com/in/app/vflat-scan-pdf-scanner/id1540238220)
 - Auto-scan [video](https://www.youtube.com/shorts/JiG41q9R9yk) .
 - free app - Scanning and exporting images - no restrictions. pdf making restricted to 10 images.
-- generates 2 page images from single photo well.
+- generates 2 page images from single photo well. But there is a monthly limit.
 
 ## pdf processing
 - splitting page image into multiple pages/ columns 
