@@ -24,7 +24,8 @@ No good OCR - just scanning.
 ## pdf processing
 - splitting page image into multiple pages/ columns 
   - can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
-  - briss is more automated. Still - makes errors.
+  - briss is more automated. Still - makes errors. 
+    - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
 
 ## pdf compression
 - `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=alt.pdf tirukkural_alt_2.pdf`
