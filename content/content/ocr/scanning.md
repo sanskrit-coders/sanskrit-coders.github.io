@@ -22,10 +22,12 @@ No good OCR - just scanning.
 - generates 2 page images from single photo well. But there is a monthly limit.
 
 ## pdf processing
-- splitting page image into multiple pages/ columns 
-  - can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
-  - briss is more automated. Still - makes errors. 
-    - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
+### Splitting multi-page/ column pages
+- can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
+- briss is more automated. Still - makes errors. Can make overlapping rectangles.
+  - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
+
+{{< figure src="../images/briss-overlapping-rectangles.png" title="" class="thumbnail">}}
 
 ## pdf compression
 - `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=alt.pdf tirukkural_alt_2.pdf`
