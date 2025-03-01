@@ -26,6 +26,7 @@ No good OCR - just scanning.
 - can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
 - briss is more automated. Still - makes errors. Can make overlapping rectangles.
   - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
+- can open the pdf on computer, and use adobe scan in 2-page mode on it.
 
 {{< figure src="../images/briss-overlapping-rectangles.png" title="" class="thumbnail">}}
 
