@@ -16,7 +16,7 @@ disablePathToLower = true
   build_img = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml/badge.svg"
   build_url = "https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml"
   env = "production"
-  disqusShortcode = "sanskrit-coders-site"
+  # disqusShortcode = "sanskrit-coders-site"
 
 [markup.goldmark.renderer]
    unsafe = true
