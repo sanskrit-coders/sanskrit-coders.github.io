@@ -66,6 +66,7 @@ In the order of most updated/ maintained -
 - Goldendict (paid): [here](https://play.google.com/store/apps/details?id=mobi.goldendict.android). (202312: Not available in latest android versions.)
 
 Free alternatives:
+
 - Qdict - [github](https://github.com/marmistrz/QDict), [install apk](https://f-droid.org/packages/com.annie.dictionary.fork/) (Look for "Download APK" link.)
 - ebdic.
   - Google play link, inactive as of 2018-08: [com.twn.ebdic](https://play.google.com/store/apps/details?id=com.twn.ebdic)
@@ -74,6 +75,7 @@ Free alternatives:
 - Mangodict - [github 2011](https://github.com/ZhanweiWu/MangoDict/tree/master/src)
 - [colordict](https://play.google.com/store/apps/details?id=com.socialnmobile.colordict).
     - Cannot handle dict.dz files without uncompressing. Slightly higher rate of error reports from this app.
+    - 202503: can't select external folder. 
     -  (202312: Not available in latest android versions.)
 - Goldendict free
     - The number of active dictionaries is limited to 5. Buy the paid version for ad-free unlimited dictionaries experience.
