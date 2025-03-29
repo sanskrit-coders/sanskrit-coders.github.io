@@ -68,6 +68,10 @@ In the order of most updated/ maintained -
 Free alternatives:
 
 - Qdict - [github](https://github.com/marmistrz/QDict), [install apk](https://f-droid.org/packages/com.annie.dictionary.fork/) (Look for "Download APK" link.)
+- Goldendict
+  - Download apk [TW]( http://goldendict.mobi/downloads/android/paid/) (Source: [TW](https://github.com/goldendict/goldendict/issues/1700#issuecomment-2442743656))
+  - Free version - The number of active dictionaries is limited to 5. Buy the paid version for ad-free unlimited dictionaries experience.
+  - (202312: Not available in play store for latest android versions.)
 - ebdic.
   - Google play link, inactive as of 2018-08: [com.twn.ebdic](https://play.google.com/store/apps/details?id=com.twn.ebdic)
   - lalitAlAlita strongly endorses this \[[link](https://groups.google.com/d/msg/sanskrit-programmers/z1tCiCwvk04/sU9NEdxQBQAJ)\].
@@ -77,9 +81,6 @@ Free alternatives:
     - Cannot handle dict.dz files without uncompressing. Slightly higher rate of error reports from this app.
     - 202503: can't select external folder. 
     -  (202312: Not available in latest android versions.)
-- Goldendict free
-    - The number of active dictionaries is limited to 5. Buy the paid version for ad-free unlimited dictionaries experience.
-    - (202312: Not available in latest android versions.)
 - DictAide ([play store](https://play.google.com/store/apps/details?id=com.arjerine.dictaide&rdid=com.arjerine.dictaide))
     - Ad supported.
     - Poor unicode support, rather clunky as of 2017.  
