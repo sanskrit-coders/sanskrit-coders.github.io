@@ -1,6 +1,5 @@
 ---
 title: SanskritOCR vs. Google OCR
-published: true
 date: 2018-06-05
 summary: "SanskritOCR vs. Google OCR."
 tags: [news]

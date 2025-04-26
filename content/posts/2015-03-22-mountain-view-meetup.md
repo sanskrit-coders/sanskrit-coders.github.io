@@ -1,6 +1,5 @@
 ---
 title:  "Mountain view Sanskrit meetup"
-published: true
 date: 2015-03-22
 summary: "Notes from a rare meeting."
 tags: [news]

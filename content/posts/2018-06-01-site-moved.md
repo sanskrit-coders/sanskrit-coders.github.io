@@ -1,6 +1,5 @@
 ---
 title:  "Sanskrit software catalog site moved."
-published: true
 lastmod: 2019-02-05
 date: 2018-06-01
 summary: "Sanskrit software catalog site moved."

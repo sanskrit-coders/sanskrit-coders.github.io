@@ -1,6 +1,5 @@
 ---
 title: Manjaro- Airtel dongle setup
-published: true
 date: 2020-05-28
 tags: [news]
 ---
