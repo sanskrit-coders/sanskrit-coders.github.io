@@ -19,6 +19,7 @@ Desktop/ web based,  in roughly decreasing order of popularity
 - Adding pdf layer - [OCRmypdf](https://ocrmypdf.readthedocs.io/en/latest/) - using tesseract-data-san.
 - Telegram - [@bruhulbot](https://web.telegram.org/k/#@BruhulBot) - uses drive api?
 - Gdrive-[SP](https://groups.google.com/forum/#!topic/sanskrit-programmers/5noVN-XpeVY), SanskritOCR: [indisenz](http://www.indsenz.com/int/index.php), [Tesseract](https://github.com/tesseract-ocr)
+- Google Chrome  post 2025 - can just open scanned pdf and copy text.
 - ocrlib[A](https://code.google.com/p/ocrlib/)
 - [Lace](https://github.com/brobertson/Lace2)
 - OH[D1](http://learnsanskrit.org/tools/ocr)
