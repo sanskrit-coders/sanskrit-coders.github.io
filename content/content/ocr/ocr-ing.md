@@ -36,10 +36,17 @@ Desktop/ web based,  in roughly decreasing order of popularity
 #### Scanning
 See [scanning](../scanning) page.
 
+
 #### vflat ocr (paid)
 - pdf-ing, ocr-ing beyond 10 images needs paid app.
 - Supposedly it handles 2-column text well, and exports pdf as well as text well. Besides camera, it seems to import pdf as well.
 - South Korean product depending on Google Vsion handles several indian languages.
+
+#### Misc apps
+Ocr Scanner, Google Lens, Pramukh OCR etc.
+
+[PIOCR](https://piocr.com/): Piocr is too good, especially with multi column pdf/image files. Using Paint, draw vertical lines to separate multi columns, save and upload the image for best output. Not a free package, but 5 free scans per day.
+
 
 ### Libraries
 - [doc-curation](https://github.com/sanskrit-coders/doc_curation/) - Can OCR some pdf with google drive. Automatically splits into n page bits and ocrs them individually. (Quota: Queries per 100 seconds Global : 10000, Per day: 1,000,000,000). See usage example [here](https://github.com/sanskrit-coders/doc_curation/blob/master/curation_projects/general_tasks/pdf_tasks.py), function[here](https://github.com/sanskrit-coders/doc_curation/blob/master/doc_curation/pdf.py#L13).
@@ -83,6 +90,11 @@ For fresh account it gives 200$ credit for one month which can ocr around 1.2-1.
 ### Online
 - [sanskritdictionary](https://ocr.sanskritdictionary.com/#) - Uses drive API for Google. Provides tesseract alternative as well.
 - [akSharamukhA](https://aksharamukha.appspot.com/converter) - Uses tesseract, which runs entirely on browser!
+
+### Grantha-ocr
+Gathering training data [here](https://docs.google.com/document/d/19a5Qjc4BXItn9TXJ3yh6u1i0mRUyK05wMZCO8sMX_GQ/edit?tab=t.0
+
+Collecting training data for grantha script OCR)
 
 ## Post processing
 - Ideally, we would get OCR-s from multiple sources and then [combine them](https://groups.google.com/g/sanskrit-programmers/c/yEjFaIQfGaA/m/E4rx2YmHAAAJ) to reduce errors (yet to try this).
