@@ -89,7 +89,19 @@ For fresh account it gives 200$ credit for one month which can ocr around 1.2-1.
 
 ### Online
 - [sanskritdictionary](https://ocr.sanskritdictionary.com/#) - Uses drive API for Google. Provides tesseract alternative as well.
+
+Google vision
+
+- [sk](https://skrutable.info/ocr) individual billing
+- Dharmamitra (Google Gemini, billing covered by grant money)
+
+Tesseract 
+
 - [akSharamukhA](https://aksharamukha.appspot.com/converter) - Uses tesseract, which runs entirely on browser!
+- anunAd's collab notebook
+- [sw](https://tools.simonwillison.net/ocr)
+- [charya](https://chaya.shreevatsa.net/versions)
+
 
 ### Grantha-ocr
 Gathering training data [here](https://docs.google.com/document/d/19a5Qjc4BXItn9TXJ3yh6u1i0mRUyK05wMZCO8sMX_GQ/edit?tab=t.0
