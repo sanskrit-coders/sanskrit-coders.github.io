@@ -25,7 +25,13 @@ title = "Text to speech"
 - [sanskrit_tts](https://github.com/avinashvarna/sanskrit_tts), a Google Cloud text to speech wrapper.
 
 ## Android 
-- Android app for Samskrita VyavahArasAhasrI uses Hear2Read TTS (https://hear2read.org/solution-android.php) APK and source code for this app is available at - https://github.com/ShivajiDala/SAMVYASA.git .
+- Android app for Samskrita VyavahAra-sAhasrI uses Hear2Read TTS (https://hear2read.org/solution-android.php) APK and source code for this app is available at - https://github.com/ShivajiDala/SAMVYASA.git .
 
 ## Related discussions
 - sanskrit-programmers thread [here](https://groups.google.com/d/msgid/sanskrit-programmers/CANREUj0TzDU6eQHHUE76a3h5ARE9S6tp-1mFBHSQiJbZD8%2B3Eg%40mail.gmail.com?utm_medium=email&utm_source=footer) .
+
+## AI prompts
+> This a Sanskrit story with some dialog between a couple who are having issues. Read the story aloud with some emotion. During dialogue, try to adopt the emotions of the person saying it
+
+> Sing this Sanskrit subhashit in a sweet, accurate, and melodious voice, just like a gentle devotional song.
+
