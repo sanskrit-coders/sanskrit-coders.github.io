@@ -31,6 +31,8 @@ title = "Text to speech"
 - sanskrit-programmers thread [here](https://groups.google.com/d/msgid/sanskrit-programmers/CANREUj0TzDU6eQHHUE76a3h5ARE9S6tp-1mFBHSQiJbZD8%2B3Eg%40mail.gmail.com?utm_medium=email&utm_source=footer) .
 
 ## AI prompts
+Gemini - Generate media > Generate speech > Laomedeia
+
 > This a Sanskrit story with some dialog between a couple who are having issues. Read the story aloud with some emotion. During dialogue, try to adopt the emotions of the person saying it
 
 > Sing this Sanskrit subhashit in a sweet, accurate, and melodious voice, just like a gentle devotional song.

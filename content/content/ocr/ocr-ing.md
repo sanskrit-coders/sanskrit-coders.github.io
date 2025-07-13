@@ -90,7 +90,16 @@ For fresh account it gives 200$ credit for one month which can ocr around 1.2-1.
 ### Online
 - [sanskritdictionary](https://ocr.sanskritdictionary.com/#) - Uses drive API for Google. Provides tesseract alternative as well.
 
-Google vision
+#### LLM AI
+> "Would you say that processing PDFs using multi-modal LLMs is *always* guaranteed to produce *more* accurate output compared to using plain OCR engines (Tesseract/ Google Vision)?"
+
+While it hedges its bets as it is wont to do because I asked for confirmation in 100% of the cases, the answer must be read as an definite YES. One of the biggest reasons being: LLMs have access to the entire context while "dumb" OCR engines do not.
+
+> "If I gave an LLM a PDF of an English translation of the Ramayana and it encounters a word that reads like 'Alexander,' what would it do? Simply add it to the output stream, or try to figure out if the word makes sense in the context?"
+
+The answer is a definite NO to the "simply add it to the output stream." It WILL try to figure out if the word makes sense in the context of the rest of the document together with comparison to the visual evidence.
+
+#### Google vision
 
 - [sk](https://skrutable.info/ocr) individual billing
 - Dharmamitra (Google Gemini, billing covered by grant money)
