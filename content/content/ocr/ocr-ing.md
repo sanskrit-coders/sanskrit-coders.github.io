@@ -99,10 +99,13 @@ While it hedges its bets as it is wont to do because I asked for confirmation in
 
 The answer is a definite NO to the "simply add it to the output stream." It WILL try to figure out if the word makes sense in the context of the rest of the document together with comparison to the visual evidence.
 
+Prompts and usage elsewhere.
+
+- Dharmamitra (Google Gemini, billing covered by grant money)
+
 #### Google vision
 
 - [sk](https://skrutable.info/ocr) individual billing
-- Dharmamitra (Google Gemini, billing covered by grant money)
 
 Tesseract 
 
@@ -121,7 +124,6 @@ Collecting training data for grantha script OCR)
 - Ideally, we would get OCR-s from multiple sources and then [combine them](https://groups.google.com/g/sanskrit-programmers/c/yEjFaIQfGaA/m/E4rx2YmHAAAJ) to reduce errors (yet to try this).
 
 ## Fora
-- [OCR on request project](https://sanskrit.github.io/groups/dyuganga/projects/text/ocr_on_request) - useful for non-tech people
 - [Indic OCR](https://groups.google.com/forum/#!forum/indic-ocr)
 - [parichit](https://groups.google.com/forum/#!forum/parichit-ocr).
 
