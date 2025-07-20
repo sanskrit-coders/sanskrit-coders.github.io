@@ -1,8 +1,9 @@
 ---
 title: Sandhi and samAsa
 ---
-- Sandhi maker  
+- Sandhi maker
   - [H](http://sanskrit.uohyd.ac.in/scl/sandhi/index.html), mirror of defunct [TDIL tool](http://tdil-dc.in/san/sandhi/index_dit.html). Sometimes erroneous.
+  - [AV](https://sandhim-kuru.streamlit.app/)  
   - [D](http://www.sanskritworld.in/sanskrittool/sandhi.html)
   - [F](http://sanskrit.inria.fr/DICO/grammar.html)
   - [MH](http://sanskrit.uohyd.ac.in/%7Ekarunakara/android/Samsaadhani.apk)
