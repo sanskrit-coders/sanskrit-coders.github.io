@@ -86,3 +86,9 @@ Thread with explanation by shrIvatsa
   - Go to settings
   - Search for "font" in settings
   - get to the "Customize fonts" button
+
+## Vedic accents default rendering
+iphones and ipads don't render vedic accents well by default, as of 2025.  
+Only the following worked -  
+- U+1CEx ` ᳐ ᳓  ᳖  ᳙  ᳚ ᳠`	 
+- U+095x  `॑ ॒ ॓ ॔ ॕ ॖ ॗ`
