@@ -14,52 +14,68 @@ jobs:
   transform:
     # Workaround for https://github.com/actions/runner-images/issues/6680
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
     steps:
-    - name: Inject slug/short variables
-      uses: rlespinasse/github-slug-action@v4.4.1
-    - name: Checkout
-      id: checkout
-      uses: actions/checkout@master
-      with:
-        submodules: false
-        # Setting true above seems to lead to submodule updation problems.
-        fetch-depth: 1
-    - name: Update submodules
-      id: update_submods
-      run: |
-        set -o xtrace
-        git submodule update  --init --recursive
-        git submodule update --remote --merge --recursive
-    - name: Get changed files
-      id: changed-files
-      if: ${{ github.event_name != 'workflow_dispatch' }}
-      uses: tj-actions/changed-files@v46
-      with:
-        files_ignore: |
-          static/**
-          content/**
-    - name: Setup Hugo
-      id: setup_hugo
-      if: ${{ steps.changed-files.conclusion == 'skipped' || steps.changed-files.outputs.any_modified == 'true'}}
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: "0.143.0"
-        # extended: true
-      # Step 3 - Clean and don't fail
-    - name: Clean build_github directory
-      id: clean_build
-      if: steps.setup_hugo.conclusion == 'success'
-      run: rm -rf build_github
-    - name: Build hugo site pages
-      id: hugo_build
-      if: steps.clean_build.conclusion == 'success'
-      run: |
-        hugo
-    - name: Deploy
-      if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build_github
-        publish_branch: gh-pages
-        force_orphan: true # git history growth - even on non-src branches - makes cloning slow.
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4.4.1
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@master
+        with:
+          submodules: false
+          # Setting true above seems to lead to submodule updation problems.
+          fetch-depth: 1
+      - name: Update submodules
+        id: update_submods
+        run: |
+          set -o xtrace
+          git submodule update  --init --recursive
+          git submodule update --remote --merge --recursive
+      - name: Get changed files
+        id: changed-files
+        if: ${{ github.event_name != 'workflow_dispatch' }}
+        uses: tj-actions/changed-files@v46
+        with:
+          files_ignore: |
+            static/**
+            content/**
+      - name: Setup Hugo
+        id: setup_hugo
+        if: ${{ steps.changed-files.conclusion == 'skipped' || steps.changed-files.outputs.any_modified == 'true'}}
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.143.0"
+          # extended: true
+        # Step 3 - Clean and don't fail
+      - name: Clean build_github directory
+        id: clean_build
+        if: steps.setup_hugo.conclusion == 'success'
+        run: rm -rf build_github
+      - name: Build hugo site pages
+        id: hugo_build
+        if: steps.clean_build.conclusion == 'success'
+        run: |
+          hugo
+      - name: Deploy
+        id: deploy
+        if: ${{ github.event_name != 'pull_request' && steps.hugo_build.conclusion == 'success'}}
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build_github
+          publish_branch: gh-pages
+          force_orphan: true # git history growth - even on non-src branches - makes cloning slow.
+      - name: Trigger indexing
+        if: ${{ steps.deploy.conclusion == 'success'}}
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'index_pages.yml',
+              ref: 'master',
+            })

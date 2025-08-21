@@ -1,0 +1,44 @@
+name: Index site
+
+on:
+  push:
+    branches: [ 'gh-pages' ]
+  workflow_dispatch:
+
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  
+      actions: write
+    steps:
+      - name: Inject slug/short variables
+        uses: rlespinasse/github-slug-action@v4
+      - name: Checkout gh-pages branch
+        id: checkout
+        uses: actions/checkout@v4
+        with:
+          ref: 'gh-pages'
+          submodules: false
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install and Run Pagefind
+        # This creates a 'pagefind' directory with the search index.
+        run: |
+          npm install -g pagefind
+          npx pagefind --site . --output-path pagefind
+
+      - name: Deploy Index to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./pagefind
+          destination_dir: pagefind
+          publish_branch: gh-pages
+          keep_files: true
+          commit_message: 'Update Pagefind index [ci skip]'
