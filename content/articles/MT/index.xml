@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;MT on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/articles/MT/</link>
+    <description>Recent content in &#43;MT on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/articles/MT/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dall-e-prompting</title>
+      <link>https://sanskrit-coders.github.io/content/articles/MT/dall-e-prompting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/MT/dall-e-prompting/</guid>
+      <description>&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://threadreaderapp.com/thread/1709776655693086726.html&#34;&gt;TW&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Multiple people have asked for prompts behind our recent posts. I&amp;rsquo;ll just mention something general in that regard. First, imagine what you want &amp;ndash; that is based on your knowledge of the intended composition. Describe it in words to the engine. The key to note is that this implementation of DALL-E 3 in MS image generator is not like MidJourney. It does not perform mutations on an earlier generated image. So there is randomness:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>https://sanskrit-coders.github.io/content/articles/MT/diagrams/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/MT/diagrams/</guid>
+      <description>&lt;h2 id=&#34;yantra-drawing&#34;&gt;Yantra drawing&lt;/h2&gt;&#xA;&lt;h3 id=&#34;tool-comparison&#34;&gt;Tool comparison&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Adobe illustrator, CorelDraw&lt;/strong&gt;: heavy duty drawing programs can handle text &amp;amp; graphics. (&lt;a href=&#34;https://twitter.com/blog_supplement/status/1303202939356536833&#34;&gt;MT&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;downside, expensive. Also former has learning curve.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inkscape&lt;/strong&gt;: free vector graphics quite good for maNDala-s. (&lt;a href=&#34;https://twitter.com/blog_supplement/status/1303202939356536833&#34;&gt;MT&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;downside - handling nAgarI fonts.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Geogebra&lt;/strong&gt;: best for geometric figures with complex constructions where even the trigonometry can be involved. Handles nAgarI fonts well. (&lt;a href=&#34;https://twitter.com/blog_supplement/status/1303202939356536833&#34;&gt;MT&lt;/a&gt;)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Downside: not great at exporting vector formats.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;TikZ for LaTeX&lt;/strong&gt;: good aesthetics; has internal calculation capacity but if involved I supplement it with calculations done in R. Gives good aesthetics &amp;amp; intuitively human-understandable language. Can be learned relatively quickly with examples. (&lt;a href=&#34;https://twitter.com/blog_supplement/status/1303202939356536833&#34;&gt;MT&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
