@@ -1,6 +1,9 @@
 +++
 title = "+Keyman"
 +++
+## Installation
+- [kmp](itrans_devanagari_sanskrit_pre_vedic.kmp)
+- [js](itrans_devanagari_sanskrit_pre_vedic.js)
 
 ## Description
 
