@@ -57,10 +57,9 @@ to input Indic script directly without copy-pasting.
 
 ## MAC
 
-- shreevatsa uses a modified version of [PC-unicode].
-- See multiplatform options
-- See [here](http://www.hpnadig.net/blog/typing-kannada-mac-uim-and-m17n-mac-os-x).  [Mac UIM](http://code.google.com/p/macuim/) lets you use m17n (shrIvatsa uses this).
+- See **multiplatform options**. keyman is best.
 - Lipika IME for IOS and OS X - [github wiki](https://github.com/ratreya/lipika-ime).
+- See [here](http://www.hpnadig.net/blog/typing-kannada-mac-uim-and-m17n-mac-os-x).  [Mac UIM](https://github.com/e-kato/macuim/) lets you use m17n (shrIvatsa uses this).
 - for IAST: [EasyIAST](https://shreevatsa.wordpress.com/2013/01/22/a-better-keyboard-layout-for-typing-iast-on-mac-os-x-based-on-easyunicode/).
 - [UBC devanagarI](https://ubcsanskrit.ca/keyboards.html)
 
