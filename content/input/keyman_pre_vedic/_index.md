@@ -24,7 +24,7 @@ Examples: Type `saMskRta` for संस्कृत.
 ## Details
 
 - The closely related m17n keyboard [here](https://github.com/indic-transliteration/m17n-db-indic/blob/master/sa-vedic-itrans.mim)
-- The motivation behind some basic additions made to the basic ITRANS scheme is described [here](https://sanskrit-coders.github.io/input/optitrans/https://sanskrit-coders.github.io/input/optitrans/), along with a tabulated comparison with several other transliteration schemes.
+- The motivation behind some basic additions made to the basic ITRANS scheme is described [here](https://sanskrit-coders.github.io/input/optitrans/), along with a tabulated comparison with several other transliteration schemes.
 
 ## Installation and use
 Install keyman on your computer. Then make it use the the below kmp file. (In Mac, you double click that file, or you can drag and drop the file onto the keyman settings window.)
