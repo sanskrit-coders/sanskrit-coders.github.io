@@ -1,6 +1,9 @@
 +++
-title = "Keyman test"
+title = "Test"
 +++
+
+This is a test page for the [keyman pre-vedic sanskrit keyboard](../).
+
 
 <script src='https://s.keyman.com/kmw/engine/18.0.240/keymanweb.js'></script>
 <script src='https://s.keyman.com/kmw/engine/18.0.240/kmwuitoggle.js'></script>

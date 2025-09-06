@@ -5,9 +5,11 @@ title = "+Keyman Pre-vedic"
 
 Pre-Vedic Sanskrit Devanagari Phonetic (ITRANS) keyboard is Sanskrit devanAgarI input method by a modified version of ITRANS and Harvard-Kyoto transliteration systems with the following special features:
 
-- reliance on reconstructed vedic pronunciation ai=ए, Ai=ऐ, au=ओ, Au=औ.
-- emphasis on the udAtta accent instead of svarita.
+- greater reliance on reconstructed early vedic pronunciation (details and demo [here](https://vishvAsa.github.io/sanskrit/registers/early-vedic)) 
+  - ai=ए, Ai=ऐ, au=ओ, Au=औ.
+  - emphasis on the udAtta accent instead of svarita.
 - allow input of hrasva ऎ and ऒ.
+- support for common dravidian sounds (useful for maNipravALa).
 
 You can use all the standard ITRANS key sequences plus key
 sequences such as the below.
@@ -38,9 +40,9 @@ Install keyman on your computer. Then make it use the the below kmp file. (In Ma
 git clone https://github.com/sanskrit-coders/keyman-keyboards.git --depth 1
 ```
 
-- Switch to the directory and run `kmc build .`
+- Switch to the  and run `kmc build .`
 
 - Installation on linux `km-package-install -f build/`.
 - Or copy/ symlink the files over to the keyman web directory.
 
-You can run and test it with [keyman web](keyman_test).
+You can run and test it with [keyman web](test).
