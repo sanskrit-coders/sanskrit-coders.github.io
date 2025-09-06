@@ -25,7 +25,7 @@ Examples: Type `saMskRta` for संस्कृत.
 - The motivation behind some basic additions made to the basic ITRANS scheme is described [here](https://sanskrit-coders.github.io/input/optitrans/https://sanskrit-coders.github.io/input/optitrans/), along with a tabulated comparison with several other transliteration schemes.
 
 ## Installation and use
-Install keyman on your computer. Then make it use the the below kmp file. (In Mac, you can drag and drop the file onto the keyman settings window.)
+Install keyman on your computer. Then make it use the the below kmp file. (In Mac, you double click that file, or you can drag and drop the file onto the keyman settings window.)
 
 - [kmp](https://sanskrit-coders.github.io/input/keyman_pre_vedic/itrans_devanagari_sanskrit_pre_vedic.kmp)
 - [js](itrans_devanagari_sanskrit_pre_vedic.js)
@@ -39,4 +39,8 @@ git clone https://github.com/sanskrit-coders/keyman-keyboards.git --depth 1
 ```
 
 - Switch to the directory and run `kmc build .`
+
 - Installation on linux `km-package-install -f build/`.
+- Or copy/ symlink the files over to the keyman web directory.
+
+You can run and test it with [keyman web](keyman_test).
