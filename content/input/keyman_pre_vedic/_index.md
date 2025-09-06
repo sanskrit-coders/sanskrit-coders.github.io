@@ -5,9 +5,9 @@ title = "+Keyman Pre-vedic"
 
 Pre-Vedic Sanskrit Devanagari Phonetic (ITRANS) keyboard is Sanskrit devanAgarI input method by a modified version of ITRANS and Harvard-Kyoto transliteration systems with the following special features:
 
-- added support for reconstructed vedic pronunciation ai=ए, Ai=ऐ, au=ओ, Au=औ.
+- reliance on reconstructed vedic pronunciation ai=ए, Ai=ऐ, au=ओ, Au=औ.
+- emphasis on the udAtta accent instead of svarita.
 - allow input of hrasva ऎ and ऒ.
-
 
 You can use all the standard ITRANS key sequences plus key
 sequences such as the below.
