@@ -8,7 +8,8 @@ Distributed proofreading UIs
 
 One can use something like Distributed Proofreaders ([http://www.pgdp.net/](http://www.pgdp.net/)) or Wikisource (see screenshots [here](https://plus.google.com/u/0/109000762913288837175/posts/GzzSj3HNAVv)) to proofread the text by seeing the scanned book page beside it.
 
-[{{< figure src="http://i.imgur.com/Y9fqLZ9.png"  class="thumbnail">}}
+[![](http://i.imgur.com/Y9fqLZ9.png)
+{class="thumbnail"}
 
 ## Ambuda
 - [ambuda proofing site](https://ambuda.org/proofing/) तत्र register कृत्वा पाठं शोधयितुं सरलं स्यात्।

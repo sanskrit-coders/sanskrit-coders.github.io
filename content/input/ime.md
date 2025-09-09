@@ -41,7 +41,8 @@ title: IME/ typing
 
 Some helpful images:
 
-{{< figure src="../images/bhAShA_IME_contents.png" title="" class="thumbnail">}}
+![](../images/bhAShA_IME_contents.png)
+{title="" class="thumbnail"}
 </details>
 
 

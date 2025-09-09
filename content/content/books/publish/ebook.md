@@ -6,7 +6,7 @@ title = "Ebook"
 
 - Unicode tutorial [201508](http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/).
 - Cover specs: Minimum: 625 pixels on the shortest side and 1000 pixels on the longest side
-- Create a mobi (अथवा प्रशस्ततरम् .azw3) ebook.
+- Create a .azw3 ebook.
 - Publish on  [Kindle Store](https://kdp.amazon.com/)!.
   - हिन्दी-मराठी-ગુજરાતી-தமிழ்-മലയാള-भाषाणां पुस्तकानि प्रकाशयितुं शक्यन्ते Kindle-store-मध्ये। (2018)
   - Cannot publish books for free (2016).

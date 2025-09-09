@@ -28,7 +28,8 @@ No good OCR - just scanning.
   - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
 - can open the pdf on computer, and use adobe scan in 2-page mode on it.
 
-{{< figure src="../images/briss-overlapping-rectangles.png" title="" class="thumbnail">}}
+![](../images/briss-overlapping-rectangles.png)
+{title="" class="thumbnail"}
 
 ## pdf compression
 - `gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dQUIET -dBATCH -sOutputFile=alt.pdf tirukkural_alt_2.pdf`
