@@ -3,9 +3,9 @@ title = "+Keyman Pre-vedic"
 +++
 ## Description
 
-Pre-Vedic Sanskrit Devanagari Phonetic (ITRANS) keyboard is Sanskrit devanAgarI input method by a modified version of ITRANS and Harvard-Kyoto transliteration systems with the following special features:
+Pre-Vedic Sanskrit Devanagari Phonetic (OPTITRANS) keyboard is Sanskrit devanAgarI input method by a modified version of OPTITRANS and Harvard-Kyoto transliteration systems with the following special features:
 
-- greater reliance on reconstructed early vedic pronunciation (details and demo [here](https://vishvAsa.github.io/sanskrit/registers/early-vedic)) 
+- greater reliance on reconstructed early vedic pronunciation (details and demo [here](https://vishvAsa.github.io/sanskrit/registers/early-vedic))
   - ai=ए, Ai=ऐ, au=ओ, Au=औ.
   - emphasis on the udAtta accent instead of svarita.
 - allow input of hrasva ऎ and ऒ.

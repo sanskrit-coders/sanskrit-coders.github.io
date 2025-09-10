@@ -25,8 +25,8 @@ This is a test page for the [keyman pre-vedic sanskrit keyboard](../).
     keyman.addKeyboards('@th'); // Loads default Thai keyboard from Keyman Cloud (CDN)
     keyman.addKeyboards({
       name: 'Pre-Vedic Sanskrit',
-      id: 'itrans_devanagari_sanskrit_pre_vedic',
-      filename: '../itrans_devanagari_sanskrit_pre_vedic.js',
+      id: 'optitrans_devanagari_sanskrit_pre_vedic',
+      filename: '../optitrans_devanagari_sanskrit_pre_vedic.js',
       version: '1.0',
       languages: [{
         name: 'Sanskrit',
