@@ -29,12 +29,12 @@ Examples: Type `saMskRta` for संस्कृत.
 ## Installation and use
 Install keyman on your computer. Then make it use the the below kmp file. (In Mac, you double click that file, or you can drag and drop the file onto the keyman settings window.)
 
-- [kmp](https://sanskrit-coders.github.io/input/keyman_pre_vedic/itrans_devanagari_sanskrit_pre_vedic.kmp)
-- [js](itrans_devanagari_sanskrit_pre_vedic.js)
+- [kmp](https://sanskrit-coders.github.io/input/keyman_pre_vedic/optitrans_devanagari_sanskrit_pre_vedic.kmp)
+- [js](optitrans_devanagari_sanskrit_pre_vedic.js)
 
 ## Building
 - Run  `npm install -g @keymanapp/kmc` to install kmc
-- Get the source code from [here](https://github.com/sanskrit-coders/keyman-keyboards/tree/master/release/itrans/itrans_devanagari_sanskrit_pre_vedic).
+- Get the source code from [here](https://github.com/sanskrit-coders/keyman-keyboards/tree/master/release/o/optitrans_devanagari_sanskrit_pre_vedic).
 
 ```bash
 git clone https://github.com/sanskrit-coders/keyman-keyboards.git --depth 1
