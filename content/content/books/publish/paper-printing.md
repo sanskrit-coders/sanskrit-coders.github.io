@@ -16,7 +16,7 @@ title = "Paper printing"
       - Uses aluminium offset plates printed using laser
   - Digital printer:
     - Ink similar to inkjet printer
-
+  
 ## Home mini printing press (kamala-nayanaH)
 > Actually for preserving ancient texts we need many people to setup mini presses at their home. Once set up cost per page will be very low for preservation needs. 
 > While printer is in warranty use costly branded imported inks generally in small bottles. After warranty is over cheap indian inks like (Pro Dot) can be used to lower printing costs.
@@ -91,20 +91,34 @@ title = "Paper printing"
   - 200 mL	₹90
   - 500 mL	₹180
 
-## Full Forms	
-  - GSM	Grams per Square Meter
-  - SBS	Solid Bleached Sulphate
-  - SBB	Solid Bleached Board
-  - C1S	Coated 1 Side
-  - C2S	Coated 2 Sides
-  - APP	Asia Pulp & Paper
-  - pt	points
-  - mic	micron
-  - px	pixel
-  - ipm	images per minute
-  - ppm	pages per minute
 
-## Extra Details	
+## Other costing
+### Material cost (2025)
+- Acid paper A4 - 200 Rs / ream(=500 sheets)
+- Acid free paper letter - 7k / ream online
+
+### Print cost
+- On regular paper - ₹ 2,000 for 2,500 A3 sheets
+- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink? on acid free paper).
+
+- navbhArat - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
+
+
+## Glossary
+### Full Forms	
+- GSM	Grams per Square Meter
+- SBS	Solid Bleached Sulphate
+- SBB	Solid Bleached Board
+- C1S	Coated 1 Side
+- C2S	Coated 2 Sides
+- APP	Asia Pulp & Paper
+- pt	points
+- mic	micron
+- px	pixel
+- ipm	images per minute
+- ppm	pages per minute
+
+### Extra Details	
 - 1 mm	5.7 px (for 144 DPI of MS Paint)
 - 1 pharma	32 pages of A5 size
 - Max. custom page width in A4 printer	215.9 mm
@@ -114,8 +128,8 @@ title = "Paper printing"
 - 13" wide	A3 width and A4 length
 - 17" wide	A2 width and A3 length
 - Thickness Unit Conversions:
-- 1 mic	0.001 mm
-- 1 pt	0.001"
+  - 1 mic	0.001 mm
+  - 1 pt	0.001"
 - Paper Types:
   - Normal Paper	NA
   - Digital Paper	Gloss & Matt
