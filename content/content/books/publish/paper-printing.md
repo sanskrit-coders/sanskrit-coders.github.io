@@ -2,24 +2,133 @@
 title = "Paper printing"
 +++
 
-## Common services
-- Regular small printer - Dye ink (water soluble)
-- Medium printer - Pigment ink (water-proof - the best)
-- Large printer - 
-  - Offset ink (almost water-proof). Min 100 copies.
-    - laser, with plates
-  - Digital printer - Powder ink (fades away)
+## Types of printers & their inks
+- Consumer printer:
+  - Laser printer:
+    - Solid powder ink (fades away)
+  - Inkjet printer:
+    - Dye ink (water soluble)
+    - Pigment ink (water-proof)
+- Enterprise printer:
+  - Offset printer:
+    - Offset ink:
+      - Min. 100 copies
+      - Uses aluminium offset plates printed using laser
+  - Digital printer:
+    - Ink similar to inkjet printer
 
+## Home mini printing press (kamala-nayanaH)
+> Actually for preserving ancient texts we need many people to setup mini presses at their home. Once set up cost per page will be very low for preservation needs. 
+> While printer is in warranty use costly branded imported inks generally in small bottles. After warranty is over cheap indian inks like (Pro Dot) can be used to lower printing costs.
 
-### Print cost
-- ₹ 2,000 for 2,500 A3 sheets
+## kamalanayana's 2025 setup:
+- Printer:
+  - Epson L15150:
+    - Inkjet A3 Duplex Pigment Printer
+    - Cost ₹ 68k
+    - Warranty 2,00,000 pages
+    - Does not support general photo paper
+    - Does not support offset coated paper
+  - Brother DCP-820DW:
+    - Inkjet A4 Duplex Dye Printer
+    - Cost ₹ 17.5k
+    - Warranty 50,000 pages
+    - Supports general photo papers
+    - Does not support offset coated paper
+- Normal Paper:
+  - A3 75 GSM	Century Star:
+    - 2,500 sheets/box ₹ 1,960
+    - 23.5 kg/box
+- Photo Paper:
+  - A4 180 GSM Inkjet KlaauS C1S Gloss:
+    - 20 sheets/packet ₹ 50
+  - A4 210 GSM Inkjet KlaauS C1S Gloss:
+    - 50 sheets/packet ₹ 160
+  - A4 180 GSM Inkjet Laminex Gold Digital Prime HD C1S Gloss:
+    - 50 sheets/packet ₹ 100
+  - A4 180 GSM Inkjet de'Smat klik! Cast Coated C1S Gloss:
+    - 20 sheets/packet ₹ 90
+    - 50 packets/peti
+- Ink:
+  - Epson:
+    - BK 008 Pigment 127 mL ₹ 830
+      - 1 peti 30 bottles ₹ 24,900 / peti
+    - C	008 Pigment 70 mL ₹ 700
+    - M	008 Pigment 70 mL ₹ 700
+    - Y	008 Pigment 70 mL ₹ 700
+  - Brother:
+    - BK BTD60 Dye 108.0 mL ₹ 480
+    - C	BT5000 Dye 48.8 mL ₹ 360
+    - M	BT5000 Dye 48.8 mL ₹ 360
+    - Y	BT5000 Dye 48.8 mL ₹ 360
+- Hand operated manual paper creasing or folding machine:
+  - A3+ wide (17") ₹8,800
+- Hand operated manual stapler
+  - Kangaro Distributor
+  - HD-23L24FL	₹3,000
+  - Range: 250 mm
+  - Max. 210 sheets
+  - Supported staples' sizes 23/6 to 23/24
+  - Central Pin Binding with cover max. A3 sheet (A4 book)
+  - Weight: 4.5 kg
+- Manual Staples (Kangaro):
+  - 23/24-H	10 staples' sets 1,000 staples ₹ 90
+  - 23/20-H	10 staples' sets 1,000 staples ₹ 80
+  - 23/17-H	10 staples' sets 1,000 staples ₹ 55 
+  - 23/15-H	10 staples' sets 1,000 staples ₹ 50
+    - 1 dibba 10 dibbi ₹ 460 ₹ 46 / dibbi
+  - 23/13-H	10 staples' sets 1,000 staples ₹ 44 
+  - 23/10-H	10 staples' sets 1,000 staples ₹ 42
+  - 23/8-H	10 staples' sets 1,000 staples ₹ 30
+    - 1 dibba 20 dibbi ₹ 540 ₹ 27 / dibbi
+  - 23/6-H	10 staples' sets 1,000 staples ₹ 25
+  - 24/6-1M	20 staples' sets 1,000 staples ₹ 15 
+- Hand operated manual staple removers:
+  - SR-300 Kangaro ₹140
+- Manual Ream cutter (Bright office):
+  - A3+ (17")	₹9,800
+- Fevicol (Pidelite):
+  - 200 mL	₹90
+  - 500 mL	₹180
 
-## Home print setup
-> Actually for preserving ancient texts we need many people to setup mini presses at their home. Once setup cost per page will be very low for preservation needs. - kamala-nayanaH.
+## Full Forms	
+  - GSM	Grams per Square Meter
+  - SBS	Solid Bleached Sulphate
+  - SBB	Solid Bleached Board
+  - C1S	Coated 1 Side
+  - C2S	Coated 2 Sides
+  - APP	Asia Pulp & Paper
+  - pt	points
+  - mic	micron
+  - px	pixel
+  - ipm	images per minute
+  - ppm	pages per minute
 
-
-kamalanayana's 2025 setup:
-
-- Epson Pigment ink 008: ₹ 800 around
-- A3 duplex pigment costs: ₹ 68k
-
+## Extra Details	
+- 1 mm	5.7 px (for 144 DPI of MS Paint)
+- 1 pharma	32 pages of A5 size
+- Max. custom page width in A4 printer	215.9 mm
+- Resin Coated (RC) Inkjet Photo Paper	Fully water proof
+- Cast Coated (CC) Inkjet Photo Paper	Partially water proof
+- 8.5" wide	A4 width and A5 length
+- 13" wide	A3 width and A4 length
+- 17" wide	A2 width and A3 length
+- Thickness Unit Conversions:
+- 1 mic	0.001 mm
+- 1 pt	0.001"
+- Paper Types:
+  - Normal Paper	NA
+  - Digital Paper	Gloss & Matt
+  - Photo Paper	Gloss & Matt
+  - Offset Paper	Gloss & Matt
+- Paper Thickness Uncoated	
+  - 70 GSM	90-100 mic = 0.09-0.10 mm
+  - 210 GSM	250 mic = 0.25 mm
+  - 250 GSM	 mic = 0. mm
+  - 300 GSM	350 mic = 0.35 mm
+- Paper Counting & Weight	
+  - 250 GSM A3+ C2S Gloss	1 peti 7 packets 700 sheets 28 kg
+  - 70 GSM A4	1 quire 25 sheets 110 g 0.25 cm
+    - 1 ream 20 quire 500 sheets 2.2 kg 5 cm
+    - 1 bundle 2 reams 40 quire 1,000 sheets 4.2 kg 10 cm
+    - 1 bale 5 bundles 10 reams 200 quire 5,000 sheets 22 kg 50 cm
