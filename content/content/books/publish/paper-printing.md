@@ -5,10 +5,10 @@ title = "Paper printing"
 ## Types of printers & their inks
 - Consumer printer:
   - Laser printer:
-    - Solid powder ink (fades away)
+    - Solid powder ink (fades away). 20 to 50 years on acid free paper.
   - Inkjet printer:
-    - Dye ink (water soluble)
-    - Pigment ink (water-proof)
+    - Dye ink (water soluble). Can last for 5 to 20 years without significant fading on acid free paper.
+    - Archival grade Pigment ink (water-proof). 50 to 100 years or more on acid free paper.
 - Enterprise printer:
   - Offset printer:
     - Offset ink:
@@ -94,8 +94,11 @@ title = "Paper printing"
 
 ## Other costing
 ### Material cost (2025)
-- Acid paper A4 - 200 Rs / ream(=500 sheets)
-- Acid free paper letter - 7k / ream online
+- Acid paper A4 - 200 Rs / ream(=500 sheets) or .5 Rs/ sheet. 75 gsm is common.
+- Acid free paper
+  - A4 - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
+  - A3 - 7 INR/ sheet (Kirti paper, hubli)
+  - letter - 7k / ream online
 
 ### Print cost
 - On regular paper - ₹ 2,000 for 2,500 A3 sheets
