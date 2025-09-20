@@ -4,7 +4,7 @@ title = "Scanning"
 
 ## General phone procedure
 
-- Use autoscan on a good app
+- Use autoscan on a good app - or a bluetooth trigger.
   - check the quality of images, and rescan the misscanned pages
 - transfer the images to desktop, or produce pdf on phone 
 
@@ -23,6 +23,7 @@ No good OCR - just scanning.
 
 ## pdf processing
 ### Splitting multi-page/ column pages
+- scantailor advanced - to check. kArtik uses it.
 - can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
 - briss is more automated. Still - makes errors. Can make overlapping rectangles.
   - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)

@@ -104,7 +104,9 @@ title = "Paper printing"
 - On regular paper - ₹ 2,000 for 2,500 A3 sheets
 - For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink? on acid free paper).
 
-- navbhArat - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
+- navbhArat 2025 
+  - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
+  - rates for 30 copies A5 size books 450 pages approx using 80gsm maplitho  b/w print , cover in colour 300gsm. Rs 28,900/- + gst - So 1k per copy. (Material cost approx - ₹ 400 for acid paper and ₹ 50-100 for ink.)
 
 
 ## Glossary
