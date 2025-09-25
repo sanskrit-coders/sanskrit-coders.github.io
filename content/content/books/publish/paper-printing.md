@@ -16,10 +16,12 @@ title = "Paper printing"
       - Uses aluminium offset plates printed using laser
   - Digital printer:
     - Ink similar to inkjet printer
-  
+
+
 ## Home mini printing press (kamala-nayanaH)
 > Actually for preserving ancient texts we need many people to setup mini presses at their home. Once set up cost per page will be very low for preservation needs. 
 > While printer is in warranty use costly branded imported inks generally in small bottles. After warranty is over cheap indian inks like (Pro Dot) can be used to lower printing costs.
+
 
 ## kamalanayana's 2025 setup:
 - Printer:
@@ -101,8 +103,8 @@ title = "Paper printing"
   - letter - 7k / ream online
 
 ### Print cost
-- On regular paper - ₹ 2,000 for 2,500 A3 sheets
-- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink? on acid free paper).
+- On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
+- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink on acid free paper).
 
 - navbhArat 2025 
   - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
@@ -130,8 +132,8 @@ title = "Paper printing"
 - Resin Coated (RC) Inkjet Photo Paper	Fully water proof
 - Cast Coated (CC) Inkjet Photo Paper	Partially water proof
 - 8.5" wide	A4 width and A5 length
-- 13" wide	A3 width and A4 length
-- 17" wide	A2 width and A3 length
+- 13" wide A3 width and A4 length
+- 17" wide A2 width and A3 length
 - Thickness Unit Conversions:
   - 1 mic	0.001 mm
   - 1 pt	0.001"
@@ -140,14 +142,63 @@ title = "Paper printing"
   - Digital Paper	Gloss & Matt
   - Photo Paper	Gloss & Matt
   - Offset Paper	Gloss & Matt
-- Paper Thickness Uncoated	
+- Paper Thickness Uncoated:
   - 70 GSM	90-100 mic = 0.09-0.10 mm
   - 210 GSM	250 mic = 0.25 mm
   - 250 GSM	 mic = 0. mm
   - 300 GSM	350 mic = 0.35 mm
-- Paper Counting & Weight	
+- Paper Counting & Weight:
   - 250 GSM A3+ C2S Gloss	1 peti 7 packets 700 sheets 28 kg
-  - 70 GSM A4	1 quire 25 sheets 110 g 0.25 cm
+  - 70 GSM A4:
+    - 1 quire 25 sheets 110 g 0.25 cm
     - 1 ream 20 quire 500 sheets 2.2 kg 5 cm
     - 1 bundle 2 reams 40 quire 1,000 sheets 4.2 kg 10 cm
     - 1 bale 5 bundles 10 reams 200 quire 5,000 sheets 22 kg 50 cm
+- Paper Sizes:
+  - A3 297 mm x 420 mm 11.7" x 16.6"
+  - A4 210 mm x 297 mm 8.3" x 11.7"
+  - A5 148 mm x 210 mm 5.8" x 8.3"
+
+### High Capacity Automated Best Quality Home Press
+- Cost estimates including GST:
+  - Printer (other brands can also be checked):
+    - Epson C879R	₹ 2+ lakh (Including Optional Tray)
+    - Epson AM-C4000 ₹ 5.25+ lakh
+    - Epson AM-C5000 ₹ 5.5+ lakh
+    - Epson AM-C6000 ₹ 6.5+ lakh
+    - Epson WF-C21000	₹ 12.5+ lakh
+  - Finisher Epson Saddle Unit-P1	₹ 5.25+ lakh
+- Printer Features:
+  - Document+Photo or Document or Photo Printer
+  - High GSM paper input 300+ GSM
+  - High ADF input & output capacity 100 sheets
+  - High Multi-purpose or Rear tray input capacity 100 sheets
+  - Supports Finishers: Saddle Unit, Staple Unit, Booklet Finisher etc.
+  - Supports Papers: Gloss Photo, Matt Photo, Gloss Digital, Matt, Digital, Gloss Offset (SBS), Matt Offset (SBS), Uncoated Thick etc.
+  - Borderless printing on custom size cover sheets
+  - High A3 Duplex Black and Color Same Speed 35 ipm
+  - Atleast A1 or A2 or A3+ width
+  - Atleast A1 or A2 or A3+ length
+  - RAM 8 GB
+  - SSD or HDD 320 GB
+  - WiFi 5.0 Hz, USB 3.0, WiFi Direct, Web, Ethernet etc. connectivities
+  - Duplex Printing A1 or A2 or A3+
+  - Duplex Auto Scanning using ADF single paas A1 or A2 or A3+
+  - Huge paper input capacity 2,500 A1 or A2 or A3+ or A3 sheets
+  - Huge paper output capacity 500 A1 or A2 or A3+ sheets
+  - Large & water proof pigment (not dye) ink packet input
+  - Multiple front cassette paper trays - 4 A1 or A2 or A3+ (500 sheets each)
+  - High pages warranty: 30 lakh for 1 year
+  - High Recommended Monthly Duty Cycle
+  - Color or Monochrome Inkjet
+  - Print, Scan, Copy and Fax
+  - Auto Document Feeder (ADF) - 150 A1 or A2 or A3+ sheets
+  - Digital cut sheet fed Ink Tank Printer
+  - Big latest touchscreen color display
+  - Memory Card Slot
+  - Flash drive support
+  - High Resolution
+  - Latest release, model and available
+  - Xerox or Canon or Epson
+  - Long Document Scanning
+  - Print does not fade away after few years Print Permanence 100 years
