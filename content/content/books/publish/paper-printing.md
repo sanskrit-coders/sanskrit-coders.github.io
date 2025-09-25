@@ -103,8 +103,8 @@ title = "Paper printing"
   - letter - 7k / ream online
 
 ### Print cost
-- On regular paper - ₹ 2,000 for 2,500 A3 sheets
-- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink? on acid free paper).
+- On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
+- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink on acid free paper).
 
 - navbhArat 2025 
   - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
