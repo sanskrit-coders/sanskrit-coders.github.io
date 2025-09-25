@@ -8,8 +8,6 @@ This is a test page for the [keyman pre-vedic sanskrit keyboard](../).
 <script src='https://s.keyman.com/kmw/engine/18.0.240/keymanweb.js'></script>
 <script src='https://s.keyman.com/kmw/engine/18.0.240/kmwuitoggle.js'></script>
 
-
-
 <!-- The textarea where you will type -->
 <textarea id="myTextarea" rows="10" cols="80"></textarea>
 

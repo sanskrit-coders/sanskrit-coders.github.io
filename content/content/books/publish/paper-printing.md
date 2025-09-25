@@ -5,10 +5,10 @@ title = "Paper printing"
 ## Types of printers & their inks
 - Consumer printer:
   - Laser printer:
-    - Solid powder ink (fades away)
+    - Solid powder ink (fades away). 20 to 50 years on acid free paper.
   - Inkjet printer:
-    - Dye ink (water soluble)
-    - Pigment ink (water-proof)
+    - Dye ink (water soluble). Can last for 5 to 20 years without significant fading on acid free paper.
+    - Archival grade Pigment ink (water-proof). 50 to 100 years or more on acid free paper.
 - Enterprise printer:
   - Offset printer:
     - Offset ink:
@@ -17,9 +17,11 @@ title = "Paper printing"
   - Digital printer:
     - Ink similar to inkjet printer
 
+
 ## Home mini printing press (kamala-nayanaH)
 > Actually for preserving ancient texts we need many people to setup mini presses at their home. Once set up cost per page will be very low for preservation needs. 
 > While printer is in warranty use costly branded imported inks generally in small bottles. After warranty is over cheap indian inks like (Pro Dot) can be used to lower printing costs.
+
 
 ## kamalanayana's 2025 setup:
 - Printer:
@@ -91,24 +93,43 @@ title = "Paper printing"
   - 200 mL	₹90
   - 500 mL	₹180
 
-## Full Forms	
-  - GSM	Grams per Square Meter
-  - SBS	Solid Bleached Sulphate
-  - SBB	Solid Bleached Board
-  - C1S	Coated 1 Side
-  - C2S	Coated 2 Sides
-  - APP	Asia Pulp & Paper
-  - pt	points
-  - mic	micron
-  - px	pixel
-  - ipm	images per minute
-  - ppm	pages per minute
 
-## Extra Details	
-- 1 mm 5.7 px (for 144 DPI of MS Paint)
-- 1 pharma 32 pages of A5 size
-- Max. custom page width in A4 printer 215.9 mm
-- Resin Coated (RC) Inkjet Photo Paper Fully water proof
+## Other costing
+### Material cost (2025)
+- Acid paper A4 - 200 Rs / ream(=500 sheets) or .5 Rs/ sheet. 75 gsm is common.
+- Acid free paper
+  - A4 - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
+  - A3 - 7 INR/ sheet (Kirti paper, hubli)
+  - letter - 7k / ream online
+
+### Print cost
+- On regular paper - ₹ 2,000 for 2,500 A3 sheets
+- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink? on acid free paper).
+
+- navbhArat 2025 
+  - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
+  - rates for 30 copies A5 size books 450 pages approx using 80gsm maplitho  b/w print , cover in colour 300gsm. Rs 28,900/- + gst - So 1k per copy. (Material cost approx - ₹ 400 for acid paper and ₹ 50-100 for ink.)
+
+
+## Glossary
+### Full Forms	
+- GSM	Grams per Square Meter
+- SBS	Solid Bleached Sulphate
+- SBB	Solid Bleached Board
+- C1S	Coated 1 Side
+- C2S	Coated 2 Sides
+- APP	Asia Pulp & Paper
+- pt	points
+- mic	micron
+- px	pixel
+- ipm	images per minute
+- ppm	pages per minute
+
+### Extra Details	
+- 1 mm	5.7 px (for 144 DPI of MS Paint)
+- 1 pharma	32 pages of A5 size
+- Max. custom page width in A4 printer	215.9 mm
+- Resin Coated (RC) Inkjet Photo Paper	Fully water proof
 - Cast Coated (CC) Inkjet Photo Paper	Partially water proof
 - 8.5" wide	A4 width and A5 length
 - 13" wide A3 width and A4 length
@@ -138,7 +159,7 @@ title = "Paper printing"
   - A4 210 mm x 297 mm 8.3" x 11.7"
   - A5 148 mm x 210 mm 5.8" x 8.3"
 
-## High Capacity Automated Best Quality Home Press
+### High Capacity Automated Best Quality Home Press
 - Cost estimates including GST:
   - Printer (other brands can also be checked):
     - Epson C879R	₹ 2+ lakh (Including Optional Tray)
