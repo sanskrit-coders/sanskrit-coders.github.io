@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Bots on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/bots/</link>
+    <description>Recent content in &#43;Bots on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/bots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis AI</title>
+      <link>https://sanskrit-coders.github.io/bots/analysis_AI/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/bots/analysis_AI/</guid>
+      <description>&lt;p&gt;If you want to analyze a single subject in depth, see &amp;hellip; &lt;a href=&#34;https://notebooklm.google.com/&#34;&gt;https://notebooklm.google.com/&lt;/a&gt; It can produce a paper/essay/article based on the sources in the context with footnotes referring to parts of the source.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Telegram</title>
+      <link>https://sanskrit-coders.github.io/bots/telegram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/bots/telegram/</guid>
+      <description>&lt;h2 id=&#34;programming&#34;&gt;Programming&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Good libraries are available. Just search online.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;quiz-bots&#34;&gt;Quiz bots&lt;/h2&gt;&#xA;&lt;p&gt;shrI harSh of SB Canada and his son have developed this fascinating quiz bot - &lt;a href=&#34;https://github.com/paramt/q4t&#34;&gt;GH&lt;/a&gt; . (If you are on Samskrita Bharati&amp;rsquo;s telegram channel, or on one of many others, you will have seen the automated quizzes from there.) It gives one a lot of ideas (eg. duolinguo). Please make some and enjoy! Some quiz channels run with this bot:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Whatsapp</title>
+      <link>https://sanskrit-coders.github.io/bots/whatsapp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/bots/whatsapp/</guid>
+      <description>&lt;h2 id=&#34;safic-bots&#34;&gt;SAFIC bots&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;We have the BOTS for the Vedas and Upanishads and we are working on including Ramayana, Mahabharata, Devimahatmya, bhagavata Purana and many other texts which will be made available on the sam number.&lt;/p&gt;&#xA;&lt;p&gt;Welcome to Gita Bot:&lt;br&gt;&#xA;Replace 1.1 with your choice of Chapter and Verse Number&lt;br&gt;&#xA;For Gita Lines - bg 1.1&lt;br&gt;&#xA;For Gita Dict - bg 1.1 dict&lt;br&gt;&#xA;For Gita Audio - bg 1.1 audio&lt;/p&gt;&#xA;&lt;p&gt;Welcome to Rig Veda messaging service:&#xA;Replace 1.1.1 with your Mandala.Sukta.Rik&#xA;For Veda Verse Type - veda 1.1.1&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
