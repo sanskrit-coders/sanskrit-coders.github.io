@@ -2,8 +2,22 @@
 title = "Paper printing"
 +++
 
-## Types of printers & their inks
+## Procedures
+Print 200 pg A5 book - 
+
+- Open the print window and select print to pdf instead of printer and select booklet mode.  
+- That will make it a booklet of A4 size with 2 A5 pages in each A4 page. Print it.  
+- Fold or cut it in the middle.  
+- Bind it. Paste the cover.
+  - Can make A4 covers and cut the excess book - Since, A4 photo papers are readily available.  
+    So, book becomes little smaller than A5.
+- Distribute it.
+
+So, for thick books, split the pdf and make multiple booklets then merge it.
+
+## Printers & their inks
 - Consumer printer:
+  - A3 printers print faster
   - Laser printer:
     - Solid powder ink (fades away). 20 to 50 years on acid free paper.
   - Inkjet printer:
@@ -23,6 +37,10 @@ Typical workflow -
 - On some sheets (eg. aluminium/ plastic), they can print 1 set of around 32 pages at a time.
 - Then, they use these aluminium sheets with ink to press on paper like rubber stamping.
 - In case of Al - You can recast these sheets a few times for new pages, after which they're discarded.
+
+## Cutters
+- A3+ size ream cutter - cut 400 sheets very easily
+- A4 cutters can't cut more than 25-50 sheets at a time
 
 ## Setups
 ### High Capacity Automated Best Quality Home Press
@@ -60,6 +78,7 @@ Cost estimates including GST:
 - High pages warranty: 30 lakh for 1 year
 - High Recommended Monthly Duty Cycle
 - Color or Monochrome Inkjet
+  - Make sure digital inkjet coated paper is supported in your printer. "My pigment ink printer does not support it. Takes a very long time to dry." - KN
 - Print, Scan, Copy and Fax
 - Auto Document Feeder (ADF) - 150 A1 or A2 or A3+ sheets
 - Digital cut sheet fed Ink Tank Printer
