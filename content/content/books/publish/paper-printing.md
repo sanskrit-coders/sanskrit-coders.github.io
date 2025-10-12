@@ -8,6 +8,10 @@ Print 200 pg A5 book -
 - Open the print window and select print to pdf instead of printer and select booklet mode.  
 - That will make it a booklet of A4 size with 2 A5 pages in each A4 page. Print it.  
 - Fold or cut it in the middle.  
+
+Binding -
+
+- can use a multi hole punch (eg spiral binding) plus good twine to bind books. Simple, fast, long lasting and replaceable.
 - Bind it. Paste the cover.
   - Can make A4 covers and cut the excess book - Since, A4 photo papers are readily available.  
     So, book becomes little smaller than A5.
@@ -42,6 +46,9 @@ Typical workflow -
 - A3+ size ream cutter - cut 400 sheets very easily
 - A4 cutters can't cut more than 25-50 sheets at a time
 
+## Punches
+- Kangaro - Source: [TW](https://www.kangarokgoc.com/Home/ProductDetails?ID=17&CATID=2&CatName=Paper%20Punches)
+
 ## Setups
 ### High Capacity Automated Best Quality Home Press
 
@@ -70,7 +77,7 @@ Cost estimates including GST:
 - SSD or HDD 320 GB
 - WiFi 5.0 Hz, USB 3.0, WiFi Direct, Web, Ethernet etc. connectivities
 - Duplex Printing A1 or A2 or A3+
-- Duplex Auto Scanning using ADF single paas A1 or A2 or A3+
+- Duplex Auto Scanning using ADF single pass A1 or A2 or A3+
 - Huge paper input capacity 2,500 A1 or A2 or A3+ or A3 sheets
 - Huge paper output capacity 500 A1 or A2 or A3+ sheets
 - Large & water proof pigment (not dye) ink packet input
