@@ -78,11 +78,12 @@ Cost estimates including GST:
 - WiFi 5.0 Hz, USB 3.0, WiFi Direct, Web, Ethernet etc. connectivities
 - Duplex Printing A1 or A2 or A3+
 - Duplex Auto Scanning using ADF single pass A1 or A2 or A3+
-- Huge paper input capacity 2,500 A1 or A2 or A3+ or A3 sheets
+- Huge paper input capacity 2,500 A1 or A2 or A3+ or A3 sheets. (Don't want to feed paper every 30 mins.) A3 capacity is double of A4.
 - Huge paper output capacity 500 A1 or A2 or A3+ sheets
 - Large & water proof pigment (not dye) ink packet input
 - Multiple front cassette paper trays - 4 A1 or A2 or A3+ (500 sheets each)
 - High pages warranty: 30 lakh for 1 year
+  - Page warranty does not consider A3, A4 etc. So, for same page warranty, A3 prints double than A4.
 - High Recommended Monthly Duty Cycle
 - Color or Monochrome Inkjet
   - Make sure digital inkjet coated paper is supported in your printer. "My pigment ink printer does not support it. Takes a very long time to dry." - KN
