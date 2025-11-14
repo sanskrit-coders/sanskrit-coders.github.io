@@ -26,8 +26,8 @@ No good OCR - just scanning.
 - scantailor advanced does an excellent automated job, if used right. kArtik uses it.
   - `sudo flatpak install flathub org.scantailor.Scantailor-advanced`
   - Input and output - images, not pdfs. Outputs tiffs. 
-    - `pdftoppm -jpeg input.pdf images/page`
-    - `mogrify -format jpg -quality 85 *.tif`
+    - Input - `pdftoppm -jpeg input.pdf images/page`
+    - Output - `mogrify -format jpg -quality 85 *.tif`
     - `img2pdf --pagesize A4 --fit shrink *.jpg -o output.pdf`
   - Must run various stages sequentially - split pages, fix page box, set margins, output ....
   - Good settings - In settings - jpg output; no content selection, 72-150 dpi, color output, white fill.
