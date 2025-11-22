@@ -89,6 +89,10 @@ For fresh account it gives 200$ credit for one month which can ocr around 1.2-1.
 
 ### Online
 - [sanskritdictionary](https://ocr.sanskritdictionary.com/#) - Uses drive API for Google. Provides tesseract alternative as well.
+- Tesseract Tyler: [TW](https://tools.simonwillison.net/ocr?language=san)
+- [dharmamitra](https://dharmamitra.org/?view=ocr)
+- [Tyler google vision](https://skrutable.info/ocr)
+- [shrIvatsa](https://chaya.shreevatsa.net/)
 
 #### LLM AI
 > "Would you say that processing PDFs using multi-modal LLMs is *always* guaranteed to produce *more* accurate output compared to using plain OCR engines (Tesseract/ Google Vision)?"
