@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Keyman Pre-vedic on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/input/keyman_pre_vedic/</link>
+    <description>Recent content in &#43;Keyman Pre-vedic on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/input/keyman_pre_vedic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://sanskrit-coders.github.io/input/keyman_pre_vedic/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/input/keyman_pre_vedic/test/</guid>
+      <description>&lt;p&gt;This is a test page for the &lt;a href=&#34;../&#34;&gt;keyman pre-vedic sanskrit keyboard&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;script src=&#39;https://s.keyman.com/kmw/engine/18.0.240/keymanweb.js&#39;&gt;&lt;/script&gt;&#xA;&lt;script src=&#39;https://s.keyman.com/kmw/engine/18.0.240/kmwuitoggle.js&#39;&gt;&lt;/script&gt;&#xA;&lt;!-- The textarea where you will type --&gt;&#xA;&lt;textarea id=&#34;myTextarea&#34; rows=&#34;10&#34; cols=&#34;80&#34;&gt;&lt;/textarea&gt;&#xA;&lt;!-- The output display element --&gt;&#xA;&lt;h2&gt;Typed Content:&lt;/h2&gt;&#xA;&lt;div id=&#34;output&#34;&gt;&lt;/div&gt;&#xA;&lt;script&gt;&#xA;  window.addEventListener(&#39;load&#39;, (event) =&gt; {&#xA;    keyman.init({attachType:&#39;auto&#39;});&#xA;    keyman.addKeyboards(&#39;@en&#39;); // Loads default English keyboard from Keyman Cloud (CDN)&#xA;    keyman.addKeyboards(&#39;@th&#39;); // Loads default Thai keyboard from Keyman Cloud (CDN)&#xA;    keyman.addKeyboards({&#xA;      name: &#39;Pre-Vedic Sanskrit&#39;,&#xA;      id: &#39;optitrans_devanagari_sanskrit_pre_vedic&#39;,&#xA;      filename: &#39;../optitrans_devanagari_sanskrit_pre_vedic.js&#39;,&#xA;      version: &#39;1.0&#39;,&#xA;      languages: [{&#xA;        name: &#39;Sanskrit&#39;,&#xA;        id: &#39;sa&#39;,&#xA;        region: &#39;in&#39;&#xA;      }]&#xA;    });&#xA;  });&#xA;&lt;/script&gt;</description>
+    </item>
+  </channel>
+</rss>
