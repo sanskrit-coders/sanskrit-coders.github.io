@@ -46,6 +46,12 @@ Typical workflow -
 - A3+ size ream cutter - cut 400 sheets very easily
 - A4 cutters can't cut more than 25-50 sheets at a time
 
+- hyd [TW](https://abhishekid.com/collections/cutters/products/a3-17-inch-rim-cutter-a3-17-inch-heavy-duty-guillotine-paper-trimmer-rim-cutter-a3-size-commercial-metal-base-with-large-capacity-of-400-sheets-for-home-officemulticolor) 12.5k
+- blr [TW](https://www.skylamination.com/heavy-duty-paper-cutter.html)
+
+## Creasers
+Creasing machine can be A4 as well. We first cut then crease. Big printing presses first crease and then cut because they print on A0, A1, A2 etc. sizes.
+
 ## Punches
 - Kangaro - Source: [TW](https://www.kangarokgoc.com/Home/ProductDetails?ID=17&CATID=2&CatName=Paper%20Punches)
 
@@ -86,7 +92,7 @@ Cost estimates including GST:
   - Page warranty does not consider A3, A4 etc. So, for same page warranty, A3 prints double than A4.
 - High Recommended Monthly Duty Cycle
 - Color or Monochrome Inkjet
-  - Make sure digital inkjet coated paper is supported in your printer. "My pigment ink printer does not support it. Takes a very long time to dry." - KN
+  - Make sure digital inkjet coated paper (used for book covers, usually acid paper) is supported in your printer. "My pigment ink printer does not support it. Takes a very long time to dry. I use my dye printer for covers and glossy photo paper of A4 size." - KN
 - Print, Scan, Copy and Fax
 - Auto Document Feeder (ADF) - 150 A1 or A2 or A3+ sheets
 - Digital cut sheet fed Ink Tank Printer
