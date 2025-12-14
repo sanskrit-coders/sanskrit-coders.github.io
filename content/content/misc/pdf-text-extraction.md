@@ -2,6 +2,11 @@
 title = "PDF text extraction"
 +++
 
+## pdf2htmlEX
+Must build from source: [TW](https://pdf2htmlex.github.io/pdf2htmlEX/)
+
+Extracts text and fonts to html; with font names preserved. That then can be more reliably processed.
+
 ## Foxit reader
 - Linux version (as of 2021) was 2.4.4 (2017), whereas it was 11.0.1.49938. It appears that Linux development is unmaintained (as per quote [here](https://aur.archlinux.org/packages/foxitreader/)). So, it lacks certain features.
 
