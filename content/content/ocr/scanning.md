@@ -29,8 +29,14 @@ No good OCR - just scanning.
     - Input - `pdftoppm -jpeg input.pdf images/page`
     - Output - `mogrify -format jpg -quality 85 *.tif`
     - `img2pdf --pagesize A4 --fit shrink *.jpg -o output.pdf`
-  - Must run various stages sequentially - split pages, fix page box, set margins, output ....
-  - Good settings - In settings - jpg output; no content selection, 72-150 dpi, color output, white fill.
+  - Must run various stages sequentially -  
+    - split pages, fix page box, set margins, output ....
+    - Stage settings
+      - no content selection, don't set margins
+      - color output, white fill.
+    - Click on all visible apply-to buttons to select target pages. Eg. Big Mode rectangle includes one "apply to" button despite many options.
+  - Software Settings  - jpg output;
+  
 - can be done with pdfarranger - but can be laborious if facing page proportions are not uniform
 - briss is more automated. Still - makes errors. Can make overlapping rectangles.
   - Source: [GH](https://github.com/mbaeuerle/Briss-2.0/releases)
