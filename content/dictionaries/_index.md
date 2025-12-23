@@ -3,6 +3,9 @@ title: +Dictionaries
 ---
 
 
+## Mobile friendly
+Just install https://www.sanskritkosha.com as an app (browser - three dots - add to home screen). Clicking on the icon will open the site in its own window like an app.
+
 ## Digitization
 - [D](http://www.sanskrit-lexicon.uni-koeln.de/)
 - [B](http://sanskrit1.ccv.brown.edu/tomcat/sl/Cologne)
