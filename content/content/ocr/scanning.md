@@ -8,6 +8,13 @@ title = "Scanning"
   - check the quality of images, and rescan the misscanned pages
 - transfer the images to desktop, or produce pdf on phone 
 
+## doc scanner
+- [Google play](https://play.google.com/store/apps/details?id=com.cv.docscanner) 
+- [Apple](https://apps.apple.com/us/app/document-scanner-by-lufick/id1560570003)
+
+> auto-capture mode has made it perfect for digitizing Sanskrit documents. - mohit dokania
+
+
 ## Camscanner
 No good OCR - just scanning. 
 
