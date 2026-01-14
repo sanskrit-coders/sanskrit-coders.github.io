@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/audio/</link>
+    <description>Recent content in Audio on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podcasts</title>
+      <link>https://sanskrit-coders.github.io/content/audio/podcasts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/audio/podcasts/</guid>
+      <description>&lt;h2 id=&#34;why-podcasting&#34;&gt;Why podcasting?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Listening to stuff is easier&lt;/strong&gt;. Several people (such as myself) might prefer to listen to audio books and listen to lectures (perhaps during long walks or commutes) rather than read or watch them.&lt;/li&gt;&#xA;&lt;li&gt;There are many popular tools in a variety of platforms to subscribe and listen to podcasts (see  subscription guide &lt;a href=&#34;https://goo.gl/6DJjji&#34;&gt;SB16&lt;/a&gt;.). (I use Doggcatcher paid on Android). It turns out to be easier to listen to audio files in this way &lt;strong&gt;without the chores such as manual downloads and checking for updates&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;history&#34;&gt;History.&lt;/h3&gt;&#xA;&lt;p&gt;Given audio files hosted in some internet site (like archive.org), creating a podcast feed involved some manual labor (adding posts to a blog etc.. as described in this  guide &lt;a href=&#34;https://docs.google.com/document/d/1XWLwJvtnfJctdNYx3qSDHZyDKLPeQ21o3eHNJfQ7Xj0/edit&#34;&gt;SB15&lt;/a&gt;.). This manual labor can be eliminated using the new open source web tool presented in this page.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Text to speech</title>
+      <link>https://sanskrit-coders.github.io/content/audio/tts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/audio/tts/</guid>
+      <description>&lt;h2 id=&#34;general&#34;&gt;General&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://bhashini.gov.in/en&#34;&gt;bhashini.gov.in&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dhvani.sourceforge.net/&#34;&gt;dhvani&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/sanskrit-programmers/q88i732oruU&#34;&gt;JNU&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://sourceforge.net/projects/espeak/?source=typ_redirect&#34;&gt;&lt;strong&gt;ES&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;bhashiniai&#34;&gt;bhashini.ai&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tts.bhashini.ai/demo/&#34;&gt;bhashini.ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;google-tts-api&#34;&gt;Google TTS API&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google TTS API free quota 4M chars / 30 days = ~ 100k/day (202208)&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://translate.google.com/#hi/en/&#34;&gt;Google translate hindi&lt;/a&gt; (Better to use kannada)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;svara-sensitive&#34;&gt;svara-sensitive&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/031323/suvak&#34;&gt;suvAk&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/031323/vackm&#34;&gt;pink-trombone based svara-sensitive&lt;/a&gt;. See also hindii.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/avinashvarna/sanskrit_tts&#34;&gt;sanskrit_tts&lt;/a&gt;, a Google Cloud text to speech wrapper.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;android&#34;&gt;Android&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Android app for Samskrita VyavahAra-sAhasrI uses Hear2Read TTS (&lt;a href=&#34;https://hear2read.org/solution-android.php&#34;&gt;https://hear2read.org/solution-android.php&lt;/a&gt;) APK and source code for this app is available at - &lt;a href=&#34;https://github.com/ShivajiDala/SAMVYASA.git&#34;&gt;https://github.com/ShivajiDala/SAMVYASA.git&lt;/a&gt; .&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;related-discussions&#34;&gt;Related discussions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;sanskrit-programmers thread &lt;a href=&#34;https://groups.google.com/d/msgid/sanskrit-programmers/CANREUj0TzDU6eQHHUE76a3h5ARE9S6tp-1mFBHSQiJbZD8%2B3Eg%40mail.gmail.com?utm_medium=email&amp;amp;utm_source=footer&#34;&gt;here&lt;/a&gt; .&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;ai-prompts&#34;&gt;AI prompts&lt;/h2&gt;&#xA;&lt;p&gt;Gemini - Generate media &amp;gt; Generate speech &amp;gt; Laomedeia&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

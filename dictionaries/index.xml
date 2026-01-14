@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Dictionaries on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/dictionaries/</link>
+    <description>Recent content in &#43;Dictionaries on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/dictionaries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flashcards</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/flashcards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/flashcards/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Flashcards for use with opensource, multi-platform &lt;a href=&#34;http://ankisrs.net/index.html&#34;&gt;anki&lt;/a&gt; software: &lt;a href=&#34;https://ankiweb.net/shared/decks/sanskrit&#34;&gt;अत्र&lt;/a&gt; च &lt;a href=&#34;https://ankiweb.net/shared/decks/samskrit&#34;&gt;अत्र&lt;/a&gt;।&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Import from csv - first field; second field; tags&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Can use &lt;code&gt;&amp;lt;br&amp;gt;&lt;/code&gt; for newlines, select appropriate option while importing.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://ankisrs.net/docs/manual.html&#34;&gt;Manual&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Quizlet &lt;a href=&#34;http://quizlet.com/subject/Sanskrit/&#34;&gt;Sanskrit&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://ankiweb.net/shared/decks/samskritam&#34;&gt;Flash-cards&lt;/a&gt; (&lt;a href=&#34;https://ankiweb.net/shared/decks/amarakosha&#34;&gt;Amarakosha&lt;/a&gt;, dhAtu-pATha etc..).&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Spell checking</title>
+      <link>https://sanskrit-coders.github.io/dictionaries/spellcheck/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/dictionaries/spellcheck/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;in several Indian languages: &lt;a href=&#34;http://sanskritdocuments.org/hindi/hunspell&#34;&gt;hunspell here&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Shreeshrii/hindi-hunspell&#34;&gt;hindi-hunspell&lt;/a&gt; (includes sanskrit) .&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;hindI wiki list &lt;a href=&#34;http://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A4%BF%E0%A4%AA%E0%A5%80%E0%A4%A1%E0%A4%BF%E0%A4%AF%E0%A4%BE:%E0%A4%87%E0%A4%A3%E0%A5%8D%E0%A4%9F%E0%A4%B0%E0%A4%A8%E0%A5%87%E0%A4%9F_%E0%A4%AA%E0%A4%B0_%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80_%E0%A4%95%E0%A5%87_%E0%A4%B8%E0%A4%BE%E0%A4%A7%E0%A4%A8#Hindi_Spell-checkers&#34;&gt;here&lt;/a&gt; .&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;hunspell&#34;&gt;hunspell&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;intro - &lt;a href=&#34;http://www.suares.com/index.php?page_id=25&amp;amp;news_id=233&#34;&gt;suares&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;dic file&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;format: numwords in first non-comment line, followed by sorted word lines.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;affix file&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;aspell supposedly stopped development in 2011, while hunspell is used in multiple products like chrome and firefox.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
