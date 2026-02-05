@@ -183,11 +183,22 @@ Cost estimates including GST:
 
 ## Other costing
 ### Material cost (2025)
-- Acid paper A4 - 200 Rs / ream(=500 sheets) or .5 Rs/ sheet. 75 gsm is common.
+- Acid paper 
+  - A4 
+    - 200 Rs / ream(=500 sheets) or .5 Rs/ sheet. 75 gsm is common.
+  - A3
+    - 400Rs / ream - 
 - Acid free paper
-  - A4 - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
-  - A3 - 7 INR/ sheet (Kirti paper, hubli)
+  - A4 
+    - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
+    - 513/500 (JK paper 75GSM )
+  - A3 
+    - 7 INR/ sheet (Kirti paper, hubli, 2025)
+    - 513/500 (JK paper 75GSM )
   - letter - 7k / ream online
+- Archival paper
+  - A3 4% buffered
+    - 27 INR / sheet (sriaurobindopaper.com )
 
 ### Print cost
 - On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
