@@ -60,7 +60,20 @@ Stacking copies in a sheet -
 So, for thick books, split the pdf and make multiple booklets then merge it.
 
 ### Distribution
-...
+#### Mailing
+##### India Post
+###### Gyan Post
+Source: [TW](https://www.indiapost.gov.in/mailproducts#gyanpost)
+
+It had a different name before. Rs. 28/kg or something similar. Max 5 kg/book parcel.
+
+Packaging should be such that books are slightly visible from any side for their verification. 
+
+Also, ask them for gyan post book parcel only else they will do speed post in which case even less than 1 kg will cost ₹ 150.
+
+> But they have made it difficult it seems. I bought something recently and paid Rs. 195 for shipping. It is definitely not 6 kgs of books
+
+
 
 ## Printers & their inks
 - Consumer printer:
