@@ -3,21 +3,64 @@ title = "Paper printing"
 +++
 
 ## Procedures
-Print 200 pg A5 book - 
+### Printing
+#### Terminology
+Booklets - a bunch of pages to be folded at the center to make a book.
+
+Signatures - Bunch of folded sheets that become their own section. If you expose the spine of a bound book, you will see multiple signatures. It is created as a multiple of 4. You will also notice a section/signature marking in the first page of each signature. Normally bottom left/right in some printed books.
+
+
+#### Print in larger sheets
+Advantage in printing with larger sheets
+
+- can fold and staple if number of pages is small; or can do the same with "signatures".
+- Consumption of warranty of no. of pages printed is halved
+- Feeding the input tray is halved
+- Taking out pages from output tray is halved
+- To learn this in a hard way. Print 100 copies of a 100 page book. You will get to know how frequently you have to do manual repetitive work with A4. Fed every half an hour and take out every 5-10 mins.
+
+There is no speed advantage - A3 takes twice as long as A4 to print.
+
+Effort cost is not much 
+
+- Just need to do a single cut and you get 2x A4
+
+
+#### Overview
+Print 200 pg A5 book with A4 papers - 
 
 - Open the print window and select print to pdf instead of printer and select booklet mode.  
 - That will make it a booklet of A4 size with 2 A5 pages in each A4 page. Print it.  
 - Fold or cut it in the middle.  
 
-Binding -
+Print A5 book with A3 papers 
 
+- Make booklet pdf with A4 paper.
+- Duplicate each A4 sheet in the A3 sheet - so you get 2 copies at once.
+
+#### Booklet file making
+Making booklets
+
+- momijizukamori js
+  - [TW](https://momijizukamori.github.io/bookbinder-js/?paperSize=A3&customSigLength=0&cropMarks=true&cutMarks=true&sigFormat=booklet&printFile=aggregated)
+
+Stacking copies in a sheet -
+
+- [PdfBooklet](https://github.com/TomasResquin/PdfBooklet)
+- Set Don't compress & Safe mode (slow) in Options -> Output tab
+- Select x copies, rows 2, columns 1 in Layout tab
+
+
+### Binding
 - can use a multi hole punch (eg spiral binding) plus good twine to bind books. Simple, fast, long lasting and replaceable.
 - Bind it. Paste the cover.
   - Can make A4 covers and cut the excess book - Since, A4 photo papers are readily available.  
     So, book becomes little smaller than A5.
-- Distribute it.
 
 So, for thick books, split the pdf and make multiple booklets then merge it.
+
+### Distribution
+...
 
 ## Printers & their inks
 - Consumer printer:
@@ -54,6 +97,9 @@ Creasing machine can be A4 as well. We first cut then crease. Big printing press
 
 ## Punches
 - Kangaro - Source: [TW](https://www.kangarokgoc.com/Home/ProductDetails?ID=17&CATID=2&CatName=Paper%20Punches)
+
+## Stitchers
+Nambind: [TW](https://www.namibind.co.in/book-stitching-machine.html) 75k INR in 20266
 
 ## Setups
 ### High Capacity Automated Best Quality Home Press
