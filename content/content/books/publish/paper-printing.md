@@ -48,6 +48,7 @@ Stacking copies in a sheet -
 
 - [PdfBooklet](https://github.com/TomasResquin/PdfBooklet)
 - Set Don't compress & Safe mode (slow) in Options -> Output tab
+  - Non slow mode mangles the pdf.
 - Select x copies, rows 2, columns 1 in Layout tab
 
 
@@ -266,6 +267,28 @@ Cost estimates including GST:
 - navbhArat 2025 
   - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
   - rates for 30 copies A5 size books 450 pages approx using 80gsm maplitho  b/w print , cover in colour 300gsm. Rs 28,900/- + gst - So 1k per copy. (Material cost approx - ₹ 400 for acid paper and ₹ 50-100 for ink.)
+
+
+<details><summary>विश्वास-टिप्पनी</summary>
+
+Enquiries
+
+https://vishvasa.github.io/book-pub/vedAH_yajuH/ApastambaH/dharma-sUtram-en/dharma-sUtram-en_a5.pdf
+
+Price for 30 copies
+- paper cover, gum binding
+- paper cover, stitch binding
+- hard cover, stitch binding
+
+Acid free paper to be used, like https://www.jkpaper.com/jk-copier (jk copier Premium). Pigment ink to be used.
+
+__________
+Request quote from printer - 
+
+What is the cost per copy to publish https://vishvasa.github.io/book-pub/rAmAnujIyam/yAmunaH/Agama-prAmANyam/Agama-prAmANyam_a5.pdf on ACID FREE PAPER with PIGMENT INK? 
+
+Note: Don't want ordinary paper and powder ink.
+</details>
 
 
 ## Glossary
