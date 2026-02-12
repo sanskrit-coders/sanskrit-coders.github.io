@@ -100,11 +100,7 @@ Typical workflow -
 - In case of Al - You can recast these sheets a few times for new pages, after which they're discarded.
 
 ## Cutters
-- A3+ size ream cutter - cut 400 sheets very easily
-- A4 cutters can't cut more than 25-50 sheets at a time
-
-- hyd [TW](https://abhishekid.com/collections/cutters/products/a3-17-inch-rim-cutter-a3-17-inch-heavy-duty-guillotine-paper-trimmer-rim-cutter-a3-size-commercial-metal-base-with-large-capacity-of-400-sheets-for-home-officemulticolor) 12.5k
-- blr [TW](https://www.skylamination.com/heavy-duty-paper-cutter.html)
+See separate [page](../cutter).
 
 ## Creasers
 Creasing machine can be A4 as well. We first cut then crease. Big printing presses first crease and then cut because they print on A0, A1, A2 etc. sizes.
