@@ -58,8 +58,3 @@ Despite publishing offline through some agency, some authors make it a point to 
 
 - Getting ISBN numbers
   - India: RRRLF - [free](https://isbnnew.inflibnet.ac.in/).
-- India
-  - [https://pothi.com/](https://pothi.com/)
-- USA
-  - [lulu](http://www.lulu.com/)
-  - Mohan KV and Shreevatsa published sadAswada there in 2014 ([PB](https://www.lulu.com/shop/mohan-k-v-and-shreevatsa-r/sad%C4%81sv%C4%81da/paperback/product-21607789.html?page=1&pageSize=4), [HC](https://www.lulu.com/shop/mohan-k-v-and-shreevatsa-r/sad%C4%81sv%C4%81da/hardcover/product-21641228.html?page=1&pageSize=4)). ("excellent results in the US and bad ones in India").

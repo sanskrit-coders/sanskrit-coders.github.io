@@ -51,8 +51,16 @@ Stacking copies in a sheet -
   - Non slow mode mangles the pdf.
 - Select x copies, rows 2, columns 1 in Layout tab
 
+#### References
+- [TW](https://www.youtube.com/@justaprinter/videos)
 
 ### Binding
+Common types
+
+- Perfet / Glue Binding
+- Stitch binding
+- Saddle-stitched Binding (Center Stapled)
+
 - can use a multi hole punch (eg spiral binding) plus good twine to bind books. Simple, fast, long lasting and replaceable.
 - Bind it. Paste the cover.
   - Can make A4 covers and cut the excess book - Since, A4 photo papers are readily available.  
@@ -260,10 +268,29 @@ Cost estimates including GST:
 - On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
 - For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink on acid free paper).
 
-- navbhArat 2025 
+#### India printers
+- navbhArat 2025, bengaLUru 
   - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
   - rates for 30 copies A5 size books 450 pages approx using 80gsm maplitho  b/w print , cover in colour 300gsm. Rs 28,900/- + gst - So 1k per copy. (Material cost approx - ₹ 400 for acid paper and ₹ 50-100 for ink.)
 
+- DS graphics 2026 - mysUru
+  - 378 pages B&W in 70 gsm maplitho paper, Laser Printout, 300 gsm art card digital printing for coverpage (front & back), lamination, Stitch with Perfet Binding 
+    - Paperback 272/copy (200 copies), 780 / copy (30 copies)
+    - Case binding 300/copy (200 copies), 850/ copy (30 copies)
+
+- rAghavendra vAgartha, bengaLUru 202601
+  - 426 pgs B&W, laser on common acid free paper. 
+    - paperback - 266 / copy (30 copies)
+    - hardback - 333/ copy (30 copies)
+  - Offset printing, with pigment ink, available only for 300+ copies. This involves plate making and then printing, also to set the prints ready there is a certain amount of wastage involved - which exceeds 30 copies.
+- [https://pothi.com/](https://pothi.com/) 2026 - 387 / copy for 50 copies.
+
+##### Mass quantity
+- If you see these bengali book publishers, they publish on thin paper and sell 7-800 page books home-delivered for free at 150-200 rs. Eg: [TW](https://www.amazon.in/SHARAT-RACHANA-SAMAGRA-COMBO-AGENCY/dp/B09643MW73/520-1866763-8225103) These are printed in 10,000 copies at a time. Very low quality paper & ink
+
+#### USA
+- [lulu](http://www.lulu.com/)
+- Mohan KV and Shreevatsa published sadAswada there in 2014 ([PB](https://www.lulu.com/shop/mohan-k-v-and-shreevatsa-r/sad%C4%81sv%C4%81da/paperback/product-21607789.html?page=1&pageSize=4), [HC](https://www.lulu.com/shop/mohan-k-v-and-shreevatsa-r/sad%C4%81sv%C4%81da/hardcover/product-21641228.html?page=1&pageSize=4)). ("excellent results in the US and bad ones in India").
 
 <details><summary>विश्वास-टिप्पनी</summary>
 
