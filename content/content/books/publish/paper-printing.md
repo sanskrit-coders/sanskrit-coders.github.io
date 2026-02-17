@@ -25,6 +25,15 @@ Effort cost is not much
 
 - Just need to do a single cut and you get 2x A4
 
+#### Grains
+Grain direction refers to the alignment of fibers in a sheet of paper.  
+Paper folds more easily and cleanly when folded parallel to the grain. Folding against the grain can cause the paper to crack or break.  
+
+How to Determine Grain Direction
+
+- The fibers are aligned parallel to the longer side of the paper.
+- Folding Test: Fold a sheet of paper in both directions. The direction that feels easier to fold indicates the grain direction.
+- Curl Test: Moisten the edges of a paper and observe how it curls as it dries. The paper will curl along the grain direction.
 
 #### Overview
 Print 200 pg A5 book with A4 papers - 
@@ -68,6 +77,43 @@ Common types
 
 So, for thick books, split the pdf and make multiple booklets then merge it.
 
+#### Punching
+- Japanese screw punch 
+- Awl
+- Common electric drill twists papers and damages surroundings slightly.
+
+#### Sewing
+Don't pull too tight. Remove excess wax by pull thourgh some paper if needed.
+
+##### Threads
+Unwaxed natural threads (like cotton or linen) can absorb moisture and develop mold or rot. Waxed thread holds knots very well.
+
+- waxed linen threads
+- waxed polyester thread
+- cotton threads
+
+Waxing - can be waxed by using paraffin or beeswax (contains trace acids).
+
+
+
+
+#### Pressing
+
+Can use 2 3-inch vices like [TW](https://www.amazon.in/Homdum-3inch-Steel-Professional-mounted/dp/B093PVP9BW)
+
+Can use side cover of cutter(which is actually meant for holding tight pages while cutting) to press the book binding edge after creasing.
+
+> I used to press after stapling as well. Paper cover became uneven due to staple marks - kamala nayana
+
+#### Creasing
+May not be needed if pressing.
+
+We first cut then crease. Big printing presses first crease and then cut because they print on A0, A1, A2 etc. sizes.
+
+- Manual creaser - 10 pg capacity
+- Electric creaser: 1k sheets [TW](https://www.namibind.co.in/paper-creasing-machine.html)
+
+
 ### Distribution
 #### Mailing
 ##### India Post
@@ -110,8 +156,6 @@ Typical workflow -
 ## Cutters
 See separate [page](../cutter).
 
-## Creasers
-Creasing machine can be A4 as well. We first cut then crease. Big printing presses first crease and then cut because they print on A0, A1, A2 etc. sizes.
 
 ## Punches
 - Kangaro - Source: [TW](https://www.kangarokgoc.com/Home/ProductDetails?ID=17&CATID=2&CatName=Paper%20Punches)
@@ -172,6 +216,19 @@ Cost estimates including GST:
 ### Home mini printing press (kamala-nayanaH)
 > Actually for preserving ancient texts we need many people to setup mini presses at their home. Once set up cost per page will be very low for preservation needs. 
 > While printer is in warranty use costly branded imported inks generally in small bottles. After warranty is over cheap indian inks like (Pro Dot) can be used to lower printing costs.
+
+
+### vishvAsa
+Printers
+
+- epson l15180 - 96k in 2026. Pigment ink, A3 printer. black page cost .13 INR, color 2x.
+- HP Color LaserJet M255-256
+
+- Hand operated manual stapler - Kangaro Distributor - HD-23L24FL	₹3,000
+
+Kangaro 4 hole Punch
+
+A3 Ream cutter 12.5k 2026.
 
 
 ### kamalanayana's 2025 setup
@@ -255,7 +312,8 @@ Cost estimates including GST:
 - Acid free paper
   - A4 
     - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
-    - 513/500 (JK paper 75GSM )
+      - 100% cotton rags. Not tested or certified.
+    - 513/250 (JK paper 75GSM ) - about 0.5 / A4
   - A3 
     - 7 INR/ sheet (Kirti paper, hubli, 2025)
     - 513/500 (JK paper 75GSM )
@@ -264,10 +322,23 @@ Cost estimates including GST:
   - A3 4% buffered
     - 27 INR / sheet (sriaurobindopaper.com )
 
-### Print cost
-- On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
-- For an avg. 400 pg A5 book, tAra-prakAshana quoted around 600 Rs per copy (pigment ink on acid free paper).
+Covers
 
+- 180 GSM Kraft paper roll 24 inch - 190 Rs in 2026 Source: [TW](https://www.amazon.in/dp/B08LNR5WVQ)
+- Offset 250-300 GSM papers are cheap. But, can't print on it using dye, pigment or laser printers.
+- Photo paper
+- Wedding invitation printing paper
+
+
+### Print cost
+#### Home
+- vishvAsa 2026 - 
+  - BW A4 sheet (2 pages) - .15 Rs
+  - Acid free A4 sheet cost - .5 Rs
+  - 100 A4 sheets - 65 Rs
+  - 100 A5 sheets - 33 Rs
+  - 500 A5 sheets - 165 Rs
+- kamalanayana - On regular paper - ₹ 2,000 (plain paper) + ₹ 2,000 (ink and cover paper) for 2,500 A3 sheets
 #### India printers
 - navbhArat 2025, bengaLUru 
   - Pigment ink, acid free paper is available only in bulk for printing 1000 books plus.
@@ -283,6 +354,7 @@ Cost estimates including GST:
     - paperback - 266 / copy (30 copies)
     - hardback - 333/ copy (30 copies)
   - Offset printing, with pigment ink, available only for 300+ copies. This involves plate making and then printing, also to set the prints ready there is a certain amount of wastage involved - which exceeds 30 copies.
+- For an avg. 400 pg A5 book, **tAra-prakAshana** quoted around 600 Rs per copy (pigment ink on acid free paper).
 - [https://pothi.com/](https://pothi.com/) 2026 - 387 / copy for 50 copies.
 
 ##### Mass quantity

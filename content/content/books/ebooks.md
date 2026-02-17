@@ -3,6 +3,7 @@ title = "e-book Prep"
 
 +++
 
+## Making
 Make epub book  
 
 - Using Calibre ( on Ubuntu etc..)
@@ -18,3 +19,15 @@ Make Kindle ebook: Techniques
 - Follow instructions in tutorial [201508](http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/).
 - Kindle-store-मध्ये भारतीयभाषाणां पुस्तकानि प्रायो नवीनतर-.azw3-format-द्वारा रचितानि विद्यन्ते। .mobi-format-द्वारा रचितानां देवनागरीपुस्तकानामुद्घाटनं पृष्ठपरिवर्तनं च महत्कष्टम्। तस्माद् Windows-मध्ये Calibre-द्वारा [KFX Output plugin](https://plugins.calibre-ebook.com/291290.zip) उपयुज्य .azw3-format-संस्कृतानि पुस्तकानि कुर्यात्। (2018)
 
+
+## Extracting from Google Play
+- Using Adobe Digital Editions + Calibre with DeDRM plugin 
+  - mac osx guide [here](https://www.osxwiki.com/remove-drm-from-google-play-books/).
+
+### Linux
+- Adobe digital editions on Wine
+  - Adobe digital editions 4.5 works for some time but crashes as of 202205.
+  - Adobe digital editions 1.7 on Wine fails as of 202205. 
+- Adobe digital editions (ADE) key
+  - Android location [here](https://github.com/apprenticeharper/DeDRM_tools/issues/952).
+  - Could not figure out location under Wine.
