@@ -55,6 +55,9 @@ Other information on Ulrich's site: [here](http://www.sanskritweb.net/itrans/ind
   - devanAgarI.net
     listing [here](http://www.devanaagarii.net/fonts/).
 
+## Font selection
+Can filter [here](https://fonts.google.com/?preview.text=test%20%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%83%20%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B8%E0%A5%8D%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%82%20%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%87%E0%A4%83%20%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%8D%E0%A4%B5%E0%A4%BE%20english%20%E0%A4%B9%E1%B3%93%E0%A4%B0%E0%A4%BF%E0%A4%83%20%E0%A4%B9%E0%A5%91%E0%A4%B0%E0%A4%81%E0%A5%92&script=Deva) or [here](https://fonts.google.com/?preview.text=test%20%E0%A4%85%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE%E0%A4%83%20%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B8%E0%A5%8D%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%82%20%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%87%E0%A4%83%20%E0%A4%AC%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A5%8D%E0%A4%B5%E0%A4%BE%20english%20%E0%A4%B9%E1%B3%93%E0%A4%B0%E0%A4%BF%E0%A4%83%20%E0%A4%B9%E0%A5%91%E0%A4%B0%E0%A4%81%E0%A5%92&lang=en_Latn;sa_Deva&script=Deva;Latn).
+
 ## Best practices for webmasters.
 
 Motivation:

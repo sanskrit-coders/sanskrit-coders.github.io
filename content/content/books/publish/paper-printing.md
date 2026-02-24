@@ -114,21 +114,6 @@ We first cut then crease. Big printing presses first crease and then cut because
 - Electric creaser: 1k sheets [TW](https://www.namibind.co.in/paper-creasing-machine.html)
 
 
-### Distribution
-#### Mailing
-##### India Post
-###### Gyan Post
-Source: [TW](https://www.indiapost.gov.in/mailproducts#gyanpost)
-
-It had a different name before. Rs. 28/kg or something similar. Max 5 kg/book parcel.
-
-Packaging should be such that books are slightly visible from any side for their verification. 
-
-Also, ask them for gyan post book parcel only else they will do speed post in which case even less than 1 kg will cost ₹ 150.
-
-> But they have made it difficult it seems. I bought something recently and paid Rs. 195 for shipping. It is definitely not 6 kgs of books
-
-
 
 ## Printers & their inks
 - Consumer printer:
@@ -310,6 +295,7 @@ A3 Ream cutter 12.5k 2026.
   - A3
     - 400Rs / ream - 
 - Acid free paper
+  - JK paper 75GSM - marketed as being "Long lasting and acid-free". Per Gemini - made from 100% ECF (Elemental Chlorine Free) plantation wood pulp - reduces Lignin much.
   - A4 
     - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
       - 100% cotton rags. Not tested or certified.
