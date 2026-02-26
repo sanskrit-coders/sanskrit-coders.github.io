@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;OCR on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/ocr/</link>
+    <description>Recent content in &#43;OCR on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI prompts</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/AI-prompts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/AI-prompts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Procedure</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/ocr-ing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/ocr-ing/</guid>
+      <description>&lt;h2 id=&#34;whats-a-good-ocr&#34;&gt;What&amp;rsquo;s a good OCR?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;A good OCR has high accuracy.&lt;/li&gt;&#xA;&lt;li&gt;It may be better to keep the OCR result as separate pages, and have them associated with the original images. This can help in the following ways:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;helps proofreading, as &lt;a href=&#34;corrections.html&#34;&gt;described here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;it may be helpful to include with each entry a link to the page in the book, so that even if the reader/user suspects OCR errors, they can click on the link and see the original page. (I&amp;rsquo;ve used this feature in the MW dictionary a few times.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;how-to-ocr&#34;&gt;How to OCR?&lt;/h2&gt;&#xA;&lt;h3 id=&#34;software&#34;&gt;Software&lt;/h3&gt;&#xA;&lt;p&gt;Desktop/ web based,  in roughly decreasing order of popularity&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Scanning</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/scanning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/scanning/</guid>
+      <description>&lt;h2 id=&#34;general-phone-procedure&#34;&gt;General phone procedure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use autoscan on a good app - or a bluetooth trigger.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;check the quality of images, and rescan the misscanned pages&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;transfer the images to desktop, or produce pdf on phone&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;doc-scanner&#34;&gt;doc scanner&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.cv.docscanner&#34;&gt;Google play&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/document-scanner-by-lufick/id1560570003&#34;&gt;Apple&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;auto-capture mode has made it perfect for digitizing Sanskrit documents. - mohit dokania&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;camscanner&#34;&gt;Camscanner&lt;/h2&gt;&#xA;&lt;p&gt;No good OCR - just scanning.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Auto-scan &lt;a href=&#34;https://youtube.com/shorts/KFLCF_sU40A&#34;&gt;video&lt;/a&gt; .&lt;/li&gt;&#xA;&lt;li&gt;Support for generating 2 page images from single photo - only in non-automatic mode.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;vflat&#34;&gt;vflat&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.voyagerx.scanner&amp;amp;hl=en_IN&amp;amp;gl=US&#34;&gt;android&lt;/a&gt;, &lt;a href=&#34;https://apps.apple.com/in/app/vflat-scan-pdf-scanner/id1540238220&#34;&gt;apple&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Auto-scan &lt;a href=&#34;https://www.youtube.com/shorts/JiG41q9R9yk&#34;&gt;video&lt;/a&gt; .&lt;/li&gt;&#xA;&lt;li&gt;free app - Scanning and exporting images - no restrictions. pdf making restricted to 10 images.&lt;/li&gt;&#xA;&lt;li&gt;generates 2 page images from single photo well. But there is a monthly limit.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;pdf-processing&#34;&gt;pdf processing&lt;/h2&gt;&#xA;&lt;h3 id=&#34;splitting-multi-page-column-pages&#34;&gt;Splitting multi-page/ column pages&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;scantailor advanced does an excellent automated job, if used right. kArtik uses it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

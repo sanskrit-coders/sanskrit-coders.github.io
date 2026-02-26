@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optitrans on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/input/optitrans/</link>
+    <description>Recent content in Optitrans on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/input/optitrans/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optitrans V1</title>
+      <link>https://sanskrit-coders.github.io/input/optitrans/v1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/input/optitrans/v1/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;OptItrans is optimal Indic transliteration. Type indic scripts with minimal effort. For general philosophy and history, see &lt;a href=&#34;../&#34;&gt;main page&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The latest transliteration table is always available in &lt;a href=&#34;https://docs.google.com/spreadsheet/ccc?key=0Al_QBT-hoqqVdHQ1MFZLU0FveUU0SlJRMFJ5MWZPWnc&#34;&gt;this online spreadsheet&lt;/a&gt;. It lists transliteration rules from OptiTrans and several other popular schemes (including Baraha, Harvard-Kyoto, ITRANS, Velthuis, IAST) for easy comparison.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;shankara manju - शङ्कर मञ्जु&lt;/li&gt;&#xA;&lt;li&gt;shiv shankar (while writing hindI) - शिव शङ्कर&lt;/li&gt;&#xA;&lt;li&gt;shiv shankar (while writing Samskrita) - शिव् शङ्कर्&lt;/li&gt;&#xA;&lt;li&gt;ak.ha man.hju - अक्ह मन्जु&lt;/li&gt;&#xA;&lt;li&gt;mukha - मुख&lt;/li&gt;&#xA;&lt;li&gt;shraddhAvAn asi. gacCha. - श्रद्धावान् असि। गच्छ।&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;known-implementations&#34;&gt;Known implementations&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;optitransv1 is used for lookups by the stardict-sanskrit project [&lt;a href=&#34;https://github.com/indic-dict/stardict-sanskrit/issues/71&#34;&gt;1&lt;/a&gt;].&lt;/li&gt;&#xA;&lt;li&gt;Gmail&amp;rsquo;s hindI and sanskrit phonetic input are similar.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Optitrans v2</title>
+      <link>https://sanskrit-coders.github.io/input/optitrans/v2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/input/optitrans/v2/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;OptItrans is optimal Indic transliteration. This version is specially meant for typing convenience. Type indic scripts with minimal effort. For general philosophy and history, see &lt;a href=&#34;../&#34;&gt;main page&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;The latest transliteration table is always available in &lt;a href=&#34;https://docs.google.com/spreadsheet/ccc?key=0Al_QBT-hoqqVdHQ1MFZLU0FveUU0SlJRMFJ5MWZPWnc&#34;&gt;this online spreadsheet&lt;/a&gt;. It lists transliteration rules from OptiTrans and several other popular schemes (including Baraha, Harvard-Kyoto, ITRANS, Velthuis, IAST) for easy comparison.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;highlights-and-examples&#34;&gt;Highlights and examples&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Avoiding unnecessary &amp;lsquo;a&amp;rsquo;s.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;kml or kamala : कमल&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Typing vyanjana-s with a virAma&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

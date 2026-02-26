@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>संस्कृत-साङ्गणकाः Sanskrit Programmers  | SanskritOCR vs. Google OCR</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.143.0">
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    <link href="/posts/2018-06-05-ocr-comparison/" rel="alternate" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+    <link href="/posts/2018-06-05-ocr-comparison/" rel="feed" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+
+    <meta property="og:url" content="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/">
+  <meta property="og:site_name" content="संस्कृत-साङ्गणकाः Sanskrit Programmers">
+  <meta property="og:title" content="SanskritOCR vs. Google OCR">
+  <meta property="og:description" content="SanskritOCR vs. Google OCR.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-06-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-06-05T00:00:00+00:00">
+    <meta property="article:tag" content="News">
+
+  <meta itemprop="name" content="SanskritOCR vs. Google OCR">
+  <meta itemprop="description" content="SanskritOCR vs. Google OCR.">
+  <meta itemprop="datePublished" content="2018-06-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2018-06-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1208">
+  <meta itemprop="keywords" content="News">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SanskritOCR vs. Google OCR">
+  <meta name="twitter:description" content="SanskritOCR vs. Google OCR.">
+<script type="text/javascript">
+    
+    let baseURL = "https:\/\/sanskrit-coders.github.io\/";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\u0022build_img\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/actions\/workflows\/build.yml\/badge.svg\u0022,\u0022build_url\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/actions\/workflows\/build.yml\u0022,\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/issues\/new\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/edit\/hugo-source\/content\/\u0022}");
+    let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}}]");
+    let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/\u0022},{\u0022title\u0022:\u0022\\u003ci class=\\\u0022fas fa-hand-holding-heart\\\u0022\\u003e\\u003c\/i\\u003eDonate\u0022,\u0022url\u0022:\u0022https:\/\/vishvAsa.github.io\/interests\/dharma-via-vishvas\/\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022topnav\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Tools\u0022,\u0022url\u0022:\u0022\/pages\/index.html\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/pages\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    
+    var pageRelUrlTree = {};
+</script>
+
+    
+    <script type="text/javascript">
+  let pageVars = {};
+  pageVars.pageUrlMinusBasePath = "\/posts\/2018-06-05-ocr-comparison\/".replace(basePath, "/");
+  pageVars.pageParams = {};
+  pageVars.pageSource = "posts\/2018-06-05-ocr-comparison.md";
+  console.log(pageVars.pageSource);
+  var pageDefaults;
+  for (let possiblePageDefaults of pageDefaultsList) {
+    if (pageVars.pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+      pageDefaults = possiblePageDefaults.values
+    }
+  }
+    
+</script>
+
+
+    <script src="/webpack_dist/uiLib-bundle.js"></script>
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/webpack_dist/uiLib.css">
+<link rel="stylesheet" href="/css/uiLibPrint.css" media="print" >
+<link rel="stylesheet" href="/css/fonts.css" >
+<link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/solid.min.css">
+
+<link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+
+<link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/" />
+<link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=devanagari" />
+
+<link rel="alternate" hreflang="sa-Knda" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=kannada" />
+<link rel="alternate" hreflang="sa-Mlym" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=malayalam" />
+<link rel="alternate" hreflang="sa-Telu" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=telugu" />
+<link rel="alternate" hreflang="sa-Taml-t-sa-Taml-m0-superscript" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=tamil_superscripted" />
+<link rel="alternate" hreflang="sa-Taml" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=tamil" />
+<link rel="alternate" hreflang="sa-Gran" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=grantha" />
+
+<link rel="alternate" hreflang="sa-Gujr" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=gujarati" />
+<link rel="alternate" hreflang="sa-Guru" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=gurmukhi" />
+<link rel="alternate" hreflang="sa-Shar" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=sharada" />
+<link rel="alternate" hreflang="sa-Dogr" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=dogra" />
+<link rel="alternate" hreflang="sa-Phag" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=phags_pa" />
+<link rel="alternate" hreflang="sa-Tibt" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=tibetan" />
+<link rel="alternate" hreflang="sa-Sidd" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=siddham" />
+<link rel="alternate" hreflang="sa-Newa" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=newa" />
+<link rel="alternate" hreflang="sa-Modi" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=modi" />
+<link rel="alternate" hreflang="sa-Tirh" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=tirhuta_maithili" />
+<link rel="alternate" hreflang="sa-Gong" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=gondi_gujala" />
+<link rel="alternate" hreflang="sa-Gonm" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=gondi_masaram" />
+
+
+<link rel="alternate" hreflang="sa-Orya" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=oriya" />
+<link rel="alternate" hreflang="sa-Beng-t-sa-Beng-m0-assamese" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=assamese" />
+<link rel="alternate" hreflang="sa-Beng" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=bengali" />
+<link rel="alternate" hreflang="sa-Mtei" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=manipuri" />
+<link rel="alternate" hreflang="sa-Sinh" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=sinhala" />
+<link rel="alternate" hreflang="sa-Limb" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=limbu" />
+<link rel="alternate" hreflang="sa-Lepc" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=lepcha" />
+
+
+<link rel="alternate" hreflang="sa-Cyrl" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=cyrillic" />
+<link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iso" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=iso" />
+<link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iast" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=iast" />
+<link rel="alternate" hreflang="sa-Aran" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=urdu" />
+<link rel="alternate" hreflang="sa-Avst" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=avestan" />
+
+<link rel="alternate" hreflang="sa-Brah" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=brahmi" />
+<link rel="alternate" hreflang="sa-Khar" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=kharoshthi" />
+<link rel="alternate" hreflang="sa-Zanb" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=zanbazar_square" />
+<link rel="alternate" hreflang="sa-Bhks" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=bhaiksuki" />
+
+<link rel="alternate" hreflang="sa-Bali" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=balinese" />
+<link rel="alternate" hreflang="sa-Java" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=javanese" />
+<link rel="alternate" hreflang="sa-Laoo" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=lao" />
+<link rel="alternate" hreflang="sa-Laoo-t-sa-Laoo-m0-Laopali" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=lao_pali" />
+<link rel="alternate" hreflang="sa-Mymr" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=burmese" />
+<link rel="alternate" hreflang="sa-Mymr-t-sa-Mymr-m0-Mon" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=mon" />
+<link rel="alternate" hreflang="sa-Cham" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=cham" />
+<link rel="alternate" hreflang="sa-Khmr" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=khmer" />
+<link rel="alternate" hreflang="sa-Thai" href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/?transliteration_target=thai" />
+
+  </head>
+
+  <body class="ma0 bg-near-white">
+    
+
+
+    
+<header class="p-1 bg-yellow noPrint">
+    <nav role="navigation" class="col">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/" class="btn col border">
+            <i class="fas fa-gopuram ">संस्कृत-साङ्गणकाः Sanskrit Programmers <br/> SanskritOCR vs. Google OCR</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <button class="btn btn-light"  href="#transliterationDropdown" data-toggle="collapse">
+            ✍
+          </button>
+          <select id="transliterationDropdown" size="1" class="collapse" onchange="module_uiLib.default.content.updateTransliteration()">
+            <optgroup label="🌍">
+              <option value="iso">āISO</option>
+              <option value="iso_vedic">āi-āu</option>
+              <option value="cyrillic">пу</option>
+              <option value="urdu">نس</option>
+              <option value="??">🌍??</option>
+            </optgroup>
+            <optgroup label="🛕🧭S">
+              <option value="kannada">ಅ</option>
+              <option value="malayalam">അ</option>
+              <option value="telugu">క</option>
+              <option value="tamil_superscripted">க²</option>
+              <option value="tamil_extended">க</option>
+              <option value="grantha">𑌅</option>
+            </optgroup>
+            <optgroup label="🛕🧭N">
+              <option value="devanagari" selected="">स</option>
+              <option value="gujarati">અ</option>
+              <option value="gurmukhi">ਅ</option>
+            </optgroup>
+            <optgroup label="🛕🧭E">
+              <option value="oriya">ଅ</option>
+              <option value="assamese">অস</option>
+              <option value="bengali">অ</option>
+            </optgroup>
+            <optgroup label="🛕🏺📜">
+              <option value="sharada">𑆑𑇀𑆰</option>
+              <option value="brahmi">𑀅</option>
+            </optgroup>
+            <optgroup label="🛕🌋">
+              <option value="balinese">ᬩᬮᬶ</option>
+            </optgroup>
+          </select>
+          <div>
+          <button class="btn btn-outline-secondary btn-sm"  href="#transliterationDropdownAlt" data-toggle="collapse">
+          (✍)
+          </button>
+          <select id="transliterationDropdownAlt" size="1"  style="font-size:12px" class="bg-light-yellow collapse" onchange="module_uiLib.default.content.updateTransliteration()">
+            <optgroup label="🌍">
+              <option value="iso">āISO</option>
+              <option value="iso_vedic">āi-āu</option>
+              <option value="cyrillic">пу</option>
+              <option value="urdu">نس</option>
+              <option value="??">🌍??</option>
+            </optgroup>
+            <optgroup label="🛕🧭S">
+              <option value="kannada">ಅ</option>
+              <option value="malayalam">അ</option>
+              <option value="telugu">క</option>
+              <option value="tamil_superscripted">க²</option>
+              <option value="tamil_extended">க</option>
+              <option value="grantha">𑌅</option>
+            </optgroup>
+            <optgroup label="🛕🧭N">
+              <option value="devanagari" selected="">स</option>
+              <option value="gujarati">અ</option>
+              <option value="gurmukhi">ਅ</option>
+            </optgroup>
+            <optgroup label="🛕🧭E">
+              <option value="oriya">ଅ</option>
+              <option value="assamese">অস</option>
+              <option value="bengali">অ</option>
+            </optgroup>
+            <optgroup label="🛕🏺📜">
+              <option value="sharada">𑆑𑇀𑆰</option>
+              <option value="brahmi">𑀅</option>
+            </optgroup>
+            <optgroup label="🛕🌋">
+              <option value="balinese">ᬩᬮᬶ</option>
+            </optgroup>
+          </select>
+          </div>
+          <div class="row col d-flex  dropdown">
+            <button class="btn btn-secondary-outline btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A±
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="btn btn-secondary btn-sm" onclick="module_uiLib.changeTextSize(2)">A+</a>
+            <a class="btn btn-secondary btn-sm" onclick="module_uiLib.changeTextSize(-2)">A-</a>
+            </div>
+          </div>
+          <button class="btn btn-light btn-sm"  href="#commentStyleDropdown" data-toggle="collapse">
+            🗨
+          </button>
+          <select id="commentStyleDropdown" class="collapse" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
+            <option value="on">✔</option>
+            <option value="hidden">✗</option>
+          </select>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamsAndGo({'expandDetails': '.*'})">↕️️</a></div>
+          <div id="printStyleDiv" class="row col d-flex  dropdown">
+          <button class="btn btn-light btn-sm dropdown-toggle"  href="#printStyleDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          🖨
+          </button>
+            <div class="dropdown-menu col" aria-labelledby="printStyleDropdown">
+              <div class="row justify-content-center">
+                <p>Cols:</p>
+                <input type="number" min="1" max="10" value="2" step="1" id="tbColumns" style="width: 3ch;"  accesskey="c"/>
+              </div>
+              <div class="row justify-content-center">
+                <p>A±:</p> <input type="text" id="tbBodyFontSize" value="0.4cm" style="width: 6ch;"  accesskey="f"></input>
+              </div>
+              <div class="row justify-content-center">
+                <p>Incl:</p> <input checked type="checkbox" id="tbIncludeStyle" value="on"></input>
+                <button id="btnPrintStyle" onclick="module_uiLib.default.content.updatePrintStyle()">🖨
+                </button>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div id="audioDiv" class="row col d-flex  dropdown">
+          <button class="btn btn-secondary-outline btn-sm dropdown-toggle" type="button" id="audioDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            🎧
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a id="speakerButton" class="btn btn-outline-secondary btn-sm" onclick="module_uiLib.default.content.handleSpeakToggle()">⏯</a>
+          <button id="speakerPauseButton" class="btn btn-outline-secondary btn-sm">⏸</button>
+            <div id="audioOptionsDiv" class="row justify-content-center" >
+              <div>
+                <p class="lead">Vol</p>
+                <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+                <span id="volume-label" class="ms-2">1</span>
+              </div>
+              <div class="mx-5">
+                <p class="lead">Rate</p>
+                <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+                <span id="rate-label" class="ms-2">1</span>
+              </div>
+              <div>
+                <p class="lead">Pitch</p>
+                <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+                <span id="pitch-label" class="ms-2">1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://sanskrit-coders.github.io/search"  class="btn btn-light btn-sm">🥽🔦</a>
+        <div class="row col  d-flex justify-content-center">
+          <div><a id="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a id="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+        </div>
+        <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
+        </ul>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row" name="contentRow">
+      
+      <aside class="col-md-3 card border noPrint " id="sidebar">
+          <div id="fastSearch">
+              <datalist id="pageDataList"></datalist>
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
+          </div>
+          <details open  class="bg-light-gray" >
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
+            Menu
+              </summary>
+              <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
+              </ul>
+          </details>
+      </aside>
+      <main class="col p-3" role="main" data-pagefind-body>
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="SanskritOCR vs. Google OCR">SanskritOCR vs. Google OCR</h1>
+    
+    <a id="editLink" class="btn btn-primary noPrint"  href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/posts/2018-06-05-ocr-comparison.md"><i class="fas fa-edit"></i></a>
+    
+</header>
+<article>
+  <aside id="toc_card" class="card border noPrint ">
+    <details id="toc_header">
+        <summary>What's in this page?</summary>
+      <div id="toc_body" class="p-0">
+        
+        <ul id="toc_ul" class="list p-0">
+        </ul>
+      </div>
+    </details>
+    <div id="progressBarDiv" class="row d-flex justify-content-center">
+      🐎💪<progress id="progressLoading" value="0" max="100"> 32% </progress>
+    </div>
+  </aside>
+  <div id="post_content">
+  <p>As far as I am aware, there are two options for high-quality Sanskrit OCR that
+I know of:</p>
+<ul>
+<li>the <a href="http://www.indsenz.com/int/index.php?content=software_ind_ocr_sanskrit">SanskritOCR</a> tool created by Dr. Oliver Hellwig</li>
+<li>the <a href="https://cloud.google.com/vision/docs/ocr">Google OCR</a> API exposed through the Google Cloud Vision API</li>
+</ul>
+<p>I was curious to get a sense of how these two tools compared on a sample page,
+and whether there was a clear difference in quality between the two. Here I&rsquo;ll
+describe how I conducted this comparison and my results.</p>
+<p>Doing a fair analysis is time-consuming because a variety of page sizes,
+scan qualities, genres, and so on must be tested, and all must be tested for
+both the number and the severity of the errors produced.</p>
+<p>So rather than make a firm pronouncement of how one tool compares to the other,
+I focused on just one page that I found particulary challenging and saw how
+the tools compare. Specifically, I focused on page 28 of [this edition]
+of the Raghuvamsa, with the commentary by Mallinatha.</p>
+<p>This is a reasonable test because the text contains both large type for the
+main poem and smaller type (with long compounds) for the commentary. The
+print quality ranges from perfectly clear to quite ugly.</p>
+<p>Potential biases:</p>
+<ul>
+<li>SanskritOCR does much better with grayscale text. But most of the PDFs I&rsquo;ve
+seen on archive.org, and that I&rsquo;m interested in digitizing, are just
+black-and-white.</li>
+<li>Hard to pick a &ldquo;representative&rdquo; sample of Sanskrit literature. But at least
+this is a good heuristic.</li>
+<li>I&rsquo;m not a SanskritOCR expert but I know that it has several tuning options,
+including training on an unseen character set. For now I just used the default
+settings, since I&rsquo;m a novice with the tool, but it&rsquo;s possible that more work
+might improve the results here.</li>
+<li>I don&rsquo;t have a Windows setup, so I&rsquo;ll be running SanskritOCR through an
+emulator. I don&rsquo;t think this should have much impact on the quality of
+results, however.</li>
+</ul>
+<h2 id="ease-of-use">Ease of use</h2>
+<h2 id="setup">Setup</h2>
+<ul>
+<li>SanskritOCR is packaged as an .msi and is Windows only without some kind of
+emulator. But as technical users, it&rsquo;s important for us to remember that Unix
+environments are the small minority.</li>
+<li>The most easily used OCR set up for Google is a Linux-only Python script.
+With some hacky setup, I got something close enough working on OSX.</li>
+</ul>
+<p>Conclusion: Google is more easily scriptable, but as long as you can install
+it, SanskritOCR is stronger.</p>
+<h2 id="user-interface">User interface</h2>
+<ul>
+<li>SanskritOCR has one, and it&rsquo;s pretty simple, with large, prominent buttons.
+Output is produced per line, and when you click on an digitized word, the
+interface scroll to its counterpart automatically. Really slick.</li>
+<li>Google has a pretty simple command line API. Output is a blob of text &ndash; line
+breaks aren&rsquo;t preserved unless you use the low level API, so comparison with
+the source material is a little harder by default.</li>
+</ul>
+<p>Conclusion: Google is easier for technical users to run, but its features are
+really basic, but SanskritOCR is easier for non-technical users, and it&rsquo;s also
+more pleasant / powerful.</p>
+<h2 id="runtime">Runtime</h2>
+<ul>
+<li>Google runs in about 2 seconds per page.</li>
+<li>SanskritOCR took more than two minutes on my first sample page &ndash; nearly two
+orders of magnitude difference. Ditto when running in Ubuntu. This may be due
+to how I&rsquo;m emulating it, though &ndash; I really wish I had a Windows machine handy
+to test.</li>
+</ul>
+<p>Conclusion: Google by far, but my case is probably atypical.</p>
+<h2 id="quality">Quality</h2>
+<p>I compared as many errors as I had the time and inclination before. I
+pre-committed to check the verse and the first paragraph of each set of outputs.</p>
+<p>Each error is given with its approximate <a href="https://en.wikipedia.org/wiki/Edit_distance">edit distance</a> when romanized. I
+thought this was a reasonable metric of severity because it loosely measures
+the work required for a proofreader to correct a word. (The edit distance is
+&ldquo;approximate&rdquo; because I calculated each mentally and quite quickly. But the
+results should be qualitatively correct.)</p>
+<h2 id="errors-in-google-ocr-verse-and-first-paragraph">Errors in Google OCR (verse and first paragraph)</h2>
+<ul>
+<li>[3] payovāhaṃ → paryavāhaṃ</li>
+<li>[2] airavatāviva → eravatāviva</li>
+<li>[1] pīḍati → pīḍeti</li>
+<li>[2] puraḥsarau → puraḥsarī</li>
+<li>[1] viśeṣātta → viśeṣāttu</li>
+<li>[2] sevyamāno → sevyamānau</li>
+<li>[2] sukhasparśaiḥ → sukhamparśaḥ</li>
+<li>[1] vārtair → vārtār</li>
+<li>[1] vidyudairava → vidyuderava</li>
+<li>[4] tvairāvatāmindra → vairāvatābhandra</li>
+<li>[2] yābhinna → yorbhinna</li>
+<li>[3] aniṣṭatvādupamādūṣaṇam ? → aniṭatvādupamādṛpaṇaṃ</li>
+<li>[2] rūḍhau → rūdau</li>
+<li>[1] saṃbandhaḥ → saṃvandhaḥ</li>
+<li>[2] airāvato → erāvato</li>
+<li>[1] gair → gar</li>
+<li>[1] tvāca → tvācca</li>
+<li>[2] tvādabhra → tva।dabhra</li>
+<li>[1] tvāt → tvān</li>
+<li>[1] sāhacaryaṃ → sāhacarya</li>
+<li>[2] ghaṭate → paṭate</li>
+<li>[2] airāvatas → airāvanam</li>
+<li>[2] erāvatasya → airāvatasya</li>
+<li>[1] stryair → strayair</li>
+<li>[3] suṣṭūktaṃ → muṣṭataṃ</li>
+<li>[1] iveti → ivati</li>
+<li>[3] rohaṇoktyā → rohaṇe yā</li>
+<li>[1] bījaṃ → vījaṃ</li>
+<li>[2] daṃpatyor → daṃpatyār</li>
+</ul>
+<p>General comments on this output:</p>
+<ul>
+<li>Vowel marks are often ignored (&ldquo;pIDeti&rdquo; → &ldquo;pIDati&rdquo;, &ldquo;airAvata&rdquo; →
+&ldquo;erAvata&rdquo;). Often these mistakes are given very high confidence, so they&rsquo;re
+tough to detect automatically without a dictionary of some kind. For example,
+&ldquo;hetoH&rdquo; → &ldquo;hatAH&rdquo; (from a later paragraph) is particularly bad, as both are
+grammatically valid in context.</li>
+<li>Vowel marks are often mistaken (&ldquo;sevyamAno&rdquo; → &ldquo;sevyamAnau&rdquo;)</li>
+<li>m/s confusion (&ldquo;sukhasparzaiH&rdquo; → &ldquo;sukhamparzaH&rdquo;)</li>
+<li>p/b confusion (&ldquo;yeSAM&rdquo; → &ldquo;yapAM&rdquo;)</li>
+<li>Conjunct &ldquo;ya&rdquo; often read as &ldquo;aya&rdquo; (&ldquo;stryai&rdquo; → &ldquo;strayai&rdquo;)</li>
+<li>Double &ldquo;cc&rdquo; often rendered as &ldquo;c&rdquo;</li>
+<li>Some punctuation issues:         &quot; → &rsquo; &rsquo;      ॥ → | |      &quot; → *     &quot; → '</li>
+<li>Poor line breaking, but this can be worked around when using the lower-level OCR api.</li>
+</ul>
+<h2 id="errors-in-sanskritocr-verse-and-first-paragraph">Errors in SanskritOCR (verse and first paragraph)</h2>
+<ul>
+<li>[3] syandana → ṣkadana</li>
+<li>[2] bhūd → bhrṛd</li>
+<li>[1] puraḥ → pūraḥ</li>
+<li>[4] anubhāvaviśeṣāttu → anudhāvaviśeṣāna</li>
+<li>[1] sena → śena</li>
+<li>[7] sukhasparśaiḥ → bhuravampaśaiḥ</li>
+<li>[21] puṣpareṇūtkirairvārtairādhūtavanarājibhiḥ → pūā;pagṛā&rsquo;itkerervārtairāśrya&rsquo;vanarājiāi&rsquo;caḥ</li>
+<li>[3] vidyudairāvate → vadyadāravate</li>
+<li>[4] iti → jñāta</li>
+<li>[1] pāṭhe → pāṭha</li>
+<li>[6] tvairāvatamindra → tvarāvatābhandra</li>
+<li>[3] bhinnaliṅga → bhirnnalaga</li>
+<li>[2] dūṣaṇam → dapaṇam</li>
+<li>[4] saṃbandhaḥ → savanaḥ</li>
+<li>[1] āpaḥ → āpa</li>
+<li>[7] bhūvāksurāpsu syāt → bhūyatpharāsu syān</li>
+<li>[4] airāvato → egavato</li>
+<li>[8] bhrastatvādabhrarūpatvāt → trasyatvādatarūpatvāna</li>
+<li>[1] rohaṇaṃ → rohaṇa</li>
+<li>[1] sāhacaryaṃ → sāhacarya</li>
+<li>[1] ghaṭate → gaṭate</li>
+<li>[1] kiṃca → kica</li>
+<li>[2] sāha → moha</li>
+<li>[3] stryairāvatīti → anyairāvatīti</li>
+<li>[3] suṣṭūktaṃ → suṣukta</li>
+<li>[4] bījaṃ → vaji</li>
+<li>[1] daṃpat → dapat</li>
+<li>[1] yaṃ → ya</li>
+</ul>
+<p>General comments on this output:</p>
+<ul>
+<li>Often makes severe errors that even a non-Sanskrit reader would notice are wrong.</li>
+<li>Some errors blend in very well, e.g. stryair- → anyair-, iti → jJAta</li>
+</ul>
+<h2 id="tentative-conclusions">Tentative conclusions</h2>
+<p>The two tools produce roughly the same number of errors, but when comparing by
+edit distance, SanskritOCR has roughly twice the severity of Google OCR.</p>
+<p>Since the page I chose is particularly hard, I have confidence that Google OCR
+can maintain this quality or perform even better on easier data.</p>
+<p>Both tools make errors that can seem at first like normal Sanskrit. Google OCR
+seems more prone to this, since its errors are less severe (and therefore
+closer to actual Sanskrit). This may be able to be worked around with better
+linguistic understanding.</p>
+<p>My recommendations on this basis:</p>
+<ul>
+<li>Google OCR is likely at least as good as SanskritOCR and can be used for
+projects that require high-quality Sanskrit OCR.</li>
+<li>Better documentation and assistance for how to tune SanskritOCR may be
+useful.</li>
+<li>Investing in tooling for Google OCR is a worthwhile priority for the
+community, since the OCR output is easy to process programmatically and can
+be used to build more sophisticated proofreading tools.</li>
+</ul>
+
+  </div>
+</article>
+
+
+        
+
+        
+
+
+
+    <aside class="card border noPrint" id="section-tree-item-posts_2018-06-05-ocr-comparison_md">
+        <div class="card-title bg-light-gray border d-flex justify-content-between">
+            <a href="https://sanskrit-coders.github.io/posts/2018-06-05-ocr-comparison/">2018-06-05  - 2018-06-05  | SanskritOCR vs. Google OCR </a>
+            <a data-toggle="collapse" href="#section-tree-item-body-posts_2018-06-05-ocr-comparison_md" role="button" aria-expanded="false" aria-controls="section-tree-item-body-posts_2018-06-05-ocr-comparison_md" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+        </div>
+        <nav id="section-tree-item-body-posts_2018-06-05-ocr-comparison_md" class="card-body p-0 collapse">
+            
+            <li>author: Arun</li>
+            
+            <li>author_link: https://github.com/akprasad</li>
+            
+            <li>date: 2018-06-05 00:00:00 &#43;0000 UTC</li>
+            
+            <li>draft: false</li>
+            
+            <li>iscjklanguage: false</li>
+            
+            <li>lastmod: 2018-06-05 00:00:00 &#43;0000 UTC</li>
+            
+            <li>publishdate: 2018-06-05 00:00:00 &#43;0000 UTC</li>
+            
+            <li>summary: SanskritOCR vs. Google OCR.</li>
+            
+            <li>tags: [news]</li>
+            
+            <li>title: SanskritOCR vs. Google OCR</li>
+            
+        </nav>
+    </aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1 noPrint" role="contentinfo">
+  
+
+  <div id="div_foot_nav_bar" class="row">
+    <a href="https://sanskrit-coders.github.io/search"  class="btn btn-light btn-sm">🥽🔦</a>
+    <div class="row col  d-flex justify-content-center">
+      <div><a id="previousPageFoot" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+      <div ><a id="nextPageFoot" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+    </div>
+      <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
+      </ul>
+  </div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new" >
+      ✉️Contact
+    </a>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    <div class="btn small border">
+      
+      <a href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml"><img src="https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml/badge.svg"> Built </a> on 2026 Feb 26 01:36:33 UTC. (<a href="http://google.com/search?q=01%3a36%3a33%20UTC to IST">IST</a>)
+    </div>
+  </div>
+</footer>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-33H08JSLQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-33H08JSLQR');
+</script>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_uiLib.onDocumentReadyTasks();
+  </script>
+  
+</html>

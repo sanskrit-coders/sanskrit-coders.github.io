@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;GSS Murthy on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/</link>
+    <description>Recent content in &#43;GSS Murthy on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/articles/gss-murthy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Meter-identification</title>
+      <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/meter-identification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/gss-murthy/meter-identification/</guid>
+      <description>&lt;p&gt;A Computer Program To Identify Sanskrit Metres&lt;/p&gt;&#xA;&lt;p&gt;By&lt;/p&gt;&#xA;&lt;p&gt;G S S Murthy&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:murthygss@gmail.com&#34;&gt;murthygss@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Synopsis: The methodology of a program in Java which identifies the name of the Metre when a quarter of a Sanskrit stanza is input in Roman script as per a defined transliteration scheme is briefly described after introducing the basic concepts of Sanskrit prosody.&lt;/p&gt;&#xA;&lt;p&gt;Key words: computational linguistics, Sanskrit metres, prosody, java, &lt;em&gt;chandas&lt;/em&gt;, &lt;em&gt;vrutta&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;[Note: All Sanskrit words are in italics.]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sandhi program</title>
+      <link>https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/</guid>
+      <description>&lt;p&gt;A &lt;em&gt;JAVA&lt;/em&gt; program to implement Sandhi Rules of Sanskrit in Roman Script.&lt;/p&gt;&#xA;&lt;p&gt;G.S.S.Murthy*&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Advisor (retd.), Telecom Commission, Govt. of India.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;&#xA;&lt;p&gt;&lt;em&gt;The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing. If two Sanskrit words are input in Roman script as per baraha4.0 transliteration scheme, the program outputs the combination and also the concerned sandhi rule. The paper after presenting the baraha transliteration scheme, briefly introduces typical sandhi rules and then describes the salient features of the java program.  The program demonstrates the feasibility of computerizing Sanskrit grammar. It can form a part of a word processing package for Sanskrit and can also be adapted to be a part of a tutorial for Sanskrit grammar. It can be easily converted into a java applet for being posted on the Internet. It should also be possible to adapt it for a devanaagari key-board based on Unicode.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Desired corrections, markup, proof-reading on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/ocr/corrections/desiderata/</link>
+    <description>Recent content in &#43;Desired corrections, markup, proof-reading on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/ocr/corrections/desiderata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dictionary files</title>
+      <link>https://sanskrit-coders.github.io/content/ocr/corrections/desiderata/Dictionary_files/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/ocr/corrections/desiderata/Dictionary_files/</guid>
+      <description>&lt;ul&gt;&#xA;&lt;li&gt;(Optionally, depending on project) Mark new headwords with a string - say &amp;ldquo;############&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Fix egregious errors - especially in the headwords - to facilitate lookup.&lt;/li&gt;&#xA;&lt;li&gt;Typo errors in the meanings are more tolerable (usually the fixes are obvious to the reader).&lt;/li&gt;&#xA;&lt;li&gt;Don&amp;rsquo;t worry too much about formatting (ie line-breaks within an entry and the like). (Reason: The text is likely to be consumed to make (stardict and other) dictionaries.)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;For example: If in the current text we have:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

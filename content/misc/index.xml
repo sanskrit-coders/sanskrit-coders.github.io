@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Misc on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/misc/</link>
+    <description>Recent content in &#43;Misc on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/misc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Clipboard management</title>
+      <link>https://sanskrit-coders.github.io/content/misc/clipboard-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/misc/clipboard-management/</guid>
+      <description>&lt;h2 id=&#34;multi-format&#34;&gt;Multi format&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;clcl on windows (also works with Wine on linux)&lt;/li&gt;&#xA;&lt;li&gt;CopyQ on linux&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;plain-text-only&#34;&gt;Plain Text only&lt;/h2&gt;&#xA;&lt;p&gt;Some clipboard management software like parcellite on linux can only handle text.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Desktop automation</title>
+      <link>https://sanskrit-coders.github.io/content/misc/desktop-automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/misc/desktop-automation/</guid>
+      <description>&lt;p&gt;Autokey or Autohotkey so that you can have a variety of keyboard shortcuts to insert texts. (You can do more, like I have a shortcut to turn - say - तस्मिन्नस्ति to तस्मिन्न् अस्ति when I select न and press Ctrl Shift C).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PDF text extraction</title>
+      <link>https://sanskrit-coders.github.io/content/misc/pdf-text-extraction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/misc/pdf-text-extraction/</guid>
+      <description>&lt;h2 id=&#34;pdf2htmlex&#34;&gt;pdf2htmlEX&lt;/h2&gt;&#xA;&lt;p&gt;Must build from source: &lt;a href=&#34;https://pdf2htmlex.github.io/pdf2htmlEX/&#34;&gt;TW&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Extracts text and fonts to html; with font names preserved. That then can be more reliably processed.&lt;/p&gt;&#xA;&lt;h2 id=&#34;foxit-reader&#34;&gt;Foxit reader&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Linux version (as of 2021) was 2.4.4 (2017), whereas it was 11.0.1.49938. It appears that Linux development is unmaintained (as per quote &lt;a href=&#34;https://aur.archlinux.org/packages/foxitreader/&#34;&gt;here&lt;/a&gt;). So, it lacks certain features.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Text Extraction : Foxit Reader (free, Windows/Linux) is by far the best. It somewhat preserves the original layout (font size, indentation, color etc). It also preserves font info. If the PDF uses multiple fonts, this will be imperative to convert the text font-vice(wise). It puts up plain text as well as RTF on the clipboard.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

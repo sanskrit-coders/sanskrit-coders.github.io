@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>संस्कृत-साङ्गणकाः Sanskrit Programmers  | Sandhi program</title>
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.143.0">
+    
+    
+      <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+    
+
+    <link href="/content/articles/gss-murthy/sandhi-program/" rel="alternate" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+    <link href="/content/articles/gss-murthy/sandhi-program/" rel="feed" type="application/rss+xml" title="संस्कृत-साङ्गणकाः Sanskrit Programmers" />
+
+    <meta property="og:url" content="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/">
+  <meta property="og:site_name" content="संस्कृत-साङ्गणकाः Sanskrit Programmers">
+  <meta property="og:title" content="Sandhi program">
+  <meta property="og:description" content="A JAVA program to implement Sandhi Rules of Sanskrit in Roman Script.
+G.S.S.Murthy*
+Advisor (retd.), Telecom Commission, Govt. of India. Abstract The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing. If two Sanskrit words are input in Roman script as per baraha4.0 transliteration scheme, the program outputs the combination and also the concerned sandhi rule. The paper after presenting the baraha transliteration scheme, briefly introduces typical sandhi rules and then describes the salient features of the java program. The program demonstrates the feasibility of computerizing Sanskrit grammar. It can form a part of a word processing package for Sanskrit and can also be adapted to be a part of a tutorial for Sanskrit grammar. It can be easily converted into a java applet for being posted on the Internet. It should also be possible to adapt it for a devanaagari key-board based on Unicode.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="content">
+
+  <meta itemprop="name" content="Sandhi program">
+  <meta itemprop="description" content="A JAVA program to implement Sandhi Rules of Sanskrit in Roman Script.
+G.S.S.Murthy*
+Advisor (retd.), Telecom Commission, Govt. of India. Abstract The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing. If two Sanskrit words are input in Roman script as per baraha4.0 transliteration scheme, the program outputs the combination and also the concerned sandhi rule. The paper after presenting the baraha transliteration scheme, briefly introduces typical sandhi rules and then describes the salient features of the java program. The program demonstrates the feasibility of computerizing Sanskrit grammar. It can form a part of a word processing package for Sanskrit and can also be adapted to be a part of a tutorial for Sanskrit grammar. It can be easily converted into a java applet for being posted on the Internet. It should also be possible to adapt it for a devanaagari key-board based on Unicode.">
+  <meta itemprop="wordCount" content="2544">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sandhi program">
+  <meta name="twitter:description" content="A JAVA program to implement Sandhi Rules of Sanskrit in Roman Script.
+G.S.S.Murthy*
+Advisor (retd.), Telecom Commission, Govt. of India. Abstract The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing. If two Sanskrit words are input in Roman script as per baraha4.0 transliteration scheme, the program outputs the combination and also the concerned sandhi rule. The paper after presenting the baraha transliteration scheme, briefly introduces typical sandhi rules and then describes the salient features of the java program. The program demonstrates the feasibility of computerizing Sanskrit grammar. It can form a part of a word processing package for Sanskrit and can also be adapted to be a part of a tutorial for Sanskrit grammar. It can be easily converted into a java applet for being posted on the Internet. It should also be possible to adapt it for a devanaagari key-board based on Unicode.">
+<script type="text/javascript">
+    
+    let baseURL = "https:\/\/sanskrit-coders.github.io\/";
+    let basePath = "/" + baseURL.split("/").slice(3).join("/");
+    let siteParams = JSON.parse("{\u0022build_img\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/actions\/workflows\/build.yml\/badge.svg\u0022,\u0022build_url\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/actions\/workflows\/build.yml\u0022,\u0022contactlink\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/issues\/new\u0022,\u0022env\u0022:\u0022production\u0022,\u0022githubeditmepathbase\u0022:\u0022https:\/\/github.com\/sanskrit-coders\/sanskrit-coders.github.io\/edit\/hugo-source\/content\/\u0022}");
+    let pageDefaultsList = JSON.parse("[{\u0022scope\u0022:{\u0022pathPrefix\u0022:\u0022\u0022},\u0022values\u0022:{\u0022comments\u0022:true,\u0022layout\u0022:\u0022page\u0022,\u0022search\u0022:true,\u0022sidebar\u0022:\u0022home_sidebar\u0022}}]");
+    let sidebarsData = JSON.parse("{\u0022home_sidebar\u0022:{\u0022contents\u0022:[{\u0022url\u0022:\u0022recdir:\/\/\u0022},{\u0022title\u0022:\u0022\\u003ci class=\\\u0022fas fa-hand-holding-heart\\\u0022\\u003e\\u003c\/i\\u003eDonate\u0022,\u0022url\u0022:\u0022https:\/\/vishvAsa.github.io\/interests\/dharma-via-vishvas\/\u0022}],\u0022title\u0022:\u0022Parts\u0022},\u0022topnav\u0022:{\u0022contents\u0022:[{\u0022title\u0022:\u0022Tools\u0022,\u0022url\u0022:\u0022\/pages\/index.html\u0022},{\u0022title\u0022:\u0022Blog\u0022,\u0022url\u0022:\u0022\/pages\/blog\/index.html\u0022}],\u0022title\u0022:\u0022Parts\u0022}}");
+    
+    var pageRelUrlTree = {};
+</script>
+
+    
+    <script type="text/javascript">
+  let pageVars = {};
+  pageVars.pageUrlMinusBasePath = "\/content\/articles\/gss-murthy\/sandhi-program\/".replace(basePath, "/");
+  pageVars.pageParams = {};
+  pageVars.pageSource = "content\/articles\/gss-murthy\/sandhi-program.md";
+  console.log(pageVars.pageSource);
+  var pageDefaults;
+  for (let possiblePageDefaults of pageDefaultsList) {
+    if (pageVars.pageSource.startsWith(possiblePageDefaults.scope.pathPrefix)) {
+      pageDefaults = possiblePageDefaults.values
+    }
+  }
+    
+</script>
+
+
+    <script src="/webpack_dist/uiLib-bundle.js"></script>
+
+
+
+
+
+
+
+    <link rel="stylesheet" href="/webpack_dist/uiLib.css">
+<link rel="stylesheet" href="/css/uiLibPrint.css" media="print" >
+<link rel="stylesheet" href="/css/fonts.css" >
+<link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/solid.min.css">
+
+<link rel="stylesheet" href="/css/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+
+
+<link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/" />
+<link rel="alternate" hreflang="sa-Deva" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=devanagari" />
+
+<link rel="alternate" hreflang="sa-Knda" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=kannada" />
+<link rel="alternate" hreflang="sa-Mlym" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=malayalam" />
+<link rel="alternate" hreflang="sa-Telu" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=telugu" />
+<link rel="alternate" hreflang="sa-Taml-t-sa-Taml-m0-superscript" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=tamil_superscripted" />
+<link rel="alternate" hreflang="sa-Taml" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=tamil" />
+<link rel="alternate" hreflang="sa-Gran" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=grantha" />
+
+<link rel="alternate" hreflang="sa-Gujr" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=gujarati" />
+<link rel="alternate" hreflang="sa-Guru" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=gurmukhi" />
+<link rel="alternate" hreflang="sa-Shar" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=sharada" />
+<link rel="alternate" hreflang="sa-Dogr" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=dogra" />
+<link rel="alternate" hreflang="sa-Phag" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=phags_pa" />
+<link rel="alternate" hreflang="sa-Tibt" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=tibetan" />
+<link rel="alternate" hreflang="sa-Sidd" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=siddham" />
+<link rel="alternate" hreflang="sa-Newa" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=newa" />
+<link rel="alternate" hreflang="sa-Modi" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=modi" />
+<link rel="alternate" hreflang="sa-Tirh" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=tirhuta_maithili" />
+<link rel="alternate" hreflang="sa-Gong" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=gondi_gujala" />
+<link rel="alternate" hreflang="sa-Gonm" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=gondi_masaram" />
+
+
+<link rel="alternate" hreflang="sa-Orya" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=oriya" />
+<link rel="alternate" hreflang="sa-Beng-t-sa-Beng-m0-assamese" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=assamese" />
+<link rel="alternate" hreflang="sa-Beng" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=bengali" />
+<link rel="alternate" hreflang="sa-Mtei" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=manipuri" />
+<link rel="alternate" hreflang="sa-Sinh" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=sinhala" />
+<link rel="alternate" hreflang="sa-Limb" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=limbu" />
+<link rel="alternate" hreflang="sa-Lepc" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=lepcha" />
+
+
+<link rel="alternate" hreflang="sa-Cyrl" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=cyrillic" />
+<link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iso" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=iso" />
+<link rel="alternate" hreflang="sa-Latn-t-sa-Zyyy-m0-iast" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=iast" />
+<link rel="alternate" hreflang="sa-Aran" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=urdu" />
+<link rel="alternate" hreflang="sa-Avst" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=avestan" />
+
+<link rel="alternate" hreflang="sa-Brah" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=brahmi" />
+<link rel="alternate" hreflang="sa-Khar" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=kharoshthi" />
+<link rel="alternate" hreflang="sa-Zanb" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=zanbazar_square" />
+<link rel="alternate" hreflang="sa-Bhks" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=bhaiksuki" />
+
+<link rel="alternate" hreflang="sa-Bali" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=balinese" />
+<link rel="alternate" hreflang="sa-Java" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=javanese" />
+<link rel="alternate" hreflang="sa-Laoo" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=lao" />
+<link rel="alternate" hreflang="sa-Laoo-t-sa-Laoo-m0-Laopali" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=lao_pali" />
+<link rel="alternate" hreflang="sa-Mymr" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=burmese" />
+<link rel="alternate" hreflang="sa-Mymr-t-sa-Mymr-m0-Mon" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=mon" />
+<link rel="alternate" hreflang="sa-Cham" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=cham" />
+<link rel="alternate" hreflang="sa-Khmr" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=khmer" />
+<link rel="alternate" hreflang="sa-Thai" href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/?transliteration_target=thai" />
+
+  </head>
+
+  <body class="ma0 bg-near-white">
+    
+
+
+    
+<header class="p-1 bg-yellow noPrint">
+    <nav role="navigation" class="col">
+      <div id="div_top_bar" class="row">
+        <div class="col-md-3 justify-content-start">
+          <a  href="/" class="btn col border">
+            <i class="fas fa-gopuram ">संस्कृत-साङ्गणकाः Sanskrit Programmers <br/> Sandhi program</i>
+          </a>
+        </div>
+        <div id="div_top_bar_right" class="col-md-auto d-flex justify-content-center">
+          <button class="btn btn-light"  href="#transliterationDropdown" data-toggle="collapse">
+            ✍
+          </button>
+          <select id="transliterationDropdown" size="1" class="collapse" onchange="module_uiLib.default.content.updateTransliteration()">
+            <optgroup label="🌍">
+              <option value="iso">āISO</option>
+              <option value="iso_vedic">āi-āu</option>
+              <option value="cyrillic">пу</option>
+              <option value="urdu">نس</option>
+              <option value="??">🌍??</option>
+            </optgroup>
+            <optgroup label="🛕🧭S">
+              <option value="kannada">ಅ</option>
+              <option value="malayalam">അ</option>
+              <option value="telugu">క</option>
+              <option value="tamil_superscripted">க²</option>
+              <option value="tamil_extended">க</option>
+              <option value="grantha">𑌅</option>
+            </optgroup>
+            <optgroup label="🛕🧭N">
+              <option value="devanagari" selected="">स</option>
+              <option value="gujarati">અ</option>
+              <option value="gurmukhi">ਅ</option>
+            </optgroup>
+            <optgroup label="🛕🧭E">
+              <option value="oriya">ଅ</option>
+              <option value="assamese">অস</option>
+              <option value="bengali">অ</option>
+            </optgroup>
+            <optgroup label="🛕🏺📜">
+              <option value="sharada">𑆑𑇀𑆰</option>
+              <option value="brahmi">𑀅</option>
+            </optgroup>
+            <optgroup label="🛕🌋">
+              <option value="balinese">ᬩᬮᬶ</option>
+            </optgroup>
+          </select>
+          <div>
+          <button class="btn btn-outline-secondary btn-sm"  href="#transliterationDropdownAlt" data-toggle="collapse">
+          (✍)
+          </button>
+          <select id="transliterationDropdownAlt" size="1"  style="font-size:12px" class="bg-light-yellow collapse" onchange="module_uiLib.default.content.updateTransliteration()">
+            <optgroup label="🌍">
+              <option value="iso">āISO</option>
+              <option value="iso_vedic">āi-āu</option>
+              <option value="cyrillic">пу</option>
+              <option value="urdu">نس</option>
+              <option value="??">🌍??</option>
+            </optgroup>
+            <optgroup label="🛕🧭S">
+              <option value="kannada">ಅ</option>
+              <option value="malayalam">അ</option>
+              <option value="telugu">క</option>
+              <option value="tamil_superscripted">க²</option>
+              <option value="tamil_extended">க</option>
+              <option value="grantha">𑌅</option>
+            </optgroup>
+            <optgroup label="🛕🧭N">
+              <option value="devanagari" selected="">स</option>
+              <option value="gujarati">અ</option>
+              <option value="gurmukhi">ਅ</option>
+            </optgroup>
+            <optgroup label="🛕🧭E">
+              <option value="oriya">ଅ</option>
+              <option value="assamese">অস</option>
+              <option value="bengali">অ</option>
+            </optgroup>
+            <optgroup label="🛕🏺📜">
+              <option value="sharada">𑆑𑇀𑆰</option>
+              <option value="brahmi">𑀅</option>
+            </optgroup>
+            <optgroup label="🛕🌋">
+              <option value="balinese">ᬩᬮᬶ</option>
+            </optgroup>
+          </select>
+          </div>
+          <div class="row col d-flex  dropdown">
+            <button class="btn btn-secondary-outline btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              A±
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="btn btn-secondary btn-sm" onclick="module_uiLib.changeTextSize(2)">A+</a>
+            <a class="btn btn-secondary btn-sm" onclick="module_uiLib.changeTextSize(-2)">A-</a>
+            </div>
+          </div>
+          <button class="btn btn-light btn-sm"  href="#commentStyleDropdown" data-toggle="collapse">
+            🗨
+          </button>
+          <select id="commentStyleDropdown" class="collapse" size="1" onchange="module_uiLib.default.content.updateCommentStyleFromDropdown()">
+            <option value="on">✔</option>
+            <option value="hidden">✗</option>
+          </select>
+          <div><a id="expandAllButton" class="btn btn-secondary" onclick="module_uiLib.default.query.setParamsAndGo({'expandDetails': '.*'})">↕️️</a></div>
+          <div id="printStyleDiv" class="row col d-flex  dropdown">
+          <button class="btn btn-light btn-sm dropdown-toggle"  href="#printStyleDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          🖨
+          </button>
+            <div class="dropdown-menu col" aria-labelledby="printStyleDropdown">
+              <div class="row justify-content-center">
+                <p>Cols:</p>
+                <input type="number" min="1" max="10" value="2" step="1" id="tbColumns" style="width: 3ch;"  accesskey="c"/>
+              </div>
+              <div class="row justify-content-center">
+                <p>A±:</p> <input type="text" id="tbBodyFontSize" value="0.4cm" style="width: 6ch;"  accesskey="f"></input>
+              </div>
+              <div class="row justify-content-center">
+                <p>Incl:</p> <input checked type="checkbox" id="tbIncludeStyle" value="on"></input>
+                <button id="btnPrintStyle" onclick="module_uiLib.default.content.updatePrintStyle()">🖨
+                </button>
+              </div>
+            </div>
+        </div>
+        </div>
+        <div id="audioDiv" class="row col d-flex  dropdown">
+          <button class="btn btn-secondary-outline btn-sm dropdown-toggle" type="button" id="audioDropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            🎧
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a id="speakerButton" class="btn btn-outline-secondary btn-sm" onclick="module_uiLib.default.content.handleSpeakToggle()">⏯</a>
+          <button id="speakerPauseButton" class="btn btn-outline-secondary btn-sm">⏸</button>
+            <div id="audioOptionsDiv" class="row justify-content-center" >
+              <div>
+                <p class="lead">Vol</p>
+                <input type="range" min="0" max="1" value="1" step="0.1" id="volume" />
+                <span id="volume-label" class="ms-2">1</span>
+              </div>
+              <div class="mx-5">
+                <p class="lead">Rate</p>
+                <input type="range" min="0.1" max="10" value="1" id="rate" step="0.1" />
+                <span id="rate-label" class="ms-2">1</span>
+              </div>
+              <div>
+                <p class="lead">Pitch</p>
+                <input type="range" min="0" max="2" value="1" step="0.1" id="pitch" />
+                <span id="pitch-label" class="ms-2">1</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://sanskrit-coders.github.io/search"  class="btn btn-light btn-sm">🥽🔦</a>
+        <div class="row col  d-flex justify-content-center">
+          <div><a id="previousPage" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+          <div ><a id="nextPage" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+        </div>
+        <ul id="top-bar-right-custom" class="list-group list-group-horizontal">
+        </ul>
+      </div>
+    </nav>
+</header>
+
+    
+    <div class="row" name="contentRow">
+      
+      <aside class="col-md-3 card border noPrint " id="sidebar">
+          <div id="fastSearch">
+              <datalist id="pageDataList"></datalist>
+              <input id="searchInput" placeholder="शीर्षिकान्विष्यताम्" list="pageDataList" onchange="module_uiLib.default.navigation.pageLoader()">
+          </div>
+          <details open  class="bg-light-gray" >
+              <summary id="sidebarToggleLink" onclick="module_uiLib.default.navigation.sidebarToggleHandler()">
+            Menu
+              </summary>
+              <ul id="sidebarBody" class="list pl2 p-0 bg-yellow">
+              </ul>
+          </details>
+      </aside>
+      <main class="col p-3" role="main" data-pagefind-body>
+        
+<header class='border d-flex justify-content-between'>
+    <h1 id="Sandhi program">Sandhi program</h1>
+    
+    <a id="editLink" class="btn btn-primary noPrint"  href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/edit/hugo-source/content/content/articles/gss-murthy/sandhi-program.md"><i class="fas fa-edit"></i></a>
+    
+</header>
+<article>
+  <aside id="toc_card" class="card border noPrint ">
+    <details id="toc_header">
+        <summary>What's in this page?</summary>
+      <div id="toc_body" class="p-0">
+        
+        <ul id="toc_ul" class="list p-0">
+        </ul>
+      </div>
+    </details>
+    <div id="progressBarDiv" class="row d-flex justify-content-center">
+      🐎💪<progress id="progressLoading" value="0" max="100"> 32% </progress>
+    </div>
+  </aside>
+  <div id="post_content">
+  <p>A <em>JAVA</em> program to implement Sandhi Rules of Sanskrit in Roman Script.</p>
+<p>G.S.S.Murthy*</p>
+<ul>
+<li>Advisor (retd.), Telecom Commission, Govt. of India.</li>
+</ul>
+<h2 id="abstract">Abstract</h2>
+<p><em>The paper provides an outline of a successfully implemented Java program for obtaining the combination of two adjacent Sanskrit words as per external sandhi rules of Sanskrit grammar. External sandhi rules define the manner in which two Sanskrit words, when spoken without a pause get modified at the instance of liasing. If two Sanskrit words are input in Roman script as per baraha4.0 transliteration scheme, the program outputs the combination and also the concerned sandhi rule. The paper after presenting the baraha transliteration scheme, briefly introduces typical sandhi rules and then describes the salient features of the java program.  The program demonstrates the feasibility of computerizing Sanskrit grammar. It can form a part of a word processing package for Sanskrit and can also be adapted to be a part of a tutorial for Sanskrit grammar. It can be easily converted into a java applet for being posted on the Internet. It should also be possible to adapt it for a devanaagari key-board based on Unicode.</em></p>
+<h2 id="key-words">Key-words</h2>
+<p><em>Sanskrit, devanaagari, grammar, baraha, sandhi, Java, word-processing, transliteration.</em></p>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>Sanskrit grammar is known both for its complexity and rigour. Thanks to the early grammarians of Sanskrit among whom PaaNini towers as a colossus, the rules of grammar have been studied in detail, analyzed and beautifully codified. Such a well- codified set of rules of grammar obviously lends itself to computerization and this paper describes an effort in this direction where external sandhi rules of Sanskrit have been codified as a Java program. External sandhi rules refer to the manner in which two adjacent words when spoken without a pause get modified at the instance of liaison. The program restricts itself to accepting the two words when they are transliterated in Roman script and it gives in Roman script the output which incorporates the phonemic inflections at the point of their liaison. It also states the rule that comes into operation. The transliteration scheme on which the program is based is the “baraha 4.0” scheme, which has been devised by Chandrasekhar Vasu and which was primarily and originally meant for Kannada and was later extended to devanaagaree script.</p>
+<h2 id="2-baraha-transliteration-scheme">2. Baraha transliteration scheme</h2>
+<p>There are various schemes for transliterating Sanskrit into Roman script. Indologists since a long time have been using a scheme which involves use of special modificatory characters, which does not lend itself easily to being represented on a standard computer keyboard. Various schemes have been in vogue specifically suited for a computer keyboard notable among them being “I-trans”, a scheme devised by Avinash Chopde and “Harvard-Kyoto” scheme, which is popular among the present western Indologists. Baraha 4.0 is quite akin to I-trans and has the advantage of being convertible to devanaagaree script through baraha software package which is freely downloadable from the internet (Ref. iii). The felicity with which baraha transliteration scheme can be extensively used can be gauged by visiting the internet site ( ref.iv) created by the author where Sanskrit text of  laghuvaalmeekeeyaM, an abridged version of Vaalmeeki’s raamaayaNaM running to more than 17000 lines of Vaalmeeki’s original poetry is posted.</p>
+<p>The following gives the baraha transliteration scheme in devanaagaree (Sanskrit) alphabetical order:</p>
+<p>Vowels: a, aa or A, i ,ee or I, u, uu or U, Ru, RU, lRu, e,   ai, o, ou.</p>
+<p>anusvaara: m</p>
+<p>Visarga: h</p>
+<p>Consonants: k, kh or K, g, gh or G, ~G</p>
+<p>c, ch or C, j, jh or J, ~J</p>
+<p>T, Th, D, Dh, N</p>
+<p>t, th, d, dh, n</p>
+<p>p, ph or P, b, bh or B, m or M</p>
+<p>Semi-vowels: y, r, l, v</p>
+<p>Sibilants: S, Sh, s</p>
+<p>Aspirate: h or H</p>
+<p>anu-naasika: ~M</p>
+<p>avagraha symbol: &amp;</p>
+<p>It may be pointed out here that while transliterating Sanskrit words in this paper   baraha4.0 scheme is followed, and as a consequence first letter of a Sanskrit word is not capitalized unless the transliteration scheme requires it and similarly uppercase letters may occur even when it is not the first letter of a word or sentence. The word Sanskrit itself is treated as an accepted word of English vocabulary.</p>
+<h2 id="3-sandhi-rules-of-sanskrit">3. Sandhi Rules of Sanskrit</h2>
+<p>For purposes of clarity it is convenient to classify rules of sandhi into external and internal. External rules come into effect between adjacent words, whereas internal rules are mandatorily operative in the body of a word while deriving the word from its root and also when final letters of nominal and verbal bases come in contact with initial letters of terminations. Internal rules also apply to changes which are caused by the initial letters of a word being affected by prepositions( upasarga) which may precede them. In compound words(samaasa), all the external rules are operative with specific deviations.</p>
+<p>Between adjacent words in a sentence the external rules are optional depending on whether the words are spoken without a pause or not. In a verse as no pause is permissible except at the places specified (yati), external sandhi rules are operative. In a compound word also the external sandhi rules are operative for the same reason.</p>
+<p>As already indicated, the program which this paper deals with restricts itself to implementing only the external sandhi rules.</p>
+<p>To give an idea of how these sandhi rules affect the words a few typical rules are demonstrated below:</p>
+<h3 id="1-savarnadeergha-rule">1. savarNadeergha rule</h3>
+<p>If a word ends with an ‘a’ or ‘aa’ and the word following it begins with  ‘a’ or ‘aa’, when read together the ending of the first word and the beginning of the 2<sup>nd</sup> word coalesce to form a single ‘aa’. The complete rule could be stated as follows:</p>
+<p>(a or aa) + (a or aa) =aa</p>
+<p>(i or ee) +  (i  or ee)=ee</p>
+<p>(u or uu) +(u or uu)=uu</p>
+<p>(Ru or RU) +(Ru or RU)=RU.</p>
+<p>It is to be noted that baraha scheme allows aa, ee and uu to be</p>
+<p>equivalently written as A, I and U respectively. The following are examples for this savarNadeergha rule:</p>
+<p>daitya + arih = daityaarih</p>
+<p>lakShmee + eeSah = lakShmeeSah</p>
+<p>guru + upadeSah = guruupadeSah</p>
+<h3 id="2-gamudaagama-rule">2. ~GamuDaagama rule</h3>
+<p>When the last letter of a word is ~G, N, or n and is preceded by a short vowel, if it is followed by a word starting with a vowel, the last letter of the former gets doubled. The following examples serve to clarify the rule:</p>
+<p>bhavan + eva = bhavanneva</p>
+<p>pratya<del>G + aatmaa = pratya</del>G~Gaatmaa</p>
+<p>But,</p>
+<p>bhavaan + eva =bhavaaneva</p>
+<h3 id="3-yanaadesa-rule">3. yaNaadeSa rule</h3>
+<p>(i or ee) +(any vowel except i or ee) = y +( that vowel)</p>
+<p>(u or uu) + (any vowel except u or uu) = v +(that vowel)</p>
+<p>(Ru or RU) + (any vowel except Ru or RU) = r + (that vowel)</p>
+<p>The following are the examples:</p>
+<p>nadee + atra = nadyatra</p>
+<p>madhu + aanaya = madhvaanaya</p>
+<p>kartRu + iti = kartriti</p>
+<p>Classical grammarians of Sanskrit (Ref. i) do not classify sandhis into external and internal and the total number of sandhi rules is about 50. Gole in his tersely written Series of Sanskrit readers (Ref. ii) has admirably classified external sandhi into a set of 14 rules and these rules form the bases for the Java program.</p>
+<h2 id="4-implementation">4. Implementation</h2>
+<p>Examples given above clearly point out to the fact that programming of these rules translates itself into string manipulation as per specified logical conditions. Java has a rich repertoire of string methods which makes it an eminently suitable programming language for this purpose. The added advantages of Java are that it is freely available, is comparatively recent and therefore more programmer-friendly and is becoming increasingly popular.</p>
+<p>While programming, the following aspects of baraha 4.0 need to be and have been taken into account:</p>
+<ol>
+<li>It allows more than one way of representing a devanaagaree character. For example aa and A are equivalent, bh and B are equivalent.</li>
+<li>Certain devanaagaree characters are represented by a pair of Roman letters. For example, ai or ou transforms itself into a single devanaagaree character.</li>
+</ol>
+<p>There is one vowel lRu in Sanskrit which one hardly encounters in Sanskrit literature, except in grammar treatises, where they are quoted as grammarians’ specimens.  A few routes of verbs end in lRu. So far as external sandhi rules are concerned, it could be safely ignored and has been ignored in the Java program. Although it is not too difficult to incorporate it into the program, the additional effort involved did not appear to be worth it.</p>
+<p>In certain cases of sandhi, two words can combine in more than two ways. For example,</p>
+<p>Taan + Satruun = taa<del>JCatruun, taa</del>JSatruun, taa<del>JcSatruun, taa</del>JCSatruun, or taa~JcCatruun.</p>
+<p>The program restricts itself to providing not more than two variants. It is felt that additional ways of combining the words are of theoretical interest only.</p>
+<p>The program does not validate the two words that a user inputs. If a user inputs character- strings that have no meaning in Sanskrit, the program dumbly proceeds to the sandhi rules and gives an output. Although it may be relatively easy to invalidate certain character combinations, it will need a data-base oriented programming effort to validate words.</p>
+<p>Some words are treated as exceptions to a sandhi rule and these words are to be treated differently. To the extent the exceptions have been listed in the grammar books consulted, these have been taken into account. It is possible that there are some more exceptions and these will need to be incorporated as and when they come to notice. As a corollary, if the first word is a compound word, which has the exception-word as its last elemental word, the program may fail to treat it correctly.</p>
+<p>There is one sandhi rule that depends upon whether the first word is in dual form (dvivacana) or not. As this cannot be determined by the program itself, the program asks the user to specify if the first word is in dual form and proceeds to apply the sandhi rules depending upon the response of the user.</p>
+<p>The program in JAVA (.java) is 31 kB long and the byte code CLASS file (.class) is 17kB long. The program is split into 34 sections and a section handles input-output interaction or a convenient portion of sandhi logic. A sandhi rule may be dealt in more than one section and a section may deal with more than one sandhi rule, although in many cases there is a one to one correspondence between a sandhi rule and a section. Each section has an entry flag created and raised by the previous section, which is lowered (1 to 0) if the section finds that the pair of input words falls within the purview of its logic. Each section creates and raises an exit flag which will act as an entry flag for the next section. Although the program could be written without creation of exit-entry flags, flags are very helpful in debugging.</p>
+<p>There is a filtering effect in the way the sections have been strung together with exceptions being treated first before taking up the general rule and to this extent the order in which the sandhi rules are treated forms an integral part of sandhi logic.</p>
+<p>A section dealing with yaNaadeSa rule is reproduced below as an example of a typical section.</p>
+<div class="highlight"><div style="background-color:#f0f0f0;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:2;-o-tab-size:2;tab-size:2;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">41
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">42
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">43
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">44
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">48
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">49
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">50
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">51
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">52
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">53
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">54
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">55
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">56
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">57
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">58
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">59
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">60
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">61
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">62
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">63
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">64
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">65
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">66
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">67
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">68
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">69
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">70
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">71
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">72
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">73
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">74
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">75
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">76
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">77
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">78
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">79
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">80
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">81
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">82
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">83
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">84
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">85
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:2;-o-tab-size:2;tab-size:2;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#902000">int</span><span style="color:#bbb"> </span>flag3<span style="color:#666">=</span>0;<span style="color:#bbb">		
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#902000">char</span><span style="color:#bbb"> </span>yan1<span style="color:#666">[]=</span>{<span style="color:#4070a0">&#39;i&#39;</span>,<span style="color:#4070a0">&#39;I&#39;</span>,<span style="color:#4070a0">&#39;u&#39;</span>,<span style="color:#4070a0">&#39;U&#39;</span>,<span style="color:#4070a0">&#39;Z&#39;</span>,<span style="color:#4070a0">&#39;X&#39;</span>};<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#902000">char</span><span style="color:#bbb"> </span>vowels<span style="color:#666">[]=</span>{<span style="color:#4070a0">&#39;a&#39;</span>,<span style="color:#4070a0">&#39;A&#39;</span>,<span style="color:#4070a0">&#39;i&#39;</span>,<span style="color:#4070a0">&#39;I&#39;</span>,<span style="color:#4070a0">&#39;u&#39;</span>,<span style="color:#4070a0">&#39;U&#39;</span>,<span style="color:#4070a0">&#39;e&#39;</span>,<span style="color:#4070a0">&#39;o&#39;</span>,<span style="color:#4070a0">&#39;z&#39;</span>,<span style="color:#4070a0">&#39;x&#39;</span>,<span style="color:#4070a0">&#39;Z&#39;</span>,<span style="color:#4070a0">&#39;X&#39;</span>};<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>String<span style="color:#bbb"> </span>yan3<span style="color:#666">[]=</span>{<span style="color:#4070a0">&#34;y&#34;</span>,<span style="color:#4070a0">&#34;y&#34;</span>,<span style="color:#4070a0">&#34;v&#34;</span>,<span style="color:#4070a0">&#34;v&#34;</span>,<span style="color:#4070a0">&#34;r&#34;</span>,<span style="color:#4070a0">&#34;r&#34;</span>};<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#902000">int</span><span style="color:#bbb"> </span>numb<span style="color:#666">[]=</span>{8,9,10,11};<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>String<span style="color:#bbb"> </span>twin<span style="color:#666">[]=</span>{<span style="color:#4070a0">&#34;ai&#34;</span>,<span style="color:#4070a0">&#34;ou&#34;</span>,<span style="color:#4070a0">&#34;Ru&#34;</span>,<span style="color:#4070a0">&#34;RU&#34;</span>,<span style="color:#4070a0">&#34;~G&#34;</span>,<span style="color:#4070a0">&#34;~J&#34;</span>};<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#002070;font-weight:bold">section9</span>:<span style="color:#60a0b0;font-style:italic">/*implements yaN sandhi rules*/</span><span style="color:#bbb">	
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#007020;font-weight:bold">if</span><span style="color:#bbb"> </span>(flag2<span style="color:#666">==</span>1)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#002070;font-weight:bold">loop1</span>:{<span style="color:#007020;font-weight:bold">for</span><span style="color:#bbb"> </span>(<span style="color:#902000">int</span><span style="color:#bbb"> </span>l<span style="color:#666">=</span>0;l<span style="color:#666">&amp;</span>lt;6;l<span style="color:#666">++</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#007020;font-weight:bold">if</span><span style="color:#bbb"> </span>(lett11a<span style="color:#666">==</span>yan1<span style="color:#666">[</span>l<span style="color:#666">]</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>{<span style="color:#007020;font-weight:bold">for</span><span style="color:#bbb"> </span>(<span style="color:#902000">int</span><span style="color:#bbb"> </span>m<span style="color:#666">=</span>0;m<span style="color:#666">&amp;</span>lt;12<span style="color:#bbb"> </span>;m<span style="color:#666">++</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#007020;font-weight:bold">if</span><span style="color:#bbb"> </span>(lett21a<span style="color:#666">==</span>vowels<span style="color:#666">[</span>m<span style="color:#666">]</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>{<span style="color:#007020;font-weight:bold">for</span><span style="color:#bbb"> </span>(<span style="color:#902000">int</span><span style="color:#bbb"> </span>t<span style="color:#666">=</span>0;t<span style="color:#666">&amp;</span>lt;4<span style="color:#bbb">  </span>;t<span style="color:#666">++</span>)<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"> </span><span style="color:#007020;font-weight:bold">if</span><span style="color:#bbb"> </span>(m<span style="color:#666">==</span>numb<span style="color:#666">[</span>t<span style="color:#666">]</span>)<span style="color:#bbb"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">                    </span>{string2b<span style="color:#666">=</span>twin<span style="color:#666">[</span>t<span style="color:#666">]</span>.<span style="color:#4070a0">concat</span>(string2b.<span style="color:#4070a0">substring</span>(1,n4));<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>}<span style="color:#bbb"> 			    				
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>stringOut<span style="color:#666">=</span>((string1b.<span style="color:#4070a0">substring</span>(0,n3<span style="color:#666">-</span>1)).<span style="color:#4070a0">concat</span>(yan3<span style="color:#666">[</span>l<span style="color:#666">]</span>)).<span style="color:#4070a0">concat</span>(string2b);<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>System.<span style="color:#4070a0">out</span>.<span style="color:#4070a0">println</span>(<span style="color:#4070a0">&#34;The operative yaN rule is :&#34;</span><span style="color:#666">+</span>(<span style="color:#4070a0">&#39;\n&#39;</span>)<span style="color:#666">+</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#4070a0">&#34;i or I + any vowel other than i or I = y + that vowel&#34;</span><span style="color:#666">+</span>(<span style="color:#4070a0">&#39;\n&#39;</span>)<span style="color:#666">+</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#4070a0">&#34;u or U + any vowel other than u or U = v + that vowel&#34;</span><span style="color:#666">+</span>(<span style="color:#4070a0">&#39;\n&#39;</span>)<span style="color:#666">+</span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#4070a0">&#34;Ru or RU + any vowel other than Ru or RU = r + that vowel&#34;</span>);<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>flag3<span style="color:#666">=</span>0;<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#007020;font-weight:bold">break</span><span style="color:#bbb"> </span>loop1;<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">             </span>}<span style="color:#bbb">			 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>}<span style="color:#bbb">			 
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>{flag3<span style="color:#666">=</span>1;<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>}<span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb">
+</span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span>}<span style="color:#bbb">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>It may be noted in passing that the fact of Java being a completely object-oriented language has not been of any import to this program as the only class of objects that need to be created is the String class.</p>
+<p>A typical user interaction screen in the DOS mode is given below:</p>
+<p><strong>Output: Pl enter a single digit number</strong></p>
+<p>**              to indicate the number of examples you want to try.**</p>
+<p><strong>Input:<em>2</em></strong></p>
+<p><strong>O: Pl enter the first word.</strong></p>
+<p><strong>I: <em>madhu</em></strong></p>
+<p><strong>O: Pl enter the second word.</strong></p>
+<p><strong>I: <em>arih</em></strong></p>
+<p><strong>O: The operative yaN rule is:</strong></p>
+<p>**      i or I + any vowel other than i or I = y + that vowel**</p>
+<p>**      u or U + any vowel other than u or U = v + that vowel**</p>
+<p>**      Ru or RU + any vowel other than Ru or RU = r + that **</p>
+<p>**      vowel**</p>
+<p>**     Madhu +arih = madhavrih**</p>
+<p><strong>O: Pl enter the first word.</strong></p>
+<p><strong>I: <em>prabho</em></strong></p>
+<p><strong>O: Pl enter the second word.</strong></p>
+<p><strong>I: <em>iti</em></strong></p>
+<p><strong>O: The operative (ayavAyAv) rule is:</strong></p>
+<p>**     Final e and o  before any initial vowel other than a are **</p>
+<p>**     changed to respectively ay and av, or both to a**</p>
+<p>**     Final ai and ou  before any initial vowel are changed to**</p>
+<p>**     respectively Ay and Av, or both to A**</p>
+<p>Prabho + iti = prabhaviti</p>
+<p>**    Prabho+ iti =prabha iti**</p>
+<h2 id="5-conclusion">5. Conclusion</h2>
+<p>The paper has outlined a java program which implements external sandhi rules of Sanskrit, when Sanskrit text is input in Roman script as per baraha4.0 transliteration scheme. When a pair of Sanskrit words is input, the program outputs the combination following the rules of sandhi. It also enunciates the concerned sandhi rule which is operative. The successfully implemented program amply demonstrates the feasibility of computerizing the rules of Sanskrit grammar. It can be easily adapted to be a part of a word-processing package for Sanskrit and also as a part of a Sanskrit tutorial package. As java is capable of accepting Unicode characters, it should be possible to adapt it for a Sanskrit Unicode keyboard also. It can also be converted into a java applet for posting on the internet. With appropriate modifications the program will also be able to accept as options other transliteration schemes such as I-trans or Harvard-Kyoto scheme.</p>
+<h2 id="6-references">6. References</h2>
+<ol>
+<li>Sabdaratnaavali: by G.V. Krishnacharyar, 3<sup>rd</sup> edition, printed and published by V.Govindiah, Bookseller, Chikpet, Bangalore, 1892.( The text is in Sanskrit and the script is Telugu)</li>
+<li>Second Course of Sanskrit Reader: by M.S.Gole, 3rd edition, published from Poona (now Pune), 1902.</li>
+<li>Programming with Java; by E.Balaguruswamy, 2<sup>nd</sup> edition, Tata McGraw-Hill Publishing Company Ltd, New Delhi, 2001</li>
+<li><a href="http://www.baraha.com">www.baraha.com</a>: The Internet site dealing with baraha and created and maintained by designer of baraha scheme, Chandrasekhar Vasu.</li>
+<li><a href="http://www.geocities.com/goruratreya/">www.geocities.com/</a> : On this is posted laghuvaalmeekeeyaM, an abridged version of Vaalmeeki’s RaamaayaNaM, in Roman script as per baraha4.0 scheme. +++(Defunct site)+++</li>
+</ol>
+
+  </div>
+</article>
+
+
+        
+
+        
+
+
+
+    <aside class="card border noPrint" id="section-tree-item-content_articles_gss-murthy_sandhi-program_md">
+        <div class="card-title bg-light-gray border d-flex justify-content-between">
+            <a href="https://sanskrit-coders.github.io/content/articles/gss-murthy/sandhi-program/">Sandhi program </a>
+            <a data-toggle="collapse" href="#section-tree-item-body-content_articles_gss-murthy_sandhi-program_md" role="button" aria-expanded="false" aria-controls="section-tree-item-body-content_articles_gss-murthy_sandhi-program_md" >…<i class="fas fa-caret-down" class="collapsed"></i> </a>
+        </div>
+        <nav id="section-tree-item-body-content_articles_gss-murthy_sandhi-program_md" class="card-body p-0 collapse">
+            
+            <li>draft: false</li>
+            
+            <li>iscjklanguage: false</li>
+            
+            <li>title: Sandhi program</li>
+            
+        </nav>
+    </aside>
+
+
+      </main>
+    </div>
+    <footer class="bg-yellow  p-1 noPrint" role="contentinfo">
+  
+
+  <div id="div_foot_nav_bar" class="row">
+    <a href="https://sanskrit-coders.github.io/search"  class="btn btn-light btn-sm">🥽🔦</a>
+    <div class="row col  d-flex justify-content-center">
+      <div><a id="previousPageFoot" href="" class="btn btn-secondary">###<i class="fas fa-caret-left"></i></a></div>
+      <div ><a id="nextPageFoot" href="" class="btn btn-secondary"><i class="fas fa-caret-right"></i> ### </a></div>
+    </div>
+      <ul id="footer-bar-right-custom" class="list-group list-group-horizontal">
+      </ul>
+  </div>
+  <div id="div_footer_bar" class="container-fluid d-flex justify-content-between">
+    <a class="btn btn-secondary" href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/issues/new" >
+      ✉️Contact
+    </a>
+    <a class="btn btn-secondary" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+    <div class="btn small border">
+      
+      <a href="https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml"><img src="https://github.com/sanskrit-coders/sanskrit-coders.github.io/actions/workflows/build.yml/badge.svg"> Built </a> on 2026 Feb 26 01:36:33 UTC. (<a href="http://google.com/search?q=01%3a36%3a33%20UTC to IST">IST</a>)
+    </div>
+  </div>
+</footer>
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-33H08JSLQR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-33H08JSLQR');
+</script>
+
+  </body>
+  <script type='text/javascript'>
+    
+    
+    
+    module_uiLib.onDocumentReadyTasks();
+  </script>
+  
+</html>

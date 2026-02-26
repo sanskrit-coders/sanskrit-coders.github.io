@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching aids on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/teaching_aids/</link>
+    <description>Recent content in Teaching aids on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/teaching_aids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Samskrit Bharti Courses Management System</title>
+      <link>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/teaching_aids/course_management_systems/</guid>
+      <description>&lt;p&gt;(The below was contributed by the author of the software.)&lt;/p&gt;&#xA;&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;&#xA;&lt;p&gt;In Feb 2019, I did my first 10 days Samskrit Sambhashan Shibir. I came to know about this&#xA;course through whats app. I loved doing the course. But I realized that it took more than 11&#xA;years to reach that message to me. Samskrit Bharti Courses have lots of potential but it was not&#xA;reaching to many people in the country and outside. Many people like me are not even aware&#xA;that something like this exists. So I am determined to fix this issue using the power of&#xA;technology and social media.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
