@@ -77,6 +77,9 @@ Common types
 
 So, for thick books, split the pdf and make multiple booklets then merge it.
 
+#### Aligning papers
+vibrate on the ground, strike a flat wall many times.
+
 #### Punching
 - Japanese screw punch 
 - Awl
@@ -293,16 +296,16 @@ A3 Ream cutter 12.5k 2026.
   - A4 
     - 200 Rs / ream(=500 sheets) or .5 Rs/ sheet. 75 gsm is common.
   - A3
-    - 400Rs / ream - 
+    - 400 Rs / ream
 - Acid free paper
   - JK paper 75GSM - marketed as being "Long lasting and acid-free". Per Gemini - made from 100% ECF (Elemental Chlorine Free) plantation wood pulp - reduces Lignin much.
   - A4 
     - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
       - 100% cotton rags. Not tested or certified.
-    - 513/250 (JK paper 75GSM ) - about 0.5 / A4
+    - 286/500 (JK paper 75GSM, ncbs rate) - about 0.572 / A4
   - A3 
     - 7 INR/ sheet (Kirti paper, hubli, 2025)
-    - 513/500 (JK paper 75GSM )
+    - 513/500 (JK paper 75GSM, ncbs rate )
   - letter - 7k / ream online
 - Archival paper
   - A3 4% buffered
