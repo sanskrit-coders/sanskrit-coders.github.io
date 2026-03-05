@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>&#43;Books on संस्कृत-साङ्गणकाः Sanskrit Programmers</title>
+    <link>https://sanskrit-coders.github.io/content/books/</link>
+    <description>Recent content in &#43;Books on संस्कृत-साङ्गणकाः Sanskrit Programmers</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://sanskrit-coders.github.io/content/books/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Distribution</title>
+      <link>https://sanskrit-coders.github.io/content/books/distribution/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/distribution/</guid>
+      <description>&lt;h2 id=&#34;india-post&#34;&gt;India Post&lt;/h2&gt;&#xA;&lt;p&gt;Package acceptance mostly works based on consensus, with clerks consulting each other (possibly seniors).&lt;/p&gt;&#xA;&lt;h3 id=&#34;packaging&#34;&gt;Packaging&lt;/h3&gt;&#xA;&lt;h4 id=&#34;securing&#34;&gt;Securing&lt;/h4&gt;&#xA;&lt;p&gt;Packaging should be such that it can&amp;rsquo;t be tampered with in transit. (Not really required, but package is oft not accepted otherwise.)&lt;/p&gt;&#xA;&lt;p&gt;Simply typing books pack with thread suffices as per sahakAra-nagar post office clerk.&lt;/p&gt;&#xA;&lt;p&gt;Packaging with amazon etc. branding and bar codes is a cause for non-acceptance.&lt;/p&gt;&#xA;&lt;h3 id=&#34;gyan-post&#34;&gt;Gyan Post&lt;/h3&gt;&#xA;&lt;p&gt;Source: &lt;a href=&#34;https://www.indiapost.gov.in/mailproducts#gyanpost&#34;&gt;TW&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It had a different name before.&lt;br&gt;&#xA;2026 Rs. 20/kg. Max 5 kg/book parcel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>e-book Prep</title>
+      <link>https://sanskrit-coders.github.io/content/books/ebooks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/ebooks/</guid>
+      <description>&lt;h2 id=&#34;making&#34;&gt;Making&lt;/h2&gt;&#xA;&lt;p&gt;Make epub book&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Using Calibre ( on Ubuntu etc..)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create an &amp;ldquo;empty book&amp;rdquo;.&lt;/li&gt;&#xA;&lt;li&gt;Create a html with contents (Google Play is fussy about tags. Content should be within &lt;p&gt; tag. Use a template.&lt;/li&gt;&#xA;&lt;li&gt;Add that content html with Add Books→ Add files to selected book records. Create cover using gimp. Edit metadata and save.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Example project &lt;a href=&#34;https://github.com/sanskrit-coders/book-pub/tree/master/bhartRhari/nItishatakam&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Can use typst.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Make Kindle ebook: Techniques&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create epub book. Convert to mobi.&lt;/li&gt;&#xA;&lt;li&gt;Follow instructions in tutorial &lt;a href=&#34;http://www.aliciaramirez.com/2014/05/how-to-make-a-kindle-ebook-from-scratch/&#34;&gt;201508&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Kindle-store-मध्ये भारतीयभाषाणां पुस्तकानि प्रायो नवीनतर-.azw3-format-द्वारा रचितानि विद्यन्ते। .mobi-format-द्वारा रचितानां देवनागरीपुस्तकानामुद्घाटनं पृष्ठपरिवर्तनं च महत्कष्टम्। तस्माद् Windows-मध्ये Calibre-द्वारा &lt;a href=&#34;https://plugins.calibre-ebook.com/291290.zip&#34;&gt;KFX Output plugin&lt;/a&gt; उपयुज्य .azw3-format-संस्कृतानि पुस्तकानि कुर्यात्। (2018)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;extracting-from-google-play&#34;&gt;Extracting from Google Play&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Using Adobe Digital Editions + Calibre with DeDRM plugin&#xA;&lt;ul&gt;&#xA;&lt;li&gt;mac osx guide &lt;a href=&#34;https://www.osxwiki.com/remove-drm-from-google-play-books/&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;linux&#34;&gt;Linux&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adobe digital editions on Wine&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Adobe digital editions 4.5 works for some time but crashes as of 202205.&lt;/li&gt;&#xA;&lt;li&gt;Adobe digital editions 1.7 on Wine fails as of 202205.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Adobe digital editions (ADE) key&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Android location &lt;a href=&#34;https://github.com/apprenticeharper/DeDRM_tools/issues/952&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Could not figure out location under Wine.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Tile books</title>
+      <link>https://sanskrit-coders.github.io/content/books/tile-books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sanskrit-coders.github.io/content/books/tile-books/</guid>
+      <description>&lt;p&gt;For pros and cons of various media, see vishvAsa&amp;rsquo;s &lt;a href=&#34;https://vishvAsa.github.io/notes/backup/knowledge-preservation&#34;&gt;knowledge preservation page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;ceramic-tiles---pigment-vitrification&#34;&gt;Ceramic tiles - pigment vitrification&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Bengaluru&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Parshwa Decor, Jakkur.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;650 INR/ sqft (2025). Low res.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Tile printers usually require minimum order of 200 tiles.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;uv-flatbed-printing&#34;&gt;UV flatbed printing&lt;/h2&gt;&#xA;&lt;h3 id=&#34;india&#34;&gt;India&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://onlineframing.in/&#34;&gt;https://onlineframing.in/&lt;/a&gt; offers UV printing on Al sheets, acrylic, &lt;a href=&#34;https://onlineframing.in/products/ceramic-tiles-printing&#34;&gt;cermic tiles&lt;/a&gt;, hardwood.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;They put on acrylic sheet on top and seal the tile.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;misc-media-and-tech&#34;&gt;Misc media and tech&lt;/h2&gt;&#xA;&lt;h3 id=&#34;india-1&#34;&gt;India&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://onlineframing.in/&#34;&gt;https://onlineframing.in/&lt;/a&gt;  cups, mouse-pad, caps, t-shirts, keychains, pillows, bottles, banners.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
