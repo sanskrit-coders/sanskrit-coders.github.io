@@ -303,9 +303,11 @@ A3 Ream cutter 12.5k 2026.
     - 4-5 INR / sheet (Kirti paper, hubli. 100 GSM. Min. order: 40 kg or 40/(0.06237*.1) = 6413 sheets. )
       - 100% cotton rags. Not tested or certified.
     - 286/500 (JK paper 75GSM, ncbs rate) - about 0.572 / A4
+    - 290/500 (West coast paper 75GSM, alkaline)
   - A3 
     - 7 INR/ sheet (Kirti paper, hubli, 2025)
     - 513/500 (JK paper 75GSM, ncbs rate )
+    - 550/500 (West coast paper 75GSM, alkaline, ncbs rate)
   - letter - 7k / ream online
 - Archival paper
   - A3 4% buffered
