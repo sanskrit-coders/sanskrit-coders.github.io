@@ -1,3 +1,0 @@
-+++
-title = "+GSS Murthy"
-+++
