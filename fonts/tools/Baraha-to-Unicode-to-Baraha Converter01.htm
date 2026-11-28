@@ -1,0 +1,516 @@
+﻿<html>
+<head> <B><Font color = darkblue><CENTER> Baraha <=> यूनिकोड <=> Baraha फ़ोण्ट परिवर्तित्र (02-10-2010 07:45) </font></B></title><br>
+<Font color = blue>Last update: 02-10-2010 11:07</font>
+
+<script type="text/javascript">
+
+function convert_to_unicode()
+{
+
+var array_one = new Array("û","ü","ã",
+"Á","Â","Ã","ÄQ","ÄR","ÄT","Äe",
+
+"‚","ƒ","„","…","†","‡","ˆ","‰","Š","‹","Œ","","Ž","",
+"","•","–","—","˜","™","š","›","œ","","ž","Ÿ",
+"¢","£","¤","¥","¦","§","¨","©","ª","«","¬","®","¯",
+"°","±","²","³","´","µ","¶","•","¸","¹","º","»","¼","½","¾","¿",
+"À",
+
+"ê","ë","ì","í",  
+
+"A","B","C","D","E","F","G","H","L",
+
+"Y","Z","a","b","M","X",
+"c","e","f","g","N","d",
+"O","P","Q","R","h",
+"i","j","k","l","S",
+"m","n","o","p","q","T",
+
+"r","s","t","u","v","w","x","y","z","U","V","W",
+
+"|","Å","Æ","ð","Ç","È","¡","É","Ê", "Ï",  
+"Ð","Ñ","Ò","Ó","Ô","Õ","Ö","×","Ø","Ù","Ú","Û","Ü",
+"ã","ä","å","æ","ç","è","é",    
+"`",
+"्ा","्ो","्ौ","अो","अा","आै","आे","ाो","ाॅ","ॅा","ाे",
+"ंु","ेे","अै","ाे","अे","ंा","अॅ","ाै","ैा","ंृ",
+"ँा","ँू","ेा","ंे","ाें","ॅं","ंॅ"," ः","ंू")     // Remove typing mistakes in the original file
+
+var array_two = new Array("","","å",
+//"क़","ख़","ग़","ज़","ड़","ढ़","फ़",  //one-byte varnas
+"ॐ","रु","रू","ड़","ढ़","फ़","ज़्",
+
+"क्क","ङ्क","ङ्ख","ङ्ग","ङ्घ","ङ्क्त","ङ्ङ","ङ्म","च्च","ज्ज","ड्ड","ड्ढ","ड्य","ट्ट",
+"ट्ठ","ड्ढ","ट्ट","ट्ठ","ढ्ढ","हृ","ट्य","ठ्ठ","ठ्य","ढ्ढ","ढ्य","द्र्य",
+"क्र","क्त","क्ष्","ज्ञ्","त्न्","त्र्","त्त्","द्म","द्ग","द्घ","द्द","द्ध","द्ब",
+"द्भ","द्य","द्व","न्न्","श्र्","श्व्","श्च्","ष्ट","ष्ठ","ष्ट","ह्ण","ह्न","ह्म","ह्य","ह्र","ह्ल",
+"ह्व",
+
+"्र","्र","्र","्र", 
+
+"अ","ऑ","इ","ई","उ","ऊ","ऋ","ॠ","ए",
+
+"क्","ख्","ग्","घ्","क","ङ",
+"च्","ज्","झ्","ञ्","छ","छ",
+"ट","ठ","ड","ढ","ण्",
+"त्","थ्","ध्","न्","द",
+"प्","फ्","ब्","भ्","म्","फ",
+
+"य्","ल्","ळ्","व्","श्","ष्","स्","ह्","श्","र","ळ","ह",
+
+"।","ऽ","ँ","ँ","ं","ः","ः","ा","ा","ी", //"ॉ",  
+"ी","ु","ु","ु","ू","ू","ू","ृ","ृ","ृ","ॄ","ॄ","ॄ",
+"ॆ","ॅ","े","ै","्","्","्",  
+"‘",
+"","े","ै","ओ","आ","औ","ओ","ो","ॉ","ॉ","ो",
+"ुं","े","अ‍ै","ो","अ‍े","ां","अ‍ॅ","ौ","ौ","ृं",
+"ाँ","ूँ","ो","ें","ों","ँ","ँ"," :","ूं")     // Remove typing mistakes in the original file 
+
+//**************************************************************************************
+//
+// Punctuation marks incorporated at the end
+//
+//**************************************************************************************
+// The following two characters are to be replaced through proper checking of locations:
+//**************************************************************************************
+// "Ë","Ì","Í","Î",
+// "ि","ि","ि","ि",
+// "î","ï",
+// "र्"(reph-M),"र्"(reph),
+//**************************************************************************************
+
+    var array_one_length = array_one.length ;
+
+    var modified_substring = document.getElementById("legacy_text").value  ;
+
+    Replace_Symbols( ) ;
+
+    processed_text = modified_substring ;
+     
+    document.getElementById("unicode_text").value = processed_text  ;
+
+// --------------------------------------------------
+
+
+function Replace_Symbols( )
+
+{
+
+//substitute array_two elements in place of corresponding array_one elements
+
+if ( modified_substring != "" )  // if stringto be converted is non-blank then no need of any processing.
+{
+//"Ë","Ì","Í","Î",
+
+modified_substring = modified_substring.replace( /Ì/g , "Ë" )   ;  
+modified_substring = modified_substring.replace( /Í/g , "Ë" )   ;  
+modified_substring = modified_substring.replace( /Î/g , "Ë" )   ;  
+
+for ( input_symbol_idx = 0;   input_symbol_idx < array_one_length;    input_symbol_idx++ )
+
+{ 
+
+//  alert(" modified substring = "+modified_substring)
+
+//***********************************************************
+// if (input_symbol_idx==106) 
+//  { alert(" input_symbol_idx = "+input_symbol_idx);
+//    alert(" input_symbol_idx = "+input_symbol_idx)
+//; alert(" character =" + modified_substring.CharCodeAt(input_symbol_idx))
+//     alert(" character = "+modified_string.fromCharCode(input_symbol_idx)) 
+//   }
+// if (input_symbol_idx == 107) 
+//   { alert(" input_symbol_idx = "+input_symbol_idx);
+//    alert(" character = ",+string.fromCharCode(input_symbol_idx)) 
+//   }
+//***********************************************************
+idx = 0  ;  // index of the symbol being searched for replacement
+
+while (idx != -1 ) //while-00
+{
+
+modified_substring = modified_substring.replace( array_one[ input_symbol_idx ] , array_two[input_symbol_idx] )
+idx = modified_substring.indexOf( array_one[input_symbol_idx] )
+
+} // end of while-00 loop
+// alert(" end of while loop")
+} // end of for loop
+// alert(" end of for loop")
+
+// alert(" modified substring2 = "+modified_substring)
+//*******************************************************
+var position_of_i = modified_substring.indexOf( "Ë" )
+
+while ( position_of_i != -1 )  //while-02
+{
+var charecter_next_to_i = modified_substring.charAt( position_of_i + 1 )
+var charecter_to_be_replaced = "Ë" + charecter_next_to_i
+modified_substring = modified_substring.replace( charecter_to_be_replaced , charecter_next_to_i + "ि" ) 
+position_of_i = modified_substring.search( /Ë/ , position_of_i + 1 ) // search for i ahead of the current position.
+
+} // end of while-02 loop
+
+//**********************************************************************************
+// End of Code for Replacing four Special glyphs
+//**********************************************************************************
+
+// following loop to eliminate 'chhotee ee kee maatraa' on half-letters as a result of above transformation.
+
+var position_of_wrong_ee = modified_substring.indexOf( "ि्" ) 
+
+while ( position_of_wrong_ee != -1 )  //while-03
+
+{
+var consonent_next_to_wrong_ee = modified_substring.charAt( position_of_wrong_ee + 2 )
+var charecter_to_be_replaced = "ि्" + consonent_next_to_wrong_ee 
+modified_substring = modified_substring.replace( charecter_to_be_replaced , "्" + consonent_next_to_wrong_ee + "ि" ) 
+position_of_wrong_ee = modified_substring.search( /ि्/ , position_of_wrong_ee + 2 ) // search for 'wrong ee' ahead of the current position. 
+
+} // end of while-03 loop
+
+// following loop to eliminate 'chhotee ee kee maatraa' on half-letters as a result of above transformation.
+
+var position_of_wrong_ee = modified_substring.indexOf( "िं्" ) 
+
+while ( position_of_wrong_ee != -1 )  //while-03
+
+{
+var consonent_next_to_wrong_ee = modified_substring.charAt( position_of_wrong_ee + 3 )
+var charecter_to_be_replaced = "िं्" + consonent_next_to_wrong_ee 
+modified_substring = modified_substring.replace( charecter_to_be_replaced , "्" + consonent_next_to_wrong_ee + "िं" ) 
+position_of_wrong_ee = modified_substring.search( /िं्/ , position_of_wrong_ee + 3 ) // search for 'wrong ee' ahead of the current position. 
+
+} // end of while-03 loop
+
+
+// Eliminating reph "Ô" and putting 'half - r' at proper position for this.
+set_of_matras = "ा ि ी ु ू ृ े ै ो ौ ं : ँ ॅ" 
+var position_of_R = modified_substring.indexOf( "ï" )
+
+while ( position_of_R > 0 )  // while-04
+{
+probable_position_of_half_r = position_of_R - 1 ;
+var charecter_at_probable_position_of_half_r = modified_substring.charAt( probable_position_of_half_r )
+
+
+// trying to find non-maatra position left to current O (ie, half -r).
+
+while ( set_of_matras.match( charecter_at_probable_position_of_half_r ) != null )  // while-05
+
+{
+probable_position_of_half_r = probable_position_of_half_r - 1 ;
+charecter_at_probable_position_of_half_r = modified_substring.charAt( probable_position_of_half_r ) ;
+
+} // end of while-05
+
+
+charecter_to_be_replaced = modified_substring.substr ( probable_position_of_half_r , ( position_of_R - probable_position_of_half_r ) ) ;
+new_replacement_string = "र्" + charecter_to_be_replaced ; 
+charecter_to_be_replaced = charecter_to_be_replaced + "ï" ;
+modified_substring = modified_substring.replace( charecter_to_be_replaced , new_replacement_string ) ;
+position_of_R = modified_substring.indexOf( "ï" ) ;
+
+} // end of while-04
+
+//**********punctuation marks ****************
+//    "¡","£","¤","¥","²","³","´","µ","¹","À","Á","Â","Ã","Ä","Å","Æ","Ç","È","Ê","Ñ","Ò","Õ",
+// "{","}","[","]","!","(",")","*","-","/",":",";","<","=",">","?","@","|",",","!","\\","√","-",
+
+//modified_substring = modified_substring.replace( /¡/g , "{" )   ;  
+//modified_substring = modified_substring.replace( /£/g , "}" )   ;  
+//modified_substring = modified_substring.replace( /¤/g , "[" )   ;  
+//modified_substring = modified_substring.replace( /¥/g , "]" )   ;  
+//modified_substring = modified_substring.replace( /²/g , "!" )   ;  
+//modified_substring = modified_substring.replace( /³/g , "(" )   ;  
+//modified_substring = modified_substring.replace( /´/g , ")" )   ;  
+//modified_substring = modified_substring.replace( /µ/g , "*" )   ;  
+//modified_substring = modified_substring.replace( /Æ/g , "?" )   ;  
+
+} // end of IF  statement  meant to  supress processing of  blank  string.
+
+} // end of the function  Replace_Symbols
+
+} // end of convert_to_unicode function
+
+
+//*******************************************************************************
+function convert_to_Baraha()
+{
+var array_one = new Array(
+"क़","ख़","ग़","ज़","ड़","ढ़","फ़",  // two-byte varnas
+"!",".","।",";","(",")","{","}","[","]","/","<","=",">",",","+","*","%",
+"ख़्","ख़","फ़्","फ़",
+//"क़ि","ख़ि","ग़ि","ज़ि","ड़ि","ढ़ि","फ़ि", 
+"ॐ", "?", // "Æ’","Æ”","Æ ",
+"ज्ञ","ह्य","हृ","ट्ट","त्त्","क्त","श्र","द्य","द्व","द्द","द्ध","क्ष्","क्ष","ठ्ठ","त्र","ह्र","जि",
+"क्रु","क्रू","्रु","्रू","रू","रु",
+"क्र","कृ","फ्र","फृ", //"न्न",
+"ड़","ढ़",
+"ट्र","ड्र","ढ्र","्र",
+
+"क़","ग़","ज़्",
+"क्","क","ख्","ख","ग्","ग","घ्","घ","ङ",  
+"च्","च","छ","ज़","ज्","ज","झ्","झ","ञ्","ञ",
+"ट","ठ","ड","ढ","ण्","ण",
+"त्","त","थ्","थ","द","ध्","ध","न्","न",
+"प्","प","फ्","फ","ब्","ब","भ्","भ","म्","म",
+
+"य्","य","र","ल्","ल","ळ","व्","व","श्","श","ष्","ष","स्","स","ह्","ह", // "श्","श्",
+
+"औ","ओ","ऑ","आ","अ","ई","ई","इ","उ","ऊ","ऋ","ऌ","ऐ","ए",   
+
+"ौ","ो","ॉ","ा","ी","ु","ू","ृ","े","ै","ँ","ं",":","ः","्","ॅ","ऽ","़")
+
+var array_two = new Array( 
+"क़","ख़","ग़","ज़","ड़","ढ़","फ़",  //one-byte varnas
+"Ñ","º",".","Â","³","´","¡","£","¤","¥","À","Ã","Ä","Å","¸","†","µ","‰",
+"K,","Ó","F,","Ô",
+//"ik¸","iK¸","iga¸","ija¸","iD¸","iZ¸","iPa¸", 
+"!","Æ", // "?’","?”","? ",
+"&","(",")","+","<",">","Ea","V","W","_","w","x","xa","{","~","œ","Ÿ",
+"Ëu","Ëu","`u","`U","$","É",
+"Ë","Ì","Í","Î", // "Ø",
+"D,","Z,",
+"T/","D/","Z/","`",
+
+"k,","ga,","j,",
+"@","k","#","K","g","ga","G","Ga","=",  
+"c","ca","C","ja,","j","ja","J","Ja","H","Ha",
+"T","z","D","Z","N","Na",
+"%","t","q","qa","d","Q","Qa","n","na",
+"P","p","F","f","b","ba","B","Ba","m","ma",
+
+"y","ya","r","l","la","L","v","va","S","Sa","Y","Ya","s","sa","*","h", // "X","Ï",
+
+"AaO","Aao","Aa^","Aa","A","š","[-","[","]","}","?",";","eo", "e",     
+
+"aO","ao","a^","a","I","u","U","R","o","O","Ð","M","Á",":","\\","^","|",",")
+  
+//************************************************************
+//Put "Enter chunk size:" line before "<textarea name= ..." if required to be used.    
+//************************************************************
+//Enter chunk size: <input type="text" name="chunksize" value="6000" size="7" maxsize="7" style="text-align:right"><br/><br/>
+//************************************************************
+// The following two characters are to be replaced through proper checking of locations:
+
+// "र्" (reph) 
+// "Z" )
+
+// "ि"  
+// "f" )
+
+
+    var array_one_length = array_one.length ;
+
+    var modified_substring = document.getElementById("unicode_text").value  ;
+
+    Replace_Symbols( ) ;
+
+    processed_text = modified_substring ;
+
+    document.getElementById("legacy_text").value = processed_text  ;
+
+
+//**************************************************
+
+function Replace_Symbols( )
+   {
+
+    // if string to be converted is non-blank then no need of any processing.
+    if (modified_substring != "" )  
+       {
+
+// first replace the two-byte nukta_varNa with corresponding one-byte nukta varNas.
+
+// modified_substring = modified_substring.replace ( /क़/ , "क़" )  ; 
+// modified_substring = modified_substring.replace ( /ख़‌/g , "ख़" )  ;
+// modified_substring = modified_substring.replace ( /ग़/g , "ग़" )  ;
+// modified_substring = modified_substring.replace ( /ज़/g , "ज़" )  ;
+// modified_substring = modified_substring.replace ( /ड़/g , "ड़" )  ;
+// modified_substring = modified_substring.replace ( /ढ़/g , "ढ़" )  ;
+// modified_substring = modified_substring.replace ( /ऩ/g , "ऩ" )  ;
+// modified_substring = modified_substring.replace ( /फ़/g , "फ़" )  ;
+// modified_substring = modified_substring.replace ( /य़/g , "य़" )  ;
+// modified_substring = modified_substring.replace ( /ऱ/g , "ऱ" )  ;
+
+
+        // code for replacing "ि" (chhotee ee kii maatraa) with "i"  and correcting its position too.
+        
+        var position_of_f = modified_substring.indexOf( "ि" )  ;
+         while ( position_of_f != -1 )  //while-02
+           {
+            var character_left_to_f = modified_substring.charAt( position_of_f - 1 )  ;
+            modified_substring = modified_substring.replace( character_left_to_f + "ि" ,  "i" + character_left_to_f )  ;
+
+            position_of_f = position_of_f - 1  ;
+
+            while (( modified_substring.charAt( position_of_f - 1 ) == "्" )  &  ( position_of_f != 0  ) )
+               {
+                var string_to_be_replaced = modified_substring.charAt( position_of_f - 2 ) + "्"  ;
+                  modified_substring = modified_substring.replace( string_to_be_replaced + "i", "i" + string_to_be_replaced ) ;
+
+                position_of_f = position_of_f - 2  ;
+               }
+            position_of_f = modified_substring.search( /ि/ , position_of_f + 1 ) ; // search for f ahead of the current position.
+
+           } // end of while-02 loop
+   //************************************************************     
+   //     modified_substring = modified_substring.replace( /fर्/g , "£"  )  ;
+   //************************************************************     
+        // Eliminating "र्" and putting  Z  at proper position for this.
+
+       set_of_matras = "ािीुूृेैोौं:ँॅ" 
+
+       modified_substring += '  '    ;  // add two spaces after the string to avoid UNDEFINED char in the following code.
+  
+      modified_substring = modified_substring.replace ( /-/g , "¹" )  ; 
+      modified_substring = modified_substring.replace ( /श्र्/g , "E" )  ; 
+      modified_substring = modified_substring.replace ( /त्र्य/g , "~\\ya" )  ; 
+
+       var space = " "
+       var position_of_half_R = modified_substring.indexOf( "र्" ) ;
+
+ //  alert(" 21. position_of_half_R = " + position_of_half_R);
+
+//************************************************************************************
+   while ( position_of_half_R > 0  )  // while-03
+   {
+    // "र्"  is two bytes long
+    var probable_position_of_Z = position_of_half_R + 2   ;  
+    var character_at_probable_position_of_Z = modified_substring.charAt( probable_position_of_Z )
+
+ // alert(" 3. probable_position_of_Z = "+probable_position_of_Z );
+ // alert(" 4. character_at_probable_position_of_Z = "+character_at_probable_position_of_Z );
+
+    // trying to find non-maatra position right to probable_position_of_Z .
+
+    while( set_of_matras.match( character_at_probable_position_of_Z ) != null ) // while-04 
+    {
+     probable_position_of_Z = probable_position_of_Z + 1 ;
+     character_at_probable_position_of_Z = modified_substring.charAt( probable_position_of_Z ) ;
+
+// alert(" 5. probable_position_of_Z = "+probable_position_of_Z );
+// alert(" 6. character_at_probable_position_of_Z = "+character_at_probable_position_of_Z );
+    } // end of while-04
+//************************************************************
+// check if the next character is a halant
+//************************************************************
+    var right_to_position_of_Z = probable_position_of_Z + 1 ;
+ // alert(" 7. right_to_position_of_Z = "+right_to_position_of_Z );
+
+    if (right_to_position_of_Z > 0)  // if-03
+    { var character_right_to_position_of_Z = modified_substring.charAt( right_to_position_of_Z )
+   // alert(" 8. character_right_to_position_of_Z = "+character_right_to_position_of_Z );
+//    while ("्".match( character_right_to_position_of_Z ) != null ) // while-05
+
+      while ( character_right_to_position_of_Z == "्" ) // while-05
+      {  
+//       halant found, move to next character
+         probable_position_of_Z = right_to_position_of_Z + 1 ;
+         character_at_probable_position_of_Z = modified_substring.charAt( probable_position_of_Z ) ;
+
+    // alert(" 9. probable_position_of_Z = "+probable_position_of_Z );
+    // alert("10. character_at_probable_position_of_Z = "+character_at_probable_position_of_Z );
+       
+         right_to_position_of_Z = probable_position_of_Z + 1 ;
+         character_right_to_position_of_Z = modified_substring.charAt( right_to_position_of_Z )
+
+    // alert("11. right_to_position_of_Z = "+right_to_position_of_Z );
+    // alert("12. character_right_to_position_of_Z = "+character_right_to_position_of_Z );
+      } // end of while-05
+
+    // alert("121. position_of_half_R = "+position_of_half_R);
+    // alert("122. probable_position_of_Z = "+probable_position_of_Z);
+
+   } // end of if-03
+//************************************************************
+
+       string_to_be_replaced = modified_substring.substr ( position_of_half_R + 2,(probable_position_of_Z - position_of_half_R)-1) ;
+//************************************************************
+//     check if character_right_to_position_of_Z is a space
+//       if (space.match(character_right_to_position_of_Z) != null) 
+//       {
+//          string_to_be_replaced = string_to_be_replaced.substr(0,string_to_be_replaced.length - 1)
+//        alert("13. string_to_be_replaced = "+string_to_be_replaced );
+//        alert("14. string_to_be_replaced.length ="+string_to_be_replaced.length);
+//       }
+       modified_substring = modified_substring.replace( "र्" + string_to_be_replaced, string_to_be_replaced + "-" ) ;
+
+//     alert("15. string_to_be_replaced = "+string_to_be_replaced );
+//     alert("16. modified_substring = "+modified_substring );
+       position_of_half_R = modified_substring.indexOf( "र्" ) ;
+//      alert("17. position_of_half_R = "+position_of_half_R )
+
+   } // end of while-03
+//***********************************************************
+
+modified_substring = modified_substring.substr ( 0 , modified_substring.length - 2 )  ;
+
+
+        //substitute array_two elements in place of corresponding array_one elements
+
+        for( input_symbol_idx = 0; input_symbol_idx < array_one_length; input_symbol_idx++ )
+           {
+            idx = 0  ;  // index of the symbol being searched for replacement
+
+            while (idx != -1 ) //whie-00
+               {
+                modified_substring = modified_substring.replace( array_one[ input_symbol_idx ] , array_two[input_symbol_idx] )
+                idx = modified_substring.indexOf( array_one[input_symbol_idx] )
+               } // end of while-00 loop
+           } // end of for loop
+
+        } // end of IF  statement  meant to  supress processing of  blank  string.
+       modified_substring = modified_substring.replace ( /-ao/g , "ao-" ) 
+       modified_substring = modified_substring.replace ( /-a/g , "a-" )  
+       modified_substring = modified_substring.replace ( /-I/g , "I-" )  
+       modified_substring = modified_substring.replace ( /\ -/g , "\-" )
+       modified_substring = modified_substring.replace ( /ki,/g , "ik," ) 
+       modified_substring = modified_substring.replace ( /Ki,/g , "iÓ" ) 
+       modified_substring = modified_substring.replace ( /gai,/g , "iga," ) 
+       modified_substring = modified_substring.replace ( /fi,/g , "iÔ" ) 
+       modified_substring = modified_substring.replace ( /Di,/g , "iD," ) 
+       modified_substring = modified_substring.replace ( /Zi,/g , "iZ," ) 
+       modified_substring = modified_substring.replace ( /jai,/g , "ija," ) 
+       modified_substring = modified_substring.replace ( /nai,/g , "ina," ) 
+       modified_substring = modified_substring.replace ( /ri,/g , "ir," ) 
+       modified_substring = modified_substring.replace ( /Li,/g , "iL," ) 
+
+
+    } // end of the function  Replace_Symbols( )
+
+  } // end of convert_to_Baraha function
+
+
+</script>
+</head>
+
+<!-- ----------------------------------------------------------------------------------
+      body of the HTML starts here. one text box is provided each for input and output. 
+-->
+
+
+<body>
+<form name="form1">
+<b>Baraha font text-box </b><br/>
+<HTML><BODY bgColor='yellow'><CENTER>
+
+<textarea name="TextToConvert" id="legacy_text" cols="92" rows="6"></textarea> <br>
+
+<div align="middle">
+<CENTER><input  type="button" name="converter" id="converter" value=" Convert to Unicode >> " onClick="convert_to_unicode();" accesskey="c" title="शॉर्टकट alt+c"> 
+</div>  <br>
+
+<b><CENTER>Unicode text-box</b> <br/>
+<textarea name="ConvertedText" id="unicode_text" cols="92" rows="6"></textarea>
+<br />
+
+<div align="middle">
+<input  type="button" id="converter" name="converter" value=" Convert to Baraha >> " onClick="convert_to_Baraha();" accesskey="c" 
+</div>
+
+</form>
+</body>
+
+</html>
+

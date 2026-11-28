@@ -1,0 +1,186 @@
+/************************************************************/
+@font-face {
+    font-family: 'siddhanta';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/siddhanta.woff2) format('woff2'), url(../fonts/siddhanta.ttf) format('truetype');
+    unicode-range: U+0020-007E, U+00A0-02FF, U+0300-036F, U+0400-04FF, U+0900-097F, U+0CF1-0CF2, U+0FD5-0FD8, U+1CD0-1CFF, U+1E00-1EFF, U+200B-2022, U+2039-2044, U+20AC, U+20B9, U+2116-2265, U+25CC, U+2638, U+2740, U+A830-A8FF, U+FB01-FB02;
+}
+
+@font-face {
+    font-family: 'Adishila';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/Adishila.woff2) format('woff2'), url(../fonts/Adishila.ttf) format('truetype');
+    unicode-range: U+00D7, U+00F7-0101, U+0113, U+012A-012B, U+014C-016B, U+0300-0331, U+0900-097F, U+1CD0-1CFF, U+1DD0-1DD7, U+1E0C-1E0D, U+1E25-1E6F, U+A8E0-A8FF;
+}
+
+@font-face {
+    font-family: 'NotoSansDevanagari-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansDevanagari-Regular.woff2) format('woff2'), url(../fonts/NotoSansDevanagari-Regular.ttf) format('truetype');
+    unicode-range: U+0900-097F, U+1CD0-1CFF, U+20F0, U+A830-A839, U+A8E0-A8FF;
+}
+
+@font-face {
+    font-family: 'NotoSansKannada-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansKannada-Regular.woff2) format('woff2'), url(../fonts/NotoSansKannada-Regular.ttf) format('truetype');
+    unicode-range: U+0C80-0CFF;
+}
+
+@font-face {
+    font-family: 'NotoSansTelugu-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansTelugu-Regular.woff2) format('woff2'), url(../fonts/NotoSansTelugu-Regular.ttf) format('truetype');
+    unicode-range: U+0C00-0C7F;
+}
+@font-face {
+    font-family: 'NotoSansTamil-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansTamil-Regular.woff2) format('woff2'), url(../fonts/NotoSansTamil-Regular.ttf) format('truetype');
+    unicode-range: U+0B80-0BFF, U+2074-2084, U+11301-11303, U+1133B-1133C;
+}
+@font-face {
+    font-family: 'NotoSansMalayalam-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansMalayalam-Regular.woff2) format('woff2'), url(../fonts/NotoSansMalayalam-Regular.ttf) format('truetype');
+    unicode-range: U+0D00-0D7F;
+}
+@font-face {
+    font-family: 'NotoSansOriya-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansOriya-Regular.woff2) format('woff2'), url(../fonts/NotoSansOriya-Regular.ttf) format('truetype');
+    unicode-range: U+0B00-0B7F;
+}
+@font-face {
+    font-family: 'NotoSansBengali-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansBengali-Regular.woff2) format('woff2'), url(../fonts/NotoSansBengali-Regular.ttf) format('truetype');
+    unicode-range: U+0980-09FF;
+}
+@font-face {
+    font-family: 'NotoSansGujarati-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansGujarati-Regular.woff2) format('woff2'), url(../fonts/NotoSansGujarati-Regular.ttf) format('truetype');
+    unicode-range: U+0A80-0AFF;
+}
+@font-face {
+    font-family: 'NotoSansGurmukhi-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansGurmukhi-Regular.woff2) format('woff2'), url(../fonts/NotoSansGurmukhi-Regular.ttf) format('truetype');
+    unicode-range: U+0A00-0A7F;
+}
+@font-face {
+    font-family: 'NotoSansBrahmi-Regular';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSansBrahmi-Regular.woff2) format('woff2'), url(../fonts/NotoSansBrahmi-Regular.ttf) format('truetype');
+    unicode-range: U+11000-1107F;
+}
+@font-face {
+    font-family: 'NotoSerifTibetan-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/NotoSerifTibetan-Medium.woff2) format('woff2'), url(../fonts/NotoSerifTibetan-Medium.ttf) format('truetype');
+    unicode-range: U+0F00-0FFF;
+}
+@font-face {
+    font-family: 'Sampradaya';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/SampradayaGrantha.woff2) format('woff2'), url(../fonts/SampradayaGrantha.ttf) format('truetype');
+    unicode-range: U+11300-1137F, U+0BAA, U+0BE6-0BF2;
+}
+@font-face {
+    font-family: 'satisarSharada';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url(../fonts/satisarSharada.woff2) format('woff2'), url(../fonts/satisarSharada.ttf) format('truetype');
+    unicode-range: U+11180-111DF;
+}
+/************************************************************/
+
+body {
+    font-family: 'siddhanta', 'NotoSansDevanagari-Regular', 'NotoSansKannada-Regular', 'NotoSansTelugu-Regular', 'NotoSansTamil-Regular', 'NotoSansMalayalam-Regular', 'NotoSansOriya-Regular', 'NotoSansBengali-Regular', 'satisarSharada', 'Sampradaya', 'NotoSansGujarati-Regular', 'NotoSansGurmukhi-Regular', 'NotoSerifTibetan-Medium', 'NotoSansBrahmi-Regular', serif;
+}
+
+
+code {
+    font-size: 100%;
+}
+
+main details {
+    margin: 3px 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+main summary {
+    border-bottom: 1px dashed black;
+    font-size: 90%;
+    font-weight: bold;
+    font-style: italic;
+    color: black;
+}
+
+.inline_comment {
+    font-size: 80%;
+    color: rgb(114, 47, 55);
+    font-style: italic;
+    vertical-align: sub;
+}
+
+h1 {
+    font-size: 160%; /* 120% of body font size */
+    line-height: 100%;
+}
+h2 {
+    font-size: 150%; /* 120% of body font size */
+    line-height: 100%;
+}
+h3 {
+    font-size: 140%; /* 120% of body font size */
+    line-height: 100%;
+}
+h4 {
+    font-size: 130%; /* 120% of body font size */
+    line-height: 100%;
+}
+h5 {
+    font-size: 120%; /* 120% of body font size */
+    line-height: 100%;
+}
+h6 {
+    font-size: 110%; /* 120% of body font size */
+    line-height: 100%;
+}
+
+details.headingDetail > summary {
+    line-height: 100%;
+}
+/************************************************************/

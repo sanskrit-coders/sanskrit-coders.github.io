@@ -1,0 +1,5 @@
+/*! showdown v 1.9.1 - 02-11-2019 */
+
+/*! showdown-ghost-footnotes 31-01-2017/**
+ * Created by Estevao on 15-07-2015.
+ */
